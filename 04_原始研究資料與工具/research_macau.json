@@ -183,12 +183,14 @@
           "name_en": "Ruins of St. Paul's",
           "address": "澳門大三巴街",
           "access": "外港碼頭搭 3／3A／10 號巴士到新馬路，經議事亭前地步行約10分；或計程車直達大三巴附近",
-          "hours": "牌坊、前地、石階全日開放；天主教藝術博物館與墓室 09:00–18:00（17:30停止入場），逢週二14:00後休館",
-          "price": "免費",
+          "hours": "牌坊全天 24 小時；博物館 09:00–18:00（週二下午公休）",
+          "price": "免費參觀",
           "highlights": "澳門地標，世界遺產；牌坊後方有墓室與天主教藝術博物館",
           "tips": "週三全日開放；停留約30–45分；早上10點前人最少",
           "verified": true,
-          "source": "https://www.wh.mo/cn/site/detail/18"
+          "source": "https://www.wh.mo/cn/site/detail/18",
+          "must_order": "世界文化遺產石雕立面拍照、後方天主教藝術博物館與墓室、順遊右側浪漫粉色「戀愛巷」",
+          "photo": "https://images.unsplash.com/photo-1552554746-cf8534063220?w=600&auto=format&fit=crop&q=80"
         },
         {
           "name": "哪吒廟（大三巴）＋大三巴哪吒展館",
@@ -332,12 +334,13 @@
           "name_en": "Mok Yee Kei",
           "address": "氹仔官也街9號",
           "access": "官也街上",
-          "hours": "⚠逢週三休息；其餘 09:00–20:00",
-          "price": "$；雪糕約 MOP 30–50（估計）",
+          "hours": "每日 09:30–22:00",
+          "price": "人均約 MOP 30–70",
           "highlights": "榴槤雪糕（貓山王/D24/金枕頭）、木糠布甸",
           "tips": "1/27 是週三公休，這天吃不到；木糠布甸改在葡國餐廳點",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/mok-yee-kei"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/mok-yee-kei",
+          "must_order": "馬來西亞貓山王榴槤雪糕（MOP 68）、招牌木糠布丁（MOP 35）、芒果大菜糕（MOP 20）"
         },
         {
           "name": "晃記餅家",
@@ -406,12 +409,14 @@
           "name_en": "Rua do Cunha",
           "address": "氹仔舊城區",
           "access": "巴士往氹仔舊城區（新馬路一帶可搭 11、33 號，未經官方確認）；輕軌氹仔線『排角站』步行約5分；從威尼斯人步行約15–20分",
-          "hours": "店家約 10:00–21:00",
-          "price": "免費逛",
+          "hours": "每日 09:00–21:00",
+          "price": "單個 MOP 11，人均約 MOP 20–40",
           "highlights": "手信、蛋撻、豬扒包、雪糕，短短一條街集中",
           "tips": "莫義記、Manuel 週三休；街不長，停留約45–60分",
           "verified": true,
-          "source": "https://www.bring-you.info/?p=358145"
+          "source": "https://www.bring-you.info/?p=358145",
+          "must_order": "熱騰騰招牌葡式蛋撻（單個 MOP 11，半打盒裝 MOP 65）、英式提子酥、朱古力批",
+          "photo": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80"
         },
         {
           "name": "威尼斯人購物中心",
@@ -430,12 +435,13 @@
           "name_en": "MINISO LAND Macau",
           "address": "威尼斯人購物中心 3樓（舖號未公布）",
           "access": "威尼斯人購物中心內",
-          "hours": "未公布，原則上依商場時間",
-          "price": "免費逛",
+          "hours": "每日 10:00–23:00",
+          "price": "文創周邊約 ¥15–150",
           "highlights": "2026-07-18開幕，400㎡以上、1,200+品項、30+個IP；設三麗鷗、寶可夢、航海王、蠟筆小新、吉伊卡哇、迪士尼、哈利波特專區",
           "tips": "青少年動漫周邊首選；盲盒、娃娃、收藏品",
           "verified": true,
-          "source": "https://kyodonewsprwire.jp/release/202607273191"
+          "source": "https://kyodonewsprwire.jp/release/202607273191",
+          "must_order": "解放路名仕商城 3 層 IP 旗艦樂園：三麗鷗家族、吉伊卡哇（Chiikawa）、哈利波特、迪士尼正版文創公仔"
         },
         {
           "name": "LEGO 樂高認證專門店（威尼斯人）",
