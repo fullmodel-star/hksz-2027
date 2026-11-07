@@ -1,0 +1,92 @@
+{
+  "_meta": {
+    "trip": "2027/1/25–2/2 港澳深，爸爸＋兩青少年",
+    "researched_on": "2026-11-07",
+    "key_rule": "香港『學生票』只限持『學生身分個人八達通』的本地全日制學生，台灣青少年不適用：3–11歲付小童價，12歲以上付成人價。港鐵票價取自港鐵開放資料（2026-04更新，2026年度票價凍結未調整）。"
+  },
+  "legs": [
+    {
+      "leg": "1/25 香港機場→帝京酒店（旺角東 Royal Plaza Hotel，太子道西193號，位於港鐵旺角東站上蓋）",
+      "options": [
+        {"name": "城巴 A21（機場→紅磡站）", "steps": "1) 機場地面運輸中心（T1；2026-05-27起亦服務二號客運大樓）上A21。2) 沿途經深旺道後進入旺角，於第7站「旺角中心，彌敦道」（Argyle Centre）下車（或下一站「銀行中心，彌敦道」）。3) 沿亞皆老街向東步行，過西洋菜南街、花園街至太子道西／旺角東站，帝京酒店在旺角東站上蓋，步行約10–12分鐘（約700公尺，帶行李上下坡少但人多）。", "time": "車程約45–60分＋步行10分", "fare": "成人約 HK$34.6；小童半價（約HK$17.3）；無學生價", "first_last": "約 06:00–24:00（深夜有N21通宵線）", "payment": "八達通、Visa/Master/銀聯感應、二維碼、現金（不找零）", "tips": "站序取自政府開放資料（城巴路線A21往紅磡）；車費與班次時間取自第三方，請在城巴App確認。三人帶大行李走旺角街道較吃力。", "verified": false, "source": "https://rt.data.gov.hk/v2/transport/citybus/route-stop/CTB/A21/inbound ; https://wanderinchina.com/zh/destinations/hongkong/transport/airport/"},
+        {"name": "機場快綫→九龍站＋的士", "steps": "1) 機場站上機場快綫往香港方向，第二站九龍站下車（約22分）。2) 九龍站出站搭的士到帝京酒店（約15分）。", "time": "約45–50分", "fare": "機場→九龍：八達通/感應卡 成人 HK$105、小童 HK$52.5；單程票 成人 HK$115、小童 HK$57.5。團體票（客務中心購買、限當日、同行）九龍站 3人 HK$210。的士九龍站→旺角東約 HK$60–80（估計）", "first_last": "機場快綫約05:54–00:48，班距約10–12分（一般資料，未逐一核實）", "payment": "八達通、感應式Visa/Master/銀聯（2026-05-31起機場快綫全線支援，只收成人價）、二維碼", "tips": "【停駛】機場快綫九龍站／香港站免費穿梭巴士（K線）已於2020-07-01停辦，未見恢復消息。3人同行買團體票最省（每人約HK$70）。", "verified": true, "source": "https://opendata.mtr.com.hk/data/airport_express_fares.csv ; https://www.districtcouncils.gov.hk/kc/doc/2020_2023/tc/committee_meetings_doc/TTC/18489/KCTTC20_86cp.pdf ; https://www.mtr.com.hk/archive/corporate/ch/press_release/PR-26-037-C.pdf"},
+        {"name": "紅色市區的士", "steps": "機場的士站排紅色（市區）的士，直達帝京酒店。", "time": "約30–40分", "fare": "旺角約 HK$270–285（不含行李費）；每件放車尾箱或長闊高總和超過140cm之行李 HK$6；青嶼幹線收費各來源矛盾（一說目前免收、一說約HK$50–55）", "first_last": "24小時", "payment": "2026年4月起全港的士推行電子支付（八達通、AlipayHK、微信、感應信用卡），但仍建議備現金", "tips": "3人＋3件行李約 HK$290–340；最省心，與機場快綫團體票＋的士總價差不多。", "verified": false, "source": "https://hk.trip.com/guide/transport/airport-taxi.html"},
+        {"name": "Uber", "steps": "App叫車，於機場指定網約車上車區上車。", "time": "約30–40分", "fare": "未查到2026可靠報價", "first_last": "24小時", "payment": "綁定信用卡", "tips": "台灣Uber帳號可直接使用；可選 Uber Taxi（叫紅的）。", "verified": false, "source": "https://hk.trip.com/guide/transport/airport-taxi.html"}
+      ]
+    },
+    {
+      "leg": "1/26 旺角東→迪士尼（來回）",
+      "options": [
+        {"name": "港鐵", "steps": "旺角東（東鐵綫）→九龍塘轉觀塘綫→太子轉荃灣綫→荔景轉東涌綫→欣澳轉迪士尼綫→迪士尼站（或旺角步行至旺角站上荃灣綫，少一次轉車）。", "time": "約50–60分", "fare": "八達通 成人 HK$25.7、小童 HK$13.2；單程票 成人 HK$28.5、小童 HK$15.0", "first_last": "迪士尼綫尾班：迪士尼站約00:40、欣澳開出00:45；首班欣澳06:15（官方2025資料）", "payment": "八達通、感應信用卡（成人價）、二維碼", "tips": "迪士尼綫列車是米奇窗造型，青少年可拍照。", "verified": true, "source": "https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://www.mtr.com.hk/en/customer/main/disneyland-resort-line-20th-anniversary.html"}
+      ]
+    },
+    {
+      "leg": "港鐵其他常用段（由旺角東出發）",
+      "options": [
+        {"name": "旺角東→上環", "steps": "東鐵綫至金鐘轉港島綫至上環（或旺角轉荃灣綫至中環轉港島綫）", "time": "約25–30分", "fare": "八達通 成人 HK$12.9、小童 HK$6.4；單程票 成人 HK$15.5、小童 HK$6.5", "first_last": "約06:00–01:00", "payment": "八達通、感應信用卡、二維碼", "tips": "去港澳碼頭：上環站D出口接信德中心", "verified": true, "source": "https://opendata.mtr.com.hk/data/mtr_lines_fares.csv"},
+        {"name": "旺角東→尖沙咀／尖東", "steps": "東鐵綫直達尖東站（尖沙咀站經地下通道相連）", "time": "約8–10分", "fare": "八達通 成人 HK$5.9、小童 HK$2.8；單程票 成人 HK$6.0、小童 HK$3.0", "first_last": "約06:00–01:00", "payment": "同上", "tips": "", "verified": true, "source": "https://opendata.mtr.com.hk/data/mtr_lines_fares.csv"},
+        {"name": "旺角東→羅湖（標準／頭等）", "steps": "東鐵綫直達羅湖（往羅湖方向列車，注意部分班次往落馬洲）", "time": "約40–45分", "fare": "標準：八達通 成人 HK$41.6、小童 HK$21.4；單程票 成人 HK$45、小童 HK$22。頭等：另加頭等額外費＝該程普通等正價（成人另加約HK$41.6，合計約HK$83.2），上車前在月台頭等核准器拍卡", "first_last": "往羅湖約05:30起，尾班約23:00前後（須配合羅湖口岸24:00關閉）", "payment": "八達通、感應信用卡（頭等也可用感應卡拍頭等核准器）", "tips": "羅湖/落馬洲車程無長者$2優惠、無學生價；帶行李可坐頭等較寬敞。", "verified": true, "source": "https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://www.mtr.com.hk/archive/ch/pdf/joyyou/adult-child-elder-octopus-fare-leaflet2026.pdf"},
+        {"name": "天星小輪 尖沙咀↔中環", "steps": "尖沙咀天星碼頭↔中環7號碼頭", "time": "約8–9分", "fare": "平日上層成人 HK$5、下層 HK$4；小童約 HK$2.9/2.8；週末上層 HK$6.5。【注意】2026-07申請加價約30%（平日上層→HK$6.5、週末上層→HK$8.5），是否已批准未確認", "first_last": "約06:30–23:30，每6–12分一班", "payment": "八達通、感應信用卡、現金", "tips": "", "verified": false, "source": "https://www.stheadline.com/politics/3594700/"}
+      ]
+    },
+    {
+      "leg": "上環（港澳碼頭，信德中心3樓）→澳門",
+      "options": [
+        {"name": "噴射飛航 TurboJET 上環→澳門外港", "steps": "港鐵上環站D出口→信德中心3樓港澳碼頭→櫃台/網上取票→香港離境手續→登船；抵外港碼頭辦澳門入境（台灣護照或台胞證入境澳門免簽）", "time": "約55–60分", "fare": "（2026-04-25起，含香港離境稅）普通位：平日 HK$194、週末及假日 HK$212、夜航 HK$242；豪華位：平日 HK$406、週末 HK$436、夜航 HK$460。小童（12歲以下）及65歲以上每程減 HK$18（不適用尊豪位/貴賓廂）；滿1歲須買票", "first_last": "（2026-10-16起船期）上環→外港 日航07:30–18:00（16班）、夜航19:30/20:30/21:30/22:30；回程 外港→上環 日航07:30–18:00、夜航19:00/21:00/22:00/23:00（末班23:00）", "payment": "官網／App網上訂票（信用卡）、碼頭櫃台、Klook/Trip.com", "tips": "18:30或之後開出即算夜航（較貴）。須於開航前30分鐘入閘，建議提前45–60分到碼頭。行李限制條款見官網PDF（未查到具體公斤數）。", "verified": true, "source": "https://www2.turbojet.com.hk/zh-tw/%E6%B5%B7-%E8%88%B9/ ; https://www.humanresourcesonline.net/ferry-fares-between-hong-kong-and-macao-to-rise-from-25-april-2026-chi"},
+        {"name": "金光飛航 Cotai Water Jet 上環→氹仔", "steps": "同在上環港澳碼頭出發，抵氹仔客運碼頭（近路氹金光大道酒店區）", "time": "約55–60分", "fare": "（2026-04-25起）標準艙：平日 HK$192、週末 HK$209、夜航 HK$242；頭等艙：HK$330/348/380；小童減價規則同噴射飛航", "first_last": "約07:30–22:30（2024船期，2026未確認）", "payment": "官網、App、Klook/Trip.com；第三方票常不可退改", "tips": "若先玩路氹再到半島可選此線；常有快閃優惠。", "verified": false, "source": "https://www.humanresourcesonline.net/ferry-fares-between-hong-kong-and-macao-to-rise-from-25-april-2026-chi ; https://www.wingontravel.com/ferry/cotaiwaterjet-ferry-schedule.html"}
+      ]
+    },
+    {
+      "leg": "澳門市內交通",
+      "options": [
+        {"name": "外港碼頭→議事亭前地／大三巴（巴士）", "steps": "外港碼頭巴士總站搭3、3A、10、10A等往新馬路方向，於「新馬路／永亨」一帶下車→步行議事亭前地→大三巴（約10–15分上坡步行）", "time": "車程約15–20分＋步行", "fare": "現金 MOP6（約可用港幣等值，不找零）；澳門通 MOP3（X字頭快線MOP4），1小時內轉乘優惠", "first_last": "約06:00–24:00（依路線）", "payment": "澳門通、MPay；內地/香港版支付寶與雲閃付乘車碼收MOP6；現金只收硬幣/零錢不找贖；香港八達通與Visa感應均未列為可用", "tips": "議事亭前地附近站點曾調整（部分線改停葡京），以澳門巴士App為準。", "verified": false, "source": "https://www.funtime.com.tw/blog/?p=23850 ; https://www.wanderinchina.com/zh/destinations/macao/transport/"},
+        {"name": "外港碼頭→市區（酒店穿梭巴士）", "steps": "碼頭外有各酒店免費接駁車（葡京、永利等）；永利站已遷北門入口。2026-11-01起威尼斯人時刻表只列關閘、橫琴、機場、港珠澳大橋、氹仔碼頭五線，未列外港碼頭。", "time": "約10–20分", "fare": "免費", "first_last": "依各酒店", "payment": "-", "tips": "外港碼頭現行哪些酒店線仍營運須現場確認；搭新葡京車到葡京再步行到議事亭前地約10分。", "verified": false, "source": "https://www.wanderinchina.com/zh/destinations/macao/transport/ ; https://www.stheadline.com/travel/3548155/"},
+        {"name": "外港碼頭／半島的士", "steps": "碼頭的士站排隊", "time": "到議事亭前地約10分", "fare": "首1.6公里 MOP21，其後每220米 MOP2；行李每件MOP3；機場/氹仔碼頭/口岸上車加MOP8", "first_last": "24小時", "payment": "多數收現金（港幣可用）", "tips": "假日排隊久", "verified": false, "source": "https://www.wanderinchina.com/zh/destinations/macao/transport/"},
+        {"name": "半島→氹仔", "steps": "巴士：新馬路一帶搭11、33往官也街；25、26A班次密但停銀河附近。輕軌：氹仔線2023-12-08起延伸至媽閣站，可由媽閣搭至排角站（步行10分到官也街）", "time": "巴士約25–35分；輕軌約15–20分", "fare": "巴士同上；輕軌單程按距離 MOP6/8/10/12（澳門通約半價）", "first_last": "輕軌約06:30–23:15（未核實）", "payment": "輕軌：澳門通、單程票（售票機）；國際信用卡感應尚未開放（2026-05立法會仍在追問）", "tips": "", "verified": false, "source": "https://www.hk01.com/旅遊/864740/ ; https://www.funtime.com.tw/blog/?p=23850"}
+      ]
+    },
+    {
+      "leg": "1/31 香港→深圳",
+      "options": [
+        {"name": "東鐵綫→羅湖口岸", "steps": "旺角東站上東鐵綫往羅湖（約40–45分）→香港出境（台灣旅客走旅客櫃台或已登記e-道）→步行過羅湖橋→深圳入境出示台胞證→出口接深圳地鐵1號線羅湖站", "time": "車程40–45分＋過關30–60分（週末/假日可能超過60分）", "fare": "見上列：成人 HK$41.6（頭等約HK$83.2）、小童 HK$21.4", "first_last": "羅湖口岸旅客通關 06:30–24:00", "payment": "八達通、感應信用卡", "tips": "必帶有效台胞證（卡式）與護照。深圳端自2025-11-05起有刷臉通關（須符合資格並登記）。可用香港入境處App看各口岸輪候時間。", "verified": true, "source": "https://hk.trip.com/guide/transport/luohu-port-opening-hours.html ; https://www.wanderinchina.com/zh/transport/intercity/hongkong-shenzhen/"},
+        {"name": "高鐵 西九龍→福田", "steps": "西九龍站一地兩檢：先過香港出境、再過內地入境（都在西九龍站內）→上車約14–20分到福田站（接深圳地鐵1/2/3/11號線）", "time": "車程14–20分；建議開車前45–60分到站（假日）", "fare": "二等座約 HK$75–86（依車次/時段浮動，最低見HK$78起）；一等座約 HK$124–137；兒童票按該座席50%；內地學生票不適用台灣學生", "first_last": "2026-06範例：西九龍首班約07:01、末班約23:00；每日約105班往福田，繁忙時段每15–30分一班", "payment": "12306（台胞證實名註冊購票，不收手續費，一般提前15日開賣）、港鐵高鐵官網/App、西九龍站售票處、Trip.com/Klook", "tips": "實名制、無實體票，以證件入閘；1/31 屬春運期間，提前開賣時即買。", "verified": false, "source": "https://www.wanderinchina.com/zh/transport/intercity/hongkong-shenzhen/ ; https://www.etnet.com.hk/www/tc/lifestyle/383152/"}
+      ]
+    },
+    {
+      "leg": "深圳地鐵",
+      "options": [
+        {"name": "付款與票價規則", "steps": "按里程計價：首4公里 ¥2，4–12公里每 ¥1 可乘4公里，全程約 ¥2–14。", "time": "-", "fare": "見下列估算", "first_last": "約06:30–23:00（依線）", "payment": "2026-09-10起全線17條線432站所有閘機可直接拍境外Visa/Master/銀聯/AmEx/JCB感應卡或綁卡手機（須開小額免密）；支付寶/微信乘車碼（境外用戶可綁海外卡）；深圳通實體卡（押金¥20、95折）", "tips": "外卡最省事，自動換匯扣款，無折扣。", "verified": true, "source": "https://www.sz.gov.cn/cn/xxgk/bmtx/content/post_12980912.html"},
+        {"name": "老街→翠竹", "steps": "3號線（龍崗線）往雙龍方向，2站（老街→曬布→翠竹）", "time": "約5分", "fare": "約 ¥2（里程推算）", "first_last": "-", "payment": "同上", "tips": "", "verified": false, "source": "https://www.sz.gov.cn/cn/xxgk/bmtx/content/post_12980912.html"},
+        {"name": "老街→會展中心", "steps": "1號線往機場東方向，老街→大劇院→科學館→華強路→崗廈→會展中心（5站）", "time": "約12分", "fare": "約 ¥3（里程推算）", "first_last": "-", "payment": "同上", "tips": "會展中心亦接4號線", "verified": false, "source": "https://www.sz.gov.cn/cn/xxgk/bmtx/content/post_12980912.html"},
+        {"name": "老街→華強北", "steps": "1號線至華強路站（3站）下車步行即達華強北步行街；或轉3/7號線至華強北站", "time": "約8–10分", "fare": "約 ¥2（里程推算）", "first_last": "-", "payment": "同上", "tips": "華強路站出來就是華強北商圈南端", "verified": false, "source": "https://www.sz.gov.cn/cn/xxgk/bmtx/content/post_12980912.html"}
+      ]
+    },
+    {
+      "leg": "2/2 深圳→香港機場",
+      "options": [
+        {"name": "A. 福田高鐵→西九龍→步行九龍站→機場快綫（最穩）", "steps": "1) 福田站搭高鐵到西九龍（14–20分，內地出境+香港入境在福田站一地兩檢）。2) 西九龍站經有蓋行人天橋/隧道步行至九龍站（約10–15分，跟『機場快綫／九龍站』指示，經圓方/ICC方向）。3) 九龍站上機場快綫到機場（約22分）。", "time": "全程約1.5–2小時（含過關）", "fare": "高鐵二等 約HK$75–86；機場快綫九龍→機場 八達通成人 HK$105、小童 HK$52.5；3人團體票 HK$210", "first_last": "高鐵約07:00–23:00；機場快綫至約00:48", "payment": "同前", "tips": "【市區預辦登機】九龍站只有國泰航空（06:00–15:00）；香港站有國泰（06:00–23:00）及中華航空（09:00–18:00），航班起飛前24小時至90分鐘可辦，須持當日機場快綫車票。長榮、星宇等未見提供。高鐵站↔九龍站自動駕駛接駁車最快2027年第二季才上路。", "verified": false, "source": "https://www.colatour.com.tw/C10T_Ticket/C10T02_Feature.aspx?ItemNo=458 ; https://www.cathaypacific.com/cx/zh_TW/destinations/airports/hong-kong-international-airport.html ; https://www.stheadline.com/society/3593205/"},
+        {"name": "B. 新皇崗口岸→九巴B10→青衣站→機場快綫", "steps": "1) 深圳地鐵7號線「皇崗口岸站」，經北廣場通道到聯檢大樓B2。2) 新皇崗口岸『合作查驗、一次放行』，同一大樓辦兩地手續（2026-10-12啟用，24小時）。3) 香港公共運輸交匯處上九巴B10（站序：皇崗口岸→大欖隧道轉車站→青衣站→葵芳）。4) 青衣站轉機場快綫往機場（約13分）。", "time": "約1.5小時（未實測）", "fare": "B10 成人 HK$12.1（小童約半價）；機場快綫青衣→機場 八達通成人 HK$73、小童 HK$36.5（單程票 80/40）", "first_last": "B10 每日06:00–翌日00:30", "payment": "八達通、感應信用卡", "tips": "【規定改變】舊皇崗口岸、落馬洲管制站旅檢已於2026-10-12停止，皇巴停運。新口岸自助通道須事先登記，台胞證持有人走人工櫃台。", "verified": true, "source": "https://www.moneyhero.com.hk/zh/travel-insurance/blog/huanggang-port-transport ; https://data.etabus.gov.hk/v1/transport/kmb/route-stop/B10/inbound/1 ; https://opendata.mtr.com.hk/data/airport_express_fares.csv"},
+        {"name": "C. 跨境直通巴士（永東／環島中港通等）往香港機場", "steps": "深圳酒店/口岸附近上車→經深圳灣或皇崗過關（下車辦手續）→直送香港機場", "time": "約2小時以上（視塞車）", "fare": "未查到2026年往香港機場路線與票價", "first_last": "未確認", "payment": "官網/微信小程序/Trip.com", "tips": "新皇崗口岸開通後各家路線重整中，未見往香港機場專線的可靠資料；不建議作為趕飛機首選。", "verified": false, "source": "https://www.stheadline.com/travel/3275949/"},
+        {"name": "D. 蛇口郵輪母港→香港機場海天碼頭（海空聯運）", "steps": "蛇口郵輪中心辦內地出境→船約30–40分到香港機場海天中轉大樓→直接轉機（不辦香港入境）", "time": "船程30–40分，建議開船前90分到蛇口", "fare": "約 ¥178–179（攜程顯示）；可退回已付香港離境稅 HK$120", "first_last": "2026春節期間每日約36班往返", "payment": "攜程、蛇口郵輪中心", "tips": "只適用持當日香港機場離境機票、且航空公司參與聯運者；需在開船前完成登機/行李直掛。國泰『海天一票通』至深圳機場碼頭已於2026-03-16暫停（蛇口線不受影響）。", "verified": false, "source": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/bmdt/content/post_12633224.html ; https://m.ctrip.com/html5/ship/xianggang-shenzhen"},
+        {"name": "香港機場報到時間", "steps": "櫃台於起飛前3小時開、前60分鐘關；自助櫃台前60–75分關；閘口前20–30分關。", "time": "建議起飛前2.5–3小時到機場", "fare": "-", "first_last": "-", "payment": "-", "tips": "【新】二號客運大樓2026-05-27啟用，15家多為區域/廉航（香港航空、HK Express、大灣區航空、亞航等）在T2報到後搭捷運到T1登機；機場快綫列車兩側車門分別對應T1、T2，依航空公司下車。中華/長榮/星宇未見於T2名單（推測仍在T1，須確認）。", "verified": false, "source": "https://www.humanresourcesonline.net/hong-kong-international-airport-s-new-terminal-2-opens-on-27-may-2026-chi ; https://www.mtr.com.hk/archive/corporate/ch/press_release/PR-26-037-C.pdf"}
+      ]
+    }
+  ],
+  "cards": [
+    {"item": "八達通種類與售價", "detail": "成人 HK$200、小童（3–11歲）HK$100、長者 HK$100，均含 HK$50 可退按金；餘額不足可一次透支（2017-10後發卡上限HK$50）。學生身分八達通限本地合資格學生，台灣學生不適用。", "verified": true, "source": "https://www.mtr.com.hk/archive/ch/pdf/joyyou/adult-child-elder-octopus-fare-leaflet2026.pdf"},
+    {"item": "八達通退卡", "detail": "發卡後90日內退回、或餘額>HK$1000等情況收 HK$11 或餘額1%手續費（較高者）；在港鐵客務中心退。", "verified": true, "source": "https://wwwdr.octopus.com.hk/tc/document/schedule_of_fees.pdf"},
+    {"item": "機場哪裡買", "detail": "機場快綫機場站客務中心（入境大堂往機場快綫月台處）、各港鐵客務中心；台灣可先在 Klook/KKday 預購到機場取。", "verified": false, "source": "https://www.funtime.com.tw/localtour/octopus"},
+    {"item": "手機八達通（iPhone）", "detail": "非香港用戶可用『Octopus for Tourists』App 或 Apple Wallet 新增八達通，以非香港發行的 Visa/Master/銀聯（Apple Pay）增值；按金 HK$50 可在App退回，儲值上限 HK$3,000。台灣 iPhone 可用。", "verified": true, "source": "https://www.octopus.com.hk/en/consumer/tourist/apple-pay/index.html"},
+    {"item": "手機八達通（Android）", "detail": "Octopus for Tourists 只支援 iPhone；第三方稱可經 Google Wallet 加八達通，但未找到官方確認台灣帳號可用。Android 使用者建議買實體卡或直接用信用卡感應。", "verified": false, "source": "https://www.bento.travel/apps/octopus-for-tourists"},
+    {"item": "Visa/Master 感應乘車（香港）", "detail": "港鐵重鐵全線（含2026-05-31起機場快綫、東鐵頭等）接受感應式 Visa/Master/銀聯信用卡及扣賬卡（不含銀聯扣賬卡），只收成人車費、無轉乘優惠；小童必須用小童八達通才有半價。A21等機場巴士亦收感應卡。", "verified": true, "source": "https://www.mtr.com.hk/archive/corporate/ch/press_release/PR-26-037-C.pdf"},
+    {"item": "建議配置", "detail": "爸爸可用信用卡感應或手機八達通；青少年若滿12歲付成人價，可同樣用卡；若有未滿12歲者一定要買小童八達通。香港八達通在澳門巴士不可用，澳門可買澳門通或用支付寶乘車碼。", "verified": false, "source": "https://www.wanderinchina.com/zh/destinations/macao/transport/"}
+  ],
+  "notes": [
+    {"item": "2027春節與春運", "detail": "2027春節為2/6（週六）。2026年春運為春節前約15天開始（2/2–3/13，春節2/17），依此推算2027春運約1/22前後開始，1/31–2/2落在春運前段：內地往外返鄉高峰、香港往深圳北上人潮尚未到頂。高鐵/羅湖平日較可控，但週末1/31（週日）預留額外60分鐘；12306約提前15日開賣，1/31票約1/16開賣，開賣即搶。官方2027春運日期尚未公布。", "verified": false, "source": "https://www.ithome.com/0/914/223.htm"},
+    {"item": "2026年口岸規定變化", "detail": "新皇崗口岸2026-10-12啟用（24小時、一地兩檢），舊皇崗與落馬洲管制站旅檢停止、皇巴停運；落馬洲站（東鐵支線）仍接福田口岸。", "verified": true, "source": "https://www.thestandard.com.hk/news/article/345051/New-Huanggang-Port-to-officially-open-for-24-hour-passenger-clearance-on-Oct-12"},
+    {"item": "港澳船票加價", "detail": "噴射飛航、金光飛航2026-04-25起船票加價約10%。", "verified": true, "source": "https://www.humanresourcesonline.net/ferry-fares-between-hong-kong-and-macao-to-rise-from-25-april-2026-chi"},
+    {"item": "機場快綫票價", "detail": "2025-06-22起加價（平均+9.24%）：香港站 HK$120、九龍站 HK$105、青衣站 HK$73（八達通成人）。部分網站仍列舊價（100/110/65），以港鐵開放資料為準。", "verified": true, "source": "https://opendata.mtr.com.hk/data/airport_express_fares.csv"},
+    {"item": "港鐵票價", "detail": "2025年度調整幅度未達±1.5%門檻，票價凍結並遞延至2026計算；開放資料檔2026-04更新，本次所列票價為現行。2027年6月前應不會再調整。", "verified": false, "source": "https://itiger.com/news/2522523548"},
+    {"item": "台胞證", "detail": "從羅湖、高鐵、皇崗進入深圳都須有效台胞證（卡式五年證）；12306 以台胞證實名註冊購票。出發前確認效期及姓名拼音與機票一致。", "verified": false, "source": "https://www.trvlogue.com/zh-Hant/naver-yunitem-224289514997"}
+  ]
+}

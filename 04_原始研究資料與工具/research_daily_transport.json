@@ -1,0 +1,721 @@
+{
+  "_meta": {
+    "trip": "2027/1/25–2/2 港澳深，爸爸＋兩位12歲以上青少年（全部成人票）",
+    "researched_on": "2026-11-07",
+    "fare_basis": "港鐵票價取自 opendata.mtr.com.hk（mtr_lines_fares.csv、airport_express_fares.csv）；出口與月台取自港鐵官方街道圖／位置圖 PDF（讀圖判斷）"
+  },
+  "days": [
+    {
+      "date": "1/25 一",
+      "title": "抵港",
+      "moves": [
+        {
+          "date": "1/25 一",
+          "from": "香港國際機場（入境）",
+          "to": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "depart": "入境領行李後即走（依航班）",
+          "mode": "方案A：機場快綫＋的士（建議）／方案B：城巴A21／方案C：紅色市區的士",
+          "steps": [
+            "【航廈】從台灣飛來的抵港旅客都在一號客運大樓（T1）入境：二號客運大樓（T2，2026-05-27啟用）只辦離港報到，沒有獨立入境大堂；中華、長榮、星宇未見於遷往T2的名單（媒體資料，機場官網被擋未能核對）。",
+            "入境檢查 → 行李提取 → 海關 → 走出接機大堂（Arrival Hall）。",
+            "【方案A 機場快綫】機場快綫機場站就在接機大堂外同一層（依港鐵機場站一貫配置；本次未取得官方動線圖）→ 可在客務中心買3人團體票或直接拍八達通／感應信用卡入閘 → 上機場快綫「往香港」方向 → 第2站九龍站下車（約22分）→ 九龍站跟「的士」指示到的士站 → 搭的士到帝京酒店（太子道西193號，告訴司機「旺角東站帝京酒店 Royal Plaza Hotel」）。",
+            "【方案B 城巴A21】出接機大堂後依指示沿右邊緩坡道走到地面運輸中心巴士總站 → 搭A21（往紅磡站）→ 旺角一帶「旺角中心，彌敦道」或「銀行中心，彌敦道」下車 → 沿亞皆老街往東步行約10–12分到旺角東站／帝京（估計，帶行李較吃力）。A21確切候車位未查到。",
+            "【方案C 的士】紅色市區的士站（舊資料稱在接機大堂出口左側斜道，未核實）→ 直達帝京，約30–40分。",
+            "抵達帝京：酒店與旺角東站、MOKO新世紀廣場相連（旺角東站D出口＝帝京酒店／MOKO）。"
+          ],
+          "duration": "方案A 約45–60分（快綫22分＋的士15分＋排隊）；方案B 約60–75分；方案C 約30–40分",
+          "fare": "方案A：機場快綫機場→九龍 八達通/感應卡成人 HK$105×3＝315；單程票成人 HK$115；3人團體票（客務中心買、當日同行）HK$210＋的士約HK$60–80（估計）≈ HK$270–290。方案B：A21 成人約HK$34.6×3≈104（第三方資料，未核實）。方案C：約HK$270–285＋行李每件HK$6（第三方）。",
+          "first_last": "機場快綫 機場開出首班05:54、尾班00:48（2026-09-13起時刻表）；A21 約06:00–24:00（深夜N21，未核實）；的士24小時",
+          "alt": "錯過機場快綫尾班：搭N21通宵巴士或的士。3人＋行李時，的士與「團體票＋的士」總價接近，最省力。",
+          "tips": "感應信用卡在港鐵只收成人價（三人都付成人，沒差）。A21站位、的士站位置以現場指示為準。團體票只在客務中心買。",
+          "verified": false,
+          "source": "https://opendata.mtr.com.hk/data/airport_express_fares.csv ; https://www.mtr.com.hk/en/customer/services/timetable_index.html ; https://www.stheadline.com/society/3545440 ; https://hongkongbuses.fandom.com/wiki/Airport_(Ground_Transportation_Centre)_Bus_Terminus ; https://rt.data.gov.hk/v2/transport/citybus/route-stop/CTB/A21/inbound ; https://www.mtr.com.hk/archive/ch/services/maps/mkk.pdf"
+        },
+        {
+          "date": "1/25 一",
+          "from": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "to": "朗豪坊／花園街／女人街（通菜街）",
+          "depart": "晚餐前後（約18:00）",
+          "mode": "步行",
+          "steps": [
+            "帝京酒店 → 經MOKO新世紀廣場／旺角東站一帶的有蓋行人天橋往西接彌敦道、旺角站一帶（天橋存在的資料來自維基，非官方；路線請跟現場「旺角站／Mong Kok Station」指示）。",
+            "花園街（Fa Yuen Street）與通菜街（女人街）都是南北向、互相平行的街，花園街在東側（較靠帝京），通菜街在西側；從帝京往西南走先到花園街，再往西一條街是女人街（港鐵旺角站女人街＝D3出口）。",
+            "朗豪坊在亞皆老街／砵蘭街（港鐵旺角站C3或E1出口），從女人街往西過彌敦道即到。",
+            "回程：反向步行，或從旺角站B3出口方向回帝京（港鐵旺角站街道圖把帝京酒店標在B3出口）。"
+          ],
+          "duration": "帝京→花園街約8–10分；→女人街約10–12分；→朗豪坊約12–15分（皆為估計，未實測）",
+          "fare": "免費",
+          "first_last": "女人街攤位約午後至深夜（未查證）",
+          "alt": "下雨：港鐵旺角東→不建議（要繞），直接撐傘步行或搭的士起跳。",
+          "tips": "女人街人潮擁擠，背包背前面；花園街白天是運動鞋街。步行分鐘數為估計值。",
+          "verified": false,
+          "source": "https://www.mtr.com.hk/archive/ch/services/maps/mok.pdf ; https://www.mtr.com.hk/archive/ch/services/maps/mkk.pdf"
+        }
+      ]
+    },
+    {
+      "date": "1/26 二",
+      "title": "迪士尼",
+      "moves": [
+        {
+          "date": "1/26 二",
+          "from": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "to": "迪士尼站（香港迪士尼樂園）",
+          "depart": "08:45（開園前到）",
+          "mode": "港鐵 走法①（推薦，少轉一次、較便宜）：旺角站→荃灣綫→荔景→東涌綫→欣澳→迪士尼綫",
+          "steps": [
+            "帝京 → 步行到港鐵旺角站（旺角站街道圖標帝京酒店對應B3出口；經天橋往彌敦道方向，約8–10分，估計）。或走到太子站（約10–12分，估計），票價相同。",
+            "旺角站搭荃灣綫（紅色）「往荃灣」方向 → 經太子、深水埗、長沙灣、荔枝角、美孚 → 第6站荔景下車（太子上車則第5站）。太子站往荃灣在1號月台（上層）。",
+            "荔景站：荃灣綫往荃灣（1號月台）與東涌綫往東涌（3號月台）在同一層，同月台對面轉車，不用上下樓。",
+            "東涌綫（橙色）「往東涌」方向 → 經青衣 → 第2站欣澳下車。",
+            "欣澳站：東涌綫往東涌（1號月台）與迪士尼綫（粉紅色）往迪士尼（3號月台）在同一島式月台兩側，同月台轉車。",
+            "迪士尼綫 → 1站到迪士尼站，出站步行約5分到樂園大門（估計）。"
+          ],
+          "duration": "約45–50分（含步行）",
+          "fare": "旺角或太子→迪士尼：八達通/感應卡 成人 HK$22.2；單程票 HK$25.5（×3人＝HK$66.6）",
+          "first_last": "欣澳開往迪士尼首班06:15；迪士尼站車站06:10開",
+          "alt": "的士由旺角到迪士尼未查到可靠報價（估計HK$250–330，未核實）。",
+          "tips": "港鐵票價按起訖站計，與走哪條路無關，所以從旺角站上車比旺角東站便宜（旺角東→迪士尼 HK$25.7）。",
+          "verified": true,
+          "source": "https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://www.mtr.com.hk/archive/ch/services/layouts/pre.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/lak.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/sun.pdf ; https://www.mtr.com.hk/archive/ch/services/maps/mok.pdf ; https://www.mtr.com.hk/ch/customer/services/service_hours_search.php?query_type=search&station=55"
+        },
+        {
+          "date": "1/26 二",
+          "from": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "to": "迪士尼站",
+          "depart": "08:40",
+          "mode": "港鐵 走法②：旺角東→東鐵綫→紅磡→屯馬綫→南昌→東涌綫→欣澳→迪士尼綫",
+          "steps": [
+            "帝京經MOKO進旺角東站（D出口＝帝京／MOKO）。",
+            "東鐵綫（淺藍色）3號月台「往金鐘」→ 1站到紅磡。",
+            "紅磡站：東鐵綫月台在L1層，屯馬綫月台在G層，要下一層樓；往屯門在3號月台（實測轉車約3.5分）。",
+            "屯馬綫（棕色）「往屯門」→ 經尖東、柯士甸 → 第3站南昌下車（1號月台）。",
+            "南昌站：⚠ 不是同月台轉車。往屯門（1號）的對面是往香港（4號），要經通道／大堂換到3號月台「東涌綫往東涌」（四個月台同層，約2–3分，估計）。",
+            "東涌綫（橙色）「往東涌」→ 經荔景、青衣 → 第3站欣澳。",
+            "欣澳同月台轉迪士尼綫（3號月台）→ 1站到迪士尼。"
+          ],
+          "duration": "約50–60分",
+          "fare": "旺角東→迪士尼：八達通/感應卡成人 HK$25.7；單程票 HK$28.5",
+          "first_last": "旺角東往金鐘首班05:49",
+          "alt": "走法①較便宜且只轉兩次，推薦走法①。",
+          "tips": "常見誤解「南昌同月台轉東涌綫」是錯的；真正同月台的是荔景與欣澳。",
+          "verified": true,
+          "source": "https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://www.mtr.com.hk/archive/ch/services/maps/mkk.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/mkk.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/huh.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/nac.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/sun.pdf ; https://www.hk01.com/社會新聞/640396/ ; https://en.wikipedia.org/wiki/Nam_Cheong_station"
+        },
+        {
+          "date": "1/26 二",
+          "from": "迪士尼站",
+          "to": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "depart": "煙火後（煙火時間2027-01未公布）",
+          "mode": "港鐵：迪士尼綫→欣澳→東涌綫→荔景→荃灣綫→旺角",
+          "steps": [
+            "樂園大門步行約5分到迪士尼站（估計；煙火散場排隊入閘可能要20–40分，估計）。",
+            "迪士尼綫 → 欣澳站；往香港的東涌綫在2號月台（非同月台，要換月台，依位置圖）。",
+            "東涌綫「往香港」→ 經青衣 → 第2站荔景。",
+            "荔景：東涌綫往香港（4號）與荃灣綫往中環（2號）同層，同月台轉車。",
+            "荃灣綫（紅色）「往中環」→ 第6站旺角（或第5站太子）→ 步行回帝京約8–10分（估計）。"
+          ],
+          "duration": "約50–70分（散場人潮另計）",
+          "fare": "迪士尼→旺角 八達通成人 HK$22.2（→旺角東 HK$25.7）",
+          "first_last": "迪士尼站尾班00:40開往欣澳（尾班前5分停止入閘）；欣澳往香港東涌綫尾班00:50（方向為依新聞稿推斷）",
+          "alt": "錯過尾班：的士（迪士尼樂園的士站）到旺角，未查到可靠報價（估計HK$250–330，未核實）。煙火散場加班車未查到常態官方安排。",
+          "tips": "煙火一結束全場湧向車站；可提早10分鐘離場，或在園內吃宵夜等人潮散。南昌轉屯馬回旺角東也行，但要多換一次。",
+          "verified": true,
+          "source": "https://www.mtr.com.hk/ch/customer/services/service_hours_search.php?query_type=search&station=55 ; https://www.mtr.com.hk/ch/customer/services/service_hours_search.php?query_type=search&station=54 ; https://www.mtr.com.hk/archive/ch/services/layouts/sun.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/lak.pdf ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://mtr.com.hk/archive/corporate/en/press_release/PR-24-080-C.pdf"
+        }
+      ]
+    },
+    {
+      "date": "1/27 三",
+      "title": "澳門一日",
+      "moves": [
+        {
+          "date": "1/27 三",
+          "from": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "to": "上環站→信德中心港澳碼頭",
+          "depart": "07:45（搭09:00左右船班）",
+          "mode": "港鐵：旺角東→東鐵綫→金鐘→港島綫→上環",
+          "steps": [
+            "帝京經MOKO進旺角東站，東鐵綫（淺藍色）3號月台「往金鐘」→ 經紅磡、會展 → 第3站金鐘（終點，到達L5層）。",
+            "金鐘站：東鐵綫月台在L5層 → 上到L4轉車大堂 → 再上到L3層2號月台「港島綫往堅尼地城」（約3–5分，估計；官方未標分鐘數）。",
+            "港島綫（深藍色）「往堅尼地城」→ 經中環 → 第2站上環。",
+            "上環站出D出口（港鐵街道圖第82項「港澳碼頭」＝D出口）。⚠ 出閘後A–D出口與E出口不互通，別走去E。",
+            "D出口連信德中心；上到3樓港澳碼頭（干諾道中200號信德中心3樓）。D出口到3樓的逐步路線官方未列，跟現場「港澳碼頭／Macau Ferry」指示走。"
+          ],
+          "duration": "約30–35分＋碼頭內步行5分",
+          "fare": "旺角東→上環 八達通成人 HK$12.9；單程票 HK$15.5",
+          "first_last": "旺角東往金鐘首班05:49、尾班00:39",
+          "alt": "旺角站荃灣綫→中環轉港島綫→上環（HK$13.2）。的士旺角→上環未查到報價。",
+          "tips": "碼頭流程：噴射飛航櫃台／自助機取票（網上訂票者）→ 香港出境（台灣旅客走旅客櫃台；e道須已登記）→ 候船。官網規定「開航前30分鐘入閘登船」，建議開航前45–60分到碼頭。台灣護照入澳門免簽30天。",
+          "verified": true,
+          "source": "https://www.mtr.com.hk/archive/ch/services/maps/shw.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/adm.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/mkk.pdf ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://www.gov.hk/tc/residents/transport/crossboundary/ferryservices.htm ; https://www2.turbojet.com.hk/zh-tw/%E6%B5%B7-%E8%88%B9/"
+        },
+        {
+          "date": "1/27 三",
+          "from": "上環港澳碼頭",
+          "to": "澳門外港客運碼頭",
+          "depart": "09:00左右船班（日航07:30–18:00共16班）",
+          "mode": "噴射飛航 TurboJET",
+          "steps": [
+            "登船 → 約55–60分到外港碼頭 → 澳門入境（台灣護照免簽30天；e道限持卡式台胞證且已事先登記者）→ 出入境大堂後跟「巴士／Bus」指示到碼頭巴士總站。"
+          ],
+          "duration": "約1小時＋入境15–30分",
+          "fare": "普通位平日 HK$194/人（×3＝582，2026-04-25起，含離境稅）；夜航 HK$242",
+          "first_last": "上環→外港 日航07:30–18:00；夜航至22:30（2026-10-16船期）",
+          "alt": "金光飛航上環→氹仔（標準艙平日 HK$192）",
+          "tips": "1/27非假日用平日價。回程若打算從氹仔走，去程買單程即可。",
+          "verified": true,
+          "source": "https://www2.turbojet.com.hk/zh-tw/%E6%B5%B7-%E8%88%B9/ ; https://www.boca.gov.tw/dl-4250-bc7da479a4d2418ab92b51a6dae38019.html ; https://www.gov.mo/zh-hant/news/298211/"
+        },
+        {
+          "date": "1/27 三",
+          "from": "外港客運碼頭巴士總站",
+          "to": "議事亭前地",
+          "depart": "約10:30",
+          "mode": "巴士 3／3A／10",
+          "steps": [
+            "3號（往關閘方向）：外港碼頭「A車道」上車 → 經友誼馬路、金蓮花廣場、廈門街、東方拱門、治安警察局、約翰四世大馬路 → 第8站「新馬路／華僑」（Almeida Ribeiro / OCBC）下車 → 步行到議事亭前地（距離官方未載，估計約3–5分）。",
+            "3A號：外港碼頭「B車道」上車 → 經亞馬喇前地 → 「中區／殷皇子馬路」或「新馬路／金碧坊」下車 → 步行到議事亭前地（估計5分）。",
+            "10號（往媽閣方向）：外港碼頭「B車道」上車 → 「中區／殷皇子馬路」或「新馬路／金碧坊」下車。",
+            "⚠ 10A已改編為60號、不經新馬路；10B不經新馬路，不要搭。巴士總站在碼頭哪一層官方未載，跟指示走。"
+          ],
+          "duration": "車程約15–20分（第三方，官方未載）",
+          "fare": "現金 MOP6/人（不找零）；澳門通 MOP3；支付寶/微信（內地及香港版）乘車碼 MOP6",
+          "first_last": "約06:00–24:00（依路線，未逐線核實）",
+          "alt": "的士：首1600米 MOP19，其後每240米 MOP2，行李每件MOP3（2019年批示，未見後續調整；另有資料寫首程MOP21，兩者不一致）；碼頭到議事亭約10分。Uber Taxi 2026-02已重返澳門（只收電子付款）。",
+          "tips": "國際信用卡感應付車資未見官方列出；港幣現金能否投官方未載。建議備澳門元硬幣或用支付寶乘車碼。「新馬路／大豐」站自2026-08-01起因工程暫停（往關閘方向，回程時注意）。",
+          "verified": true,
+          "source": "https://bis.dsat.gov.mo:37812/macauweb/getRouteData.html?routeName=3&dir=0&lang=zh-tw ; https://bis.dsat.gov.mo:37812/macauweb/getRouteData.html?routeName=3A&dir=0&lang=zh-tw ; https://bis.dsat.gov.mo:37812/macauweb/getRouteData.html?routeName=10&dir=0&lang=zh-tw ; https://www.dsat.gov.mo/dsat/subpage.aspx?a_id=1612338099 ; https://images.io.gov.mo/bo/i/2019/21/despce-85-2019.pdf"
+        },
+        {
+          "date": "1/27 三",
+          "from": "議事亭前地",
+          "to": "玫瑰堂 → 大三巴牌坊 → 大炮台",
+          "depart": "約11:00",
+          "mode": "步行",
+          "steps": [
+            "議事亭前地沿碎石路往北 → 板樟堂前地的玫瑰堂（估計約3分）。",
+            "玫瑰堂往北沿大三巴街一帶的手信街上坡 → 大三巴牌坊（估計約8–10分，人多）。",
+            "大三巴牌坊右側（東側）上坡 → 大炮台（估計約5–8分）；澳門博物館在大炮台上，南門通道（炮兵馬路）有升降機。"
+          ],
+          "duration": "全程約20–30分（不含參觀；估計）",
+          "fare": "大炮台免費；澳門博物館成人 MOP15（12歲以下、65歲以上免費；週二及每月15日免費）",
+          "first_last": "大炮台及花園07:00–19:00；澳門博物館10:00–18:00（17:30停止入場，週一休館；1/27週三有開）",
+          "alt": "-",
+          "tips": "1/27是週三：大三巴哪咤廟逢週三休館。博物館官網只提到升降機，沒有提到扶手電梯。步行分鐘為估計值。",
+          "verified": false,
+          "source": "https://www.wh.mo/cn/site/detail/21 ; https://www.macaumuseum.gov.mo/visit/access ; https://www.wh.mo/cn/site/detail/19"
+        },
+        {
+          "date": "1/27 三",
+          "from": "半島（新馬路／議事亭一帶）",
+          "to": "氹仔官也街",
+          "depart": "約14:00",
+          "mode": "巴士33或11（推薦）／輕軌氹仔線",
+          "steps": [
+            "【巴士】從大三巴下坡回新馬路 →「新馬路／爐石塘」站上車：33號（第16站）或11號（第21站）→「氹仔官也街」站（葡文 RUA DO CUNHA）下車。也可在「亞馬喇前地(D)」搭22、28A、33。",
+            "⚠ 25、26A號不停官也街站，不要搭。",
+            "【輕軌】先搭11號或10號（往媽閣方向）到「媽閣交通樞紐」→ 輕軌氹仔線媽閣站 → 往氹仔碼頭方向經海洋、馬會、運動場 → 排角站下車 → 步行到官也街（第三方稱約5分，未核實）。輕軌沒有「氹仔中心」站。"
+          ],
+          "duration": "巴士約25–35分；輕軌（含先搭巴士到媽閣）約35–45分（估計）",
+          "fare": "巴士現金MOP6／澳門通MOP3；輕軌媽閣→排角 單程MOP8、澳門通MOP4（依站數規則推算）",
+          "first_last": "輕軌週一至週四06:30–23:15（1/27週三末班23:15）；班距約5–10.5分",
+          "alt": "的士約20–25分（估計MOP 60–80，依跳錶規則估算，未實測）。",
+          "tips": "輕軌售票機只收澳門元現金；客服中心收港幣/人民幣1:1（找澳門元）、信用卡、支付寶、微信。閘機直接拍國際信用卡未查到已開放。官也街站2026-10-07至11-12暫停，1月預期恢復，出發前再查。",
+          "verified": true,
+          "source": "https://bis.dsat.gov.mo:37812/macauweb/getRouteData.html?routeName=33&dir=0&lang=zh-tw ; https://bis.dsat.gov.mo:37812/macauweb/getRouteData.html?routeName=11&dir=0&lang=zh-tw ; https://www.mlm.com.mo/tc/route.html ; https://www.mlm.com.mo/tc/general_ticket.html"
+        },
+        {
+          "date": "1/27 三",
+          "from": "氹仔官也街",
+          "to": "澳門威尼斯人",
+          "depart": "約16:00",
+          "mode": "步行（建議）",
+          "steps": [
+            "官也街往南走出氹仔舊城區 → 往路氹金光大道方向 → 威尼斯人西翼一帶。第三方稱威尼斯人西翼大堂有扶手電梯跨越望德聖母灣大馬路通官也街方向（未核實）。"
+          ],
+          "duration": "約15–20分（估計，未實測）",
+          "fare": "免費",
+          "first_last": "-",
+          "alt": "沒查到官也街直達威尼斯人的巴士（15號環線方向相反）；的士短程約MOP 25–35（估計）。",
+          "tips": "天黑後走連貫公路一帶照明充足；路線請以手機地圖導航為準。",
+          "verified": false,
+          "source": "https://bis.dsat.gov.mo:37812/macauweb/getRouteData.html?routeName=15&dir=0&lang=zh-tw"
+        },
+        {
+          "date": "1/27 三",
+          "from": "澳門威尼斯人",
+          "to": "外港客運碼頭（或氹仔客運碼頭）",
+          "depart": "18:30前（若要接金沙穿梭車）",
+          "mode": "穿梭巴士轉乘／巴士56／的士／改從氹仔碼頭坐船",
+          "steps": [
+            "⚠ 威尼斯人2026-11-01起的免費穿梭巴士已沒有外港碼頭線。",
+            "方案1（免費）：威尼斯人「西翼大堂」搭往「澳門金沙」穿梭車（11:00–21:30，每17–20分）→ 澳門金沙轉「港澳碼頭」線（10:10–19:50，每18–20分）→ 外港碼頭。金沙往碼頭末班19:50。",
+            "方案2（巴士）：「連貫公路／威尼斯人」站搭56號 → 經嘉樂庇馬路、信虹花園、湖畔大廈、海灣花園 → 終點「外港碼頭(B)」。56號班次與營運時間未查到。",
+            "方案3（的士）：威尼斯人的士站 → 外港碼頭，約15–20分（估計MOP 70–90，依跳錶規則估算，未實測）。",
+            "方案4（改搭船）：威尼斯人「正門大堂」搭往氹仔碼頭穿梭車（08:10–23:35，每12–18分）→ 氹仔客運碼頭搭金光飛航回上環（末班23:59，時間表未標生效日）或噴射飛航（氹仔→上環 20:30、21:30）。"
+          ],
+          "duration": "方案1約40–50分；方案3約15–20分；方案4穿梭車約10分（估計）",
+          "fare": "方案1、4穿梭車免費；方案2 MOP6現金/MOP3澳門通",
+          "first_last": "見各方案",
+          "alt": "晚上想多逛：直接買氹仔→上環船票，最省轉車。",
+          "tips": "若回程從氹仔走，去程只買單程。帶購物袋時的士最省事。",
+          "verified": true,
+          "source": "https://assets.sandsresortsmacao.cn/content/getting-here/vm/vm_bus-schedule_tc.jpg ; https://assets.sandsresortsmacao.cn/content/getting-here/sm/sm_bus-schedule_tc.jpg ; https://bis.dsat.gov.mo:37812/macauweb/getRouteData.html?routeName=56&dir=0&lang=zh-tw ; https://www.cotaiwaterjet.com/ferry-schedule/hongkong-macau-taipa.html"
+        },
+        {
+          "date": "1/27 三",
+          "from": "澳門外港碼頭",
+          "to": "上環港澳碼頭",
+          "depart": "21:00船班（建議；不要搭23:00末班）",
+          "mode": "噴射飛航",
+          "steps": [
+            "澳門出境（外港碼頭）→ 開航前30分鐘入閘登船 → 約1小時到上環 → 香港入境（信德中心3樓）。"
+          ],
+          "duration": "約1小時＋入境15–30分",
+          "fare": "夜航（18:30後開出）普通位 HK$242/人（×3＝726）",
+          "first_last": "外港→上環 日航至18:00；夜航19:00、21:00、22:00、23:00",
+          "alt": "氹仔碼頭→上環（金光飛航末班23:59、噴射飛航21:30）",
+          "tips": "日航最後一班18:00比夜航便宜HK$48/人。",
+          "verified": true,
+          "source": "https://www2.turbojet.com.hk/zh-tw/%E6%B5%B7-%E8%88%B9/"
+        },
+        {
+          "date": "1/27 三",
+          "from": "上環港澳碼頭",
+          "to": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "depart": "下船入境後（約22:30）",
+          "mode": "港鐵：上環→港島綫→金鐘→東鐵綫→旺角東",
+          "steps": [
+            "信德中心3樓 → 下到港鐵上環站D出口入閘。",
+            "港島綫（深藍色）「往柴灣」→ 經中環 → 第2站金鐘（L2層3號月台）。",
+            "金鐘：從L2上到L4轉車大堂 → 再上到L5層7號月台「東鐵綫往羅湖／落馬洲」（深夜也可能是往上水車，都會經旺角東）。",
+            "東鐵綫 → 經會展、紅磡 → 第3站旺角東 → D出口回帝京。"
+          ],
+          "duration": "約30–35分",
+          "fare": "上環→旺角東 八達通成人 HK$12.9；單程票 HK$15.5",
+          "first_last": "金鐘開出東鐵綫尾班：往羅湖23:01、往上水00:22（都停旺角東）",
+          "alt": "錯過東鐵尾班：中環轉荃灣綫到旺角（荃灣綫尾班時間未查到），或搭的士過海（估計HK$150–200，含隧道費，未核實）。",
+          "tips": "若搭23:00末班船，抵上環約00:00，入境後趕00:22金鐘東鐵很緊，所以建議21:00或更早的船。",
+          "verified": true,
+          "source": "https://www.mtr.com.hk/ch/customer/services/service_hours_search.php?query_type=search&station=2 ; https://www.mtr.com.hk/archive/ch/services/layouts/adm.pdf ; https://www.mtr.com.hk/archive/ch/services/maps/shw.pdf ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv"
+        }
+      ]
+    },
+    {
+      "date": "1/28 四",
+      "title": "尖沙咀・中環",
+      "moves": [
+        {
+          "date": "1/28 四",
+          "from": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "to": "尖沙咀（星光大道／海港城／K11）",
+          "depart": "10:00",
+          "mode": "港鐵：旺角站→荃灣綫→尖沙咀（推薦）",
+          "steps": [
+            "⚠ 東鐵綫已不經尖東站（尖東現屬屯馬綫）：從旺角東要先到紅磡轉屯馬綫，比較繞。",
+            "推薦：帝京步行到港鐵旺角站（B3出口方向，約8–10分，估計）→ 荃灣綫（紅色）「往中環」→ 經油麻地、佐敦 → 第3站尖沙咀。",
+            "替代：旺角東東鐵綫「往金鐘」→ 紅磡（L1下到G層，3號月台往屯門）→ 屯馬綫1站到尖東。",
+            "出口對照（港鐵官方街道圖）：星光大道＝尖沙咀E／尖東J；海港城＝尖沙咀A1／尖東L5；K11 MUSEA＝尖東J（尖沙咀站沒有對應出口）；K11購物藝術館＝尖沙咀D3／尖東N3、N4；天星碼頭＝尖沙咀E／尖東L6。尖沙咀站與尖東站有地下通道相連。"
+          ],
+          "duration": "約15–20分（含步行）",
+          "fare": "旺角→尖沙咀 或 旺角東→尖東：八達通成人 HK$5.9；單程票 HK$6.0",
+          "first_last": "-",
+          "alt": "步行沿彌敦道南下約35–40分（估計）。",
+          "tips": "海港城很大，A1出口後沿廣東道走；星光大道與K11 MUSEA相鄰，可一起逛。",
+          "verified": true,
+          "source": "https://www.mtr.com.hk/archive/ch/services/maps/tst.pdf ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://www.mtr.com.hk/archive/ch/services/layouts/huh.pdf"
+        },
+        {
+          "date": "1/28 四",
+          "from": "尖沙咀天星碼頭",
+          "to": "中環天星碼頭",
+          "depart": "約14:00",
+          "mode": "天星小輪（尖沙咀↔中環）",
+          "steps": [
+            "尖沙咀站E出口／尖東站L6出口 → 鐘樓旁天星碼頭 → 拍八達通入閘（上下層入口不同）→ 約8–9分到中環天星碼頭（第三方稱7號碼頭，官網未寫）。"
+          ],
+          "duration": "船程約8–9分；班距約6–12分",
+          "fare": "⚠ 2027-01-25起加價（已獲批）：成人平日最高 HK$6、週末最高 HK$8.3（上下層細分未查到）。加價前現價：平日上層HK$5／下層HK$4，週末上層HK$6.5／下層HK$5.6。",
+          "first_last": "兩岸首班06:30，服務至23:30",
+          "alt": "港鐵尖沙咀→中環（荃灣綫）。",
+          "tips": "上層看維港景較好；1/28是週四用平日價。",
+          "verified": false,
+          "source": "https://www.starferry.com.hk/en/service ; https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/22/hogn-kong-approves-star-ferry-fare-increase-on-two-cross-harbour-routes"
+        },
+        {
+          "date": "1/28 四",
+          "from": "中環天星碼頭",
+          "to": "畢打街／置地廣場／中環至半山自動扶梯",
+          "depart": "下船後",
+          "mode": "步行（行人天橋）",
+          "steps": [
+            "中環天星碼頭 → 經行人天橋往國際金融中心（IFC）方向 → 過交易廣場一帶天橋 → 置地廣場、畢打街（中環核心區）。",
+            "→ 繼續經天橋／皇后大道中往西到中環至半山自動扶梯起點（皇后大道中／閣麟街一帶）。",
+            "以上路線官方未查到逐步文字，依現場天橋指示牌「置地廣場 Landmark／中環站」走。"
+          ],
+          "duration": "碼頭→置地廣場約10–15分；→半山扶梯約15–20分（估計）",
+          "fare": "免費",
+          "first_last": "半山扶梯上下行時段未查到",
+          "alt": "-",
+          "tips": "天橋大致全程有蓋，下雨也好走。分鐘數為估計值。",
+          "verified": false,
+          "source": "未查到官方逐步路線"
+        },
+        {
+          "date": "1/28 四",
+          "from": "尖沙咀",
+          "to": "廟街夜市（佐敦／油麻地）→ 旺角",
+          "depart": "約18:30",
+          "mode": "港鐵荃灣綫＋步行",
+          "steps": [
+            "尖沙咀站荃灣綫「往荃灣」→ 1站佐敦 → A出口（港鐵街道圖：廟街市集）→ 沿廟街往北逛。",
+            "或 → 2站油麻地 → C出口（廟街市集、天后古廟、玉器街）。",
+            "逛完從油麻地站荃灣綫「往荃灣」1站到旺角，或直接沿彌敦道步行回旺角約15–20分（估計）。"
+          ],
+          "duration": "車程約3–5分",
+          "fare": "尖沙咀→油麻地 HK$4.9；油麻地→旺角東 HK$5.9（八達通成人）",
+          "first_last": "-",
+          "alt": "的士短程起跳。",
+          "tips": "廟街晚上才熱鬧；人多注意隨身物品。",
+          "verified": true,
+          "source": "https://www.mtr.com.hk/archive/ch/services/maps/jor.pdf ; https://www.mtr.com.hk/archive/ch/services/maps/ymt.pdf ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv"
+        },
+        {
+          "date": "1/28 四",
+          "from": "尖沙咀",
+          "to": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "depart": "晚上（看幻彩詠香江後）",
+          "mode": "港鐵",
+          "steps": [
+            "尖沙咀站荃灣綫「往荃灣」→ 第3站旺角 → 步行回帝京約8–10分（估計）。",
+            "或尖東站屯馬綫「往烏溪沙」→ 1站紅磡（G層上到L1，1號月台）→ 東鐵綫「往羅湖／落馬洲／上水」→ 1站旺角東 → D出口直達帝京。"
+          ],
+          "duration": "約15–20分",
+          "fare": "八達通成人 HK$5.9",
+          "first_last": "旺角東開出往紅磡尾班01:09；往上水尾班00:33（反向參考）",
+          "alt": "的士約HK$50–70（估計）。",
+          "tips": "提重物時走尖東→紅磡→旺角東，下車直達酒店不用上街。",
+          "verified": true,
+          "source": "https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://www.mtr.com.hk/archive/ch/services/layouts/huh.pdf ; https://www.mtr.com.hk/ch/customer/services/service_hours_search.php?query_type=search&station=65"
+        }
+      ]
+    },
+    {
+      "date": "1/29 五–1/30 六",
+      "title": "自由日候選",
+      "moves": [
+        {
+          "date": "1/29 五或1/30 六",
+          "from": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "to": "昂坪360（東涌纜車站）→ 昂坪 → 大澳",
+          "depart": "09:00（平日纜車10:00開）",
+          "mode": "港鐵＋纜車＋新大嶼山巴士",
+          "steps": [
+            "帝京步行到旺角站（約8–10分，估計）→ 荃灣綫「往荃灣」→ 第6站荔景。",
+            "荔景同月台轉東涌綫「往東涌」→ 經青衣、欣澳 → 第3站東涌（終點）。",
+            "東涌站B出口 → 步行約5分到昂坪360東涌纜車站（昂坪360官網）。",
+            "纜車到昂坪（約25分，第三方）→ 昂坪搭新大嶼山巴士21號到大澳（約20分，第三方）。",
+            "回程：大澳搭新大嶼山巴士11號回東涌站巴士總站（B出口一帶）→ 東涌綫回程。"
+          ],
+          "duration": "旺角→東涌約40分；全程半天至一天",
+          "fare": "旺角→東涌 八達通成人 HK$18.7（旺角東出發 HK$22.1）；纜車與巴士票價本次未查",
+          "first_last": "纜車平日10:00–18:00；週末及公眾假期09:00–18:30。21、11號首末班未查到。",
+          "alt": "纜車停運或大排長龍：東涌站B出口搭23號巴士往昂坪。",
+          "tips": "⚠ 2027年1月纜車維修停運日尚未公布（以往1月有過停運），出發前查官網或打3666 0606。21號巴士第三方稱不收八達通（未核實），備零錢。",
+          "verified": true,
+          "source": "https://www.mtr.com.hk/archive/ch/services/maps/tuc.pdf ; https://www.np360.com.hk/en/visitor-information/tourist-guide/ ; https://www.np360.com.hk/en/ ; https://rt.data.gov.hk/v2/transport/nlb/route.php?action=list ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv"
+        },
+        {
+          "date": "1/29 五或1/30 六",
+          "from": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "to": "西九文化區（M+、香港故宮文化博物館）",
+          "depart": "09:30",
+          "mode": "港鐵：旺角東→東鐵綫→紅磡→屯馬綫→柯士甸",
+          "steps": [
+            "旺角東站東鐵綫「往金鐘」→ 1站紅磡。",
+            "紅磡L1下到G層3號月台，屯馬綫「往屯門」→ 經尖東 → 第2站柯士甸。",
+            "柯士甸站D1或D2出口（港鐵街道圖：M+、故宮、西九文化區）→ 步行到西九（分鐘數官方未標，估計10–15分）。",
+            "另一選擇：九龍站（東涌綫／機場快綫）M+＝C1或D1出口、故宮＝E出口；經圓方「藝術廣場天橋」約10–15分（第三方）。"
+          ],
+          "duration": "約25–30分",
+          "fare": "旺角東→柯士甸 八達通成人 HK$7.8；單程票 HK$8.0",
+          "first_last": "-",
+          "alt": "的士旺角→M+約15分（估計HK$60–80）。",
+          "tips": "M+與故宮之間步行約5分（估計），可同日排。",
+          "verified": true,
+          "source": "https://www.mtr.com.hk/archive/ch/services/maps/aus.pdf ; https://www.mtr.com.hk/archive/ch/services/maps/kow.pdf ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://www.mtr.com.hk/archive/ch/services/layouts/huh.pdf"
+        },
+        {
+          "date": "1/29 五或1/30 六",
+          "from": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "to": "海洋公園",
+          "depart": "09:00",
+          "mode": "港鐵：旺角東→東鐵綫→金鐘→南港島綫→海洋公園",
+          "steps": [
+            "旺角東站東鐵綫3號月台「往金鐘」→ 第3站金鐘（L5層）。",
+            "金鐘：從L5往下一層到L6，南港島綫（黃綠色）5/6號月台「往海怡半島」。",
+            "→ 1站海洋公園站 → B出口（港鐵街道圖：香港海洋公園）。"
+          ],
+          "duration": "約30分",
+          "fare": "旺角東→海洋公園 八達通成人 HK$15.8；單程票 HK$16.0",
+          "first_last": "金鐘開出東鐵綫尾班往羅湖23:01、往上水00:22",
+          "alt": "的士過海約HK$200以上（估計）。",
+          "tips": "金鐘東鐵綫與南港島綫只差一層，是最順的轉乘。",
+          "verified": true,
+          "source": "https://www.mtr.com.hk/archive/ch/services/layouts/adm.pdf ; https://www.mtr.com.hk/archive/ch/services/maps/ocp.pdf ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://www.mtr.com.hk/ch/customer/services/service_hours_search.php?query_type=search&station=2"
+        },
+        {
+          "date": "1/29 五或1/30 六",
+          "from": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "to": "深水埗（鴨寮街、黃金電腦商場）",
+          "depart": "11:00（店家較晚開）",
+          "mode": "港鐵荃灣綫",
+          "steps": [
+            "帝京步行到旺角站（約8–10分）→ 荃灣綫「往荃灣」→ 經太子 → 第2站深水埗。",
+            "黃金電腦商場、高登電腦中心、黃金數碼廣場、新高登＝D2出口（港鐵街道圖）。",
+            "鴨寮街：官方對照表沒列；依地圖，鴨寮街在車站西南一個街區、與長沙灣道平行，靠A2、C2出口一側（讀圖推斷，未核實）。"
+          ],
+          "duration": "約15–20分（含步行）",
+          "fare": "旺角→深水埗 八達通成人 HK$4.9（旺角東出發 HK$5.9）",
+          "first_last": "-",
+          "alt": "步行約25–30分（估計）。",
+          "tips": "鴨寮街以現金交易為主，備零錢。",
+          "verified": true,
+          "source": "https://www.mtr.com.hk/archive/ch/services/maps/ssp.pdf ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv"
+        }
+      ]
+    },
+    {
+      "date": "1/31 日",
+      "title": "香港→深圳（羅湖）",
+      "moves": [
+        {
+          "date": "1/31 日",
+          "from": "帝京酒店（旺角東站上蓋，太子道西193號）",
+          "to": "港鐵羅湖站→羅湖口岸（香港出境）",
+          "depart": "10:00（避開週日午後北上人潮）",
+          "mode": "港鐵東鐵綫（可坐頭等）",
+          "steps": [
+            "帝京經MOKO進旺角東站 → 1號或2號月台「東鐵綫往羅湖」。⚠ 東鐵綫北行有往羅湖、往落馬洲、往上水三種終點，看車頭與月台顯示屏要寫「羅湖」才上（往落馬洲的車去福田口岸，往上水的不過境）。",
+            "經九龍塘、大圍、沙田、火炭、大學、大埔墟、太和、粉嶺、上水 → 第10站羅湖（終點）。",
+            "羅湖站出閘 → 跟「離港／Departure」指示上樓 → 香港出境大堂（入境處）辦出境。官方未提供逐步文字。",
+            "出境後步行過羅湖橋到深圳羅湖口岸。"
+          ],
+          "duration": "車程約40–45分",
+          "fare": "旺角東→羅湖 標準 八達通成人 HK$41.6／單程票 HK$45；頭等＝另加同額（成人合計約HK$83.2），上車前在月台頭等核准器拍卡",
+          "first_last": "旺角東往羅湖首班05:33、尾班23:10；羅湖口岸06:30–24:00",
+          "alt": "高鐵西九龍→福田（見2/2方案b）。",
+          "tips": "帶大行李坐頭等較寬敞。羅湖、落馬洲車程沒有學生價。",
+          "verified": true,
+          "source": "https://www.mtr.com.hk/ch/customer/services/service_hours_search.php?query_type=search&station=65 ; https://www.mtr.com.hk/archive/ch/services/layouts/low.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/mkk.pdf ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://www.immd.gov.hk/eng/contactus/control_points.html"
+        },
+        {
+          "date": "1/31 日",
+          "from": "羅湖口岸（深圳入境）",
+          "to": "深圳地鐵1號線羅湖站",
+          "depart": "過關後",
+          "mode": "步行",
+          "steps": [
+            "深圳邊檢入境：出示卡式台胞證（護照一起帶）。台灣居民持5年台胞證可使用智能快捷通道（2025-11-05起，須同意採集面相指紋；是否須事先登記官方未說明）；否則走人工櫃台。該走「台灣居民」或哪一類人工通道、要不要填入境卡：官方未查到，建議出發前打國家移民管理局12367確認。",
+            "出口跟「地鐵 Metro」指示到1號線羅湖站（地下站，起點站）。本地寶列A2、A3出口標「羅湖口岸」（非官方），以現場指標為準。"
+          ],
+          "duration": "過關30–60分（週日、春運前段可能更久）",
+          "fare": "免費",
+          "first_last": "羅湖口岸06:30–24:00",
+          "alt": "-",
+          "tips": "1/31是春運期間週日，預留額外時間。",
+          "verified": false,
+          "source": "https://www.sznews.com/news/content/2025-11/04/content_31744930.htm ; https://m.bendibao.com/ditie/zd_luohu.shtml"
+        },
+        {
+          "date": "1/31 日",
+          "from": "深圳地鐵羅湖站",
+          "to": "深圳東門希爾頓歡朋酒店（東門南路3022號，第三方訂房網地址）",
+          "depart": "過關後",
+          "mode": "深圳地鐵1號線（＋2號線）",
+          "steps": [
+            "⚠ 地址核對：第三方訂房網（Trip.com、Cvent）列此酒店地址為「東門南路3022號」、最近地鐵站是湖貝站（約250公尺），不是老街站；老街站出口清單沒有任何一個標到東門南路。請先用訂房確認信核對地址。",
+            "購票：閘機可直接拍境外Visa/Master/銀聯/AE/JCB感應卡（2026-09-10起全線；卡須開小額免密），或用綁外卡的支付寶乘車碼（第三方）；自助票務機也可用外卡買票。",
+            "【到老街】1號線（綠色）「往機場東」→ 經國貿 → 第2站老街。老街出口：A匯食街／東門步行街、D東門老街、C深南東路北側等（本地寶，非官方）；到酒店的最近出口未查到。",
+            "【到湖貝（推薦，若地址確為東門南路）】1號線「往機場東」→ 第3站大劇院 → 轉2號線（橙色）「往蓮塘」方向 → 1站湖貝 → F出口（深南東路南側、東門南路；本地寶，研判最近，未核實）。"
+          ],
+          "duration": "約15–25分",
+          "fare": "約¥2–3（依里程規則推算，非官方標示）",
+          "first_last": "1號線羅湖站往機場東首班06:20、末班約23:00（本地寶，非官方）",
+          "alt": "的士／滴滴：羅湖口岸到東門很近（估計¥15–20，依起步10元＋每公里2.7元推算）。",
+          "tips": "帶行李時可直接坐的士，省轉乘。",
+          "verified": false,
+          "source": "https://au.trip.com/hotels/shenzhen-hotel-detail-70797786/hampton-by-hilton-shenzhen-dongmen ; https://m.bendibao.com/ditie/zd_laojie.shtml ; https://m.bendibao.com/ditie/zd_hubei.shtml ; https://www.sznews.com/news/content/2026-09/15/content_32172047.htm ; https://www.sz.gov.cn/ztfw/jtly/wyc_184756/ggjtcx/csgdjtcx/content/post_7750833.html"
+        }
+      ]
+    },
+    {
+      "date": "2/1 一",
+      "title": "深圳國貿・東門",
+      "moves": [
+        {
+          "date": "2/1 一",
+          "from": "深圳東門希爾頓歡朋酒店（東門南路3022號，第三方訂房網地址）／老街站",
+          "to": "國貿站（金光華廣場、同仁四季椰子雞）",
+          "depart": "11:00",
+          "mode": "深圳地鐵1號線或步行",
+          "steps": [
+            "老街站1號線（綠色）「往羅湖」→ 1站國貿。",
+            "金光華廣場（人民南路2028號）＝國貿站A出口，B2層直接連通（贏商網、本地寶，非官方）。",
+            "同仁四季椰子雞：未查到「金光華店」。查到的附近分店：羅湖店（嘉賓路湖心大廈2棟1單元1–2層），國貿站B出口步行約120公尺（HK01，非官方）。",
+            "從酒店直接步行：酒店到國貿站約740公尺（Trip.com），步行約10–12分（估計）。"
+          ],
+          "duration": "地鐵約5分；步行約10–12分",
+          "fare": "約¥2",
+          "first_last": "老街往羅湖末班00:05（本地寶）",
+          "alt": "步行即可。",
+          "tips": "椰子雞熱門時段要排隊，可用大眾點評取號（未核實）。",
+          "verified": false,
+          "source": "https://m.bendibao.com/ditie/zd_guomao.shtml ; https://m.winshang.com/news716829.html ; https://global.hk01.com/旅游/60296066/ ; https://au.trip.com/hotels/shenzhen-hotel-detail-70797786/hampton-by-hilton-shenzhen-dongmen"
+        },
+        {
+          "date": "2/1 一",
+          "from": "金光華廣場（國貿）",
+          "to": "深圳東門希爾頓歡朋酒店（東門南路3022號，第三方訂房網地址）",
+          "depart": "逛完",
+          "mode": "步行",
+          "steps": [
+            "金光華廣場 → 往北沿人民南路／東門南路方向 → 酒店（官方路線未查到，以手機地圖導航）。"
+          ],
+          "duration": "約10–15分（估計，依國貿站→酒店約740公尺推算）",
+          "fare": "免費",
+          "first_last": "-",
+          "alt": "國貿→老街1號線1站，或的士起步¥10。",
+          "tips": "晚上東門步行街人多，可順路逛。",
+          "verified": false,
+          "source": "未查到官方路線；距離依 Trip.com"
+        }
+      ]
+    },
+    {
+      "date": "2/2 二",
+      "title": "深圳→香港機場",
+      "moves": [
+        {
+          "date": "2/2 二",
+          "from": "老街站（或湖貝站）",
+          "to": "會展中心站（大中華國際交易廣場／BitCity）",
+          "depart": "09:30",
+          "mode": "深圳地鐵1號線",
+          "steps": [
+            "老街站1號線（綠色）「往機場東」→ 經大劇院、科學館、華強路、崗廈 → 第5站會展中心。",
+            "若從湖貝站：2號線（橙色）1站到大劇院 → 轉1號線「往機場東」→ 第4站會展中心。",
+            "會展中心站A出口（本地寶列為「A口：福華路北側（東）、金田路（北）、深南大道」，該口公車站名即「大中華國際廣場」；是否細分A1未查到）→ 大中華國際交易廣場（福華一路1號）。",
+            "⚠ BitCity：中英文搜尋都找不到深圳門店資料，無法證實在大中華國際交易廣場內，請提供中文店名或官方帳號再核。"
+          ],
+          "duration": "約15–20分",
+          "fare": "約¥3（依里程推算）",
+          "first_last": "老街往機場東首班06:24",
+          "alt": "的士約15分（估計¥20–25）。",
+          "tips": "同仁四季椰子雞福田店在福華一路3號領展中心城L1，會展中心站步行約250公尺（大眾點評摘要，未核實），可在這天吃。",
+          "verified": false,
+          "source": "https://m.bendibao.com/ditie/zd_huizhanzhongxin.shtml ; https://www.shifair.com/galleryDetails/108.html ; https://en.wikipedia.org/wiki/Line_1_(Shenzhen_Metro)"
+        },
+        {
+          "date": "2/2 二",
+          "from": "會展中心站",
+          "to": "老街站→酒店拿行李",
+          "depart": "約13:30（最晚14:00）",
+          "mode": "深圳地鐵1號線",
+          "steps": [
+            "會展中心站1號線「往羅湖」→ 第5站老街（或第4站大劇院轉2號線1站到湖貝）→ 步行回酒店。"
+          ],
+          "duration": "約20–25分",
+          "fare": "約¥3",
+          "first_last": "會展中心往羅湖末班23:54（本地寶）",
+          "alt": "的士。",
+          "tips": "酒店退房12:00，出門前先寄放行李。",
+          "verified": false,
+          "source": "https://m.bendibao.com/ditie/zd_huizhanzhongxin.shtml"
+        },
+        {
+          "date": "2/2 二",
+          "from": "深圳東門希爾頓歡朋酒店（東門南路3022號，第三方訂房網地址）",
+          "to": "香港國際機場（方案a：新皇崗口岸＋九巴B10＋機場快綫青衣）",
+          "depart": "建議15:00出發；最晚15:30",
+          "mode": "深圳地鐵→新皇崗口岸→九巴B10→機場快綫",
+          "steps": [
+            "從湖貝站：2號線（橙色）「往赤灣」→ 經大劇院、燕南 → 第3站華強北 → 轉7號線（深藍色）「往深大麗湖」方向 → 經華強南、赤尾 → 第3站皇崗口岸。",
+            "從老街站：3號線（藍色）「往福保」→ 經紅嶺、通新嶺 → 第3站華新 → 轉7號線「往深大麗湖」→ 經華強北、華強南、赤尾 → 第4站皇崗口岸。（站序依本地寶／維基，非官方）",
+            "皇崗口岸站經A口通道到聯檢大樓B2 → 搭電梯上L4辦深圳出境＋香港入境（2026-10-12啟用，合作查驗、一次放行，24小時）→ 下到L2港方交通區（媒體資料）。台灣旅客研判走人工櫃台（自助通道登記只列香港居民與內地旅客，未證實）。",
+            "香港側L2巴士站搭九巴B10 → 經大欖隧道轉車站 → 青衣站（站牌TY921，在青衣港鐵站一帶）下車。確切候車位未查到。",
+            "步行進青衣站（青衣城）→ 機場快綫月台（與東涌綫是不同付費區）→ 機場快綫「往機場」約13分到機場站。"
+          ],
+          "duration": "約2小時15分–3小時（地鐵25–30分＋過關30–60分＋B10候車與車程約45–55分＋青衣轉快綫約20分；皆估計，未實測）",
+          "fare": "深圳地鐵約¥3–4（推算）；B10 成人 HK$12.1；機場快綫青衣→機場 八達通成人 HK$73／單程票 HK$80（3人合計約HK$255＋地鐵）",
+          "first_last": "B10 每日06:00–翌日00:30（班距未查到）；新皇崗口岸24小時；7號線末班約23:00（本地寶）",
+          "alt": "B10等太久：皇崗口岸香港側改搭的士往機場（未查到報價）。以21:00起飛、18:30前到機場計。",
+          "tips": "最便宜但最多未知數（新口岸剛啟用、B10班距與站位未查到、要帶行李轉4次）。不建議作為趕飛機首選。",
+          "verified": false,
+          "source": "https://www.sb.gov.hk/eng/hg/clearance.html ; https://www.immd.gov.hk/eng/contactus/control_points.html ; https://data.etabus.gov.hk/v1/transport/kmb/route-stop/B10/inbound/1 ; https://global.hk01.com/社会新闻/60366480/ ; https://c.m.163.com/news/a/L2APVC9N0525CKB5.html ; https://opendata.mtr.com.hk/data/airport_express_fares.csv ; https://m.bendibao.com/ditie/xl_281.shtml"
+        },
+        {
+          "date": "2/2 二",
+          "from": "深圳東門希爾頓歡朋酒店（東門南路3022號，第三方訂房網地址）",
+          "to": "香港國際機場（方案b：福田高鐵→西九龍→九龍站機場快綫）",
+          "depart": "建議15:00出發（搭約16:00的高鐵）；最晚15:30",
+          "mode": "深圳地鐵→高鐵→步行→機場快綫",
+          "steps": [
+            "從湖貝站：2號線（橙色）「往赤灣」→ 經大劇院、燕南、華強北、崗廈北、市民中心 → 第6站福田（不用轉車）。從老街站：3號線（藍色）「往福保」→ 經紅嶺、通新嶺、華新、蓮花村、少年宮 → 第6站福田。（維基，非官方）",
+            "跟「高鐵／福田站」指示進站（進站口位置未查到）→ 安檢、以台胞證刷證入閘（實名制，無實體票）。⚠ 福田站只安檢驗票，深圳出境與香港入境都在西九龍站一地兩檢辦理（常見誤寫為在福田過關）。",
+            "高鐵 → 約14–20分到香港西九龍站 → 站內先辦內地出境、再辦香港入境（西九龍管制站06:30–23:30）。",
+            "西九龍站 → 經行人天橋／隧道往九龍站（穿過商場，約10–15分；立法會規劃估8–10分，媒體稱至少10分）。",
+            "九龍站機場快綫「往機場」約22分到機場。",
+            "市區預辦登機：九龍站只有國泰（06:00–15:00）、香港航空（06:00–15:00）、澳航；中華航空、長榮只在香港站（中華09:00–18:00、長榮08:00–14:00）；星宇不提供。21:00的航班在九龍站只有國泰可辦且15:00截止，實際上用不到。"
+          ],
+          "duration": "約2小時30分–3小時（地鐵25分＋提早到站45–60分＋車程15–20分＋一地兩檢20–40分＋步行15分＋快綫30分；估計）",
+          "fare": "深圳地鐵約¥3–4；高鐵福田→西九龍二等座約¥68或HK$75–86（第三方，依車次浮動，官方未抓到）；機場快綫九龍→機場 八達通成人 HK$105／單程票 HK$115／3人團體票 HK$210",
+          "first_last": "高鐵約07:00–23:00（2026-06範例，未核實）；機場快綫往機場尾班00:48",
+          "alt": "高鐵票售罄：改方案c羅湖。以21:00起飛、18:30前到機場計。",
+          "tips": "最穩、轉乘最少。12306以台胞證實名註冊購票，一般提前15日開賣（2/2的票約1/18開賣），春運期間開賣即買。跨境車票改簽須在開車前30分鐘辦。",
+          "verified": false,
+          "source": "https://www.immd.gov.hk/eng/contactus/control_points.html ; https://www.mtr.com.hk/en/customer/services/complom_checkin.html ; https://www.tlb.gov.hk/tc/policy/transport/policy/colocation/WKS%20Traffic.pdf ; https://m.bendibao.com/show991044.html ; https://opendata.mtr.com.hk/data/airport_express_fares.csv ; https://en.wikipedia.org/wiki/Line_2_(Shenzhen_Metro)"
+        },
+        {
+          "date": "2/2 二",
+          "from": "深圳東門希爾頓歡朋酒店（東門南路3022號，第三方訂房網地址）",
+          "to": "香港國際機場（方案c：羅湖口岸→東鐵綫→金鐘→中環／香港站機場快綫）",
+          "depart": "建議14:30出發；最晚15:00",
+          "mode": "深圳地鐵→羅湖口岸→港鐵東鐵綫→荃灣綫→機場快綫",
+          "steps": [
+            "湖貝站2號線1站到大劇院轉1號線「往羅湖」→ 經老街、國貿 → 第3站羅湖（終點）；或老街站1號線「往羅湖」2站。→ 跟指示進羅湖口岸。",
+            "深圳出境 → 步行過羅湖橋 → 香港入境 → 跟「港鐵」指示下到羅湖站（1、4號月台都是東鐵綫往金鐘）。",
+            "東鐵綫（淺藍色）「往金鐘」→ 約45分到終點金鐘（L5層8號月台）。",
+            "金鐘：上到L4轉車大堂 → 下到L2層4號月台「往中環」（或L3層2號月台港島綫往堅尼地城）→ 1站中環。",
+            "中環站經地下通道步行到香港站（約5–10分，估計）→ 機場快綫「往機場」約24分。",
+            "可行性：可行。香港站有中華航空（09:00–18:00）、長榮（08:00–14:00）、國泰（06:00–23:00）市區預辦登機，可先掛行李再輕裝搭車（須持當日機場快綫車票、電子護照、起飛前24小時至90分鐘）。",
+            "另一路線：東鐵綫→紅磡轉屯馬綫（往屯門）→南昌換月台轉東涌綫（往東涌）→青衣出閘轉機場快綫（第三方建議；港鐵票價羅湖→青衣 HK$48.2＋快綫 HK$73）。"
+          ],
+          "duration": "約2小時30分–3小時15分（地鐵20分＋過關30–60分＋東鐵45分＋轉乘15分＋快綫30分；估計）",
+          "fare": "深圳地鐵約¥2–3；港鐵羅湖→中環 八達通成人 HK$52.2／單程票 HK$55.5；機場快綫香港站→機場 八達通成人 HK$120（單程票HK$130）",
+          "first_last": "羅湖口岸06:30–24:00；羅湖站首班05:55；機場快綫香港站往機場尾班00:48",
+          "alt": "過關排隊過長：改搭的士直奔機場（未查到報價）。以21:00起飛、18:30前到機場計。",
+          "tips": "帶行李轉乘次數最多（東鐵→荃灣綫→步行到香港站），但不用買高鐵票、不受春運高鐵售罄影響；若搭中華或長榮，香港站預辦登機是最大好處（長榮14:00截止，要更早出發）。",
+          "verified": false,
+          "source": "https://www.mtr.com.hk/archive/ch/services/layouts/low.pdf ; https://www.mtr.com.hk/archive/ch/services/layouts/adm.pdf ; https://opendata.mtr.com.hk/data/mtr_lines_fares.csv ; https://opendata.mtr.com.hk/data/airport_express_fares.csv ; https://www.mtr.com.hk/en/customer/services/timetable_index.html ; https://www.mtr.com.hk/en/customer/services/complom_checkin.html ; https://www.immd.gov.hk/eng/contactus/control_points.html"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "【出口錯誤更正】舊資料「東鐵綫直達尖東站」錯誤：2021年起東鐵綫不經尖東（尖東屬屯馬綫）。旺角東往尖沙咀要在紅磡轉屯馬綫，或改由旺角站搭荃灣綫。",
+    "【轉乘陷阱】南昌站屯馬綫（往屯門）轉東涌綫（往東涌）不是同月台，要換月台；荔景（荃灣綫↔東涌綫）與欣澳（東涌綫↔迪士尼綫）才是同月台轉車。紅磡東鐵（L1）與屯馬（G）要換一層。",
+    "【省錢】港鐵按起訖站計價：旺角站→迪士尼 HK$22.2，比旺角東站 HK$25.7 便宜；帝京在港鐵旺角站街道圖對應B3出口、旺角東站對應D出口。",
+    "【上環】港澳碼頭＝上環站D出口（港鐵街道圖2026-05版），出閘後A–D與E出口不互通。",
+    "【天星小輪】2027-01-25起加價（成人平日最高HK$6、週末HK$8.3），行程1/28適用新價，上下層細分未查到。",
+    "【澳門】威尼斯人穿梭巴士2026-11-01起沒有外港碼頭線，可轉澳門金沙港澳碼頭線（末班19:50）或改由氹仔碼頭坐船回上環。10A已改編60號不經新馬路；25、26A不停官也街。新馬路／大豐站（往關閘方向）2026-08-01起暫停。",
+    "【澳門末班】外港→上環末班23:00，但抵上環約00:00，金鐘東鐵往上水尾班00:22，接駁很緊，建議搭21:00或更早船班。",
+    "【深圳酒店地址】第三方訂房網列深圳東門希爾頓歡朋在東門南路3022號，最近站為湖貝站（2/8、5號線，約250公尺），不是老街站；請以訂房確認信核對。若屬實，往福田高鐵站搭2號線直達最方便。",
+    "【高鐵一地兩檢】深圳出境與香港入境都在西九龍站辦理，福田站只安檢驗票。",
+    "【市區預辦登機】九龍站只有國泰、香港航空、澳航；中華、長榮只在香港站；星宇不提供。21:00航班要預辦須走香港站（方案c經中環）。",
+    "【皇崗】新皇崗口岸2026-10-12啟用，舊皇崗與落馬洲管制站旅檢已停、皇巴停運；B10班距與香港側候車位未查到。",
+    "【未查到】A21候車位與的士站確切位置（機場官網擋抓取）；迪士尼2027-01閉園與煙火時間；昂坪纜車2027-01維修日；21、11號巴士時刻；羅湖口岸逐步動線與台胞證通道類別、是否填入境卡；老街站到酒店的出口；同仁四季椰子雞金光華店；BitCity深圳店址；深圳地鐵各段官方票價；高鐵官方票價與班次；B10班距；各地的士精確估價。",
+    "【估計值】所有「步行約○分」若未附官方來源，均為依地圖距離估計，已在各步驟標註。"
+  ]
+}

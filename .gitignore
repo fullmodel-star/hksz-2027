@@ -1,0 +1,23 @@
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editor / Agent
+.vscode/
+.idea/
+*.swp
+*.swo
+.gemini/
+
+# Sensitive documents and vouchers (keep empty dirs only)
+01_票券與訂房憑證/*
+!01_票券與訂房憑證/.gitkeep
+02_證件影本/*
+!02_證件影本/.gitkeep
+
+# Node
+node_modules/
+npm-debug.log*

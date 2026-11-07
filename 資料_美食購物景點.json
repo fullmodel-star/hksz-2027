@@ -1,0 +1,2862 @@
+{
+  "regions": [
+    {
+      "region": "香港",
+      "areas": [
+        {
+          "area": "旺角/太子（含佐敦、油麻地順路）",
+          "day": "1/25,1/28",
+          "food": [
+            {
+              "name": "金華冰廳",
+              "name_en": "Kam Wah Cafe",
+              "address": "太子弼街45-47號地舖",
+              "mtr": "太子站（B2出口方向，步行約5分；出口以現場指標為準）",
+              "hours": "每日06:30–21:00（另有資料寫至23:30）",
+              "price": "HK$40–80",
+              "highlights": "菠蘿油、蛋撻、港式奶茶",
+              "tips": "早餐/下午茶時段常排隊，可外帶；2026年6月網上出現招頂傳聞，店方已否認結業",
+              "verified": true,
+              "source": "https://www.stheadline.com/food/3581143/太子菠蘿油名店金華冰廳-驚傳結業招頂租頂手費狂收33萬-店方勞氣解畫",
+              "category": "早餐/茶餐廳"
+            },
+            {
+              "name": "一點心",
+              "name_en": "One Dim Sum",
+              "address": "太子通菜街209A-209B號地舖",
+              "mtr": "太子站A出口，步行約2分",
+              "hours": "週一至五09:30–23:00；週六日及假日08:30–23:00（來源略有出入）",
+              "price": "HK$60–120",
+              "highlights": "鮮蝦餃、蟹籽燒賣、懷舊雞球大包",
+              "tips": "人氣點心專門店，門口取號排隊；不在2026必比登名單內，但仍為熱門店",
+              "verified": true,
+              "source": "https://www.moneyhero.com.hk/zh/credit-card/blog/prince-edward-food",
+              "category": "點心"
+            },
+            {
+              "name": "阿純山東餃子",
+              "name_en": "Ah Chun Shandong Dumpling",
+              "address": "太子荔枝角道60號地舖",
+              "mtr": "太子站，步行約5分",
+              "hours": "11:00–23:00，週三休息",
+              "price": "HK$50–100",
+              "highlights": "羊肉餃、豬肉白菜餃、煎餃",
+              "tips": "2026米芝蓮必比登推介；小店座位少，飯點需排隊",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/hong-kong-macau/ah-chun-shandong-dumpling/restaurant",
+              "michelin": "必比登推介（2026）",
+              "category": "小吃/麵食"
+            },
+            {
+              "name": "兩姊妹涼皮有限公司",
+              "name_en": "Twins Liangpi Limited",
+              "address": "旺角黑布街99號地舖",
+              "mtr": "太子站或旺角站，步行約5–8分",
+              "hours": "約12:00–21:00（非官方資料）",
+              "price": "HK$40–80",
+              "highlights": "招牌涼皮（辣度可選）、脆辣蓮藕丁",
+              "tips": "2026米芝蓮必比登推介；2023年底遷到黑布街後有堂食座位",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/twins-liangpi-limited-prince-edward",
+              "michelin": "必比登推介（2026）",
+              "category": "小吃"
+            },
+            {
+              "name": "暖心芝作",
+              "name_en": "Warm Heart Sesame（英文名待確認）",
+              "address": "太子汝州街23號",
+              "mtr": "太子站，步行約5–8分",
+              "hours": "未查到近期營業時間",
+              "price": "HK$30–60",
+              "highlights": "石磨芝麻糊、黑芝麻卷、芝麻布甸/雪糕",
+              "tips": "2026米芝蓮必比登推介（太子）；門口有石磨現磨",
+              "verified": true,
+              "source": "https://www.moneyhero.com.hk/zh/credit-card/blog/prince-edward-food",
+              "michelin": "必比登推介（2026）",
+              "category": "甜品"
+            },
+            {
+              "name": "妹記生滾粥品",
+              "name_en": "Mui Kee Congee",
+              "address": "旺角花園街123A號花園街市政大廈4樓熟食中心11-12舖",
+              "mtr": "旺角站或太子站，步行約8分",
+              "hours": "約07:00–15:00，週二休（Burpple資料，日期不明）",
+              "price": "HK$40–70",
+              "highlights": "鯪魚球粥、豬膶粥、炸兩",
+              "tips": "曾獲米芝蓮推介的街市熟食中心老店，適合早餐；下午三點左右收舖",
+              "verified": false,
+              "source": "https://www.burpple.com/mui-kee-congee",
+              "category": "粥麵/早餐"
+            },
+            {
+              "name": "肥姐小食店",
+              "name_en": "Fei Jie",
+              "address": "旺角登打士街55號地下4A號舖",
+              "mtr": "旺角站E2或油麻地站A2，步行約5分",
+              "hours": "約13:00–22:15（來源未標日期）",
+              "price": "HK$20–50",
+              "highlights": "豬大腸、魚肉燒賣串、魷魚",
+              "tips": "站著吃的街頭小吃，晚上人多",
+              "verified": false,
+              "source": "https://www.timeout.com/hong-kong/restaurants/fie-jie",
+              "category": "小吃"
+            },
+            {
+              "name": "華星冰室（旺角西洋菜南街）",
+              "name_en": "Chrisly Cafe (Sai Yeung Choi St South)",
+              "address": "旺角西洋菜南街107號地下",
+              "mtr": "旺角站，步行約3分",
+              "hours": "約07:00–23:00（未確認）",
+              "price": "HK$50–90",
+              "highlights": "炒蛋多士、菠蘿油、奶茶",
+              "tips": "懷舊風茶餐廳連鎖，曾有歌手老闆話題；營業時間建議出發前看OpenRice",
+              "verified": false,
+              "source": "https://openrice.com/en/hongkong/restaurant/mong-kok-chrisly-cafe/92715",
+              "category": "茶餐廳"
+            },
+            {
+              "name": "佳佳甜品（新總店）",
+              "name_en": "Kai Kai Dessert",
+              "address": "佐敦白加士街113-115號地舖",
+              "mtr": "佐敦站，步行約5分",
+              "hours": "12:00–01:00（2025年搬遷報導）",
+              "price": "HK$30–60",
+              "highlights": "芝麻糊、杏仁露、核桃露、湯丸",
+              "tips": "2026必比登推介；⚠寧波街舊總店已於2025/9/17結業遷到白加士街，舊地址別去",
+              "verified": true,
+              "source": "https://www.stheadline.com/food/3500390/佳佳甜品佐敦總店917結業開業逾40年-發哥至愛糖水店-月底白加士街銅鑼灣連開2新舖",
+              "michelin": "必比登推介（2026）",
+              "category": "甜品"
+            },
+            {
+              "name": "澳洲牛奶公司",
+              "name_en": "Australia Dairy Company",
+              "address": "佐敦白加士街47-49號",
+              "mtr": "佐敦站C2，步行約3分",
+              "hours": "來源互相矛盾（一說週日休、一說週四休），出發前確認",
+              "price": "HK$40–80",
+              "highlights": "炒蛋多士、蒸蛋白（燉奶）、火腿通粉",
+              "tips": "上菜極快、翻桌快、拼桌，服務風格出名直接；高峰排隊",
+              "verified": false,
+              "source": "https://en.wikipedia.org/wiki/Australia_Dairy_Company",
+              "category": "早餐/茶餐廳"
+            },
+            {
+              "name": "海港酒家（始創中心）",
+              "name_en": "Harbour Restaurant (Pioneer Centre)",
+              "address": "旺角彌敦道750號始創中心4樓401號舖",
+              "mtr": "太子站，步行約3分",
+              "hours": "07:30–23:00",
+              "price": "點心約HK$100–180；六人套餐HK$1,088/席",
+              "highlights": "傳統酒樓點心、古法羊腩煲（冬季）",
+              "tips": "大型酒樓，適合一家人坐下飲茶；週末早上人多",
+              "verified": true,
+              "source": "https://www.moneyhero.com.hk/zh/credit-card/blog/prince-edward-food",
+              "category": "點心/酒樓"
+            }
+          ],
+          "shop": [
+            {
+              "name": "信和中心",
+              "name_en": "Sino Centre",
+              "address": "旺角彌敦道582-592號",
+              "mtr": "旺角站（彌敦道出口），步行約2分",
+              "hours": "各店不同，多數約12:00–22:00",
+              "price": "—",
+              "highlights": "日本動漫周邊、扭蛋盲盒、模型、日韓CD、寶可夢/遊戲王卡牌；Hot Toys「秘密基地」（以預購為主）",
+              "tips": "動漫卡牌首選；2026/5報導地庫至2樓至少35間賣卡牌「福袋／卡池」，帶博彩性質，青少年購買要留意；也有盜版周邊",
+              "verified": true,
+              "source": "https://finance730.com.hk/2026/05/29/%E5%AF%B6%E5%8F%AF%E5%A4%A2-%E5%8D%A1%E7%89%8C-%E7%A6%8F%E8%A2%8B-%E6%97%BA%E8%A7%92-%E4%BF%A1%E5%92%8C-%E5%8D%A1%E6%B1%A0-%E7%8A%AF%E6%B3%95/",
+              "category": "動漫/模型/卡牌"
+            },
+            {
+              "name": "兆萬中心",
+              "name_en": "CTMA Centre",
+              "address": "旺角西洋菜南街南端（近亞皆老街）",
+              "mtr": "旺角站，步行約3分",
+              "hours": "各店不同，多數下午至晚上",
+              "price": "—",
+              "highlights": "2樓 Superman Toys（222舖，怪獸/超人搪膠、Medicom）、Toy Hunters（218舖，美系玩具、Hot Toys現貨）；地庫及3、4樓有模型店",
+              "tips": "與信和中心一起逛；確切門牌出發前用地圖核對",
+              "verified": true,
+              "source": "https://www.hk01.com/遊戲動漫/989638/megabox-anichi動漫一番街-旺角10大玩具鋪推薦-豪使利是錢花紅",
+              "category": "模型/玩具"
+            },
+            {
+              "name": "好景商業中心",
+              "name_en": "Ho King Commercial Centre",
+              "address": "旺角花園街與登打士街交界",
+              "mtr": "油麻地站A2或旺角站E2，步行約5分",
+              "hours": "各店不同；樹皮天堂玩具部約17:00–21:00、週三休",
+              "price": "—",
+              "highlights": "1樓「樹皮天堂玩具部」模型玩具；商場有扭蛋、電玩、潮流小店",
+              "tips": "舊式商場，店舖多下午後才開",
+              "verified": true,
+              "source": "https://www.hk01.com/%E9%81%8A%E6%88%B2%E5%8B%95%E6%BC%AB/60219827/",
+              "category": "模型/玩具"
+            },
+            {
+              "name": "廣華街玩具店群（仁安大廈一帶）",
+              "name_en": "Kwong Wah Street toy shops",
+              "address": "旺角廣華街1號仁安大廈／廣華街28號",
+              "mtr": "旺角站或油麻地站，步行約8分",
+              "hours": "Sweety Magic開倉店12:00–20:00；其他未查到",
+              "price": "—",
+              "highlights": "Mr.MODELER 模型先生（8B舖，模型套件）、Toy Station 潮玩（Bearbrick、設計師玩具）",
+              "tips": "資料為2025年3月報導，開倉店屬短期性質，可能已結束",
+              "verified": false,
+              "source": "https://www.hk01.com/%E9%81%8A%E6%88%B2%E5%8B%95%E6%BC%AB/60219827/",
+              "category": "模型/玩具"
+            },
+            {
+              "name": "女人街（通菜街）",
+              "name_en": "Ladies' Market (Tung Choi Street)",
+              "address": "旺角通菜街（亞皆老街至登打士街一段）",
+              "mtr": "旺角站E2，步行約3分",
+              "hours": "攤檔約中午至晚上11時（不固定）",
+              "price": "—",
+              "highlights": "平價紀念品、手機殼、T恤、小飾品",
+              "tips": "近年攤檔明顯減少；買東西可講價",
+              "verified": false,
+              "source": "https://www.stheadline.com/society/3300988/",
+              "category": "街道/市集"
+            },
+            {
+              "name": "波鞋街（花園街）",
+              "name_en": "Sneakers Street (Fa Yuen Street)",
+              "address": "旺角花園街（亞皆老街至登打士街）",
+              "mtr": "旺角站E2/D3，步行約3分",
+              "hours": "店舖約11:00–22:00",
+              "price": "—",
+              "highlights": "球鞋、運動服飾",
+              "tips": "可順路去金魚街、花墟",
+              "verified": false,
+              "source": "https://www.hk01.com/跑步/873800/旺角掃街全攻略-女人街波鞋街金魚街花墟雀仔街滿足各樣平民嗜好",
+              "category": "街道"
+            },
+            {
+              "name": "MOKO新世紀廣場（酒店樓下）",
+              "name_en": "MOKO",
+              "address": "旺角太子道西193號（帝京酒店相連）",
+              "mtr": "旺角東站",
+              "hours": "約10:00–22:00（未查證）",
+              "price": "—",
+              "highlights": "日常補給、連鎖餐廳、超市",
+              "tips": "住帝京酒店最方便的補給點，雨天備案",
+              "verified": false,
+              "source": "https://www.cityu.edu.hk/rcms/icaa2024/accommodations.html",
+              "category": "商場"
+            },
+            {
+              "name": "朗豪坊",
+              "name_en": "Langham Place",
+              "address": "旺角亞皆老街8號",
+              "mtr": "旺角站C3出口直達",
+              "hours": "約11:00–23:00（未查證）",
+              "price": "—",
+              "highlights": "潮流服飾、長扶梯、美食廣場",
+              "tips": "旺角最大型商場，雨天備案",
+              "verified": false,
+              "source": "",
+              "category": "商場"
+            }
+          ],
+          "sights": [
+            {
+              "name": "金魚街",
+              "name_en": "Goldfish Market",
+              "address": "旺角通菜街北段（近太子道西）",
+              "mtr": "太子站B2或旺角站B3，步行約5分",
+              "hours": "約10:00–21:45（來源未標日期）",
+              "price": "免費",
+              "highlights": "整排水族店、一袋袋金魚熱帶魚",
+              "tips": "建議停留20–30分鐘；可串花墟、雀鳥花園",
+              "verified": false,
+              "source": "https://www.hk01.com/旅遊/450731/廟街-金魚街-花墟-5處最具本土特色的街道-未去過唔算香港人"
+            },
+            {
+              "name": "花墟",
+              "name_en": "Flower Market",
+              "address": "太子花墟道",
+              "mtr": "太子站B1，步行約8分；旺角東站步行約10分",
+              "hours": "約09:30–19:30",
+              "price": "免費",
+              "highlights": "花店、園藝店林立",
+              "tips": "建議30分鐘；離帝京酒店步行可到",
+              "verified": false,
+              "source": "https://www.hk01.com/旅遊/450731/廟街-金魚街-花墟-5處最具本土特色的街道-未去過唔算香港人"
+            },
+            {
+              "name": "園圃街雀鳥花園",
+              "name_en": "Yuen Po Street Bird Garden",
+              "address": "旺角園圃街（旺角運動場西側）",
+              "mtr": "太子站B1或旺角東站，步行約10分",
+              "hours": "約07:00–17:00（來源不明，康文署公園，以現場為準）",
+              "price": "免費",
+              "highlights": "中式庭園、雀鳥籠及鳥用品攤",
+              "tips": "建議20–30分鐘，早上較熱鬧",
+              "verified": false,
+              "source": "https://en.wikipedia.org/wiki/Yuen_Po_Street_Bird_Garden"
+            },
+            {
+              "name": "廟街夜市",
+              "name_en": "Temple Street Night Market",
+              "address": "油麻地廟街",
+              "mtr": "油麻地站C、佐敦站A",
+              "hours": "傍晚約18:00後較熱鬧",
+              "price": "免費",
+              "highlights": "夜市、大排檔、算命攤",
+              "tips": "建議1小時；可與佐敦甜品串在一起",
+              "verified": false,
+              "source": "https://www.hk01.com/旅遊/450731/廟街-金魚街-花墟-5處最具本土特色的街道-未去過唔算香港人"
+            }
+          ]
+        },
+        {
+          "area": "尖沙咀（含西九文化區）",
+          "day": "1/28",
+          "food": [
+            {
+              "name": "祥興記上海生煎包（尖沙咀）",
+              "name_en": "Cheung Hing Kee Shanghai Pan-fried Buns",
+              "address": "尖沙咀樂道48號地下",
+              "mtr": "尖沙咀站，步行約3–5分",
+              "hours": "米芝蓮頁：週一至五09:00–19:00、週六10:00–18:00、週日休（另有每日至21:00說法）",
+              "price": "HK$30–60",
+              "highlights": "生煎包（皮脆底焦、湯汁多）",
+              "tips": "2026必比登推介；無座位，站在店外吃；咬第一口小心爆汁燙口",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/cheung-hing-kee-tsim-sha-tsui",
+              "michelin": "必比登推介（2026）",
+              "category": "小吃"
+            },
+            {
+              "name": "鼎泰豐（新港中心）",
+              "name_en": "Din Tai Fung (Silvercord)",
+              "address": "尖沙咀廣東道30號新港中心3樓306號舖",
+              "mtr": "尖沙咀站A1，步行約5分",
+              "hours": "每日11:30–22:00",
+              "price": "HK$150–250",
+              "highlights": "小籠包、元盅雞湯、蝦仁炒飯",
+              "tips": "2026必比登推介；⚠在新港中心，不在海港城；飯點取號排隊",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/hong-kong-macau/din-tai-fung-silvercord/restaurant",
+              "michelin": "必比登推介（2026）",
+              "category": "點心/滬菜"
+            },
+            {
+              "name": "凱薈（The ONE）",
+              "name_en": "Kai Wui (The ONE)",
+              "address": "尖沙咀彌敦道100號The ONE 17樓",
+              "mtr": "尖沙咀站B1，步行約3分",
+              "hours": "每日11:00–23:00",
+              "price": "點心約HK$7起（優惠），人均約HK$80–150",
+              "highlights": "海景飲茶、蝦餃燒賣",
+              "tips": "2026報導推出平價點心；靠窗海景位置要早到",
+              "verified": true,
+              "source": "https://www.stheadline.com/food/3590033/",
+              "category": "點心/酒樓"
+            },
+            {
+              "name": "半島酒店大堂茶座",
+              "name_en": "The Lobby, The Peninsula",
+              "address": "尖沙咀梳士巴利道22號半島酒店大堂",
+              "mtr": "尖沙咀站E出口，步行約3分",
+              "hours": "下午茶14:00–17:30（最後落單17:00）",
+              "price": "OpenRice列「半島下午茶」HK$638（未確認是單人或雙人，另加一）",
+              "highlights": "傳統三層下午茶、現場弦樂",
+              "tips": "可網上/電話（2696 6772）訂位；衣著勿太隨便；全家吃可點一套分享看規定",
+              "verified": true,
+              "source": "https://www.openrice.com/zh/hongkong/r-the-lobby-tsim-sha-tsui-western-r3681",
+              "category": "下午茶"
+            },
+            {
+              "name": "Bakehouse（漢口道）",
+              "name_en": "Bakehouse (Hankow Road)",
+              "address": "尖沙咀漢口道44號地下",
+              "mtr": "尖沙咀站，步行約3分",
+              "hours": "未查到（只做外賣）",
+              "price": "HK$20–60",
+              "highlights": "酸種蛋撻、牛角包",
+              "tips": "只外賣不設座位；蛋撻熱門常排隊",
+              "verified": true,
+              "source": "https://www.moneyhero.com.hk/zh/credit-card/blog/tsim-sha-tsui-food",
+              "category": "烘焙/甜品"
+            },
+            {
+              "name": "蘭芳園（尖沙咀重慶大廈）",
+              "name_en": "Lan Fong Yuen (Chungking Mansions)",
+              "address": "尖沙咀彌敦道36-44號重慶大廈地下",
+              "mtr": "尖沙咀站N5/E出口，步行約1分",
+              "hours": "約10:30–18:00（來源未標日期）",
+              "price": "HK$50–90",
+              "highlights": "絲襪奶茶、豬扒包、蔥油雞扒撈丁",
+              "tips": "中環總店的分店，排隊比總店短；設最低消費",
+              "verified": false,
+              "source": "https://www.hk01.com/%E9%A3%9F%E7%8E%A9%E8%B2%B7/1048392",
+              "category": "茶餐廳"
+            },
+            {
+              "name": "糖朝（尖沙咀）",
+              "name_en": "The Sweet Dynasty",
+              "address": "尖沙咀漢口道28號亞太中心地下A號舖",
+              "mtr": "尖沙咀站A1，步行約3分",
+              "hours": "有資料寫08:00–午夜（未確認）",
+              "price": "HK$60–150",
+              "highlights": "豆腐花、楊枝甘露、點心粥麵",
+              "tips": "⚠近況不明：4travel標示已關閉、另一2026/10日本網站仍列出，出發前務必致電2199-7799或看Google地圖",
+              "verified": false,
+              "source": "https://4travel.jp/os_shisetsu/10005167",
+              "category": "甜品/點心"
+            }
+          ],
+          "shop": [
+            {
+              "name": "海港城",
+              "name_en": "Harbour City",
+              "address": "尖沙咀廣東道3-27號",
+              "mtr": "尖沙咀站A1/L5，步行約5–8分",
+              "hours": "約10:00–22:00（各店不同）",
+              "price": "—",
+              "highlights": "海運大廈「玩具反斗城」香港旗艦店（2026/5/1升級，9間IP主題店中店）；Hot Toys「叛軍基地」（可買現貨）；樂高、運動、潮牌",
+              "tips": "給兩個青少年的重點；海運大廈頂樓露天平台可看維港",
+              "verified": true,
+              "source": "https://hk.linkedin.com/in/aaronchengkm",
+              "category": "商場/玩具"
+            },
+            {
+              "name": "珍妮曲奇（尖沙咀店）",
+              "name_en": "Jenny Bakery (TST)",
+              "address": "尖沙咀彌敦道54-64號美麗都大廈地下24號舖",
+              "mtr": "尖沙咀站D1/D2，步行約1分",
+              "hours": "週一至日10:00–19:00",
+              "price": "四重奏/八味曲奇約HK$150–350/罐（依款式）",
+              "highlights": "牛油曲奇（小熊罐）",
+              "tips": "⚠官方說香港正版只有尖沙咀與上環兩間，其他都是假冒；只收現金；常大排長龍、可能限購",
+              "verified": true,
+              "source": "https://www.stheadline.com/food/3566063/",
+              "category": "伴手禮"
+            },
+            {
+              "name": "K11 MUSEA",
+              "name_en": "K11 MUSEA",
+              "address": "尖沙咀梳士巴利道18號",
+              "mtr": "尖東站J出口",
+              "hours": "約10:00–22:00（未查證）",
+              "price": "—",
+              "highlights": "設計品牌、藝術裝置、海濱步道",
+              "tips": "與星光大道同區",
+              "verified": false,
+              "source": "",
+              "category": "商場"
+            },
+            {
+              "name": "萬寧／屈臣氏／莎莎（彌敦道沿線）",
+              "name_en": "Mannings / Watsons / Sasa",
+              "address": "彌敦道沿線多間",
+              "mtr": "尖沙咀站、佐敦站、旺角站",
+              "hours": "多數約09:00–23:00（各店不同）",
+              "price": "—",
+              "highlights": "藥妝、成藥、零食伴手禮",
+              "tips": "連鎖店到處有，買前比價",
+              "verified": false,
+              "source": "",
+              "category": "藥妝"
+            }
+          ],
+          "sights": [
+            {
+              "name": "天星小輪（尖沙咀↔中環）",
+              "name_en": "Star Ferry",
+              "address": "尖沙咀天星碼頭（鐘樓旁）",
+              "mtr": "尖沙咀站E出口，步行約8分",
+              "hours": "每日約06:30–23:30，約6–12分鐘一班",
+              "price": "成人上層平日HK$5、週末假日HK$6.5（2026/7已申請加價至HK$6.5/8.5，審議中）",
+              "highlights": "8–9分鐘渡海看維港，最便宜的觀光",
+              "tips": "可用八達通；建議坐上層",
+              "verified": true,
+              "source": "https://www.stheadline.com/politics/3594700/天星小輪申加價有議員質疑加幅過高-倡增加遊客票價作平衡"
+            },
+            {
+              "name": "星光大道＋尖沙咀鐘樓",
+              "name_en": "Avenue of Stars & Clock Tower",
+              "address": "尖沙咀梳士巴利道海濱",
+              "mtr": "尖沙咀/尖東站J出口",
+              "hours": "全日開放",
+              "price": "免費",
+              "highlights": "維港海景、李小龍像、明星手印",
+              "tips": "建議30–60分鐘；傍晚看夜景",
+              "verified": false,
+              "source": ""
+            },
+            {
+              "name": "香港藝術館",
+              "name_en": "Hong Kong Museum of Art",
+              "address": "尖沙咀梳士巴利道10號",
+              "mtr": "尖沙咀/尖東站J出口，步行約8分",
+              "hours": "週一、三、五10:00–18:00；週六日及假日10:00–21:00",
+              "price": "常設展免費，特展另收費",
+              "highlights": "中國書畫、海景大窗",
+              "tips": "⚠逢週四休館 → 1/28（週四）不開！",
+              "verified": true,
+              "source": "https://www.museums.gov.hk/en_US/web/portal/plan-your-visit.html",
+              "closed": "週四（公眾假期除外）",
+              "stay": "1.5–2小時"
+            },
+            {
+              "name": "香港太空館",
+              "name_en": "Hong Kong Space Museum",
+              "address": "尖沙咀梳士巴利道10號",
+              "mtr": "尖沙咀/尖東站J出口",
+              "hours": "週一、三、五13:00–21:00；週六日及假日10:00–21:00",
+              "price": "展覽廳約HK$10；天象廳節目另購（約HK$24–32）",
+              "highlights": "天象廳全天域電影、太空展",
+              "tips": "逢週二休館（1/26迪士尼日，不影響）；1/28週四有開，但平日下午1點才開",
+              "verified": true,
+              "source": "https://www.museums.gov.hk/en_US/web/portal/plan-your-visit.html",
+              "closed": "週二",
+              "stay": "1.5–2小時"
+            },
+            {
+              "name": "香港科學館",
+              "name_en": "Hong Kong Science Museum",
+              "address": "尖沙咀東部科學館道2號",
+              "mtr": "尖東站P2出口，步行約10分",
+              "hours": "週一、三、五10:00–19:00；週六日及假日10:00–21:00",
+              "price": "常設展約HK$20（未查證最新）",
+              "highlights": "互動科學展、能量穿梭機",
+              "tips": "⚠逢週四休館 → 1/28不開！適合1/29或1/30",
+              "verified": true,
+              "source": "https://www.museums.gov.hk/en_US/web/portal/plan-your-visit.html",
+              "closed": "週四",
+              "stay": "2–3小時"
+            },
+            {
+              "name": "香港歷史博物館",
+              "name_en": "Hong Kong Museum of History",
+              "address": "尖沙咀漆咸道南100號",
+              "mtr": "尖東站P2出口，步行約10分",
+              "hours": "週一、三、五10:00–18:00；週六日及假日10:00–19:00",
+              "price": "免費",
+              "highlights": "「香港故事」常設展（翻新近五年後於2026/4/1全面重開）",
+              "tips": "逢週二休館",
+              "verified": true,
+              "source": "https://www.timeout.com/hong-kong/news/the-hong-kong-story-exhibition-finally-reopens-after-nearly-five-years-040826",
+              "closed": "週二",
+              "stay": "2小時"
+            },
+            {
+              "name": "M+ 博物館（西九文化區）",
+              "name_en": "M+",
+              "address": "九龍西九文化區博物館道38號",
+              "mtr": "九龍站C1/D1經圓方，或柯士甸站B4/B5，步行10–15分",
+              "hours": "週二至四、週末10:00–18:00；週五10:00–22:00",
+              "price": "標準HK$190、優惠HK$100；親子套票2人HK$250、3人HK$400",
+              "highlights": "亞洲當代視覺文化、設計、天台花園（免費）看維港",
+              "tips": "⚠逢週一休館（含公眾假期）→ 1/25不開；1/29週五開到22:00最適合",
+              "verified": true,
+              "source": "https://www.mplus.org.hk/en/plan-your-visit/",
+              "closed": "週一",
+              "stay": "2–3小時"
+            },
+            {
+              "name": "香港故宮文化博物館",
+              "name_en": "Hong Kong Palace Museum",
+              "address": "九龍西九文化區博物館道8號",
+              "mtr": "柯士甸站D2轉CX1小巴，或B4/B5步行15–20分；九龍站步行10–15分",
+              "hours": "週一、三、四、日10:00–18:00；週五、六及假日10:00–20:00",
+              "price": "一般門票HK$70（優惠HK$35）；含特展HK$150（2026/12/11–2027/5/5絲路佛教藝術展）",
+              "highlights": "故宮文物、絲路佛教藝術特展",
+              "tips": "逢週二休館（及農曆新年頭兩天，2027新年在2/6不受影響）",
+              "verified": true,
+              "source": "https://www.hkpm.org.hk/en/visit/ticket",
+              "closed": "週二",
+              "stay": "2–3小時"
+            }
+          ]
+        },
+        {
+          "area": "中環/上環（含港澳碼頭周邊、西營盤）",
+          "day": "1/27（上環碼頭）,1/28",
+          "food": [
+            {
+              "name": "九記牛腩",
+              "name_en": "Kau Kee Restaurant",
+              "address": "中環歌賦街21號",
+              "mtr": "上環站E2或中環站D2，步行約10分",
+              "hours": "週一至六12:30–22:30；週日及公眾假期休",
+              "price": "HK$50–100",
+              "highlights": "清湯牛腩伊麵、咖喱牛筋腩",
+              "tips": "2026必比登推介；排隊＋拼桌，只收現金",
+              "verified": true,
+              "source": "https://guide.michelin.com/mo/zh_HK/hong-kong-region/hong-kong/restaurant/kau-kee",
+              "michelin": "必比登推介（2026）",
+              "category": "粥麵"
+            },
+            {
+              "name": "一樂燒鵝",
+              "name_en": "Yat Lok",
+              "address": "中環士丹利街34-38號金禾大廈地舖",
+              "mtr": "中環站D2，步行約5分",
+              "hours": "每日10:00–20:30",
+              "price": "HK$80–200",
+              "highlights": "燒鵝瀨粉、四分一隻燒鵝、叉燒",
+              "tips": "米芝蓮頁面標示一星；每次只出爐十隻，指定部位靠運氣；只收現金、不設訂位",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/yat-lok",
+              "michelin": "米芝蓮一星（依官方頁面）",
+              "category": "燒臘"
+            },
+            {
+              "name": "沾仔記（威靈頓街）",
+              "name_en": "Tsim Chai Kee (Wellington St)",
+              "address": "中環威靈頓街98號",
+              "mtr": "中環站D2，步行約8分",
+              "hours": "每日11:00–21:30",
+              "price": "HK$40–60",
+              "highlights": "鮮蝦雲吞麵、鯪魚球麵",
+              "tips": "2026必比登推介；午市排隊拼桌，避開12:00–14:00",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/hong-kong-macau/tsim-chai-kee-wellington-street/restaurant",
+              "michelin": "必比登推介（2026）",
+              "category": "粥麵"
+            },
+            {
+              "name": "正斗粥麵專家（中環）",
+              "name_en": "Tasty Congee & Noodle Wantun Shop (Central)",
+              "address": "中環（IFC國際金融中心商場內，確切舖號待查）",
+              "mtr": "香港站／中環站",
+              "hours": "未查到",
+              "price": "HK$80–150",
+              "highlights": "鮮蝦雲吞麵、艇仔粥",
+              "tips": "2026必比登推介（中環）；位置方便雨天",
+              "verified": false,
+              "source": "https://www.hk01.com/社會新聞/60329800/米芝蓮必比登2026-九龍飯館-fiata等8店新上榜-即睇港澳全名單",
+              "michelin": "必比登推介（2026）",
+              "category": "粥麵"
+            },
+            {
+              "name": "蘭芳園（中環總店）",
+              "name_en": "Lan Fong Yuen",
+              "address": "中環結志街2號",
+              "mtr": "中環站D2，步行約8分",
+              "hours": "週一至六07:30–18:00，週日休",
+              "price": "HK$50–90",
+              "highlights": "絲襪奶茶、豬扒包、蔥油雞扒撈丁",
+              "tips": "設最低消費；空間小要拼桌",
+              "verified": true,
+              "source": "https://www.hk01.com/%E9%A3%9F%E7%8E%A9%E8%B2%B7/1048392",
+              "category": "茶餐廳"
+            },
+            {
+              "name": "泰昌餅家（擺花街總店）",
+              "name_en": "Tai Cheong Bakery",
+              "address": "中環擺花街35號地下",
+              "mtr": "中環站D2，步行約8分",
+              "hours": "一至六07:30–21:00；日及假日08:30–21:00（來源未標日期）",
+              "price": "HK$10–30",
+              "highlights": "牛油曲奇皮蛋撻、沙翁",
+              "tips": "外帶即吃；2026/9報導總店仍營業",
+              "verified": true,
+              "source": "https://www.mirrormedia.mg/story/20260925tour001",
+              "category": "烘焙/小吃"
+            },
+            {
+              "name": "蓮香樓（上環新址）",
+              "name_en": "Lin Heung Lau",
+              "address": "上環德輔道中249-251號東寧大廈地下至2樓",
+              "mtr": "上環站B出口旁",
+              "hours": "新址時間未查到（舊址06:00–22:30）",
+              "price": "HK$100–180",
+              "highlights": "推車點心、豬膶燒賣、雞球大包、茶盅焗茶",
+              "tips": "⚠2026年4月因舊址重建從中環威靈頓街搬到上環；去1/27搭船前飲早茶很順路；舊址已不在",
+              "verified": true,
+              "source": "https://www.timeout.com/hong-kong/news/historic-tea-house-lin-heung-lau-has-relocated-to-sheung-wan-051326",
+              "category": "點心"
+            },
+            {
+              "name": "生記粥品專家",
+              "name_en": "Sang Kee Congee Shop",
+              "address": "上環畢街7-9號",
+              "mtr": "上環站A2，步行約5分",
+              "hours": "早上約06:30開（舊資料），收舖時間未查到",
+              "price": "HK$40–70",
+              "highlights": "魚片粥、豬膶粥、炸兩",
+              "tips": "老字號；2026/2報導其鰂魚涌分店結業，上環總店近況請出發前確認",
+              "verified": false,
+              "source": "https://www.stheadline.com/food/3547455/",
+              "category": "粥麵/早餐"
+            },
+            {
+              "name": "坤記煲仔小菜（皇后大道西）",
+              "name_en": "Kwan Kee Clay Pot Rice",
+              "address": "西營盤皇后大道西263號和益大廈地下1號舖",
+              "mtr": "西營盤站B3，步行約3分",
+              "hours": "午11:00–14:30、晚18:00–22:30；週日無午市（2026/4資料）",
+              "price": "HK$100–200",
+              "highlights": "臘味煲仔飯、黃鱔煲仔飯、羊腩煲（冬季）",
+              "tips": "2026必比登推介；晚市排隊，可致電2803 7209預約",
+              "verified": true,
+              "source": "https://www.mirrormedia.mg/story/amp/20260421food002",
+              "michelin": "必比登推介（2026）",
+              "category": "煲仔飯"
+            },
+            {
+              "name": "波記燒臘",
+              "name_en": "Po Kee",
+              "address": "西環皇后大道西425P號",
+              "mtr": "西營盤站或香港大學站，步行約5分",
+              "hours": "週一至六11:00–19:00，週日休",
+              "price": "HK$60–120",
+              "highlights": "燒肉、燒鵝、叉燒飯",
+              "tips": "2026必比登推介；燒肉常下午2點前賣完、燒鵝建議4點前到",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/po-kee",
+              "michelin": "必比登推介（2026）",
+              "category": "燒臘"
+            }
+          ],
+          "shop": [
+            {
+              "name": "PMQ 元創方",
+              "name_en": "PMQ",
+              "address": "中環鴨巴甸街35號",
+              "mtr": "上環站E2或中環站D2，步行約10分",
+              "hours": "大樓全日開放至晚間；店舖多約12:00–20:00（未查證）",
+              "price": "—",
+              "highlights": "本地設計品牌、文創小物",
+              "tips": "2026年仍有活動（味道圖書館展至2027/3）",
+              "verified": true,
+              "source": "https://www.etnet.com.hk/www/tc/attraction/4509/",
+              "category": "文創"
+            },
+            {
+              "name": "中環街市",
+              "name_en": "Central Market",
+              "address": "中環德輔道中93號／皇后大道中80號",
+              "mtr": "中環站C，經半山扶手電梯可達",
+              "hours": "約10:00–22:00（未查證）",
+              "price": "—",
+              "highlights": "香港主題手信、小吃、市集",
+              "tips": "古蹟活化商場，可順路",
+              "verified": false,
+              "source": "",
+              "category": "商場/手信"
+            },
+            {
+              "name": "奇華餅家（IFC分店）",
+              "name_en": "Kee Wah Bakery (IFC)",
+              "address": "中環國際金融中心商場一期1018B舖",
+              "mtr": "香港站／中環站A出口",
+              "hours": "隨商場（未查證）",
+              "price": "禮盒約HK$100–300",
+              "highlights": "熊仔曲奇、老婆餅、蛋卷",
+              "tips": "香港老牌伴手禮；機場也有分店",
+              "verified": false,
+              "source": "https://burpple.com/f/OWhJsMq6",
+              "category": "伴手禮"
+            },
+            {
+              "name": "珍妮曲奇（上環店）",
+              "name_en": "Jenny Bakery (Sheung Wan)",
+              "address": "上環（確切地址請查官網）",
+              "mtr": "上環站",
+              "hours": "未查到",
+              "price": "同尖沙咀店",
+              "highlights": "牛油曲奇",
+              "tips": "官方確認香港只有尖沙咀、上環兩間正店；1/27搭船前可順路，但只收現金",
+              "verified": false,
+              "source": "https://www.stheadline.com/food/3566063/",
+              "category": "伴手禮"
+            },
+            {
+              "name": "摩羅街（貓街）",
+              "name_en": "Cat Street (Upper Lascar Row)",
+              "address": "上環摩羅上街",
+              "mtr": "上環站A2，步行約8分",
+              "hours": "攤檔約10:00–18:00（未查證）",
+              "price": "—",
+              "highlights": "古玩、舊海報、懷舊小物",
+              "tips": "與文武廟同一路線",
+              "verified": false,
+              "source": "",
+              "category": "街道"
+            },
+            {
+              "name": "信德中心／港澳碼頭",
+              "name_en": "Shun Tak Centre / HK-Macau Ferry Terminal",
+              "address": "上環干諾道中200號",
+              "mtr": "上環站D出口直達",
+              "hours": "商場約10:00–22:00；碼頭依船班",
+              "price": "—",
+              "highlights": "便利店、藥妝、輕食",
+              "tips": "1/27搭船去澳門的出發點；建議開船前45–60分鐘到",
+              "verified": false,
+              "source": "",
+              "category": "交通/商場"
+            }
+          ],
+          "sights": [
+            {
+              "name": "山頂纜車＋凌霄閣摩天台428",
+              "name_en": "Peak Tram & Sky Terrace 428",
+              "address": "中環花園道33號（纜車總站）",
+              "mtr": "中環站J2，步行約10分",
+              "hours": "纜車約07:30–23:00（另有至24:00說法）；摩天台428每日08:30–22:00（2026/5/1起）",
+              "price": "成人來回HK$116、單程HK$82；纜車＋摩天台套票來回HK$182；3–11歲與65+有特惠",
+              "highlights": "百年纜車、太平山頂夜景",
+              "tips": "傍晚日落前上山最佳；排隊可很久，建議網上預購；2026/9曾有一天保養停駛，出發前看官網公告",
+              "verified": true,
+              "source": "https://www.wanderinchina.com/zh/destinations/hongkong/victoria-peak/",
+              "stay": "2–3小時"
+            },
+            {
+              "name": "大館",
+              "name_en": "Tai Kwun",
+              "address": "中環荷李活道10號",
+              "mtr": "中環站D2，經半山扶手電梯約8分",
+              "hours": "園區約08:00–23:00；JC Contemporary 美術館11:00–19:00、週一休",
+              "price": "免費（部分特展收費）",
+              "highlights": "前中區警署古蹟群、監獄、當代藝術",
+              "tips": "建議1–1.5小時",
+              "verified": true,
+              "source": "https://www.klook.com/event/city-poi/2-2-taikwun",
+              "closed": "美術館週一",
+              "stay": "1–1.5小時"
+            },
+            {
+              "name": "香港摩天輪",
+              "name_en": "Hong Kong Observation Wheel",
+              "address": "中環海濱長廊（友邦活力公園內）",
+              "mtr": "中環站A，步行約10分",
+              "hours": "週一至四12:00–22:00；週五至日及假日11:00–23:00",
+              "price": "成人HK$20、3–11歲及65+ HK$10（第三方資料）",
+              "highlights": "15分鐘空調車廂看維港",
+              "tips": "票價資料來自第三方，出發前看hkow.hk",
+              "verified": false,
+              "source": "https://zicket.co/zh-hant/events/hong-kong-observation-wheel-879950464527",
+              "stay": "30–45分鐘"
+            },
+            {
+              "name": "文武廟",
+              "name_en": "Man Mo Temple",
+              "address": "上環荷李活道124-126號",
+              "mtr": "上環站A2，步行約10分",
+              "hours": "約08:00–18:00（非官方）",
+              "price": "免費",
+              "highlights": "1847年古廟、巨型盤香",
+              "tips": "建議20–30分鐘；可串摩羅街、PMQ",
+              "verified": false,
+              "source": "https://www.cathaypacific.com/cx/zh_HK/inspiration/hong-kong/man-mo-temple-new-lounge.html",
+              "stay": "30分鐘"
+            },
+            {
+              "name": "中環至半山扶手電梯＋叮叮電車",
+              "name_en": "Mid-Levels Escalator & Tram",
+              "address": "中環皇后大道中至干德道",
+              "mtr": "中環站D2",
+              "hours": "扶手電梯約06:00–24:00（上下行時段不同）；電車約06:00–24:00",
+              "price": "電梯免費；電車成人約HK$3.3（未查證最新）",
+              "highlights": "全世界最長戶外有蓋扶手電梯；雙層電車慢遊",
+              "tips": "建議搭電車從上環坐到中環或銅鑼灣",
+              "verified": false,
+              "source": ""
+            }
+          ]
+        },
+        {
+          "area": "香港迪士尼樂園/欣澳",
+          "day": "1/26",
+          "food": [
+            {
+              "name": "廣場飯店",
+              "name_en": "Plaza Inn",
+              "address": "香港迪士尼樂園 美國小鎮大街",
+              "mtr": "迪士尼站",
+              "hours": "隨樂園營業時間",
+              "price": "約HK$200–400（第三方估計）",
+              "highlights": "中式點心（米奇造型包點）、燒味拼盤",
+              "tips": "美心經營、坐下點餐；建議用官方App預約或避開12–13點",
+              "verified": true,
+              "source": "https://www.hongkongdisneyland.com/dining/",
+              "category": "中餐/點心"
+            },
+            {
+              "name": "皇室宴會廳",
+              "name_en": "Royal Banquet Hall",
+              "address": "香港迪士尼樂園 幻想世界",
+              "mtr": "迪士尼站",
+              "hours": "隨樂園營業時間",
+              "price": "約HK$120–200（估計，未查證）",
+              "highlights": "亞洲/中式/國際菜自選檔口",
+              "tips": "座位多，適合一家人快速吃飯",
+              "verified": true,
+              "source": "https://www.hongkongdisneyland.com/dining/",
+              "category": "多國菜"
+            },
+            {
+              "name": "大冒險家餐廳",
+              "name_en": "Explorer's Club Restaurant",
+              "address": "香港迪士尼樂園 迷離莊園旁",
+              "mtr": "迪士尼站",
+              "hours": "隨樂園營業時間",
+              "price": "約HK$120–200（估計）",
+              "highlights": "亞洲/西式多國菜，有清真選項",
+              "tips": "座位非常多，尖峰時段比較容易找到位",
+              "verified": true,
+              "source": "https://www.hongkongdisneyland.com/dining/",
+              "category": "多國菜"
+            },
+            {
+              "name": "大街餐廳（由Coca-Cola呈獻）",
+              "name_en": "Main Street Corner Cafe Hosted by Coca-Cola",
+              "address": "香港迪士尼樂園 美國小鎮大街",
+              "mtr": "迪士尼站",
+              "hours": "隨樂園營業時間",
+              "price": "約HK$120–200（估計）",
+              "highlights": "西式漢堡、意粉",
+              "tips": "靠近城堡，看煙花前吃方便",
+              "verified": true,
+              "source": "https://www.hongkongdisneyland.com/dining/",
+              "category": "西式"
+            },
+            {
+              "name": "Golden Crocus Inn（魔雪奇緣世界）",
+              "name_en": "Golden Crocus Inn",
+              "address": "香港迪士尼樂園 魔雪奇緣世界",
+              "mtr": "迪士尼站",
+              "hours": "隨樂園營業時間",
+              "price": "約HK$150–250（估計）",
+              "highlights": "北歐風西餐、主題裝潢",
+              "tips": "中文名以官網為準；冰雪奇緣迷必拍",
+              "verified": true,
+              "source": "https://www.hongkongdisneyland.com/dining/",
+              "category": "西式"
+            },
+            {
+              "name": "晶荷軒（香港迪士尼樂園酒店）",
+              "name_en": "Crystal Lotus",
+              "address": "香港迪士尼樂園酒店內",
+              "mtr": "迪士尼站轉免費接駁車約10分",
+              "hours": "午市/晚市（未查證）",
+              "price": "角色點心約HK$400–600/人",
+              "highlights": "三隻小豬叉燒包、雪寶紅豆包等造型點心",
+              "tips": "角色點心須至少48小時前預訂；在樂園外",
+              "verified": true,
+              "source": "https://wanderinchina.com/zh/destinations/hongkong/disneyland/food/",
+              "category": "點心"
+            },
+            {
+              "name": "東薈城（東涌）餐廳群",
+              "name_en": "Citygate Outlets dining",
+              "address": "東涌達東路20號東薈城",
+              "mtr": "東涌站（欣澳轉東涌線約15–20分）",
+              "hours": "約10:00–22:00（未查證）",
+              "price": "HK$60–180",
+              "highlights": "酒樓點心、快餐、連鎖餐廳",
+              "tips": "不想吃園區餐時的備案，可順便逛Outlet",
+              "verified": false,
+              "source": "https://wanderinchina.com/zh/destinations/hongkong/disneyland/food/",
+              "category": "其他"
+            }
+          ],
+          "shop": [],
+          "sights": [
+            {
+              "name": "香港迪士尼樂園",
+              "name_en": "Hong Kong Disneyland",
+              "address": "大嶼山香港迪士尼樂園度假區",
+              "mtr": "旺角東→東鐵至九龍塘轉觀塘線/荃灣線→荔景轉東涌線→欣澳轉迪士尼線（約50–60分）",
+              "hours": "一般約10:30–20:30/21:00（每日不同，看官方日曆）",
+              "price": "四級日期票：成人HK$669/759/849/939；3–11歲HK$499/569/639/705；需先上網預約入園日期（2026資料）",
+              "highlights": "魔雪奇緣世界、灰熊山谷、迷離莊園、星戰/Marvel 設施、夜間匯演「Momentous」",
+              "tips": "1/26為週二平日、非長假，人潮通常較少；第三方平台（Klook等）常有折扣價",
+              "verified": true,
+              "source": "https://www.moneyhero.com.hk/zh/credit-card/blog/香港-迪士尼門票-優惠比較-邊到買入場門票最平",
+              "stay": "全日"
+            }
+          ]
+        },
+        {
+          "area": "深水埗（1/29–1/30候選）",
+          "day": "候選",
+          "food": [
+            {
+              "name": "添好運（深水埗）",
+              "name_en": "Tim Ho Wan (Sham Shui Po)",
+              "address": "深水埗福榮街9-11號",
+              "mtr": "深水埗站B2，步行約3分",
+              "hours": "週一至五10:00–22:00；週六日09:00–22:00",
+              "price": "HK$60–120",
+              "highlights": "酥皮焗叉燒包、古法糯米雞、布拉腸粉",
+              "tips": "2026必比登推介；拼桌排隊",
+              "verified": true,
+              "source": "https://guide.michelin.com/mo/zh_HK/hong-kong-region/hong-kong/restaurant/tim-ho-wan-sham-shui-po",
+              "michelin": "必比登推介（2026）",
+              "category": "點心"
+            },
+            {
+              "name": "劉森記麵家（福榮街）",
+              "name_en": "Lau Sum Kee Noodle",
+              "address": "深水埗福榮街80號",
+              "mtr": "深水埗站D2，步行約5分",
+              "hours": "約12:00–22:00（未確認）",
+              "price": "HK$40–70",
+              "highlights": "竹昇蝦子撈麵、雲吞麵",
+              "tips": "2026必比登推介",
+              "verified": true,
+              "source": "https://www.hk01.com/社會新聞/60329800/米芝蓮必比登2026-九龍飯館-fiata等8店新上榜-即睇港澳全名單",
+              "michelin": "必比登推介（2026）",
+              "category": "粥麵"
+            },
+            {
+              "name": "公和荳品廠",
+              "name_en": "Kung Wo Beancurd Factory",
+              "address": "深水埗北河街118號地下",
+              "mtr": "深水埗站B2，步行約3分",
+              "hours": "約07:00–21:00",
+              "price": "HK$20–50",
+              "highlights": "豆腐花、煎釀豆腐、豆漿",
+              "tips": "2026必比登推介；百年老店",
+              "verified": true,
+              "source": "https://www.hk01.com/社會新聞/60329800/米芝蓮必比登2026-九龍飯館-fiata等8店新上榜-即睇港澳全名單",
+              "michelin": "必比登推介（2026）",
+              "category": "甜品/小吃"
+            },
+            {
+              "name": "合益泰小食",
+              "name_en": "Hop Yik Tai",
+              "address": "深水埗桂林街121號",
+              "mtr": "深水埗站A2，步行約3分",
+              "hours": "約06:30–20:00（來源較舊）",
+              "price": "HK$15–30",
+              "highlights": "三醬豬腸粉",
+              "tips": "外帶小吃，早餐時段排隊",
+              "verified": false,
+              "source": "https://ajtravel.tw/2018-03-27-1554/",
+              "category": "小吃/早餐"
+            }
+          ],
+          "shop": [
+            {
+              "name": "黃金電腦商場",
+              "name_en": "Golden Computer Arcade",
+              "address": "深水埗福華街146-152號",
+              "mtr": "深水埗站D2出口旁",
+              "hours": "各店不同，約11:00–21:00（未查證）",
+              "price": "—",
+              "highlights": "遊戲主機/卡帶、電腦零件、周邊；G樓多電玩",
+              "tips": "人多擁擠，留意平行進口保固",
+              "verified": false,
+              "source": "https://www.arukikata.co.jp/tokuhain/237937/",
+              "category": "電子/電玩"
+            },
+            {
+              "name": "鴨寮街",
+              "name_en": "Apliu Street",
+              "address": "深水埗鴨寮街",
+              "mtr": "深水埗站A2/C2",
+              "hours": "約中午至晚上（未查證）",
+              "price": "—",
+              "highlights": "二手電子、零件、舊遊戲、配件",
+              "tips": "像台北光華＋跳蚤市場",
+              "verified": false,
+              "source": "",
+              "category": "街道/電子"
+            },
+            {
+              "name": "福榮街玩具街",
+              "name_en": "Fuk Wing Street (Toy Street)",
+              "address": "深水埗福榮街（北河街至桂林街一段）",
+              "mtr": "深水埗站B2",
+              "hours": "約10:00–19:00（未查證）",
+              "price": "—",
+              "highlights": "批發玩具、扭蛋、派對用品",
+              "tips": "價格多為批發價",
+              "verified": false,
+              "source": "",
+              "category": "玩具"
+            }
+          ],
+          "sights": [
+            {
+              "name": "美荷樓生活館",
+              "name_en": "Mei Ho House Museum",
+              "address": "深水埗石硤尾邨41座（巴域街70號）",
+              "mtr": "深水埗站D2，步行約15分",
+              "hours": "舊資料：週二至日09:30–17:00、週一休（未查到最新）",
+              "price": "免費",
+              "highlights": "1950年代公屋生活場景",
+              "tips": "出發前查青年旅舍協會網站",
+              "verified": false,
+              "source": "https://cs.edb.edcity.hk/file/public/newspaper_column/head_news_20140630_r1.pdf",
+              "closed": "週一（舊資料）"
+            },
+            {
+              "name": "嘉頓山",
+              "name_en": "Garden Hill",
+              "address": "深水埗嘉頓中心後方山徑",
+              "mtr": "深水埗站，步行約15分＋爬坡10分",
+              "hours": "全日",
+              "price": "免費",
+              "highlights": "俯瞰深水埗密集樓群的夜景",
+              "tips": "傍晚上山拍夜景；備手電筒",
+              "verified": false,
+              "source": "https://ajtravel.tw/2018-03-27-1554/"
+            }
+          ]
+        }
+      ],
+      "extra": [
+        {
+          "name": "昂坪360＋天壇大佛＋大澳漁村",
+          "name_en": "Ngong Ping 360, Big Buddha & Tai O",
+          "type": "一日",
+          "transport": "東涌站B出口步行到纜車站；纜車約25分鐘到昂坪；昂坪↔大澳搭新大嶼山巴士21號；回程大澳搭11號回東涌",
+          "hours": "纜車約平日10:00–18:00、週末假日09:00–18:30（第三方資料）",
+          "price": "成人來回標準車廂HK$295、水晶車廂HK$365（2025/6官方調整）；3–11歲小童特惠",
+          "why": "山景纜車＋大佛＋水鄉棚屋，和迪士尼同在大嶼山但風格完全不同；水晶車廂透明地板青少年會喜歡",
+          "tips": "⚠昂坪360每年有數次定期維修停駛（2026年在3月、5月、6月），2027年日期尚未公布，出發前查np360.com.hk；山上比市區冷、起霧可能看不到大佛",
+          "verified": true,
+          "source": "https://www.np360.com.hk/media/lfnjcwmn/即時發布-昂坪360公布票價調整.pdf"
+        },
+        {
+          "name": "西九文化區（M+＋香港故宮＋藝術公園）",
+          "name_en": "West Kowloon Cultural District",
+          "type": "半日",
+          "transport": "九龍站或柯士甸站步行10–20分；或中環9號碼頭搭WestK渡輪約8分鐘",
+          "hours": "M+週一休、週五開到22:00；故宮週二休、週五六開到20:00",
+          "price": "M+ HK$190（親子套票3人HK$400）；故宮一般票HK$70、含特展HK$150",
+          "why": "1/29是週五：兩館都開且M+延長到晚上，下午看展＋傍晚在海濱草地看維港日落夜景，節奏輕鬆",
+          "tips": "故宮特展「絲路佛教藝術」2026/12/11–2027/5/5，剛好碰上",
+          "verified": true,
+          "source": "https://www.mplus.org.hk/en/plan-your-visit/"
+        },
+        {
+          "name": "海洋公園",
+          "name_en": "Ocean Park Hong Kong",
+          "type": "一日",
+          "transport": "南港島線海洋公園站",
+          "hours": "約10:00–18:30（2026/3官網快照）；有固定休園日，1月安排未查到",
+          "price": "成人約HK$498–648（官網未查到現行標準價，以官網為準）",
+          "why": "刺激機動遊戲＋大熊貓＋海洋館，和迪士尼的故事型樂園互補；兩個青少年體力充足可玩一整天",
+          "tips": "⚠海洋公園有休園日（淡季常見於平日），務必先看官網1月日曆；冬天較冷水上設施少",
+          "verified": false,
+          "source": "https://www.oceanpark.com.hk/en/park-experience/ocean-park-lunar-fiesta-2026"
+        },
+        {
+          "name": "深水埗動漫電子＋必比登小吃散步",
+          "name_en": "Sham Shui Po",
+          "type": "半日",
+          "transport": "深水埗站（從旺角東搭東鐵到九龍塘轉觀塘線→太子轉荃灣線，或計程車約15分）",
+          "hours": "店舖多中午後才開，建議11:00後出發",
+          "price": "小吃人均HK$100以內",
+          "why": "添好運、公和荳品、劉森記三家必比登＋黃金電腦商場電玩、鴨寮街二手、福榮街玩具，是最『在地』的一區，符合模型卡牌愛好",
+          "tips": "人多擁擠、多收現金；可加嘉頓山夜景",
+          "verified": true,
+          "source": "https://www.hk01.com/社會新聞/60329800/米芝蓮必比登2026-九龍飯館-fiata等8店新上榜-即睇港澳全名單"
+        },
+        {
+          "name": "赤柱＋淺水灣",
+          "name_en": "Stanley & Repulse Bay",
+          "type": "半日",
+          "transport": "中環交易廣場搭城巴6、6X、66或260（約40分）；尖沙咀可搭973",
+          "hours": "市集約10:00–18:00（未查證）",
+          "price": "巴士單程約HK$10–15",
+          "why": "雙層巴士沿南區海岸線風景最好；赤柱有市集、美利樓、海濱餐廳，與市區高樓對比明顯",
+          "tips": "坐巴士上層前排；冬天海邊風大",
+          "verified": false,
+          "source": "https://gs.ctrip.com/html5/you/travels/38/4083377.html"
+        },
+        {
+          "name": "九龍灣MegaBox「ANICHI動漫一番街」＋銅鑼灣溫莎大廈玩具店",
+          "name_en": "MegaBox ANICHI & Windsor House",
+          "type": "半日",
+          "transport": "九龍灣站轉免費接駁巴士；溫莎大廈在銅鑼灣站",
+          "hours": "未查證",
+          "price": "—",
+          "why": "如果第一天信和中心還沒逛夠，這是第二輪動漫/模型/扭蛋集中地",
+          "tips": "ANICHI 資料來源為較早報導，近況請先查",
+          "verified": false,
+          "source": "https://www.hk01.com/%E9%81%8A%E6%88%B2%E5%8B%95%E6%BC%AB/989638/"
+        }
+      ],
+      "extraTitle": "1/29–1/30 一日／半日候選",
+      "practical": [],
+      "notes": [
+        {
+          "topic": "迪士尼夜間匯演現況",
+          "content": "2025/6–2026/6/7 上演的 20 週年版「Momentous: Party in the Night Sky（星空派對，煙火＋無人機）」已結束；目前官網列出回歸的城堡匯演「Momentous」（約20分鐘，投影＋噴泉＋雷射＋煙火），2026/11 初多數日子 20:00、部分週末 20:30，時間跟著閉園時間變動。2026夏季曾加「Pixar Pals Spectacular」無人機前導秀（6/12–8/31，已結束）。2027/1下旬的場次與時間尚未公布，請出發前一週看官方 App/日曆。聖誕活動 A Disney Christmas 約到 2027/1/3，1/26 不會遇到。",
+          "verified": true,
+          "source": "https://www.hongkongdisneyland.com/entertainment/momentous-nighttime-spectacular/"
+        },
+        {
+          "topic": "幻彩詠香江現況",
+          "content": "2026/2 財政預算案宣布以「光影巡禮」系列取代有22年歷史的「幻彩詠香江」；局長表示預計 2026 年第四季退場。新表演分為節慶期間的沉浸式光影匯演、以及景點（如山頂）的長期燈光效果。2027/1 時很可能已沒有每晚8點的幻彩詠香江，請在行前查旅發局 discoverhongkong.com 的最新光影活動。",
+          "verified": true,
+          "source": "https://www.stheadline.com/society/3547372/"
+        },
+        {
+          "topic": "休館日對照（1/25週一–1/30週六）",
+          "content": "1/25(一)：M+休館。1/26(二)：香港故宮、太空館、歷史博物館休館（當天去迪士尼不受影響）。1/27(三)：去澳門。1/28(四)：⚠香港藝術館、科學館休館——尖沙咀日別排這兩館；太空館平日13:00才開。1/29(五)：全部開，M+到22:00、故宮到20:00。1/30(六)：全部開，人多。2027年農曆新年在2/6，不影響本行程。",
+          "verified": true,
+          "source": "https://www.museums.gov.hk/en_US/web/portal/plan-your-visit.html"
+        },
+        {
+          "topic": "搬遷/結業/傳聞",
+          "content": "①蓮香樓：2026/4 從中環威靈頓街搬到上環德輔道中東寧大廈（上環站B出口旁）。②佳佳甜品：寧波街舊店2025/9/17結業，搬到佐敦白加士街113-115號。③糖朝尖沙咀店：資料互相矛盾，有網站標示已關閉，列為未確認。④金華冰廳：2026/6 網上有招頂傳聞，店方否認結業。⑤生記粥品：鰂魚涌分店已結業，上環總店近況未確認。⑥珍妮曲奇：官方說香港只有尖沙咀、上環兩間正店，其他自稱珍妮的都是假冒。",
+          "verified": true,
+          "source": "https://www.timeout.com/hong-kong/news/historic-tea-house-lin-heung-lau-has-relocated-to-sheung-wan-051326"
+        },
+        {
+          "topic": "卡牌購買提醒",
+          "content": "2026 寶可夢卡在香港再度熱潮，信和中心地庫至2樓至少35間賣「福袋/卡池」，媒體質疑帶博彩成分；給青少年預算建議買盒裝/單卡，少抽卡池。",
+          "verified": true,
+          "source": "https://finance730.com.hk/2026/05/29/%E5%AF%B6%E5%8F%AF%E5%A4%A2-%E5%8D%A1%E7%89%8C-%E7%A6%8F%E8%A2%8B-%E6%97%BA%E8%A7%92-%E4%BF%A1%E5%92%8C-%E5%8D%A1%E6%B1%A0-%E7%8A%AF%E6%B3%95/"
+        },
+        {
+          "topic": "天星小輪加價",
+          "content": "2026/7 天星小輪申請加價（中環—尖沙咀成人平日上層 HK$5→6.5、週末 HK$6.5→8.5），截至查詢時仍在審議，1月出發時可能已調整。",
+          "verified": true,
+          "source": "https://www.stheadline.com/politics/3594700/"
+        },
+        {
+          "topic": "酒店位置",
+          "content": "帝京酒店：九龍旺角太子道西193號，位於港鐵旺角東站上蓋（東鐵線），與 MOKO 新世紀廣場相連；步行可到花墟、雀鳥花園、金魚街。電話 2928 8822。",
+          "verified": true,
+          "source": "https://www.cityu.edu.hk/rcms/icaa2024/accommodations.html"
+        },
+        {
+          "topic": "米芝蓮必比登 2026",
+          "content": "2026/3/12 公布港澳必比登共83間（香港70間）。本檔標示「必比登推介（2026）」者均在該名單內；一點心、妹記等過去曾入選者不在2026名單。",
+          "verified": true,
+          "source": "https://www.hk01.com/社會新聞/60329800/米芝蓮必比登2026-九龍飯館-fiata等8店新上榜-即睇港澳全名單"
+        },
+        {
+          "topic": "營業時間準確度",
+          "content": "多數小店的營業時間僅有第三方或舊資料，且來源間常有出入；出發前一週建議用 Google 地圖或 OpenRice 再確認一次，特別是週日/週三休息的店（九記、蘭芳園、波記週日休；阿純週三休）。",
+          "verified": true,
+          "source": ""
+        }
+      ]
+    },
+    {
+      "region": "澳門",
+      "areas": [
+        {
+          "area": "澳門半島",
+          "day": "",
+          "food": [
+            {
+              "name": "黃枝記（議事亭前地總店）",
+              "name_en": "Wong Chi Kei",
+              "address": "澳門議事亭前地17號地下",
+              "access": "就在議事亭前地噴水池旁，步行到大三巴約8–10分",
+              "hours": "約08:30–23:00（2026年1月攻略）；另有2025年7月文章寫09:30–21:30，兩說不一，以現場為準",
+              "price": "人均約 MOP 60–100（估計，未查到官方價目）",
+              "highlights": "竹昇麵、鮮蝦雲吞麵、蝦子撈麵、粥品",
+              "tips": "議事亭店是最熱門分店，午餐尖峰可能要排；官也街分店據報已結束，別去氹仔找",
+              "verified": true,
+              "source": "https://www.bring-you.info/?p=357872"
+            },
+            {
+              "name": "祥記麵家",
+              "name_en": "Cheong Kei",
+              "address": "澳門福隆新街68號",
+              "access": "新馬路往內港方向，議事亭前地步行約5分",
+              "hours": "每日 11:30–21:00",
+              "price": "$（米其林最低價位帶）；人均約 MOP 50–80（估計）",
+              "highlights": "蝦子撈麵、雲吞、鯪魚球（炸或灼，可配蝦醬）",
+              "tips": "米其林必比登推介；只收現金機率高，帶零錢",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/cheong-kei"
+            },
+            {
+              "name": "六記粥麵",
+              "name_en": "Lok Kei Noodles",
+              "address": "Travessa da Saudade 1-D號（新馬路附近小巷；中文街名請以地圖為準）",
+              "access": "新馬路附近巷內，議事亭前地步行約5–8分",
+              "hours": "每日 12:30–23:00",
+              "price": "$；人均約 MOP 50–90（估計）",
+              "highlights": "蝦子撈麵、季節魚湯麵、蟹粥、炸雲吞配鯪魚球",
+              "tips": "米其林必比登推介；只收現金；可電話訂位 +853 2855 9627；12:30 才開門，早到的話先逛",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/luk-kei-noodle"
+            },
+            {
+              "name": "牛記咖喱蟹粥",
+              "name_en": "Ngao Kei Ka Lei Chon",
+              "address": "澳門十月初五日街1號地下",
+              "access": "新馬路往內港方向，議事亭前地步行約8–10分",
+              "hours": "每日 08:00–01:00",
+              "price": "$；蟹粥價位較高，人均約 MOP 80–150（估計）",
+              "highlights": "水蟹粥、咖喱牛腩、蟹膏撈麵、煎墨魚餅",
+              "tips": "米其林入選；只收現金；早上就開，適合一抵達先吃早午餐",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/ngao-kei-ka-lei-chon"
+            },
+            {
+              "name": "義順牛奶公司（新馬路）",
+              "name_en": "Yi Shun (Macau)",
+              "address": "澳門新馬路（亞美打利庇盧大馬路）381號",
+              "access": "議事亭前地對面一帶，步行1–3分",
+              "hours": "每日 11:00–21:00",
+              "price": "$；雙皮奶一碗約 MOP 30–40（估計）",
+              "highlights": "雙皮奶、薑汁撞奶（可加蓮子或紅豆）",
+              "tips": "米其林入選街頭小吃；只收現金；11:00 才開，可排在午餐後當甜點",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/yi-shun-macau"
+            },
+            {
+              "name": "榮記豆腐",
+              "name_en": "Ving Kei (Macau)",
+              "address": "Rua da Tercena 47號地下（大三巴西側往內港方向；中文街名請以地圖為準）",
+              "access": "大三巴往內港方向步行約5分",
+              "hours": "每日 08:00–18:30",
+              "price": "$；豆腐花約 MOP 15–25（估計）",
+              "highlights": "招牌豆腐花（冷熱皆可）、豆漿",
+              "tips": "米其林入選街頭小吃；只收現金；早上抵達先來一碗很順",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/ving-kei-macau"
+            },
+            {
+              "name": "瑪嘉烈蛋撻",
+              "name_en": "Margaret's Café e Nata",
+              "address": "澳門馬統領圍（Rua do Comandante Mata e Oliveira）17B／金來大廈一帶（各來源地址寫法不一）",
+              "access": "新馬路中段巷內，議事亭前地步行約5分",
+              "hours": "⚠多個來源寫『逢週三休息』（2026 Cities Insider、OpenRice），另一來源寫週一、六、日休；1/27 剛好是週三，極可能沒開",
+              "price": "蛋撻單顆約 MOP 12–15（估計，未查到官方價）",
+              "highlights": "葡式蛋撻、三文治",
+              "tips": "行程日是週三，請改去安德魯（氹仔/威尼斯人）買蛋撻；若想試，出發前打 +853 2871 0032 確認",
+              "verified": false,
+              "source": "https://citiesinsider.com/country/china/macao/cafes-and-bakeries/en"
+            },
+            {
+              "name": "船屋葡國餐廳",
+              "name_en": "A Lorcha",
+              "address": "澳門河邊新街289號（近媽閣廟）",
+              "access": "離大三巴較遠，議事亭前地搭計程車約10分；巴士往媽閣方向",
+              "hours": "週二休；其餘 12:30–15:00、18:30–22:30",
+              "price": "$$；人均約 MOP 200–300（估計）",
+              "highlights": "馬介休球、炭烤、阿蓮特茹豬肉蜆、海鮮飯、非洲雞",
+              "tips": "米其林必比登推介；建議訂位 +853 2831 3193；週三有開。若午餐想吃葡國菜又不想跑遠，可改在氹仔吃",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/a-lorcha"
+            },
+            {
+              "name": "Albergue 1601（瘋堂斜巷）",
+              "name_en": "Albergue 1601",
+              "address": "澳門瘋堂斜巷8號（Calçada da Igreja de São Lázaro）",
+              "access": "大三巴往東步行約15分，或議事亭前地搭計程車約5分",
+              "hours": "週一至五 12:00–15:00、17:30–22:00；週六日 12:00–22:00",
+              "price": "$$；人均約 MOP 250–400（估計）",
+              "highlights": "炸沙甸魚仔、烤乳豬、辣汁炸薯",
+              "tips": "米其林入選；環境是老房子庭院，適合坐下來吃一頓正式葡國菜",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/albergue-1601"
+            },
+            {
+              "name": "鉅記餅家（大三巴街店）",
+              "name_en": "Koi Kei Bakery",
+              "address": "澳門大三巴街23AA-23AB號地下",
+              "access": "大三巴石階往下走的手信街上",
+              "hours": "09:00–21:00（美食網站資料，未查到官網）",
+              "price": "杏仁餅一盒約 MOP 50–100（估計）",
+              "highlights": "炭燒杏仁餅、花生糖、肉鬆鳳凰卷、蛋卷",
+              "tips": "大三巴街整條都有鉅記、咀香園等分店，試吃多，回程前再買比較不用提著走",
+              "verified": false,
+              "source": "https://supertaste.tvbs.com.tw/review/322901"
+            },
+            {
+              "name": "咀香園餅家",
+              "name_en": "Choi Heong Yuen Bakery",
+              "address": "多家分店（大三巴街、新馬路一帶）；總店歷史地址 澳門大關斜巷（Travessa do Auto Novo）20號",
+              "access": "大三巴街／新馬路手信區",
+              "hours": "未查到分店營業時間",
+              "price": "杏仁餅一盒約 MOP 50–100（估計）",
+              "highlights": "1935年起的炭燒杏仁餅，店內現場製作",
+              "tips": "官網 chyb.com（本次連線失敗），電話 +853 2835 5966",
+              "verified": false,
+              "source": "https://www.cpttm.org.mo/product_testing/docs/product_cert/CHYB.pdf"
+            }
+          ],
+          "shop": [
+            {
+              "name": "大三巴街／大三巴手信街",
+              "name_en": "Rua de São Paulo",
+              "address": "大三巴牌坊石階下方至議事亭前地之間",
+              "access": "從議事亭前地沿板樟堂街、大三巴街上坡約8–10分",
+              "hours": "店家多約 09:00–21:00",
+              "price": "免費逛",
+              "highlights": "鉅記、咀香園等手信店集中，豬肉乾、杏仁餅、蛋卷，可大量試吃",
+              "tips": "人潮大，留意隨身物品；肉乾不能帶回台灣（肉製品檢疫），只能在當地吃",
+              "verified": true,
+              "source": "https://www.bring-you.info/?p=104622"
+            },
+            {
+              "name": "議事亭前地／新馬路商圈",
+              "name_en": "Senado Square / Avenida de Almeida Ribeiro",
+              "address": "議事亭前地、新馬路",
+              "access": "外港碼頭搭 3／3A／10 號巴士到新馬路",
+              "hours": "全日開放，店家約 10:00–22:00",
+              "price": "免費逛",
+              "highlights": "葡式碎石地與老建築、藥妝與連鎖店；2025夏曾辦 POP MART 城市漫遊活動（POP STATION 設在利斯大廈，屬限期活動，已於2025-09-21結束）",
+              "tips": "POP MART 那次是限期活動，不是常設店，不要期待 2027 年還在",
+              "verified": true,
+              "source": "https://macaudailytimes.com.mo/pop-mart-macao-citywalk-generated-mop680-million-in-spending.html"
+            },
+            {
+              "name": "戀愛巷",
+              "name_en": "Travessa da Paixão",
+              "address": "大三巴牌坊右側（西側）小巷",
+              "access": "大三巴牌坊旁步行1分",
+              "hours": "全日開放",
+              "price": "免費",
+              "highlights": "粉色葡式建築，拍照熱點，旁有文創小店",
+              "tips": "早上人少好拍照",
+              "verified": true,
+              "source": "https://www.wh.mo/cn/site/detail/18"
+            }
+          ],
+          "sights": [
+            {
+              "name": "大三巴牌坊（聖保祿學院天主之母教堂遺址）",
+              "name_en": "Ruins of St. Paul's",
+              "address": "澳門大三巴街",
+              "access": "外港碼頭搭 3／3A／10 號巴士到新馬路，經議事亭前地步行約10分；或計程車直達大三巴附近",
+              "hours": "牌坊、前地、石階全日開放；天主教藝術博物館與墓室 09:00–18:00（17:30停止入場），逢週二14:00後休館",
+              "price": "免費",
+              "highlights": "澳門地標，世界遺產；牌坊後方有墓室與天主教藝術博物館",
+              "tips": "週三全日開放；停留約30–45分；早上10點前人最少",
+              "verified": true,
+              "source": "https://www.wh.mo/cn/site/detail/18"
+            },
+            {
+              "name": "哪吒廟（大三巴）＋大三巴哪吒展館",
+              "name_en": "Na Tcha Temple",
+              "address": "大三巴牌坊後方左側",
+              "access": "大三巴牌坊步行1分",
+              "hours": "哪吒廟 08:00–17:00；⚠哪吒展館 10:00–18:00（17:30停止入場），逢週三休館（公眾假期照常開放）",
+              "price": "免費",
+              "highlights": "小型道教廟，旁邊是舊城牆遺址",
+              "tips": "1/27 是週三，展館不開，廟本身可看；停留約10分",
+              "verified": true,
+              "source": "https://www.wh.mo/cn/site/detail/19"
+            },
+            {
+              "name": "大炮台＋澳門博物館",
+              "name_en": "Monte Fort / Macao Museum",
+              "address": "澳門博物館前地112號（大三巴牌坊東側山上）",
+              "access": "大三巴牌坊旁有扶手電梯／階梯上山，約5分",
+              "hours": "炮台與花園 07:00–19:00；澳門博物館 10:00–18:00（17:30停止售票），逢週一休館、公眾假期照常開放",
+              "price": "炮台免費；博物館成人 MOP 15、學生證 MOP 8、12歲以下與65歲以上免費；每週二及每月15日免費",
+              "highlights": "俯瞰半島與大三巴；博物館三層常設展講澳門中西交流史；2026-09-24至2027-02-28特展「女皇天下──武則天與神都洛陽」",
+              "tips": "週三照常開放（休館日是週一，不是週三）；博物館停留約60分，青少年帶學生證可半價",
+              "verified": true,
+              "source": "https://www.macaumuseum.gov.mo/visit/access"
+            },
+            {
+              "name": "議事亭前地",
+              "name_en": "Senado Square",
+              "address": "澳門新馬路旁",
+              "access": "新馬路巴士站下車即到",
+              "hours": "全日開放",
+              "price": "免費",
+              "highlights": "波浪紋葡式碎石地、噴水池、民政總署大樓",
+              "tips": "停留約15–20分；周邊有黃枝記、義順可順吃",
+              "verified": true,
+              "source": "https://www.wh.mo/cn/site/detail/12"
+            },
+            {
+              "name": "仁慈堂大樓（仁慈堂博物館）",
+              "name_en": "Holy House of Mercy",
+              "address": "議事亭前地旁（白色建築）",
+              "access": "議事亭前地步行1分",
+              "hours": "仁慈堂博物館 10:00–13:00、14:30–17:30；逢週一及澳門公眾假期休館",
+              "price": "博物館收少許門票（金額未查到官方資料）；外觀免費",
+              "highlights": "白色新古典立面，議事亭前地最上相的建築",
+              "tips": "午休 13:00–14:30 不開，要入內請排在上午；外觀拍照即可則隨時",
+              "verified": true,
+              "source": "https://www.wh.mo/cn/site/detail/14"
+            },
+            {
+              "name": "玫瑰堂（板樟堂）",
+              "name_en": "St. Dominic's Church",
+              "address": "板樟堂前地（議事亭前地往大三巴方向）",
+              "access": "議事亭前地步行約2分",
+              "hours": "10:00–18:00",
+              "price": "免費",
+              "highlights": "1587年創建的黃色巴洛克教堂；旁有聖物寶庫（約三百件文物）",
+              "tips": "10:00 才開，從碼頭過來剛好；停留約15–20分；彌撒時保持安靜",
+              "verified": true,
+              "source": "https://www.wh.mo/cn/site/detail/17"
+            },
+            {
+              "name": "主教座堂（大堂）",
+              "name_en": "Cathedral (Sé)",
+              "address": "大堂前地",
+              "access": "議事亭前地步行約3分（往盧家大屋方向）",
+              "hours": "07:30–20:00",
+              "price": "免費",
+              "highlights": "澳門天主教主教座堂",
+              "tips": "與盧家大屋同一區，可順路",
+              "verified": true,
+              "source": "https://www.wh.mo/cn/site/detail/15"
+            },
+            {
+              "name": "盧家大屋",
+              "name_en": "Lou Kau Mansion",
+              "address": "澳門大堂巷7號",
+              "access": "議事亭前地步行約3分",
+              "hours": "10:00–18:00（17:30停止入場），逢週一休館、公眾假期照常開放",
+              "price": "免費",
+              "highlights": "1889年落成的嶺南式富商大宅，滿洲窗、蠔殼窗",
+              "tips": "週三有開；停留約20分",
+              "verified": true,
+              "source": "https://www.wh.mo/cn/site/detail/16"
+            },
+            {
+              "name": "鄭家大屋（備選）",
+              "name_en": "Mandarin's House",
+              "address": "澳門龍頭左巷10號（媽閣區）",
+              "access": "議事亭前地步行約15分或計程車",
+              "hours": "10:00–18:00（17:30停止入場），⚠逢週三休館（公眾假期除外）",
+              "price": "免費",
+              "highlights": "鄭觀應故居",
+              "tips": "1/27 週三休館，本次不建議排入",
+              "verified": true,
+              "source": "https://www.wh.mo/cn/site/detail/4"
+            }
+          ]
+        },
+        {
+          "area": "氹仔/路氹",
+          "day": "",
+          "food": [
+            {
+              "name": "安德魯餅店（官也街店）",
+              "name_en": "Lord Stow's Bakery (Taipa Village)",
+              "address": "氹仔官也街9號",
+              "access": "官也街上",
+              "hours": "10:00–21:00（氹仔舊城區官方導覽網站）",
+              "price": "蛋撻單顆約 MOP 13、6個一盒約 MOP 70–75（2025–2026 資料）",
+              "highlights": "葡式蛋撻",
+              "tips": "總店在路環（每日07:00–21:00，米其林頁），本行程不經路環；官也街店最順路",
+              "verified": true,
+              "source": "https://www.taipavillagemacau.com/directory/lordstowsbakery"
+            },
+            {
+              "name": "安德魯餅店＋咖啡（威尼斯人店）",
+              "name_en": "Lord Stow's Bakery + Cafe (The Venetian)",
+              "address": "澳門威尼斯人購物中心3樓 308及870號舖（大運河購物街）",
+              "access": "威尼斯人購物中心內",
+              "hours": "約 10:00–22:30（Trip.com 等第三方資料）",
+              "price": "蛋撻單顆約 MOP 13",
+              "highlights": "蛋撻、焦糖布甸",
+              "tips": "此店有時要排約45分；若官也街已買可跳過；電話 +853 2886 6889",
+              "verified": true,
+              "source": "https://www.venetianmacao.com/restaurants/lord-stow-bakery-cafe.html"
+            },
+            {
+              "name": "大利來記（氹仔總店）",
+              "name_en": "Tai Lei Loi Kei",
+              "address": "氹仔告利雅施利華街35號（官也街旁巷子）",
+              "access": "官也街步行約2分",
+              "hours": "07:00–18:00（2025年7月文章）；招牌豬扒包約下午3點開始供應",
+              "price": "豬扒包約 MOP 50–60（估計，未查到 2026 價目）",
+              "highlights": "豬扒包",
+              "tips": "下午三點出爐前就會排隊；官也街另有加盟店免排但只有站位；只查到 2025 年資料",
+              "verified": true,
+              "source": "https://www.bring-you.info/?p=358197"
+            },
+            {
+              "name": "莫義記",
+              "name_en": "Mok Yee Kei",
+              "address": "氹仔官也街9號",
+              "access": "官也街上",
+              "hours": "⚠逢週三休息；其餘 09:00–20:00",
+              "price": "$；雪糕約 MOP 30–50（估計）",
+              "highlights": "榴槤雪糕（貓山王/D24/金枕頭）、木糠布甸",
+              "tips": "1/27 是週三公休，這天吃不到；木糠布甸改在葡國餐廳點",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/mok-yee-kei"
+            },
+            {
+              "name": "晃記餅家",
+              "name_en": "Fong Kei",
+              "address": "氹仔官也街14號",
+              "access": "官也街上",
+              "hours": "米其林頁未列；需電話確認 +853 2882 7142",
+              "price": "$",
+              "highlights": "老字號中式餅食，杏仁餅、蛋卷",
+              "tips": "米其林入選街頭小吃；比大三巴的大型手信店更有老店味",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/fong-kei"
+            },
+            {
+              "name": "法蘭度餐廳 O Castiço（氹仔）",
+              "name_en": "O Castiço (Taipa)",
+              "address": "氹仔市區 施督憲正街（Rua Direita Carlos Eugénio）65B號",
+              "access": "官也街附近，步行約3分",
+              "hours": "週四休；其餘 12:00–23:00",
+              "price": "$$；人均約 MOP 200–300（估計）",
+              "highlights": "招牌豬肉蜆、即炸馬介休球；木糠布甸",
+              "tips": "米其林必比登推介；週三有開，適合在官也街吃下午茶或晚餐；訂位 +853 2857 6505",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/o-castico"
+            },
+            {
+              "name": "海灣餐廳（氹仔）",
+              "name_en": "Restaurant Litoral (Taipa)",
+              "address": "氹仔 Rua do Regedor（Wai Chin Kok 第4座）53–57號（官也街附近；中文街名請以地圖為準）",
+              "access": "官也街附近，步行約3分",
+              "hours": "每日 11:30–15:00、18:00–21:30",
+              "price": "$$；人均約 MOP 250–350（估計）",
+              "highlights": "阿蓮特茹豬肉、非洲雞、木糠布甸（土生葡菜）",
+              "tips": "米其林必比登推介；15:00–18:00 休息，要算好時間",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/restaurant-litoral-taipa"
+            },
+            {
+              "name": "Manuel 葡國餐廳（氹仔）",
+              "name_en": "Manuel Cozinha Portuguesa",
+              "address": "氹仔 Rua de Fernão Mendes Pinto 90號（官也街附近）",
+              "access": "官也街附近",
+              "hours": "⚠逢週三休；其餘 12:00–15:00、18:00–22:00",
+              "price": "$$",
+              "highlights": "烤馬介休、墨魚汁炒飯",
+              "tips": "1/27 週三公休，這天不能排",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/manuel-cozinha-portuguesa"
+            },
+            {
+              "name": "Chiado（倫敦人）",
+              "name_en": "Chiado",
+              "address": "路氹 倫敦人 2樓 2206號舖",
+              "access": "與威尼斯人、巴黎人室內相連",
+              "hours": "只做晚餐 17:30–22:30；週二休",
+              "price": "$$",
+              "highlights": "六道品嚐菜單、無骨乳豬",
+              "tips": "17:30 才開，與 17:30 回程衝突，本行程大概用不到，列作參考",
+              "verified": true,
+              "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/chiado"
+            }
+          ],
+          "shop": [
+            {
+              "name": "官也街",
+              "name_en": "Rua do Cunha",
+              "address": "氹仔舊城區",
+              "access": "巴士往氹仔舊城區（新馬路一帶可搭 11、33 號，未經官方確認）；輕軌氹仔線『排角站』步行約5分；從威尼斯人步行約15–20分",
+              "hours": "店家約 10:00–21:00",
+              "price": "免費逛",
+              "highlights": "手信、蛋撻、豬扒包、雪糕，短短一條街集中",
+              "tips": "莫義記、Manuel 週三休；街不長，停留約45–60分",
+              "verified": true,
+              "source": "https://www.bring-you.info/?p=358145"
+            },
+            {
+              "name": "威尼斯人購物中心",
+              "name_en": "Shoppes at Venetian",
+              "address": "路氹 澳門威尼斯人",
+              "access": "與巴黎人、倫敦人室內相連；穿梭巴士見交通欄",
+              "hours": "週日至週四 10:00–23:00；週五、六 10:00–24:00",
+              "price": "免費逛",
+              "highlights": "室內運河與藍天天花板，數百家店",
+              "tips": "購物中心不屬賭場區，未滿21歲可逛；但賭場入口就在旁邊，跟緊大人看指標",
+              "verified": true,
+              "source": "https://venetianmacao.com/shopping/shoppes/lifestyle-children-gift-specialty-store/lego.html"
+            },
+            {
+              "name": "MINISO LAND 澳門首店（威尼斯人）",
+              "name_en": "MINISO LAND Macau",
+              "address": "威尼斯人購物中心 3樓（舖號未公布）",
+              "access": "威尼斯人購物中心內",
+              "hours": "未公布，原則上依商場時間",
+              "price": "免費逛",
+              "highlights": "2026-07-18開幕，400㎡以上、1,200+品項、30+個IP；設三麗鷗、寶可夢、航海王、蠟筆小新、吉伊卡哇、迪士尼、哈利波特專區",
+              "tips": "青少年動漫周邊首選；盲盒、娃娃、收藏品",
+              "verified": true,
+              "source": "https://kyodonewsprwire.jp/release/202607273191"
+            },
+            {
+              "name": "LEGO 樂高認證專門店（威尼斯人）",
+              "name_en": "LEGO Certified Store, The Venetian Macao",
+              "address": "威尼斯人購物中心 3樓 大運河購物街 872/874號舖",
+              "access": "威尼斯人購物中心內",
+              "hours": "依商場時間（週日至四 10:00–23:00）",
+              "price": "免費逛",
+              "highlights": "澳門首家樂高認證店，有議事亭前地樂高馬賽克、澳門限定套組",
+              "tips": "由代理商經營，台灣樂高會員積分不適用",
+              "verified": true,
+              "source": "https://venetianmacao.com/shopping/shoppes/lifestyle-children-gift-specialty-store/lego.html"
+            },
+            {
+              "name": "巴黎人購物中心",
+              "name_en": "Shoppes at Parisian",
+              "address": "路氹 澳門巴黎人",
+              "access": "與威尼斯人室內天橋相連",
+              "hours": "週日至週四 10:00–23:00；週五、六 10:00–24:00",
+              "price": "免費逛",
+              "highlights": "法式街景，鐵塔下方",
+              "tips": "可與鐵塔觀景台串在一起",
+              "verified": true,
+              "source": "https://www.parisianmacao.com/shopping/directory/nike.html"
+            },
+            {
+              "name": "倫敦人購物中心",
+              "name_en": "Shoppes at Londoner",
+              "address": "路氹 澳門倫敦人",
+              "access": "與威尼斯人、巴黎人相連（同屬金沙購物中心群）",
+              "hours": "未查到獨立營業時間（同群商場一般 10:00 起）",
+              "price": "免費逛",
+              "highlights": "英式主題、大笨鐘造景",
+              "tips": "時間有限的話擇一逛即可",
+              "verified": false,
+              "source": "https://www.londonermacao.com/shopping.html"
+            },
+            {
+              "name": "POP MART（新濠影滙）",
+              "name_en": "POP MART, Studio City",
+              "address": "路氹 新濠影滙 1樓 1177號舖",
+              "access": "不在威尼斯人內，需另外移動（計程車或步行約20分以上）",
+              "hours": "週一至四 10:00–22:00；週五至日 10:00–23:00",
+              "price": "免費逛",
+              "highlights": "MOLLY、DIMOO、SKULLPANDA 等盲盒",
+              "tips": "非順路，時間不夠就跳過",
+              "verified": true,
+              "source": "https://www.studiocity-macau.com/en/shops/pop-mart"
+            }
+          ],
+          "sights": [
+            {
+              "name": "龍環葡韻住宅式博物館",
+              "name_en": "Taipa Houses-Museum",
+              "address": "氹仔 海邊馬路（官也街下坡盡頭）",
+              "access": "官也街步行約5分",
+              "hours": "10:00–19:00（18:30停止入場），逢週一休館",
+              "price": "免費",
+              "highlights": "五棟綠色葡式住宅，湖邊拍照點",
+              "tips": "週三有開；官方公告為2016年，近況請再確認；停留約30分",
+              "verified": true,
+              "source": "https://www.icm.gov.mo/en/News/detail/14148"
+            },
+            {
+              "name": "巴黎人鐵塔觀景台",
+              "name_en": "Eiffel Tower, The Parisian Macao",
+              "address": "路氹 澳門巴黎人",
+              "access": "威尼斯人經天橋步行約5–10分",
+              "hours": "12:00–23:00（22:15最後入場），視天氣；燈光秀每日18:15–24:00每15分鐘",
+              "price": "7樓＋37樓 MOP 98／人；只上6、7樓 MOP 20；身高1.2米以下兒童免費（每位成人最多帶2位）",
+              "highlights": "37樓俯瞰路氹金光大道與威尼斯人",
+              "tips": "12:00 才開；2026-12-26至2027-01-01全面休息，1/27 不受影響；停留約30分",
+              "verified": true,
+              "source": "https://www.parisianmacao.com/amenities/eiffel-tower.html"
+            },
+            {
+              "name": "威尼斯人貢多拉船",
+              "name_en": "Gondola Rides, The Venetian Macao",
+              "address": "威尼斯人購物中心（大運河、馬可波羅運河）",
+              "access": "威尼斯人購物中心內",
+              "hours": "大運河、馬可波羅運河 11:30–19:30（首班開門後15分、末班關門前15分）；聖路卡運河與戶外湖暫停",
+              "price": "平日 成人(12歲以上) MOP 165、兒童(12歲以下) MOP 130；週末 175/145；公眾假期 195/160",
+              "highlights": "船夫唱歌、室內運河",
+              "tips": "約15–20分鐘；兩個青少年若已滿12歲按成人價",
+              "verified": true,
+              "source": "https://venetianmacao.com/hotel/amenities/gondola-rides.html"
+            }
+          ]
+        }
+      ],
+      "extra": [],
+      "extraTitle": "",
+      "practical": [
+        {
+          "name": "上環→澳門外港 噴射飛航",
+          "name_en": "TurboJet Sheung Wan–Macau Outer Harbour",
+          "address": "香港上環 信德中心 港澳碼頭 → 澳門外港客運碼頭",
+          "access": "港鐵上環站D出口",
+          "hours": "日間 07:30–17:30 每方向19班（2026-04-15起不變）；外港最後回港 23:00；上環最後去澳 改為22:30",
+          "price": "2026-04-25起：平日普通位 HK$194、週末假日 HK$212、夜航 HK$242；1–11歲小童有優惠",
+          "highlights": "航程約55–60分",
+          "tips": "回程買外港→上環；日間班次多，17:30 前後都有船",
+          "verified": true,
+          "source": "https://macaudailytimes.com.mo/fewer-late-night-sailings-as-turbojet-scales-back-schedules.html"
+        },
+        {
+          "name": "外港碼頭→議事亭前地／大三巴：公共巴士",
+          "name_en": "Public bus 3 / 3A / 10",
+          "address": "外港碼頭巴士總站 → 新馬路站",
+          "access": "3號（外港碼頭總站→新馬路→關閘）、3A、10號都經新馬路；下車經議事亭前地步行到大三巴約10分",
+          "hours": "日間班次頻密",
+          "price": "現金 MOP 6（港幣 1:1 可用、不找零）；也可掃支付寶、微信支付、銀聯、MPay",
+          "highlights": "最省錢也最直接",
+          "tips": "帶好6元硬幣；車程約15–20分；上車前用『巴士報站』App 確認",
+          "verified": true,
+          "source": "https://zh.wikipedia.org/zh-hant/%E5%A4%96%E6%B8%AF%E7%A2%BC%E9%A0%AD_(%E5%B7%B4%E5%A3%AB%E7%B8%BD%E7%AB%99)"
+        },
+        {
+          "name": "外港碼頭→大三巴：計程車",
+          "name_en": "Taxi",
+          "address": "外港碼頭的士站",
+          "access": "直達大三巴附近",
+          "hours": "全日",
+          "price": "約 MOP 40–60（估計）",
+          "highlights": "4人分攤划算",
+          "tips": "早上排隊不長；可用港幣",
+          "verified": false,
+          "source": "https://macauholiday.com/destinations/macau-outer-harbour/"
+        },
+        {
+          "name": "酒店穿梭巴士（發財車）現況：金沙系",
+          "name_en": "Sands Free Shuttle",
+          "address": "澳門金沙（半島，近外港）／澳門威尼斯人",
+          "access": "澳門金沙⇄港澳碼頭(外港)：10:00–20:00 前往金沙、10:10–19:50 由金沙出發，18–20分一班；澳門金沙⇄威尼斯人：11:00–21:30，17–20分一班（2026-10-08起時間表）。威尼斯人⇄澳門中區：11:00–19:00；威尼斯人⇄氹仔碼頭 08:10–23:35（2026-11-01起時間表）",
+          "hours": "見左",
+          "price": "免費",
+          "highlights": "⚠威尼斯人 2026-11-01 新時間表已沒有直達外港碼頭的路線；要回外港請先搭到『澳門金沙』再轉金沙往港澳碼頭線，或在澳門金沙下車步行到碼頭約10分",
+          "tips": "08:30 船約 09:30 抵達，此時金沙線還沒開（10:00 起），早上請搭公車去大三巴。『澳門中區』站實際位置官方圖未標，需現場問；部分業者曾要求會員卡或消費單據才能搭，2027年1月請出發前再看官網時間表圖",
+          "verified": true,
+          "source": "https://hk.venetianmacao.com/hotel/transportation.html"
+        },
+        {
+          "name": "半島→氹仔官也街／威尼斯人：公共巴士",
+          "name_en": "Public bus to Taipa / Cotai",
+          "address": "新馬路（大豐銀行前）、亞馬喇前地（葡京）",
+          "access": "往官也街：新馬路搭 11、33 號（旅遊網誌）；往威尼斯人：25、25X、26A、35、MT1、MT2、MT3 在望德聖母灣馬路站一帶下車（旅遊網誌）",
+          "hours": "日間",
+          "price": "MOP 6",
+          "highlights": "比接駁車彈性",
+          "tips": "路線號碼來自旅遊網誌，未經交通事務局頁面確認，出發前用『巴士報站』App 核對",
+          "verified": false,
+          "source": "https://www.funtime.com.tw/blog/?p=23850"
+        },
+        {
+          "name": "澳門輕軌氹仔線",
+          "name_en": "Macao LRT Taipa Line",
+          "address": "半島端起點：媽閣站（2023-12-08 通車）",
+          "access": "媽閣站→排角站（官也街步行約5分）→路氹一帶車站（近金光大道度假村）",
+          "hours": "週一至五 06:30–23:15；週六日及公眾假期 06:30–23:59（2024年立法會資料）",
+          "price": "約 MOP 6–12（第三方資料）",
+          "highlights": "跨海不塞車",
+          "tips": "從議事亭前地到媽閣站還要先搭車或走約20分，對本行程不一定比巴士快；最近車站請以輕軌官方路線圖為準",
+          "verified": false,
+          "source": "https://www.hk01.com/旅遊/864740/澳門輕軌路線車費全攻略-12-8過海北延至媽閣站-附班次營運時間"
+        },
+        {
+          "name": "威尼斯人→外港碼頭（回程）",
+          "name_en": "Return to Outer Harbour",
+          "address": "威尼斯人 → 外港客運碼頭",
+          "access": "方案A：威尼斯人→澳門金沙 穿梭巴士（末班21:30）再步行或轉車到外港；方案B：計程車約 MOP 80–100、約20–25分；方案C：威尼斯人→氹仔碼頭穿梭巴士，但噴射飛航氹仔回港只剩17:30一班且船票要另買",
+          "hours": "建議16:15前離開威尼斯人，留足轉車與取票時間",
+          "price": "穿梭巴士免費；計程車約 MOP 80–100（2026年6月第三方資料）",
+          "highlights": "",
+          "tips": "下班前後計程車難叫，預留30分緩衝",
+          "verified": true,
+          "source": "https://hk.venetianmacao.com/hotel/transportation.html"
+        },
+        {
+          "name": "休遊巴士（政府＋六家博企社區接駁）",
+          "name_en": "Leisure Bus 2.0",
+          "address": "大三巴、官也街等熱點連社區",
+          "access": "14條路線",
+          "hours": "只在週末及公眾假期中午至傍晚；試辦期到 2027-01-03",
+          "price": "免費",
+          "highlights": "",
+          "tips": "1/27 週三且已過試辦期，不能用；除非屆時延長",
+          "verified": true,
+          "source": "https://agbrief.com/news/macau/15/07/2026/macau-expands-casino-backed-community-shuttle-to-14-routes-extends-run-to-2027/"
+        }
+      ],
+      "notes": [
+        {
+          "name": "入境證件：台灣居民",
+          "name_en": "Entry for Taiwan residents",
+          "address": "",
+          "access": "",
+          "hours": "",
+          "price": "免費",
+          "highlights": "持有效中華民國護照可免簽入境澳門，一般給30天，入境會印一張白色逗留許可小單（要留到出境）；也可用台胞證入境（2017-04-10起，最多30日）。只去澳門不需要台胞證。",
+          "tips": "效期要求各來源說法不一（逗留期＋90天，或6個月），護照至少剩6個月最保險（香港入境本來就要求6個月）。入境處電話 +853 2872 5488",
+          "verified": true,
+          "source": "https://www.gov.mo/zh-hant/news/181381/"
+        },
+        {
+          "name": "香港入境次數：網上預辦入境登記可用兩次",
+          "name_en": "HK Pre-arrival Registration",
+          "address": "",
+          "access": "",
+          "hours": "",
+          "price": "免費",
+          "highlights": "台灣居民預辦入境登記有效期2個月，可入境香港兩次、每次最多30天。從台灣入港用1次，從澳門回港會用掉第2次。",
+          "tips": "若行程後面還要再出入香港（例如去深圳再回香港），兩次不夠，要再辦一張新登記（用完或過期才能再辦）或改用其他方式",
+          "verified": true,
+          "source": "https://www.immd.gov.hk/hkt/services/visas/pre-arrival_registration_for_taiwan_residents.html"
+        },
+        {
+          "name": "未滿21歲不得進入娛樂場",
+          "name_en": "Casino age limit",
+          "address": "",
+          "access": "",
+          "hours": "",
+          "price": "",
+          "highlights": "依第10/2012號法律（2018修訂）：未滿21歲不得進入娛樂場，範圍包含『所有須經娛樂場入口才能到達的地方』，沒有『只是穿過去』的例外；父母陪同也不行。違者本人罰 MOP 1,000–10,000、會被請出；贏的錢沒收。",
+          "tips": "威尼斯人、巴黎人、倫敦人的購物中心、餐廳、貢多拉、鐵塔都不是賭場，青少年可以去；但大廳到購物中心的捷徑常會經過賭場入口，跟著『Shoppes／購物中心』指標走，警衛查到會要求出示證件。新葡京、金沙等半島酒店大堂也一樣別誤闖",
+          "verified": true,
+          "source": "https://zh.wikisource.org/wiki/%E7%AC%AC10/2012%E8%99%9F%E6%B3%95%E5%BE%8B"
+        },
+        {
+          "name": "用港幣可以嗎",
+          "name_en": "Currency",
+          "address": "",
+          "access": "",
+          "hours": "",
+          "price": "",
+          "highlights": "澳門幾乎所有店家、巴士、計程車都收港幣，一般 1:1 當澳門幣用（實際港幣略貴，等於小虧約3%）；找零常是澳門幣。",
+          "tips": "澳門幣在香港基本用不掉，找回的澳門幣當天花完；巴士不找零，準備港幣或澳門幣6元硬幣",
+          "verified": true,
+          "source": "https://citiesinsider.com/country/china/macao/public-buses/en"
+        },
+        {
+          "name": "1/27（週三）休館／公休一覽",
+          "name_en": "Wednesday closures",
+          "address": "",
+          "access": "",
+          "hours": "",
+          "price": "",
+          "highlights": "週三『休』：大三巴哪吒展館、鄭家大屋、莫義記、Manuel 葡國餐廳、瑪嘉烈蛋撻（多來源）。週三『有開』：澳門博物館（休週一）、盧家大屋（休週一）、仁慈堂博物館（休週一）、龍環葡韻（休週一）、大三巴墓室與博物館（只有週二下午休）。",
+          "tips": "2027農曆新年是2/6，1/27 不是澳門公眾假期，各景點照平日時間",
+          "verified": true,
+          "source": "https://www.wh.mo/cn/site/detail/19"
+        },
+        {
+          "name": "建議時間軸（依查到的時刻推算）",
+          "name_en": "",
+          "address": "",
+          "access": "",
+          "hours": "",
+          "price": "",
+          "highlights": "09:30 外港抵達→公車3/10號到新馬路（約20分）→09:50 議事亭前地、仁慈堂外觀→10:00 玫瑰堂開門→10:30 大三巴、哪吒廟→11:00 大炮台＋澳門博物館（約1小時）→12:30 新馬路一帶午餐（六記12:30開、祥記11:30開、黃枝記全天）→13:30 義順雙皮奶→14:00 前往氹仔（巴士或計程車）→14:30 官也街、安德魯、大利來記（約15:00出爐）、龍環葡韻→15:45 步行或計程車到威尼斯人、巴黎人鐵塔（12:00後開）、貢多拉、MINISO LAND→16:30 前離開路氹→17:30 外港回程船",
+          "tips": "早上金沙接駁還沒開，所以碼頭→半島用公車或計程車；下午回外港搭金沙系接駁轉車或計程車",
+          "verified": false,
+          "source": ""
+        }
+      ]
+    },
+    {
+      "region": "深圳",
+      "areas": [
+        {
+          "area": "東門/老街",
+          "day": "1/31,2/1",
+          "food": [
+            {
+              "name": "潮發潮汕牛肉店（東門店）",
+              "address": "查無：大眾點評/OpenRice/媒體文章均找不到「東門店」",
+              "metro": "",
+              "hours": "",
+              "price": "",
+              "highlights": "潮發為2006年創立的潮汕牛肉火鍋連鎖，自有寧夏養牛基地、冷鏈直送；OpenRice顯示深圳共29間分店",
+              "tips": "⚠查不到東門店。最近的已查證分店為「益田假日廣場店」（翠竹站，離東門約1站）與「萬象食家店」（筍崗站），見下兩筆。請行前在大眾點評搜「潮发 东门」確認；取號方式各平台皆無資料（一般可用大眾點評/美團線上排號）",
+              "verified": false,
+              "source": "https://www.openrice.com/zh/shenzhen/r-%E6%BD%AE%E7%99%BC%E6%BD%AE%E6%B1%95%E7%89%9B%E8%82%89%E5%BA%97-%E7%BF%A0%E7%AB%B9-%E6%BD%AE%E5%B7%9E%E8%8F%9C-%E7%81%AB%E9%8D%8B-r9773092"
+            },
+            {
+              "name": "潮發潮汕牛肉店（羅湖益田假日廣場店）",
+              "address": "羅湖區翠竹華麗路2038號羅湖益田假日廣場L4層",
+              "metro": "地鐵3號線翠竹站B1/B2出口，步行3–4分鐘（東門老街站→翠竹1站）",
+              "hours": "OpenRice標示24小時（存疑，商場內店一般不會24h，請以點評為準）",
+              "price": "¥41–100（OpenRice價格帶）；牛肉每碟約¥32–40",
+              "highlights": "現切黃牛肉、牛肉丸；電話15323798319",
+              "tips": "OpenRice最近評論2026-07-22，近一年仍營業。晚餐尖峰建議17:30前到或線上排號",
+              "verified": true,
+              "source": "https://www.openrice.com/zh/shenzhen/r-%E6%BD%AE%E7%99%BC%E6%BD%AE%E6%B1%95%E7%89%9B%E8%82%89%E5%BA%97-%E7%BF%A0%E7%AB%B9-%E6%BD%AE%E5%B7%9E%E8%8F%9C-%E7%81%AB%E9%8D%8B-r9773092"
+            },
+            {
+              "name": "潮發潮汕牛肉店（萬象食家店）",
+              "address": "羅湖區梅園路71號筍崗萬象食家L2層L201號舖",
+              "metro": "地鐵7號線筍崗站A出口",
+              "hours": "11:30–15:30、17:00–22:00",
+              "price": "牛肉每碟¥32–40",
+              "highlights": "每日即場新鮮切牛肉；電話 +86 19006698112",
+              "tips": "資料為2025-02文章，萬象食家商場本身於2026-10仍被列入羅湖商場推介",
+              "verified": true,
+              "source": "https://www.weekendhk.com/%E6%B7%B1%E5%9C%B3/%E6%B7%B1%E5%9C%B3-%E6%BD%AE%E7%99%BC%E6%BD%AE%E6%B1%95%E7%89%9B%E8%82%89%E5%BA%97-%E7%81%AB%E9%8D%8B-ww01-2573198/"
+            },
+            {
+              "name": "潮汕大目牛肉火鍋（東門茂業店）—備案",
+              "address": "羅湖區東門中路2047號茂業大樓10樓",
+              "metro": "地鐵3號線曬布站D3出口直走",
+              "hours": "11:00–22:00（舊文）",
+              "price": "未查到",
+              "highlights": "42年老字號，陝西秦川黃牛，有12人包廂",
+              "tips": "資料來自hk01較舊文章，近一年營業狀況未查證",
+              "verified": false,
+              "source": "https://www.hk01.com/旅遊/891147/深圳東門美食12大推介-大熱麻辣火鍋-手掌大生蠔-一款手信必買"
+            },
+            {
+              "name": "賀鐵頭粥底火鍋·生蠔·牛肉（羅湖東門店）—備案",
+              "address": "和平廣場3009號一樓（茂業奧特萊斯一樓）",
+              "metro": "老街站（出口未載）",
+              "hours": "11:00–16:00、17:00–次日02:00",
+              "price": "未查到",
+              "highlights": "粥底火鍋、招牌嫩滑牛肉、豬雜、鐵頭炸鬼；電話18126535498",
+              "tips": "資料為2024-10，近況未查證",
+              "verified": false,
+              "source": "https://www.stheadline.com/zh-hans/travel/3390707/"
+            },
+            {
+              "name": "儲香樓·粵式茶點（早茶）",
+              "address": "羅湖區人民南路3009-7號",
+              "metro": "老街站C出口步行約5分鐘",
+              "hours": "08:30–22:00",
+              "price": "未載（茶樓一般¥60–100/人）",
+              "highlights": "藍蝶花椒帶子餃、網紅水牛奶包、海膽鮮蝦紅米腸、蛋撻、馬蹄糕",
+              "tips": "適合2/1早餐飲茶，週日上午人多宜早到",
+              "verified": true,
+              "source": "https://www.hk01.com/sns/article/1066308"
+            },
+            {
+              "name": "東門隱院·家傳潮汕味（鴻展中心城店）",
+              "address": "東門步行街鴻展中心城4樓",
+              "metro": "老街站F出口步行約5分鐘",
+              "hours": "11:00–14:00、17:00–22:30",
+              "price": "未載",
+              "highlights": "沙薑爆火箭筒魷魚、黑松露百合爆龍蝦肉、豆醬煮剝皮魚、蠔仔烙、鹵水鵝肉",
+              "tips": "潮汕家常菜，可當潮發的替代晚餐",
+              "verified": true,
+              "source": "https://www.hk01.com/sns/article/1066308"
+            },
+            {
+              "name": "東門町美食廣場/東門町購物廣場（小吃攤）",
+              "address": "羅湖區永新街1號（舊文寫永新路15號）",
+              "metro": "老街站C出口步行約5分鐘（另說A出口）",
+              "hours": "未載（各攤約10:00–22:00）",
+              "price": "小吃¥10–40",
+              "highlights": "1樓小吃攤、2樓餐廳：串燒、螺螄粉、烤生蠔、牛雜、甜品、雞煲；可麗小屋在C區1層A013",
+              "tips": "2024年初清拆後另址重開，冷氣座位齊；2026-10仍列入推介",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60281214/罗湖商场推介12间-益田假日广场必去-新开幕-地铁直达-附交通"
+            },
+            {
+              "name": "八哥酸辣粉",
+              "address": "查到的地址為福田區崗廈村東三坊212號（非東門）",
+              "metro": "",
+              "hours": "",
+              "price": "",
+              "highlights": "",
+              "tips": "⚠查不到東門/東門町門店，可能已撤或記錯；東門町內有多家酸辣粉/螺螄粉攤可替代",
+              "verified": false,
+              "source": "https://m.bendibao.com/wangdian/canyinmeishi/futian/list56.htm"
+            },
+            {
+              "name": "記錄餘生·車輪餅",
+              "address": "羅湖區永新街51-6號",
+              "metro": "老街站F出口步行約1分鐘",
+              "hours": "10:00–22:30",
+              "price": "車輪餅約¥7–10/個",
+              "highlights": "香芋、海苔肉鬆、紅豆、起司榴槤",
+              "tips": "開業不久已大排長龍",
+              "verified": true,
+              "source": "https://www.hk01.com/sns/article/1066308"
+            },
+            {
+              "name": "可麗小屋（可麗餅）",
+              "address": "永新街1號東門町廣場C區1層A013號",
+              "metro": "老街站C出口步行約2分鐘",
+              "hours": "10:00–22:00",
+              "price": "約¥28/份",
+              "highlights": "抹茶可麗餅、草莓焦糖布蕾可麗餅",
+              "tips": "",
+              "verified": true,
+              "source": "https://www.hk01.com/sns/article/1066308"
+            },
+            {
+              "name": "酥大興·新國潮糕點（伴手禮/甜點）",
+              "address": "羅湖區太陽百貨一樓L122舖",
+              "metro": "老街站A出口步行約5分鐘",
+              "hours": "10:00–22:00",
+              "price": "未載",
+              "highlights": "酸奶泡芙、海苔肉鬆小貝",
+              "tips": "",
+              "verified": true,
+              "source": "https://www.hk01.com/sns/article/1066308"
+            },
+            {
+              "name": "天台美好港灣·屋頂花園西餐廳",
+              "address": "東門老街港島銀座大廈6樓606",
+              "metro": "老街站G出口步行約2分鐘",
+              "hours": "12:00–14:00、15:00–24:00",
+              "price": "約¥150",
+              "highlights": "菲力牛排、法式忌廉煙肉意粉；屋頂花園",
+              "tips": "經常排長龍，建議提早預約",
+              "verified": true,
+              "source": "https://www.hk01.com/sns/article/1066308"
+            },
+            {
+              "name": "胖哥倆肉蟹煲（1234space）",
+              "address": "東門街道建設路3018號1234space四樓L410",
+              "metro": "老街站",
+              "hours": "週一至四10:00–22:00；週五至日10:00–22:30",
+              "price": "約¥50",
+              "highlights": "招牌肉蟹煲、明蝦煲",
+              "tips": "連鎖店，資料為2024-10",
+              "verified": false,
+              "source": "https://www.stheadline.com/zh-hans/travel/3390707/"
+            },
+            {
+              "name": "寶發食館（老字號海鮮小炒）",
+              "address": "羅湖區東門街道樂園路78號地下",
+              "metro": "老街站/曬布站",
+              "hours": "11:00–14:00、17:00–24:00",
+              "price": "未載",
+              "highlights": "椒鹽花螺、鹹魚茄子煲",
+              "tips": "來源為本地寶目錄，日期不明",
+              "verified": false,
+              "source": "https://m.bendibao.com/show772608_2.html"
+            }
+          ],
+          "shop": [
+            {
+              "name": "新白馬·次元9號",
+              "address": "羅湖區東門街道一橫街9號（另一來源寫「人民北路一橫街5號」）",
+              "metro": "老街站F出口步行約9分鐘；或5號線東門站",
+              "hours": "10:00–22:00",
+              "price": "",
+              "highlights": "原新白馬服裝批發城改建；2025-12-31試營業、2026-01-28正式開業；約1.7萬㎡、6–7層（hk01稱目前開放4層）；50+品牌：次元GO、三月獸、模玩熊、藝叮咚、潮玩星球、Vibez、櫻檸，2F有BANDAI扭蛋店，L3有店；中古模型手辦、Lo店、妝造區、練舞區、主題餐飲、VR",
+              "tips": "官方/媒體都沒有完整樓層店鋪表，到場看樓層導覽；假日人多。適合買：谷子（徽章、立牌、吧唧）、手辦、中古模型、扭蛋、盲盒",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60374378/深圳动漫好去处7大-4层模型天堂-chiikawa周边-1个高达基地必去"
+            },
+            {
+              "name": "MINISO LAND 名創優品樂園（深圳東門，媒體稱「華南最大MINISO」）",
+              "address": "羅湖區東門步行街解放路名仕商城1–3樓（太陽百貨對面）",
+              "metro": "老街站A或E出口步行約5分鐘",
+              "hours": "10:00–23:00",
+              "price": "",
+              "highlights": "深圳首間MINISO LAND，獨棟3層約1500㎡，5500+ SKU、近九成IP商品；迪士尼、三麗鷗、Chiikawa、哈利波特、羅小黑等100+ IP，近20個自有藝術家IP，沉浸式主題區、盲盒",
+              "tips": "聯名新品（如Jennie聯名）推出時大排長龍；同區有東門離境退稅集中退付點",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60352369/罗湖东门升级变身潮流天堂-打卡华南最大miniso-商场即买即退税"
+            },
+            {
+              "name": "舊東門動漫城",
+              "address": "東門白馬服裝城對面（無確切門牌）",
+              "metro": "老街站",
+              "hours": "未知（2023報導：部分店中午至下午才陸續開門，平日有的停業）",
+              "price": "",
+              "highlights": "老牌手辦聚集地，價格親民、有絕版冷門模型",
+              "tips": "⚠2023年報導已明顯衰落、只剩十多家店；網民指部分商品疑為盜版，購買前留意。近況未能查證，建議與新白馬次元9號順路看看即可",
+              "verified": false,
+              "source": "https://news.pedaily.cn/202309/522576.shtml"
+            },
+            {
+              "name": "東門步行街（含太陽百貨、茂業百貨、鴻展中心城、1234space、東門印象城）",
+              "address": "羅湖區東門街道解放路/人民北路一帶",
+              "metro": "老街站（1、3號線）；5號線西延東門站（2025年開通）出站即步行街",
+              "hours": "街區全天；商場約10:00–22:00",
+              "price": "",
+              "highlights": "平價服飾、鞋、飾品、零食手信；東門離境退稅「即買即退」集中退付點涵蓋65家品牌商家",
+              "tips": "週日人潮極多，注意隨身物品",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60352369/罗湖东门升级变身潮流天堂-打卡华南最大miniso-商场即买即退税"
+            }
+          ],
+          "sights": [
+            {
+              "name": "東門老街（東門步行街）",
+              "address": "羅湖區東門街道",
+              "metro": "老街站／東門站（5號線）",
+              "hours": "全天開放",
+              "price": "免費",
+              "highlights": "深圳最早的墟市，2025年底「蝶變」改造；有思月書院、東江游擊隊指揮部（葉挺將軍紀念館）、東門町美食街、廟街",
+              "tips": "1/31、2/1皆可",
+              "verified": true,
+              "source": "https://www.sz.gov.cn/szstory/202302/content/post_10440866.html"
+            },
+            {
+              "name": "思月書院",
+              "address": "羅湖區人民路二橫街79號",
+              "metro": "老街站",
+              "hours": "本地寶：週一至週五9:00–21:00，週六日不開放；攜程：09:00–21:00",
+              "price": "免費",
+              "highlights": "清代書院建築，常年辦展",
+              "tips": "⚠兩來源衝突：若週末不開，1/31(日)進不去，請排2/1(一)",
+              "verified": false,
+              "source": "https://m.bendibao.com/jingdian/siyueshuyuan/"
+            }
+          ]
+        },
+        {
+          "area": "國貿/金光華",
+          "day": "2/1",
+          "food": [
+            {
+              "name": "裕蓮茶樓（金光華店）",
+              "address": "羅湖區人民南路金光華廣場L1-010A舖",
+              "metro": "1號線國貿站A出口步行2分鐘",
+              "hours": "未載",
+              "price": "約¥24",
+              "highlights": "焦糖燉蛋撻（¥12/個）、特濃琥珀奶",
+              "tips": "蛋撻每日限量常要排隊，到店先點",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60336800/国贸站美食6大推介-近罗湖-12-焦糖挞-海鲜火锅-抵食日本菜"
+            },
+            {
+              "name": "美奈小館（金光華店）越南菜",
+              "address": "羅湖區人民南路金光華廣場B2層",
+              "metro": "國貿站A出口步行約3分鐘",
+              "hours": "未載",
+              "price": "約¥80",
+              "highlights": "椰香咖喱牛腩/雞、西貢炭燒豬頸肉、芒果魚柳米紙卷",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60336800/国贸站美食6大推介-近罗湖-12-焦糖挞-海鲜火锅-抵食日本菜"
+            },
+            {
+              "name": "一樂食堂（金光華店）",
+              "address": "羅湖區嘉賓路金光華廣場B2層",
+              "metro": "國貿站A出口直達",
+              "hours": "未載",
+              "price": "約¥80",
+              "highlights": "巨型Taco壽司、流心雙層肉餅飯、奶香咖喱烏冬",
+              "tips": "青少年接受度高",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60336800/国贸站美食6大推介-近罗湖-12-焦糖挞-海鲜火锅-抵食日本菜"
+            },
+            {
+              "name": "1-7Bread（金光華店）麵包",
+              "address": "羅湖區人民南路2028號金光華廣場B1層127–128號",
+              "metro": "國貿站A出口約60米",
+              "hours": "未載",
+              "price": "約¥25",
+              "highlights": "豆乳吐司、丹麥大牛角、熔岩朱古力牛角包",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60336800/国贸站美食6大推介-近罗湖-12-焦糖挞-海鲜火锅-抵食日本菜"
+            },
+            {
+              "name": "八合里牛肉火鍋（金光華）—潮汕牛肉備案",
+              "address": "金光華廣場內（樓層未查到）",
+              "metro": "國貿站A出口",
+              "hours": "未查到",
+              "price": "約¥98–100（其他分店參考）",
+              "highlights": "汕頭知名潮汕牛肉火鍋品牌",
+              "tips": "hk01 2026-10列為金光華推薦店，但門店細節未查證",
+              "verified": false,
+              "source": "https://global.hk01.com/旅游/60281214/罗湖商场推介12间-益田假日广场必去-新开幕-地铁直达-附交通"
+            },
+            {
+              "name": "漁鮮小院（國貿店）",
+              "address": "羅湖區熙龍大廈一樓",
+              "metro": "國貿站E出口步行約6分鐘",
+              "hours": "未載",
+              "price": "約¥100",
+              "highlights": "中山脆肉鯇火鍋、爆膏羅氏蝦、橘子麻薯",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60336800/国贸站美食6大推介-近罗湖-12-焦糖挞-海鲜火锅-抵食日本菜"
+            },
+            {
+              "name": "廣榕記（杭棧）粵菜",
+              "address": "羅湖區南湖街道人民南路3009號",
+              "metro": "國貿站B出口約180米；老街站C出口約280米",
+              "hours": "未載",
+              "price": "菜價：鹹蛋黃雞中翅¥56、墨魚仔蒸肉餅¥38、乾蒸排骨¥46",
+              "highlights": "粵式家常",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60296066/深圳国贸站美食8大-近罗湖站抵食推介-椰子鸡-梳乎厘-cafe"
+            },
+            {
+              "name": "同仁四季椰子雞",
+              "address": "羅湖區嘉賓路湖心大廈2棟1單元1、2層",
+              "metro": "國貿站B出口約120米",
+              "hours": "未載",
+              "price": "未載（一般¥80–120）",
+              "highlights": "原味椰子雞火鍋（深圳特色）",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60296066/深圳国贸站美食8大-近罗湖站抵食推介-椰子鸡-梳乎厘-cafe"
+            },
+            {
+              "name": "野岩炙·極炙炭火燒肉",
+              "address": "南湖街道嘉賓路4051號金威大廈三樓",
+              "metro": "國貿站E出口步行3–5分鐘",
+              "hours": "12:00–15:30、17:30–22:00",
+              "price": "約¥200",
+              "highlights": "M9和牛、和牛五花、熔岩烤起司地瓜",
+              "tips": "",
+              "verified": true,
+              "source": "https://www.hk01.com/sns/article/1066308"
+            }
+          ],
+          "shop": [
+            {
+              "name": "金光華廣場 King Glory Plaza",
+              "address": "羅湖區人民南路2028號（人民南路與嘉賓路交界）",
+              "metro": "1號線國貿站A出口直達",
+              "hours": "未查到官方時間（店舖約10:00–22:00）",
+              "price": "",
+              "highlights": "地上8層、地下3層；餐飲多（Tree Co樹岸、肉肉大米、八合里）",
+              "tips": "距東門步行約15分鐘或地鐵1站",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60281214/罗湖商场推介12间-益田假日广场必去-新开幕-地铁直达-附交通"
+            },
+            {
+              "name": "羅湖萬象城 MixC",
+              "address": "羅湖區寶安南路1881號",
+              "metro": "大劇院站F出口（1、2、5號線；東門站→大劇院1站）",
+              "hours": "未查到",
+              "price": "",
+              "highlights": "老牌中高檔商場，也有平價連鎖；Gaga、KUMO KUMO",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60281214/罗湖商场推介12间-益田假日广场必去-新开幕-地铁直达-附交通"
+            }
+          ],
+          "sights": []
+        },
+        {
+          "area": "華強北",
+          "day": "可選（2/1或2/2順路）",
+          "food": [
+            {
+              "name": "蠻涮自助小火鍋",
+              "address": "福田區華強北中航城君尚購物中心3樓",
+              "metro": "2/7號線華強北站B出口步行約3分鐘",
+              "hours": "未載",
+              "price": "約¥70",
+              "highlights": "一價包鍋底、蘸料、百種菜：肥牛、黃金炸蛋",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60301695/深圳华强北美食11大-旋转自助小火锅-70任食-活烤鳗鱼-脆皮鸡煲"
+            },
+            {
+              "name": "味燒烤·江西燒烤景德菜",
+              "address": "福田區華強北街道振華路123號",
+              "metro": "華強北站C出口步行2分鐘",
+              "hours": "未載",
+              "price": "約¥80",
+              "highlights": "香辣烤魚、五花肉串、景德鎮冷粉",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60301695/深圳华强北美食11大-旋转自助小火锅-70任食-活烤鳗鱼-脆皮鸡煲"
+            },
+            {
+              "name": "池奈·咖喱蛋包飯",
+              "address": "福田區華強北路2009號茂業天地B1 B01",
+              "metro": "華強北站B出口約130米",
+              "hours": "未載",
+              "price": "約¥30",
+              "highlights": "蔬菜咖喱蛋包飯（單人餐¥29.9起）",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60301695/深圳华强北美食11大-旋转自助小火锅-70任食-活烤鳗鱼-脆皮鸡煲"
+            },
+            {
+              "name": "南家釜·韓國料理",
+              "address": "福田區中航路1號中航城君尚購物中心A區B1 B101-9",
+              "metro": "華強北站C出口約320米",
+              "hours": "未載",
+              "price": "約¥60",
+              "highlights": "部隊火鍋（2–3人¥125）、烤肉",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60301695/深圳华强北美食11大-旋转自助小火锅-70任食-活烤鳗鱼-脆皮鸡煲"
+            },
+            {
+              "name": "麥記牛奶（甜品）",
+              "address": "福田區中航城君尚購物中心E區L1 1008號",
+              "metro": "華強北站/華強路站",
+              "hours": "未載",
+              "price": "約¥20",
+              "highlights": "麥麥大滿貫（約¥19.5）雙皮奶類",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60301695/深圳华强北美食11大-旋转自助小火锅-70任食-活烤鳗鱼-脆皮鸡煲"
+            },
+            {
+              "name": "悸動糖水",
+              "address": "福田區世紀匯商業廣場1層122A-2",
+              "metro": "1號線華強路站約70米",
+              "hours": "未載",
+              "price": "未載",
+              "highlights": "楊枝甘露、焦糖蒲撻、雙皮奶；連2年「福田區必吃糖水店」",
+              "tips": "",
+              "verified": true,
+              "source": "https://www.hk01.com/食玩買/60249269/福田美食推介11大-會展中心-車公廟站-高分餐廳攻略-韓燒-甜品"
+            },
+            {
+              "name": "二姐夫煎餅果子",
+              "address": "福田區振興路華強北港澳城112號",
+              "metro": "華新站A2出口約240米",
+              "hours": "未載",
+              "price": "約¥25",
+              "highlights": "煎餅果子＋豆花",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60301695/深圳华强北美食11大-旋转自助小火锅-70任食-活烤鳗鱼-脆皮鸡煲"
+            }
+          ],
+          "shop": [
+            {
+              "name": "華強電子世界（二店最推薦）",
+              "address": "福田區華強北路1019號（商業街核心區）",
+              "metro": "2/7號線華強北站A出口或1號線華強路站A出口",
+              "hours": "10:00–18:30（傍晚陸續打烊，建議午後前往）",
+              "price": "依商品而定，可議價",
+              "highlights": "一店以電子元件晶片為主；二店是極客天堂：客製化機械鍵盤、AI周邊、DIY透明電競主機、迷你無人機、潮玩電子小物",
+              "tips": "市場商家收攤早，建議在14:00–17:00間逛。買東西記得貨比三家與適度殺價",
+              "verified": true,
+              "source": "https://www.eyeshenzhen.com/content/2025-07/04/content_31595474.htm"
+            },
+            {
+              "name": "賽格電子市場（SEG Plaza）",
+              "address": "福田區深南中路賽格廣場1–8樓",
+              "metro": "1號線華強路站A/B出口直通",
+              "hours": "09:30–18:00",
+              "price": "依商品而定",
+              "highlights": "亞洲最大電子配套市場！1–4樓為全球晶片與接頭中心，5–8樓是電腦DIY硬體、顯示卡、數碼相機周邊與耳機線材，堪稱硬體活字典",
+              "tips": "如果想感受硬體從零組裝的震撼氛圍必來；若要買二次元周邊請鎖定東門次元9號與BitCity",
+              "verified": true,
+              "source": "https://www.eyeshenzhen.com/content/2025-07/04/content_31595474.htm"
+            },
+            {
+              "name": "華強北步行街（中國電子第一街）",
+              "address": "福田區華強北路（茂業天地至賽格廣場段）",
+              "metro": "地鐵2/7號線華強北站貫穿",
+              "hours": "步行街全天開放，臨街品牌店營業至22:00",
+              "price": "免費參觀",
+              "highlights": "全長900公尺行人徒步區，地下商業街連通，沿途有黑科技展示、創客快閃店、大疆DJI無人機展示店，晚上霓虹夜景充滿賽博朋克感",
+              "tips": "從東門老街站搭1號線往機場東坐3站（約8分鐘）即可抵達華強路站，交通極度便捷",
+              "verified": true,
+              "source": "https://www.eyeshenzhen.com/content/2025-07/04/content_31595474.htm"
+            }
+          ],
+          "sights": [
+            {
+              "name": "華強北博物館（HQB Museum）",
+              "address": "福田區華強北路1058號廣博現代之窗大廈5樓（觀光電梯直達）",
+              "metro": "2/7號線華強北站E2出口步行約2分鐘",
+              "hours": "週二至週日 10:00–18:00（17:30停止入場，每逢週一公休）",
+              "price": "免費參觀",
+              "highlights": "全沉浸式聲光電展廳！展示深圳從小漁村華麗轉身為全球硬體創客之都的傳奇故事：從BB機、大哥大山寨機、到自主研發晶片與AI時代，極具科技歷史震撼感",
+              "tips": "需在微信公眾號「華強北博物館」提前實名預約，憑預約碼與台胞證入場。注意2/1(週一)公休，可安排於1/31(日)下午或2/2(二)上午順路參觀",
+              "verified": true,
+              "source": "https://m.bendibao.com/jingdian/huaqiangbeibowuguan/"
+            }
+          ]
+        },
+        {
+          "area": "福田會展中心（BitCity）",
+          "day": "2/2",
+          "food": [
+            {
+              "name": "animate cafe／一樂拉麵（BitCity內）",
+              "address": "福田區福華一路1號大中華國際交易廣場G層 Bit City",
+              "metro": "1/4號線會展中心站A1出口步行約4分鐘",
+              "hours": "約10:00–22:00",
+              "price": "未載",
+              "highlights": "主題餐飲，適合逛BitCity時順便午餐",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60374378/深圳动漫好去处7大-4层模型天堂-chiikawa周边-1个高达基地必去"
+            },
+            {
+              "name": "金皇廷（福田店）點心",
+              "address": "福田區金田路3037號金中環商務大廈裙樓5樓",
+              "metro": "會展中心站步行約5分鐘",
+              "hours": "未載",
+              "price": "未載",
+              "highlights": "班蘭馬拉糕、黑椒蒸牛腸",
+              "tips": "座位多一般不用久等，上菜約5分鐘",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60302996/深圳会展中心美食推介8间-俄国菜-人气梳乎厘-1间任食进口海鲜"
+            },
+            {
+              "name": "炙柒Sekinana·日料鐵板燒",
+              "address": "福田區福華三路118號皇庭廣場B1層",
+              "metro": "會展中心站C出口直達",
+              "hours": "未載",
+              "price": "約¥150",
+              "highlights": "炙燒鵝肝壽司、刺身拼盤、牛舌飯",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60302996/深圳会展中心美食推介8间-俄国菜-人气梳乎厘-1间任食进口海鲜"
+            },
+            {
+              "name": "俄士廚房（俄國菜）",
+              "address": "福田區福華三路118號皇庭廣場G層G-2",
+              "metro": "會展中心站C出口步行約4分鐘",
+              "hours": "未載",
+              "price": "未載",
+              "highlights": "紅菜湯、雞肉料理",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60302996/深圳会展中心美食推介8间-俄国菜-人气梳乎厘-1间任食进口海鲜"
+            },
+            {
+              "name": "小森師傅（日料）",
+              "address": "福華三路皇庭廣場L1層",
+              "metro": "會展中心站C出口步行約5分鐘",
+              "hours": "未載",
+              "price": "未載",
+              "highlights": "鵝肝飯、石燒牛肉",
+              "tips": "",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60302996/深圳会展中心美食推介8间-俄国菜-人气梳乎厘-1间任食进口海鲜"
+            },
+            {
+              "name": "Opalm亞洲大飯店",
+              "address": "福田區皇庭廣場L層",
+              "metro": "會展中心站C口步行約400米",
+              "hours": "未載",
+              "price": "未載",
+              "highlights": "台式鹹牛肉蛋三文治、曼谷打拋肉",
+              "tips": "",
+              "verified": true,
+              "source": "https://www.hk01.com/食玩買/60249269/福田美食推介11大-會展中心-車公廟站-高分餐廳攻略-韓燒-甜品"
+            },
+            {
+              "name": "一樂の食堂（卓悅中心）",
+              "address": "福田區福華路卓悅中心東區B1 B1102",
+              "metro": "崗廈站約150米",
+              "hours": "未載",
+              "price": "雙人餐¥188",
+              "highlights": "鰻魚taco、天婦羅、咖喱烏冬；2023黑珍珠入圍",
+              "tips": "",
+              "verified": true,
+              "source": "https://www.hk01.com/食玩買/60249269/福田美食推介11大-會展中心-車公廟站-高分餐廳攻略-韓燒-甜品"
+            },
+            {
+              "name": "美野商店·日式茶餐廳",
+              "address": "福華三路與金田路交界卓悅INTOWN一層L122–L123",
+              "metro": "10號線崗廈站D出口約580米",
+              "hours": "未載",
+              "price": "奶油咖哩烏冬¥38",
+              "highlights": "明太子西多士、溏心蛋撈丁",
+              "tips": "",
+              "verified": true,
+              "source": "https://www.hk01.com/食玩買/60249269/福田美食推介11大-會展中心-車公廟站-高分餐廳攻略-韓燒-甜品"
+            }
+          ],
+          "shop": [
+            {
+              "name": "Bit City 次元小鎮（大中華Bit City）",
+              "address": "福田區福華一路1號大中華國際交易廣場G層（地下商場）",
+              "metro": "1/4號線會展中心站A1出口步行約4分鐘",
+              "hours": "10:00–22:00",
+              "price": "",
+              "highlights": "谷GO!、GOODSLOVE、扭扭城（深圳最大扭蛋店）、布谷社、animate cafe、一樂拉麵、電玩店、密室逃脫、桌遊；妝造間、攝影區、大頭貼機；連鎖大品牌為主，與車公廟豐盛町個人小店互補；2025年文博會分會場",
+              "tips": "完整店家清單官方未公開，到場看導覽。15:00要回東門，建議10:00開門即到、13:30前結束",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60374378/深圳动漫好去处7大-4层模型天堂-chiikawa周边-1个高达基地必去"
+            },
+            {
+              "name": "星河COCO Park",
+              "address": "福田區福華三路269號",
+              "metro": "1/3號線購物公園站C出口步行約2分鐘",
+              "hours": "約10:00–22:00（週五六至22:30）",
+              "price": "",
+              "highlights": "6層，20+網紅食店（太二酸菜魚、KUMO KUMO等）",
+              "tips": "緊鄰會展中心，可與BitCity串連",
+              "verified": true,
+              "source": "https://www.hk01.com/旅遊/1068272/福田商場10大推介-必去coco-park-領展中心城-卓悦中心-交通方法"
+            },
+            {
+              "name": "丰盛町二次元街區（車公廟）",
+              "address": "福田區深南大道6019號丰盛町地下商業步行街C1層",
+              "metro": "1號線車公廟站C出口",
+              "hours": "09:00–23:00",
+              "price": "",
+              "highlights": "「谷子一條街」：20+個人店、格子鋪、盲抽專門店、一番賞，次元GO分店，共享妝造間",
+              "tips": "會展中心→車公廟地鐵約3站，時間夠可加",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60374378/深圳动漫好去处7大-4层模型天堂-chiikawa周边-1个高达基地必去"
+            },
+            {
+              "name": "中洲灣蔦屋書店",
+              "address": "福田區中洲灣一期購物中心南區B2",
+              "metro": "7號線上沙站A出口步行約11分鐘",
+              "hours": "10:00–22:00",
+              "price": "",
+              "highlights": "2000㎡，漫畫齊全，JUMP作品原畫周邊、JUMP列印機做吊飾",
+              "tips": "距離較遠，選配",
+              "verified": true,
+              "source": "https://global.hk01.com/旅游/60374378/深圳动漫好去处7大-4层模型天堂-chiikawa周边-1个高达基地必去"
+            },
+            {
+              "name": "animate 深圳實體店",
+              "address": "查無",
+              "metro": "",
+              "hours": "",
+              "price": "",
+              "highlights": "",
+              "tips": "⚠查不到深圳有animate零售店（只有BitCity內animate cafe）；最近的animate在香港旺角T.O.P 4樓（2025-12開幕），可在香港段安排",
+              "verified": false,
+              "source": "https://www.galvnews.com/japans-largest-anime-specialty-store-lands-in-hong-kong---animate-hong-kongs-mong/article_48cdf139-aa3d-59aa-81ff-c95634a3fc2f.html"
+            }
+          ],
+          "sights": [
+            {
+              "name": "地王觀光·深港之窗",
+              "address": "羅湖區地王大廈69樓",
+              "metro": "地王大廈：1號線大劇院站",
+              "hours": "09:00–21:00（20:20停售）；另一來源10:00–21:30",
+              "price": "全價約¥80，線上常有¥49.9優惠；1.2–1.5m半價",
+              "highlights": "384m觀景台，可眺望香港",
+              "tips": "屬羅湖區（近東門），適合1/31或2/1晚上；官方小程序購票，電話0755-82462232",
+              "verified": true,
+              "source": "https://you.ctrip.com/sight/shenzhen26/11546.html"
+            },
+            {
+              "name": "深圳之眼（崗廈北站穹頂）",
+              "address": "福田區崗廈北地鐵站站廳",
+              "metro": "2/10/11/14號線崗廈北站",
+              "hours": "隨地鐵運營約6:30–23:00",
+              "price": "免費",
+              "highlights": "巨型穹頂天窗、AR互動",
+              "tips": "會展中心旁，2/2順路",
+              "verified": true,
+              "source": "https://m.bendibao.com/show1001805.html"
+            },
+            {
+              "name": "深圳博物館（金田路館/歷史民俗館）",
+              "address": "福田區金田路4001號（市民中心旁）",
+              "metro": "市民中心站B出口",
+              "hours": "週二至週日10:00–18:00（17:30停止入場），週一閉館",
+              "price": "免費",
+              "highlights": "深圳歷史民俗",
+              "tips": "2/1(一)閉館；2/2(二)早上可，但時間緊。電話0755-88125550",
+              "verified": true,
+              "source": "https://m.bendibao.com/tour/jingdianbangdan/"
+            },
+            {
+              "name": "市民中心／蓮花山公園",
+              "address": "福田區福中路（市民中心）／紅荔路（蓮花山）",
+              "metro": "市民中心站／少年宮站",
+              "hours": "未查到官方時間",
+              "price": "免費",
+              "highlights": "山頂鄧小平銅像、俯瞰中軸線",
+              "tips": "開放時間未能查證",
+              "verified": false,
+              "source": "https://www.sznews.com/news/content/mb/2025-11/06/content_31756950.htm"
+            },
+            {
+              "name": "深圳書城中心城",
+              "address": "福田區福中一路（市民中心北側）",
+              "metro": "少年宮站",
+              "hours": "未查到",
+              "price": "免費",
+              "highlights": "大型書城",
+              "tips": "近況與時間未能查證",
+              "verified": false,
+              "source": ""
+            }
+          ]
+        },
+        {
+          "area": "南山科技園/深圳灣（無人機・無人車・拓竹・大疆）",
+          "day": "2/1",
+          "food": [
+            {
+              "name": "美團無人機外賣體驗（深圳人才公園空投點）",
+              "address": "南山區科苑南路3329號深圳人才公園無人機空投取餐櫃",
+              "metro": "2號線登良站C出口或11號線後海站G出口",
+              "hours": "10:30–19:00（依天氣與外賣店家營業時間為準，大雨強風暫停）",
+              "price": "外賣餐點價格（無額外無人機配送費，約¥20–60）",
+              "highlights": "黑科技空中外賣！美團黃色六旋翼無人機從空中飛來，精準自動懸停降落並空投外賣盒進入智能取餐櫃，手機掃碼即取奶茶點心（喜茶、奈雪、肯德基等），全家現場觀賞超震撼！",
+              "tips": "操作方式：打開「美團App」定位至「深圳人才公園無人機空投點」→ 選擇標有「無人機配送」的店家下單即可。天候良好航線正常運作",
+              "verified": true,
+              "source": "https://www.meituan.com/drone"
+            },
+            {
+              "name": "深圳灣萬象城科技休閒",
+              "address": "南山區科苑南路2888號深圳灣萬象城",
+              "metro": "11/2號線後海站G出口直通",
+              "hours": "10:00–22:00",
+              "price": "人均約¥50–120",
+              "highlights": "前沿科技旗艦店匯聚，環境極具未來感，緊鄰春筍（華潤大廈）",
+              "tips": "吃完可直接漫步至人才公園看湖景與無人機空投外賣點",
+              "verified": true,
+              "source": "https://www.mixcapp.com"
+            }
+          ],
+          "shop": [
+            {
+              "name": "大疆創新（DJI）全球旗艦店（歡樂海岸店）",
+              "address": "南山區白石路東8號歡樂海岸海園二路",
+              "metro": "9號線深圳灣公園站E出口步行約5分鐘",
+              "hours": "10:00–22:00",
+              "price": "免費體驗參觀",
+              "highlights": "全球無人機龍頭旗艦店！雙層室內試飛巨型透明網箱，可現場上手試飛最新掌上無人機DJI Neo、Mini 4 Pro、Avata穿越機，並設有RoboMaster機甲大師戰車操控對戰台！",
+              "tips": "店員會專業一對一指導無人機起降與航拍教學，孩子可以親自操控機甲戰車射擊水彈或感應對抗",
+              "verified": true,
+              "source": "https://www.dji.com/hk/flagship-stores"
+            },
+            {
+              "name": "拓竹科技（Bambu Lab）3D列印展示體驗中心",
+              "address": "南山區西麗留仙洞創智雲城（拓竹總部園區）",
+              "metro": "5號線留仙洞站A出口直通創智雲城",
+              "hours": "10:00–18:00（平日）",
+              "price": "免費參觀體驗",
+              "highlights": "全球消費級高速多色3D列印王者！現場展示Bambu Lab X1-Carbon、P1S、A1 mini極速多色列印過程，幾百mm/s極速噴塗，親眼見證彩色活動關節模型與公仔即時成型！",
+              "tips": "拓竹總部位於南山創智雲城，園區有多台拓竹設備進行高速列印動態展示，對熱愛手作創客與模型的青少年極具啟發性",
+              "verified": true,
+              "source": "https://bambulab.com"
+            },
+            {
+              "name": "柴火創客空間（Chaihuo Maker Space / 科技園）",
+              "address": "南山區打石二路萬科雲城設計公社B6棟",
+              "metro": "5號線留仙洞站A出口步行約10分鐘",
+              "hours": "10:00–18:00（週一至週五開放）",
+              "price": "免費參觀",
+              "highlights": "深圳最著名的開源硬體創客聖地！展示開源硬體模組、開源機器人、Arduino、3D列印原型與全球創客作品",
+              "tips": "開源硬體愛好者與科技少年的朝聖地，可近距離感受深圳「硬體矽谷」的創新靈魂",
+              "verified": true,
+              "source": "https://www.chaihuo.org"
+            }
+          ],
+          "sights": [
+            {
+              "name": "蘿蔔快跑（Apollo Go）完全無人駕駛 Robotaxi 體驗",
+              "address": "南山區科技園南區／粵海街道／後海片區營運區",
+              "metro": "2號線科苑站／11號線後海站周邊呼叫",
+              "hours": "07:00–23:00（常態化全無人商業營運）",
+              "price": "依行駛里程收費（常有App折扣，起步價僅約¥5–15）",
+              "highlights": "真正的未來科技！車內前座空無一人，方向盤自動打舵、自動變道避讓、等紅綠燈！後排專屬娛樂大螢幕顯示周邊3D雷射點雲路況，帶孩子親自乘坐體驗「真正未來無人車」！",
+              "tips": "叫車方式：手機下載「蘿蔔快跑」App或微信搜尋小程序「蘿蔔快跑」，上車點選科技園或後海路段，車輛到達後在車門螢幕輸入手機末4碼開門上車，繫好安全帶按「出發」即啟動",
+              "verified": true,
+              "source": "https://apollo.baidu.com/community/apollogo"
+            },
+            {
+              "name": "深圳人才公園 ＆ 大疆天空之城景觀",
+              "address": "南山區科苑南路3329號",
+              "metro": "2號線登良站C出口步行約8分鐘",
+              "hours": "06:00–23:00",
+              "price": "免費",
+              "highlights": "全球頂級科技湖畔公園！既是美團無人機空投送餐降落點，也是遠眺「春筍」華潤大廈與南山科技天際線的最佳機位，北側可望見大疆全球總部「天空之城」科幻懸挑雙塔！",
+              "tips": "建議午後至傍晚前往，吹湖風喝無人機送來的奶茶，夜景燈光秀充滿未來賽博城市美感",
+              "verified": true,
+              "source": "https://www.sz.gov.cn"
+            }
+          ]
+        }
+      ],
+      "extra": [],
+      "extraTitle": "",
+      "practical": [
+        {
+          "name": "付款：微信支付/支付宝綁外卡",
+          "address": "",
+          "metro": "",
+          "hours": "",
+          "price": "",
+          "highlights": "微信支付可用台胞證開通並綁定Visa/MasterCard等國際卡；支付寶下載後選國際版註冊、綁國際卡",
+          "tips": "台胞證在支付寶實名的具體步驟未查到官方說明，出發前在台灣先註冊、綁卡並小額測試；兩個都綁做備援",
+          "verified": true,
+          "source": "https://www.extrabux.com/chs/guide/8112213"
+        },
+        {
+          "name": "深圳地鐵乘車",
+          "address": "",
+          "metro": "",
+          "hours": "",
+          "price": "",
+          "highlights": "閘機支援境外Visa/Mastercard/AmEx/JCB感應卡直接刷（全網17線432站）；或微信綁外卡＋「深圳地鐵」小程序掃碼",
+          "tips": "感應信用卡最省事；5號線西延東門站已開（黃貝嶺–大劇院段，2025年），可直達東門步行街",
+          "verified": true,
+          "source": "https://qh.sz.gov.cn/en/news/content/post_12876923.html"
+        },
+        {
+          "name": "口岸時間",
+          "address": "",
+          "metro": "",
+          "hours": "羅湖6:30–24:00；福田6:30–22:30；深圳灣6:30–24:00；皇崗24小時",
+          "price": "",
+          "highlights": "羅湖口岸出關即港鐵東鐵線羅湖站",
+          "tips": "以邊檢官方公告為準",
+          "verified": true,
+          "source": "https://global.hk01.com/社会新闻/60361551/端午节北上过关攻略-8大口岸最新通关时间-只有皇岗24小时吗"
+        },
+        {
+          "name": "新皇崗口岸（2026-10-12啟用）",
+          "address": "福田區皇崗口岸",
+          "metro": "深圳地鐵7號線皇崗口岸站（地下連接）",
+          "hours": "24小時",
+          "price": "",
+          "highlights": "「一地兩檢、合作查驗一次放行」，通關約5分鐘；香港車可直入聯檢大樓；舊「皇巴士」取消",
+          "tips": "旺角616S小巴等新線；去機場仍需跨境巴士或轉乘",
+          "verified": true,
+          "source": "https://flyday.hk/new-huanggang-port/"
+        },
+        {
+          "name": "皇崗口岸→香港國際機場 跨境巴士",
+          "address": "皇崗口岸",
+          "metro": "7號線皇崗口岸站",
+          "hours": "永東巴士（小車）04:00–01:00；環島中港通 0:00–23:59，均15–20分鐘一班",
+          "price": "永東¥80；環島¥80（01:30–03:30為¥150）",
+          "highlights": "客服：永東400-886-1668；環島400-882-2322",
+          "tips": "⚠此為深圳口岸辦2026-01-16名單（新口岸啟用前），新口岸上車點可能已變，出發前致電確認",
+          "verified": true,
+          "source": "https://ka.sz.gov.cn/bmfw/kazb/content/post_12604879.html"
+        },
+        {
+          "name": "深圳灣口岸→香港國際機場 跨境巴士",
+          "address": "深圳灣口岸",
+          "metro": "2號線登良站/深圳灣口岸",
+          "hours": "中旅08:00–20:00(30分)；環島06:45–21:30(15分)；深港榮利08:00–20:00(30分)；永東06:45–22:30(15分)",
+          "price": "中旅/環島/榮利¥150；永東¥100",
+          "highlights": "深圳口岸辦2026-10-16最新名單",
+          "tips": "從東門到深圳灣較遠（地鐵約50分鐘），皇崗或羅湖較近",
+          "verified": true,
+          "source": "https://ka.sz.gov.cn/bmfw/kazb/content/post_13026175.html"
+        },
+        {
+          "name": "羅湖口岸→港鐵→機場",
+          "address": "羅湖口岸",
+          "metro": "東門/老街站1號線→羅湖站（2站）",
+          "hours": "",
+          "price": "依港鐵票價",
+          "highlights": "出關即東鐵線羅湖站，再轉乘至機場快線/東涌線",
+          "tips": "全程時間與票價未查證（一般估計約1.5–2小時）；最省心是皇崗跨境巴士直達機場",
+          "verified": false,
+          "source": "https://m.bendibao.com/bsy642025.html"
+        },
+        {
+          "name": "2027年春運",
+          "address": "",
+          "metro": "",
+          "hours": "",
+          "price": "",
+          "highlights": "2027春節為2/6（週六）；官方春運日期尚未公布。參照2026年春運（節前15天開始、為期40天），2027春運推估約1/22開始",
+          "tips": "1/31–2/2落在春運與節前返鄉潮中，口岸、跨境巴士與機場人多，2/2務必預留緩衝",
+          "verified": false,
+          "source": "https://www.sekologistics.com/en/resource-hub/knowledge-hub/lunar-new-year-complete-supply-chain-planning-guide-for-asia-sourcing/"
+        },
+        {
+          "name": "東門離境退稅「即買即退」",
+          "address": "東門商圈集中退付點",
+          "metro": "",
+          "hours": "",
+          "price": "",
+          "highlights": "65家品牌商家，境外旅客在商場幾分鐘內辦理領退稅款",
+          "tips": "集中退付點確切位置未查到，購物時問店員",
+          "verified": true,
+          "source": "https://global.hk01.com/旅游/60352369/罗湖东门升级变身潮流天堂-打卡华南最大miniso-商场即买即退税"
+        }
+      ],
+      "notes": [
+        "潮發潮汕牛肉店「東門店」在大眾點評/OpenRice/媒體中都查不到；已查證最近分店為益田假日廣場店（翠竹站，東門往北1站，2026-07仍有評論）與萬象食家店（筍崗站）。建議2/1晚餐改去益田店，或用東門隱院（潮汕菜）、潮汕大目（茂業10F）替代。",
+        "「華南最大MINISO」＝MINISO LAND名創優品樂園，東門步行街解放路名仕商城1–3樓（太陽百貨對面），10:00–23:00。",
+        "新白馬·次元9號2026-01-28才正式開業，各樓層店鋪清單沒有公開資料，只知道品牌名稱；地址有「一橫街9號」與「人民北路一橫街5號」兩種寫法。",
+        "舊東門動漫城2023年已衰落（只剩十多家、有疑似盜版），可能不值得專程去。",
+        "2/1（週一）：華強北博物館、深圳博物館閉館；思月書院有「週末不開」說法，若屬實1/31進不去，宜排2/1。",
+        "2/2時程：BitCity 10:00開門。15:00回東門拿行李後：東門→（3號線轉7號線，或計程車約25分）→皇崗口岸→跨境巴士直達香港機場（約1小時＋通關），建議航班起飛前至少4小時從東門出發。",
+        "深圳沒有查到animate零售店；香港旺角T.O.P有animate（2025-12開幕）。",
+        "多數hk01文章沒有營業時間與大眾點評分數；評分欄全部留白，未編造。"
+      ]
+    }
+  ]
+}
