@@ -16,7 +16,8 @@
           "highlights": "竹昇麵、鮮蝦雲吞麵、蝦子撈麵、粥品",
           "tips": "議事亭店是最熱門分店，午餐尖峰可能要排；官也街分店據報已結束，別去氹仔找",
           "verified": true,
-          "source": "https://www.bring-you.info/?p=357872"
+          "source": "https://www.bring-you.info/?p=357872",
+          "category": "🍜 粉麵・雲吞・牛腩粿條"
         },
         {
           "name": "祥記麵家",
@@ -28,7 +29,8 @@
           "highlights": "蝦子撈麵、雲吞、鯪魚球（炸或灼，可配蝦醬）",
           "tips": "米其林必比登推介；只收現金機率高，帶零錢",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/cheong-kei"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/cheong-kei",
+          "category": "🍜 粉麵・雲吞・牛腩粿條"
         },
         {
           "name": "六記粥麵",
@@ -40,7 +42,8 @@
           "highlights": "蝦子撈麵、季節魚湯麵、蟹粥、炸雲吞配鯪魚球",
           "tips": "米其林必比登推介；只收現金；可電話訂位 +853 2855 9627；12:30 才開門，早到的話先逛",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/luk-kei-noodle"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/luk-kei-noodle",
+          "category": "🍜 粉麵・雲吞・牛腩粿條"
         },
         {
           "name": "牛記咖喱蟹粥",
@@ -52,7 +55,8 @@
           "highlights": "水蟹粥、咖喱牛腩、蟹膏撈麵、煎墨魚餅",
           "tips": "米其林入選；只收現金；早上就開，適合一抵達先吃早午餐",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/ngao-kei-ka-lei-chon"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/ngao-kei-ka-lei-chon",
+          "category": "🍜 粉麵・雲吞・牛腩粿條"
         },
         {
           "name": "義順牛奶公司（新馬路）",
@@ -64,7 +68,8 @@
           "highlights": "雙皮奶、薑汁撞奶（可加蓮子或紅豆）",
           "tips": "米其林入選街頭小吃；只收現金；11:00 才開，可排在午餐後當甜點",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/yi-shun-macau"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/yi-shun-macau",
+          "category": "🍧 糖水甜品・手打茶飲"
         },
         {
           "name": "榮記豆腐",
@@ -76,7 +81,8 @@
           "highlights": "招牌豆腐花（冷熱皆可）、豆漿",
           "tips": "米其林入選街頭小吃；只收現金；早上抵達先來一碗很順",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/ving-kei-macau"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/ving-kei-macau",
+          "category": "🍢 街頭小吃・烤生蠔・伴手禮"
         },
         {
           "name": "瑪嘉烈蛋撻",
@@ -88,7 +94,8 @@
           "highlights": "葡式蛋撻、三文治",
           "tips": "行程日是週三，請改去安德魯（氹仔/威尼斯人）買蛋撻；若想試，出發前打 +853 2871 0032 確認",
           "verified": false,
-          "source": "https://citiesinsider.com/country/china/macao/cafes-and-bakeries/en"
+          "source": "https://citiesinsider.com/country/china/macao/cafes-and-bakeries/en",
+          "category": "🍍 冰室・茶餐廳・蛋撻烘焙"
         },
         {
           "name": "船屋葡國餐廳",
@@ -100,7 +107,8 @@
           "highlights": "馬介休球、炭烤、阿蓮特茹豬肉蜆、海鮮飯、非洲雞",
           "tips": "米其林必比登推介；建議訂位 +853 2831 3193；週三有開。若午餐想吃葡國菜又不想跑遠，可改在氹仔吃",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/a-lorcha"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/a-lorcha",
+          "category": "🍽️ 在地特色餐廳"
         },
         {
           "name": "Albergue 1601（瘋堂斜巷）",
@@ -112,7 +120,8 @@
           "highlights": "炸沙甸魚仔、烤乳豬、辣汁炸薯",
           "tips": "米其林入選；環境是老房子庭院，適合坐下來吃一頓正式葡國菜",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/albergue-1601"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/albergue-1601",
+          "category": "🍽️ 在地特色餐廳"
         },
         {
           "name": "鉅記餅家（大三巴街店）",
@@ -124,7 +133,8 @@
           "highlights": "炭燒杏仁餅、花生糖、肉鬆鳳凰卷、蛋卷",
           "tips": "大三巴街整條都有鉅記、咀香園等分店，試吃多，回程前再買比較不用提著走",
           "verified": false,
-          "source": "https://supertaste.tvbs.com.tw/review/322901"
+          "source": "https://supertaste.tvbs.com.tw/review/322901",
+          "category": "🍢 街頭小吃・烤生蠔・伴手禮"
         },
         {
           "name": "咀香園餅家",
@@ -136,7 +146,8 @@
           "highlights": "1935年起的炭燒杏仁餅，店內現場製作",
           "tips": "官網 chyb.com（本次連線失敗），電話 +853 2835 5966",
           "verified": false,
-          "source": "https://www.cpttm.org.mo/product_testing/docs/product_cert/CHYB.pdf"
+          "source": "https://www.cpttm.org.mo/product_testing/docs/product_cert/CHYB.pdf",
+          "category": "🍢 街頭小吃・烤生蠔・伴手禮"
         }
       ],
       "shop": [
@@ -150,7 +161,8 @@
           "highlights": "鉅記、咀香園等手信店集中，豬肉乾、杏仁餅、蛋卷，可大量試吃",
           "tips": "人潮大，留意隨身物品；肉乾不能帶回台灣（肉製品檢疫），只能在當地吃",
           "verified": true,
-          "source": "https://www.bring-you.info/?p=104622"
+          "source": "https://www.bring-you.info/?p=104622",
+          "category": "🎁 必買伴手禮・精品超市"
         },
         {
           "name": "議事亭前地／新馬路商圈",
@@ -162,7 +174,8 @@
           "highlights": "葡式碎石地與老建築、藥妝與連鎖店；2025夏曾辦 POP MART 城市漫遊活動（POP STATION 設在利斯大廈，屬限期活動，已於2025-09-21結束）",
           "tips": "POP MART 那次是限期活動，不是常設店，不要期待 2027 年還在",
           "verified": true,
-          "source": "https://macaudailytimes.com.mo/pop-mart-macao-citywalk-generated-mop680-million-in-spending.html"
+          "source": "https://macaudailytimes.com.mo/pop-mart-macao-citywalk-generated-mop680-million-in-spending.html",
+          "category": "🎁 必買伴手禮・精品超市"
         },
         {
           "name": "戀愛巷",
@@ -174,7 +187,8 @@
           "highlights": "粉色葡式建築，拍照熱點，旁有文創小店",
           "tips": "早上人少好拍照",
           "verified": true,
-          "source": "https://www.wh.mo/cn/site/detail/18"
+          "source": "https://www.wh.mo/cn/site/detail/18",
+          "category": "🛍️ 大型購物商場・潮流街區"
         }
       ],
       "sights": [
@@ -190,7 +204,7 @@
           "verified": true,
           "source": "https://www.wh.mo/cn/site/detail/18",
           "must_order": "世界文化遺產石雕立面拍照、後方天主教藝術博物館與墓室、順遊右側浪漫粉色「戀愛巷」",
-          "photo": "https://images.unsplash.com/photo-1552554746-cf8534063220?w=600&auto=format&fit=crop&q=80"
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "哪吒廟（大三巴）＋大三巴哪吒展館",
@@ -202,7 +216,8 @@
           "highlights": "小型道教廟，旁邊是舊城牆遺址",
           "tips": "1/27 是週三，展館不開，廟本身可看；停留約10分",
           "verified": true,
-          "source": "https://www.wh.mo/cn/site/detail/19"
+          "source": "https://www.wh.mo/cn/site/detail/19",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "大炮台＋澳門博物館",
@@ -214,7 +229,8 @@
           "highlights": "俯瞰半島與大三巴；博物館三層常設展講澳門中西交流史；2026-09-24至2027-02-28特展「女皇天下──武則天與神都洛陽」",
           "tips": "週三照常開放（休館日是週一，不是週三）；博物館停留約60分，青少年帶學生證可半價",
           "verified": true,
-          "source": "https://www.macaumuseum.gov.mo/visit/access"
+          "source": "https://www.macaumuseum.gov.mo/visit/access",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "議事亭前地",
@@ -226,7 +242,8 @@
           "highlights": "波浪紋葡式碎石地、噴水池、民政總署大樓",
           "tips": "停留約15–20分；周邊有黃枝記、義順可順吃",
           "verified": true,
-          "source": "https://www.wh.mo/cn/site/detail/12"
+          "source": "https://www.wh.mo/cn/site/detail/12",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "仁慈堂大樓（仁慈堂博物館）",
@@ -238,7 +255,8 @@
           "highlights": "白色新古典立面，議事亭前地最上相的建築",
           "tips": "午休 13:00–14:30 不開，要入內請排在上午；外觀拍照即可則隨時",
           "verified": true,
-          "source": "https://www.wh.mo/cn/site/detail/14"
+          "source": "https://www.wh.mo/cn/site/detail/14",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "玫瑰堂（板樟堂）",
@@ -250,7 +268,8 @@
           "highlights": "1587年創建的黃色巴洛克教堂；旁有聖物寶庫（約三百件文物）",
           "tips": "10:00 才開，從碼頭過來剛好；停留約15–20分；彌撒時保持安靜",
           "verified": true,
-          "source": "https://www.wh.mo/cn/site/detail/17"
+          "source": "https://www.wh.mo/cn/site/detail/17",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "主教座堂（大堂）",
@@ -262,7 +281,8 @@
           "highlights": "澳門天主教主教座堂",
           "tips": "與盧家大屋同一區，可順路",
           "verified": true,
-          "source": "https://www.wh.mo/cn/site/detail/15"
+          "source": "https://www.wh.mo/cn/site/detail/15",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "盧家大屋",
@@ -274,7 +294,8 @@
           "highlights": "1889年落成的嶺南式富商大宅，滿洲窗、蠔殼窗",
           "tips": "週三有開；停留約20分",
           "verified": true,
-          "source": "https://www.wh.mo/cn/site/detail/16"
+          "source": "https://www.wh.mo/cn/site/detail/16",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "鄭家大屋（備選）",
@@ -286,7 +307,8 @@
           "highlights": "鄭觀應故居",
           "tips": "1/27 週三休館，本次不建議排入",
           "verified": true,
-          "source": "https://www.wh.mo/cn/site/detail/4"
+          "source": "https://www.wh.mo/cn/site/detail/4",
+          "category": "🎡 必遊景點・文化古蹟"
         }
       ]
     },
@@ -303,7 +325,8 @@
           "highlights": "葡式蛋撻",
           "tips": "總店在路環（每日07:00–21:00，米其林頁），本行程不經路環；官也街店最順路",
           "verified": true,
-          "source": "https://www.taipavillagemacau.com/directory/lordstowsbakery"
+          "source": "https://www.taipavillagemacau.com/directory/lordstowsbakery",
+          "category": "🍍 冰室・茶餐廳・蛋撻烘焙"
         },
         {
           "name": "安德魯餅店＋咖啡（威尼斯人店）",
@@ -315,7 +338,8 @@
           "highlights": "蛋撻、焦糖布甸",
           "tips": "此店有時要排約45分；若官也街已買可跳過；電話 +853 2886 6889",
           "verified": true,
-          "source": "https://www.venetianmacao.com/restaurants/lord-stow-bakery-cafe.html"
+          "source": "https://www.venetianmacao.com/restaurants/lord-stow-bakery-cafe.html",
+          "category": "🍍 冰室・茶餐廳・蛋撻烘焙"
         },
         {
           "name": "大利來記（氹仔總店）",
@@ -327,7 +351,8 @@
           "highlights": "豬扒包",
           "tips": "下午三點出爐前就會排隊；官也街另有加盟店免排但只有站位；只查到 2025 年資料",
           "verified": true,
-          "source": "https://www.bring-you.info/?p=358197"
+          "source": "https://www.bring-you.info/?p=358197",
+          "category": "🍽️ 在地特色餐廳"
         },
         {
           "name": "莫義記",
@@ -340,7 +365,8 @@
           "tips": "1/27 是週三公休，這天吃不到；木糠布甸改在葡國餐廳點",
           "verified": true,
           "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/mok-yee-kei",
-          "must_order": "馬來西亞貓山王榴槤雪糕（MOP 68）、招牌木糠布丁（MOP 35）、芒果大菜糕（MOP 20）"
+          "must_order": "馬來西亞貓山王榴槤雪糕（MOP 68）、招牌木糠布丁（MOP 35）、芒果大菜糕（MOP 20）",
+          "category": "🍽️ 在地特色餐廳"
         },
         {
           "name": "晃記餅家",
@@ -352,7 +378,8 @@
           "highlights": "老字號中式餅食，杏仁餅、蛋卷",
           "tips": "米其林入選街頭小吃；比大三巴的大型手信店更有老店味",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/fong-kei"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/fong-kei",
+          "category": "🍢 街頭小吃・烤生蠔・伴手禮"
         },
         {
           "name": "法蘭度餐廳 O Castiço（氹仔）",
@@ -364,7 +391,8 @@
           "highlights": "招牌豬肉蜆、即炸馬介休球；木糠布甸",
           "tips": "米其林必比登推介；週三有開，適合在官也街吃下午茶或晚餐；訂位 +853 2857 6505",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/o-castico"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/o-castico",
+          "category": "🍽️ 在地特色餐廳"
         },
         {
           "name": "海灣餐廳（氹仔）",
@@ -376,7 +404,8 @@
           "highlights": "阿蓮特茹豬肉、非洲雞、木糠布甸（土生葡菜）",
           "tips": "米其林必比登推介；15:00–18:00 休息，要算好時間",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/restaurant-litoral-taipa"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/restaurant-litoral-taipa",
+          "category": "🍽️ 在地特色餐廳"
         },
         {
           "name": "Manuel 葡國餐廳（氹仔）",
@@ -388,7 +417,8 @@
           "highlights": "烤馬介休、墨魚汁炒飯",
           "tips": "1/27 週三公休，這天不能排",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/manuel-cozinha-portuguesa"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/manuel-cozinha-portuguesa",
+          "category": "🍽️ 在地特色餐廳"
         },
         {
           "name": "Chiado（倫敦人）",
@@ -400,7 +430,8 @@
           "highlights": "六道品嚐菜單、無骨乳豬",
           "tips": "17:30 才開，與 17:30 回程衝突，本行程大概用不到，列作參考",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/chiado"
+          "source": "https://guide.michelin.com/hk/en/macau-region/macau/restaurant/chiado",
+          "category": "🍽️ 在地特色餐廳"
         }
       ],
       "shop": [
@@ -416,7 +447,7 @@
           "verified": true,
           "source": "https://www.bring-you.info/?p=358145",
           "must_order": "熱騰騰招牌葡式蛋撻（單個 MOP 11，半打盒裝 MOP 65）、英式提子酥、朱古力批",
-          "photo": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80"
+          "category": "🎁 必買伴手禮・精品超市"
         },
         {
           "name": "威尼斯人購物中心",
@@ -428,7 +459,8 @@
           "highlights": "室內運河與藍天天花板，數百家店",
           "tips": "購物中心不屬賭場區，未滿21歲可逛；但賭場入口就在旁邊，跟緊大人看指標",
           "verified": true,
-          "source": "https://venetianmacao.com/shopping/shoppes/lifestyle-children-gift-specialty-store/lego.html"
+          "source": "https://venetianmacao.com/shopping/shoppes/lifestyle-children-gift-specialty-store/lego.html",
+          "category": "🛍️ 大型購物商場・潮流街區"
         },
         {
           "name": "MINISO LAND 澳門首店（威尼斯人）",
@@ -441,7 +473,8 @@
           "tips": "青少年動漫周邊首選；盲盒、娃娃、收藏品",
           "verified": true,
           "source": "https://kyodonewsprwire.jp/release/202607273191",
-          "must_order": "解放路名仕商城 3 層 IP 旗艦樂園：三麗鷗家族、吉伊卡哇（Chiikawa）、哈利波特、迪士尼正版文創公仔"
+          "must_order": "解放路名仕商城 3 層 IP 旗艦樂園：三麗鷗家族、吉伊卡哇（Chiikawa）、哈利波特、迪士尼正版文創公仔",
+          "category": "🎨 動漫二次元・潮玩模型"
         },
         {
           "name": "LEGO 樂高認證專門店（威尼斯人）",
@@ -453,7 +486,8 @@
           "highlights": "澳門首家樂高認證店，有議事亭前地樂高馬賽克、澳門限定套組",
           "tips": "由代理商經營，台灣樂高會員積分不適用",
           "verified": true,
-          "source": "https://venetianmacao.com/shopping/shoppes/lifestyle-children-gift-specialty-store/lego.html"
+          "source": "https://venetianmacao.com/shopping/shoppes/lifestyle-children-gift-specialty-store/lego.html",
+          "category": "🛍️ 大型購物商場・潮流街區"
         },
         {
           "name": "巴黎人購物中心",
@@ -465,7 +499,8 @@
           "highlights": "法式街景，鐵塔下方",
           "tips": "可與鐵塔觀景台串在一起",
           "verified": true,
-          "source": "https://www.parisianmacao.com/shopping/directory/nike.html"
+          "source": "https://www.parisianmacao.com/shopping/directory/nike.html",
+          "category": "🛍️ 大型購物商場・潮流街區"
         },
         {
           "name": "倫敦人購物中心",
@@ -477,7 +512,8 @@
           "highlights": "英式主題、大笨鐘造景",
           "tips": "時間有限的話擇一逛即可",
           "verified": false,
-          "source": "https://www.londonermacao.com/shopping.html"
+          "source": "https://www.londonermacao.com/shopping.html",
+          "category": "🛍️ 大型購物商場・潮流街區"
         },
         {
           "name": "POP MART（新濠影滙）",
@@ -489,7 +525,8 @@
           "highlights": "MOLLY、DIMOO、SKULLPANDA 等盲盒",
           "tips": "非順路，時間不夠就跳過",
           "verified": true,
-          "source": "https://www.studiocity-macau.com/en/shops/pop-mart"
+          "source": "https://www.studiocity-macau.com/en/shops/pop-mart",
+          "category": "🛍️ 大型購物商場・潮流街區"
         }
       ],
       "sights": [
@@ -503,7 +540,8 @@
           "highlights": "五棟綠色葡式住宅，湖邊拍照點",
           "tips": "週三有開；官方公告為2016年，近況請再確認；停留約30分",
           "verified": true,
-          "source": "https://www.icm.gov.mo/en/News/detail/14148"
+          "source": "https://www.icm.gov.mo/en/News/detail/14148",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "巴黎人鐵塔觀景台",
@@ -515,7 +553,8 @@
           "highlights": "37樓俯瞰路氹金光大道與威尼斯人",
           "tips": "12:00 才開；2026-12-26至2027-01-01全面休息，1/27 不受影響；停留約30分",
           "verified": true,
-          "source": "https://www.parisianmacao.com/amenities/eiffel-tower.html"
+          "source": "https://www.parisianmacao.com/amenities/eiffel-tower.html",
+          "category": "🌃 百萬夜景・城市地標"
         },
         {
           "name": "威尼斯人貢多拉船",
@@ -527,7 +566,8 @@
           "highlights": "船夫唱歌、室內運河",
           "tips": "約15–20分鐘；兩個青少年若已滿12歲按成人價",
           "verified": true,
-          "source": "https://venetianmacao.com/hotel/amenities/gondola-rides.html"
+          "source": "https://venetianmacao.com/hotel/amenities/gondola-rides.html",
+          "category": "🎡 必遊景點・文化古蹟"
         }
       ]
     }

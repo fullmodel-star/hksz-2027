@@ -20,8 +20,7 @@
           "verified": true,
           "source": "https://www.stheadline.com/food/3581143/太子菠蘿油名店金華冰廳-驚傳結業招頂租頂手費狂收33萬-店方勞氣解畫",
           "category": "早餐/茶餐廳",
-          "must_order": "馳名鮮油菠蘿包（HK$13）、得獎法蘭西多士（HK$20）、香滑凍奶茶（HK$22）、酥皮蛋撻（HK$10）",
-          "photo": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80"
+          "must_order": "馳名鮮油菠蘿包（HK$13）、得獎法蘭西多士（HK$20）、香滑凍奶茶（HK$22）、酥皮蛋撻（HK$10）"
         },
         {
           "name": "一點心",
@@ -35,8 +34,7 @@
           "verified": true,
           "source": "https://www.moneyhero.com.hk/zh/credit-card/blog/prince-edward-food",
           "category": "點心",
-          "must_order": "香煎蘿蔔糕（HK$24）、鮮蝦腐皮捲（HK$30）、豉汁蒸排骨（HK$26）、蜜汁叉燒包（HK$22）",
-          "photo": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?w=600&auto=format&fit=crop&q=80"
+          "must_order": "香煎蘿蔔糕（HK$24）、鮮蝦腐皮捲（HK$30）、豉汁蒸排骨（HK$26）、蜜汁叉燒包（HK$22）"
         },
         {
           "name": "阿純山東餃子",
@@ -92,8 +90,7 @@
           "verified": false,
           "source": "https://www.burpple.com/mui-kee-congee",
           "category": "粥麵/早餐",
-          "must_order": "銅鍋生滾鮮魚腩粥（HK$48）、牛肉及第粥（HK$45）、香脆炸兩腸粉（HK$20）",
-          "photo": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?w=600&auto=format&fit=crop&q=80"
+          "must_order": "銅鍋生滾鮮魚腩粥（HK$48）、牛肉及第粥（HK$45）、香脆炸兩腸粉（HK$20）"
         },
         {
           "name": "肥姐小食店",
@@ -134,8 +131,7 @@
           "source": "https://www.stheadline.com/food/3500390/佳佳甜品佐敦總店917結業開業逾40年-發哥至愛糖水店-月底白加士街銅鑼灣連開2新舖",
           "michelin": "必比登推介（2026）",
           "category": "甜品",
-          "must_order": "寧波薑汁芝麻糊湯圓（HK$29）、冰糖燉木瓜（HK$32）、濃郁香滑核桃露（HK$28）",
-          "photo": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&auto=format&fit=crop&q=80"
+          "must_order": "寧波薑汁芝麻糊湯圓（HK$29）、冰糖燉木瓜（HK$32）、濃郁香滑核桃露（HK$28）"
         },
         {
           "name": "澳洲牛奶公司",
@@ -284,7 +280,8 @@
           "highlights": "整排水族店、一袋袋金魚熱帶魚",
           "tips": "建議停留20–30分鐘；可串花墟、雀鳥花園",
           "verified": false,
-          "source": "https://www.hk01.com/旅遊/450731/廟街-金魚街-花墟-5處最具本土特色的街道-未去過唔算香港人"
+          "source": "https://www.hk01.com/旅遊/450731/廟街-金魚街-花墟-5處最具本土特色的街道-未去過唔算香港人",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "花墟",
@@ -296,7 +293,8 @@
           "highlights": "花店、園藝店林立",
           "tips": "建議30分鐘；離帝京酒店步行可到",
           "verified": false,
-          "source": "https://www.hk01.com/旅遊/450731/廟街-金魚街-花墟-5處最具本土特色的街道-未去過唔算香港人"
+          "source": "https://www.hk01.com/旅遊/450731/廟街-金魚街-花墟-5處最具本土特色的街道-未去過唔算香港人",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "園圃街雀鳥花園",
@@ -308,7 +306,8 @@
           "highlights": "中式庭園、雀鳥籠及鳥用品攤",
           "tips": "建議20–30分鐘，早上較熱鬧",
           "verified": false,
-          "source": "https://en.wikipedia.org/wiki/Yuen_Po_Street_Bird_Garden"
+          "source": "https://en.wikipedia.org/wiki/Yuen_Po_Street_Bird_Garden",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "廟街夜市",
@@ -320,7 +319,8 @@
           "highlights": "夜市、大排檔、算命攤",
           "tips": "建議1小時；可與佐敦甜品串在一起",
           "verified": false,
-          "source": "https://www.hk01.com/旅遊/450731/廟街-金魚街-花墟-5處最具本土特色的街道-未去過唔算香港人"
+          "source": "https://www.hk01.com/旅遊/450731/廟街-金魚街-花墟-5處最具本土特色的街道-未去過唔算香港人",
+          "category": "🎡 必遊景點・文化古蹟"
         }
       ]
     },
@@ -489,7 +489,7 @@
           "verified": true,
           "source": "https://www.stheadline.com/politics/3594700/天星小輪申加價有議員質疑加幅過高-倡增加遊客票價作平衡",
           "must_order": "中環 ↔ 尖沙咀上層船票（維多利亞港無敵海景）",
-          "photo": "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=600&auto=format&fit=crop&q=80"
+          "category": "🌃 百萬夜景・城市地標"
         },
         {
           "name": "星光大道＋尖沙咀鐘樓",
@@ -501,7 +501,8 @@
           "highlights": "維港海景、李小龍像、明星手印",
           "tips": "建議30–60分鐘；傍晚看夜景",
           "verified": false,
-          "source": ""
+          "source": "",
+          "category": "🌃 百萬夜景・城市地標"
         },
         {
           "name": "香港藝術館",
@@ -515,7 +516,8 @@
           "verified": true,
           "source": "https://www.museums.gov.hk/en_US/web/portal/plan-your-visit.html",
           "closed": "週四（公眾假期除外）",
-          "stay": "1.5–2小時"
+          "stay": "1.5–2小時",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "香港太空館",
@@ -529,7 +531,8 @@
           "verified": true,
           "source": "https://www.museums.gov.hk/en_US/web/portal/plan-your-visit.html",
           "closed": "週二",
-          "stay": "1.5–2小時"
+          "stay": "1.5–2小時",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "香港科學館",
@@ -543,7 +546,8 @@
           "verified": true,
           "source": "https://www.museums.gov.hk/en_US/web/portal/plan-your-visit.html",
           "closed": "週四",
-          "stay": "2–3小時"
+          "stay": "2–3小時",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "香港歷史博物館",
@@ -557,7 +561,8 @@
           "verified": true,
           "source": "https://www.timeout.com/hong-kong/news/the-hong-kong-story-exhibition-finally-reopens-after-nearly-five-years-040826",
           "closed": "週二",
-          "stay": "2小時"
+          "stay": "2小時",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "M+ 博物館（西九文化區）",
@@ -571,7 +576,8 @@
           "verified": true,
           "source": "https://www.mplus.org.hk/en/plan-your-visit/",
           "closed": "週一",
-          "stay": "2–3小時"
+          "stay": "2–3小時",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "香港故宮文化博物館",
@@ -585,7 +591,8 @@
           "verified": true,
           "source": "https://www.hkpm.org.hk/en/visit/ticket",
           "closed": "週二",
-          "stay": "2–3小時"
+          "stay": "2–3小時",
+          "category": "🎡 必遊景點・文化古蹟"
         }
       ]
     },
@@ -634,8 +641,7 @@
           "source": "https://guide.michelin.com/hk/hong-kong-macau/tsim-chai-kee-wellington-street/restaurant",
           "michelin": "必比登推介（2026）",
           "category": "粥麵",
-          "must_order": "乒乓球鮮蝦雲吞麵（HK$40）、至尊三寶麵（鮮蝦雲吞+鮮牛肉+鯪魚球 HK$52）、油菜芥藍（HK$20）",
-          "photo": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&auto=format&fit=crop&q=80"
+          "must_order": "乒乓球鮮蝦雲吞麵（HK$40）、至尊三寶麵（鮮蝦雲吞+鮮牛肉+鯪魚球 HK$52）、油菜芥藍（HK$20）"
         },
         {
           "name": "正斗粥麵專家（中環）",
@@ -826,7 +832,7 @@
           "source": "https://www.wanderinchina.com/zh/destinations/hongkong/victoria-peak/",
           "stay": "2–3小時",
           "must_order": "第六代復古山頂纜車來回票 + 凌霄閣摩天台 428 百萬夜景套票",
-          "photo": "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?w=600&auto=format&fit=crop&q=80"
+          "category": "🌃 百萬夜景・城市地標"
         },
         {
           "name": "大館",
@@ -840,7 +846,8 @@
           "verified": true,
           "source": "https://www.klook.com/event/city-poi/2-2-taikwun",
           "closed": "美術館週一",
-          "stay": "1–1.5小時"
+          "stay": "1–1.5小時",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "香港摩天輪",
@@ -853,7 +860,8 @@
           "tips": "票價資料來自第三方，出發前看hkow.hk",
           "verified": false,
           "source": "https://zicket.co/zh-hant/events/hong-kong-observation-wheel-879950464527",
-          "stay": "30–45分鐘"
+          "stay": "30–45分鐘",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "文武廟",
@@ -866,7 +874,8 @@
           "tips": "建議20–30分鐘；可串摩羅街、PMQ",
           "verified": false,
           "source": "https://www.cathaypacific.com/cx/zh_HK/inspiration/hong-kong/man-mo-temple-new-lounge.html",
-          "stay": "30分鐘"
+          "stay": "30分鐘",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "中環至半山扶手電梯＋叮叮電車",
@@ -878,7 +887,8 @@
           "highlights": "全世界最長戶外有蓋扶手電梯；雙層電車慢遊",
           "tips": "建議搭電車從上環坐到中環或銅鑼灣",
           "verified": false,
-          "source": ""
+          "source": "",
+          "category": "🎡 必遊景點・文化古蹟"
         }
       ]
     },
@@ -963,8 +973,7 @@
           "verified": true,
           "source": "https://wanderinchina.com/zh/destinations/hongkong/disneyland/food/",
           "category": "點心",
-          "must_order": "魔雪奇緣世界（魔雪奇幻之旅、雪嶺滑雪橇）、灰熊山極速礦車、迷離大宅、夜間「迪士尼星夢光影之旅」城堡煙火",
-          "photo": "https://images.unsplash.com/photo-1513889961551-628c1e5e2ee9?w=600&auto=format&fit=crop&q=80"
+          "must_order": "魔雪奇緣世界（魔雪奇幻之旅、雪嶺滑雪橇）、灰熊山極速礦車、迷離大宅、夜間「迪士尼星夢光影之旅」城堡煙火"
         },
         {
           "name": "東薈城（東涌）餐廳群",
@@ -995,7 +1004,7 @@
           "source": "https://www.moneyhero.com.hk/zh/credit-card/blog/香港-迪士尼門票-優惠比較-邊到買入場門票最平",
           "stay": "全日",
           "must_order": "魔雪奇緣世界（魔雪奇幻之旅、雪嶺滑雪橇）、灰熊山極速礦車、迷離大宅、夜間「迪士尼星夢光影之旅」城堡煙火",
-          "photo": "https://images.unsplash.com/photo-1513889961551-628c1e5e2ee9?w=600&auto=format&fit=crop&q=80"
+          "category": "🎡 必遊景點・文化古蹟"
         }
       ]
     },
@@ -1112,7 +1121,8 @@
           "tips": "出發前查青年旅舍協會網站",
           "verified": false,
           "source": "https://cs.edb.edcity.hk/file/public/newspaper_column/head_news_20140630_r1.pdf",
-          "closed": "週一（舊資料）"
+          "closed": "週一（舊資料）",
+          "category": "🎡 必遊景點・文化古蹟"
         },
         {
           "name": "嘉頓山",
@@ -1124,7 +1134,8 @@
           "highlights": "俯瞰深水埗密集樓群的夜景",
           "tips": "傍晚上山拍夜景；備手電筒",
           "verified": false,
-          "source": "https://ajtravel.tw/2018-03-27-1554/"
+          "source": "https://ajtravel.tw/2018-03-27-1554/",
+          "category": "🌃 百萬夜景・城市地標"
         }
       ]
     }
