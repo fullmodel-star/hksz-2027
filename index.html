@@ -104,6 +104,9 @@ h1{font-family:var(--serif); font-weight:700; font-size:clamp(28px,7.4vw,42px); 
 .flag.chk{background:var(--gold); color:#FBFCFA}
 .flag.fix{background:var(--sky); color:#FBFCFA}
 .flag.eat{background:var(--moss); color:#FBFCFA}
+.flag.rec{background:#16a34a; color:#fff}
+.flag.ok{background:#0284c7; color:#fff}
+.flag.no{background:#dc2626; color:#fff}
 
 .note{background:var(--warn-bg); border-left:2px solid var(--gold); padding:11px 14px; border-radius:3px; margin-top:14px; font-size:13.5px; color:var(--ink-2)}
 .note b{color:var(--ink)}
@@ -447,6 +450,7 @@ body.searching{overflow:hidden}
   <div class="weather-card"><span>🌤 <b>1 月末天氣參考</b>：港澳深均溫約 14–20°C，乾燥微涼舒適；建議洋蔥式穿搭，備防風外套與薄圍巾。</span></div>
   <div class="today" id="today"></div>
   <div class="tools">
+    <button type="button" class="tool" id="t-cross" onclick="TRIP.go('prep','cross-transport')">🚄 跨城交通比拼</button>
     <button type="button" class="tool" id="t-search">🔍 搜尋</button>
     <button type="button" class="tool" id="t-map">🗺️ 地圖找尋</button>
     <button type="button" class="tool" id="t-fx">💱 匯率換算</button>
@@ -765,6 +769,11 @@ body.searching{overflow:hidden}
     <div class="day-tag"><b>DAY 3</b><span>1/29 五</span><span>澳門世遺美食 → 官也街狂吃 → 路氹金光大道不夜城夜景</span></div>
     <h2>澳門世遺古蹟，官也街老字號狂吃，金光大道璀璨夜景</h2>
     <p class="day-note"><b>🍽️ 美食主軸：</b>妹記生滾粥、黃枝記鮮甜水蟹粥、大利來記豬扒包、安德魯熱騰騰焦糖葡撻、莫義記木糠布丁。<br><b>🌃 夜景主軸：</b>澳門巴黎人鐵塔燈光秀、澳門倫敦人英倫大笨鐘光影夜景、威尼斯人水岸夜景！</p>
+    <div class="note" style="border-left-color:var(--sky); background:rgba(2,132,199,0.08); margin:12px 0 16px;">
+      <b>🚢 跨城交通指引：香港 ↔ 澳門來回方式完整評比</b><br>
+      首選推薦「上環港澳碼頭搭噴射飛航／金光飛航」（航程 55–60 分鐘，旺角東港鐵室內直達上環 D 出口信德中心 3 樓碼頭）。另有港珠澳大橋金巴（24 小時）與太子直通巴士。<br>
+      <button type="button" class="copy-btn" onclick="TRIP.go('prep','cross-transport')" style="margin-top:8px; cursor:pointer; font-weight:700;">👉 點此查看「客輪 vs 金巴 vs 直通巴」詳細票價、時間、24小時比拼表</button>
+    </div>
   </div>
   <div class="tl">
     <div class="row eat"><div class="t">07:15</div><div class="body">
@@ -934,6 +943,11 @@ body.searching{overflow:hidden}
     <div class="day-tag"><b>DAY 5</b><span>1/31 日</span><span>過關進深圳 → 東門老字號早茶點心 → 深圳人才公園摩天樓夜景 ＆ 椰子雞</span></div>
     <h2>進深圳，蘩樓手工早茶，東門動漫大樓，人才公園科幻夜景</h2>
     <p class="day-note"><b>🍽️ 美食主軸：</b>深圳老牌蘩樓手作早茶、東門町生蠔酸辣粉、後海潤園四季原汁椰子雞大餐。<br><b>🌃 夜景主軸：</b>深圳人才公園後海天際線燈光秀、華潤「春筍」巨塔倒映湖面！</p>
+    <div class="note" style="border-left-color:var(--moss); background:rgba(22,163,74,0.08); margin:12px 0 16px;">
+      <b>🚆 跨城交通指引：香港旺角 ➔ 深圳東門歡朋酒店移動</b><br>
+      首選推薦「港鐵東鐵線直達羅湖」（旺角帝京酒店大堂專用電梯直通旺角東站閘口，37 分鐘直達羅湖，出關打車 5 分鐘到東門，全家免搬行李踏出室外）！<br>
+      <button type="button" class="copy-btn" onclick="TRIP.go('prep','cross-transport')" style="margin-top:8px; cursor:pointer; font-weight:700;">👉 點此查看「東鐵線火車 vs 廣深港高鐵 vs 24小時跨境巴」詳細比拼表</button>
+    </div>
   </div>
   <div class="tl">
     <div class="row eat"><div class="t">09:00</div><div class="body">
@@ -1066,6 +1080,11 @@ body.searching{overflow:hidden}
     <div class="day-tag"><b>DAY 7</b><span>2/2 二</span><span>老牌廣式早茶 → 採買伴手禮 → 皇崗口岸直達香港機場 18:30 起飛</span></div>
     <h2>春滿園老牌早茶，老街伴手禮名店，從容前往香港機場</h2>
     <p class="day-note"><b>🍽️ 美食主軸：</b>東門春滿園悠閒早茶點心、太二酸菜魚／新發脆皮燒鵝、鮑師傅海苔肉鬆小貝、瀘溪河桃酥。<br><b>✈️ 回程航班 18:30 起飛（14:00 出發前往口岸直達機場，16:00 抵達報到出境）！</b></p>
+    <div class="note" style="border-left-color:var(--maple); background:rgba(220,38,38,0.08); margin:12px 0 16px;">
+      <b>✈️ 跨城交通指引：深圳東門 ➔ 香港國際機場返台（18:30 起飛）</b><br>
+      首選推薦「皇崗口岸專線直通大巴」（14:00 東門飯店門口打車 12–15 分鐘到皇崗口岸，過關搭專線大巴行李放行李艙，一車直達香港機場離境層，16:00 前抵達）。<br>
+      <button type="button" class="copy-btn" onclick="TRIP.go('prep','cross-transport')" style="margin-top:8px; cursor:pointer; font-weight:700;">👉 點此查看「皇崗機場專線 vs 羅湖A43 vs 蛇口海天客輪」4大返程比拼表</button>
+    </div>
   </div>
   <div class="tl">
     <div class="row stop"><div class="t">09:00</div><div class="body">
@@ -1605,7 +1624,7 @@ body.searching{overflow:hidden}
   <h2>每個景點附近還能去哪</h2>
   <p class="lead">依當天行程的落腳點整理，走路或一兩站就到。<b>★</b>＝最推薦；時間有空再加，不必全去。</p>
 
-  <p class="cap">1/25・1/28 旺角／太子（酒店附近）</p>
+  <p class="cap">1/27・1/30 旺角／太子（酒店附近）</p>
   <div class="grid">
     <div class="cell"><h3>★ 女人街（通菜街）<small>旺角站 E2 出口，步行約 5 分</small></h3><p>整條街小攤，衣服、紀念品、手機殼，傍晚最熱鬧，記得殺價。</p><div class="links"><a data-q="女人街 通菜街 旺角">📍 地圖</a></div></div>
     <div class="cell"><h3>★ 波鞋街（花園街一段）<small>就在花園街，從帝京走約 10 分</small></h3><p>一整排球鞋店，小孩通常最愛。</p><div class="links"><a data-q="波鞋街 花園街 旺角">📍 地圖</a></div></div>
@@ -1613,19 +1632,19 @@ body.searching{overflow:hidden}
     <div class="cell"><h3>西洋菜南街<small>旺角站旁</small></h3><p>行人區，樓上書店、文具、模型店多。</p><div class="links"><a data-q="西洋菜南街">📍 地圖</a></div></div>
   </div>
 
-  <p class="cap">1/26 迪士尼</p>
+  <p class="cap">1/28 迪士尼</p>
   <div class="grid">
     <div class="cell"><h3>★ 魔雪奇緣世界（園內）<small>Frozen 主題園區</small></h3><p>園內最新的大園區，進園先排或先看排隊 App。</p></div>
-    <div class="cell"><h3>昂坪 360 纜車・天壇大佛<small>同一條東涌線，東涌站</small></h3><p>跟迪士尼同一天太趕；適合放在 1/29 或 1/30。</p><div class="links"><a data-q="昂坪360 東涌">📍 地圖</a></div></div>
+    <div class="cell"><h3>昂坪 360 纜車・天壇大佛<small>同一條東涌線，東涌站</small></h3><p>跟迪士尼同一天太趕；適合放在 1/30 市區日。</p><div class="links"><a data-q="昂坪360 東涌">📍 地圖</a></div></div>
   </div>
 
-  <p class="cap">1/27 上環（坐船前後）</p>
+  <p class="cap">1/29 上環（坐船前後）</p>
   <div class="grid">
     <div class="cell"><h3>文武廟・荷李活道・摩囉街<small>港澳碼頭走約 10 分</small></h3><p>古董小攤和百年老廟。回程船到得早再去。</p><div class="links"><a data-q="文武廟 荷李活道">📍 地圖</a></div></div>
     <div class="cell"><h3>西港城<small>上環站旁</small></h3><p>百年紅磚建築，裡面是布料店。</p><div class="links"><a data-q="西港城 上環">📍 地圖</a></div></div>
   </div>
 
-  <p class="cap">1/27 澳門半島（大三巴、議事亭）</p>
+  <p class="cap">1/29 澳門半島（大三巴、議事亭）</p>
   <div class="grid">
     <div class="cell"><h3>★ 大炮台・澳門博物館<small>大三巴旁邊爬上去</small></h3><p>大炮台上可以看整個澳門半島；博物館就在炮台裡。</p><div class="links"><a data-q="大炮台 澳門">📍 地圖</a></div></div>
     <div class="cell"><h3>★ 戀愛巷・哪吒廟<small>大三巴右後方</small></h3><p>粉色小巷拍照點，走路 2 分鐘。</p><div class="links"><a data-q="戀愛巷 澳門">📍 地圖</a></div></div>
@@ -1633,22 +1652,22 @@ body.searching{overflow:hidden}
     <div class="cell"><h3>仁慈堂・民政總署・盧家大屋<small>議事亭前地周邊</small></h3><p>世界遺產建築群，都是步行範圍。</p><div class="links"><a data-q="盧家大屋 澳門">📍 盧家大屋</a></div></div>
   </div>
 
-  <p class="cap">1/27 氹仔・路氹（官也街、威尼斯人）</p>
+  <p class="cap">1/29 氹仔・路氹（官也街、威尼斯人）</p>
   <div class="grid">
     <div class="cell"><h3>★ 龍環葡韻<small>官也街走約 5–10 分</small></h3><p>綠色葡式住宅＋湖邊步道，澳門最上相的地方之一。</p><div class="links"><a data-q="龍環葡韻">📍 地圖</a></div></div>
     <div class="cell"><h3>★ 巴黎人鐵塔・倫敦人<small>威尼斯人對面／隔壁</small></h3><p>半比例艾菲爾鐵塔，晚上有燈光；倫敦人有大笨鐘造景。</p><div class="links"><a data-q="澳門巴黎人 鐵塔">📍 巴黎人</a><a data-q="澳門倫敦人">📍 倫敦人</a></div></div>
     <div class="cell"><h3>氹仔舊城區小吃<small>官也街一帶</small></h3><p>豬扒包、木糠布甸、雪糕夾餅。</p></div>
   </div>
 
-  <p class="cap">1/28 尖沙咀</p>
+  <p class="cap">1/30 尖沙咀 ＆ 維港夜景</p>
   <div class="grid">
-    <div class="cell"><h3>★ 尖沙咀鐘樓・香港太空館<small>天星碼頭旁，一條線走完</small></h3><p>太空館有天象廳節目（週二休館，1/28 週四可）。旁邊的<b>藝術館週四休館</b>，這天不排。</p><div class="links"><a data-q="香港太空館">📍 太空館</a><a data-q="香港藝術館">📍 藝術館</a></div></div>
+    <div class="cell"><h3>★ 尖沙咀鐘樓・香港太空館<small>天星碼頭旁，一條線走完</small></h3><p>太空館有天象廳節目。旁邊的藝術館也值得參觀。</p><div class="links"><a data-q="香港太空館">📍 太空館</a><a data-q="香港藝術館">📍 藝術館</a></div></div>
     <div class="cell"><h3>1881 Heritage<small>海港城對面</small></h3><p>舊水警總部改的古蹟商場，白色殖民建築很好拍。</p><div class="links"><a data-q="1881 Heritage">📍 地圖</a></div></div>
     <div class="cell"><h3>九龍公園<small>尖沙咀站 A1</small></h3><p>市區大公園，有鳥湖、紅鶴，可以歇腳。</p><div class="links"><a data-q="九龍公園">📍 地圖</a></div></div>
-    <div class="cell"><h3>西九文化區（M+、故宮文化博物館）<small>柯士甸站，從尖沙咀約 15 分</small></h3><p>半天才看得完，適合放 1/29–30。</p><div class="links"><a data-q="M+ 西九文化區">📍 M+</a><a data-q="香港故宮文化博物館">📍 故宮</a></div></div>
+    <div class="cell"><h3>西九文化區（M+、故宮文化博物館）<small>柯士甸站，從尖沙咀約 15 分</small></h3><p>半天才看得完，依當天時間彈性參觀。</p><div class="links"><a data-q="M+ 西九文化區">📍 M+</a><a data-q="香港故宮文化博物館">📍 故宮</a></div></div>
   </div>
 
-  <p class="cap">1/28 下午選 1：中環</p>
+  <p class="cap">1/30 中環 ＆ 太平山頂</p>
   <div class="grid">
     <div class="cell"><h3>★ 中環至半山自動扶梯<small>全世界最長的戶外扶梯</small></h3><p>沿途是蘇豪區、壁畫街。</p><div class="links"><a data-q="中環至半山自動扶梯">📍 地圖</a></div></div>
     <div class="cell"><h3>大館・PMQ 元創方<small>扶梯沿線</small></h3><p>舊監獄、舊宿舍改成的文創區，免費進。</p><div class="links"><a data-q="大館 中環">📍 大館</a><a data-q="PMQ 元創方">📍 PMQ</a></div></div>
@@ -1716,7 +1735,7 @@ body.searching{overflow:hidden}
   <p class="cap">每日花費（每人 × 人數；「整車」項目為全家一次）</p>
   <div id="c-days"></div>
 
-  <div class="note"><b>估算依據：</b>迪士尼一日票 HK$669–939（四級票價，1/26 週二的級別要上官網看）；噴射飛航平日普通位 HK$194 單程；澳門巴士 MOP6；潮發人均約 ¥100；皇崗到機場巴士約 ¥80。港鐵車資、餐費是一般行情估計，交通細節查完會再更新。<br><b>沒算進去：</b>八達通按金（可退）、購物、伴手禮、小費。</div>
+  <div class="note"><b>估算依據：</b>迪士尼一日票 HK$669–939（四級票價，1/28 週四的級別要上官網看）；噴射飛航平日普通位 HK$194 單程；澳門巴士 MOP6；潮發人均約 ¥100；皇崗到機場巴士約 ¥80。港鐵車資、餐費是一般行情估計，交通細節查完會再更新。<br><b>沒算進去：</b>八達通按金（可退）、購物、伴手禮、小費。</div>
 </section>
 
 <!-- ================= 備忘 ================= -->
@@ -1788,55 +1807,55 @@ body.searching{overflow:hidden}
   (function(){
     // [名稱, 幣別, 低, 高, 'p'每人 / 'g'全家, 備註]
     var DAYS=[
-      ['1/25 一 抵港',[
-        ['機場 → 帝京 計程車（三人一車＋行李）','HKD',290,350,'g','跳錶約 HK$270–285＋行李每件 HK$6；A21 每人 HK$34.6；機場快綫 3 人團體票 HK$210＋九龍站的士'],
-        ['晚餐 旺角燒臘／茶餐廳','HKD',80,150,'p'],
-        ['港鐵、雜支','HKD',20,40,'p']]],
-      ['1/26 二 迪士尼',[
-        ['早餐 冰室','HKD',40,80,'p'],
-        ['港鐵 旺角 ↔ 迪士尼 來回','HKD',44.4,51.4,'p','從旺角站 HK$22.2、旺角東站 HK$25.7 單程（官方）'],
-        ['迪士尼一日票','HKD',669,939,'p','四級票價，先上網預約'],
+      ['1/27 三 抵港入住',[
+        ['機場 → 帝京 紅色市區的士（三人一車＋大行李）','HKD',250,280,'g','深夜23:00抵港，35分鐘直達帝京酒店；夜間免擠免等'],
+        ['宵夜 旺角茶餐廳／避風塘小吃','HKD',80,150,'p'],
+        ['八達通卡儲值備用','HKD',50,100,'p']]],
+      ['1/28 四 迪士尼樂園',[
+        ['早餐 旺角茶餐廳','HKD',40,80,'p'],
+        ['港鐵 旺角東 ↔ 迪士尼 來回','HKD',44.4,51.4,'p','八達通來回'],
+        ['迪士尼一日門票','HKD',669,939,'p','四級票價，先上網預約'],
+        ['提早入園通行證（選）','HKD',0,199,'p','提早1小時進魔雪奇緣世界'],
         ['園內午餐','HKD',120,200,'p'],
         ['園內晚餐','HKD',150,250,'p'],
-        ['點心、飲料','HKD',50,120,'p']]],
-      ['1/27 三 澳門',[
-        ['早餐（蓮香樓較貴）','HKD',50,120,'p'],
-        ['港鐵 旺角東 ↔ 上環 來回','HKD',26,31,'p','八達通 HK$12.9 單程（官方）'],
-        ['噴射飛航 來回（平日普通位）','HKD',388,388,'p','HK$194 × 2'],
-        ['澳門巴士','MOP',6,12,'p'],
-        ['計程車（半島→氹仔、威尼斯人→碼頭）','MOP',80,200,'g'],
-        ['午餐','MOP',100,200,'p'],
-        ['蛋撻、豬扒包、小吃','MOP',40,100,'p'],
-        ['澳門博物館（選）','MOP',0,15,'p','學生 MOP8'],
-        ['巴黎人鐵塔（選）','MOP',0,98,'p'],
-        ['貢多拉（選）','MOP',0,165,'p']]],
-      ['1/28 四 尖沙咀・中環',[
-        ['早餐','HKD',40,100,'p'],
-        ['港鐵','HKD',20,40,'p'],
-        ['天星小輪 來回','HKD',10,15,'p'],
-        ['午餐 茶餐廳','HKD',80,150,'p'],
-        ['晚餐','HKD',120,250,'p'],
-        ['小吃','HKD',30,80,'p']]],
-      ['1/29–1/30 未定（兩天）',[
-        ['餐費＋交通（兩天）','HKD',600,1100,'p','依實際安排調整'],
-        ['門票（昂坪360／海洋公園等，選）','HKD',0,600,'p']]],
-      ['1/31 日 到深圳',[
-        ['港鐵 旺角東 → 羅湖（標準等）','HKD',41.6,45,'p','八達通 HK$41.6（官方）'],
-        ['深圳地鐵','CNY',2,6,'p'],
-        ['午餐','CNY',30,60,'p'],
-        ['晚餐 東門町小吃','CNY',50,100,'p']]],
-      ['2/1 一 東門',[
-        ['早餐','CNY',20,50,'p'],
-        ['午餐 椰子雞','CNY',60,100,'p'],
-        ['地鐵','CNY',4,8,'p'],
-        ['晚餐 八合里潮汕牛肉（金光華）','CNY',100,150,'p']]],
-      ['2/2 二 回程',[
-        ['廣式早茶','CNY',40,70,'p'],
-        ['東門午餐','CNY',50,80,'p'],
-        ['東門打車至皇崗＋跨境機場巴士','CNY',90,120,'p','打車約¥10/人＋皇崗機場直達巴約¥80–100/人'],
-        ['機場免稅/輕食','HKD',60,120,'p']]]
+        ['點心冰棒、爆米花飲料','HKD',50,120,'p']]],
+      ['1/29 五 澳門一日遊',[
+        ['早餐 妹記生滾粥品','HKD',40,70,'p'],
+        ['港鐵 旺角東 ↔ 上環 來回','HKD',26,31,'p','八達通 HK$12.9 單程'],
+        ['噴射飛航 / 金光飛航 來回','HKD',388,454,'p','平日普通位 HK$194，夜航 HK$242'],
+        ['澳門輕軌 / 計程車','MOP',30,80,'p'],
+        ['午餐 黃枝記水蟹粥／官也街','MOP',80,150,'p'],
+        ['安德魯蛋撻、大利來記豬扒包、木糠布丁','MOP',50,100,'p'],
+        ['路氹金光大道晚餐','MOP',120,220,'p']]],
+      ['1/30 六 太平山・尖沙咀・維港夜景',[
+        ['早餐 金華冰廳菠蘿油','HKD',35,65,'p'],
+        ['港鐵＋天星小輪＋叮叮車交通','HKD',30,50,'p'],
+        ['山頂纜車＋摩天台428來回套票','HKD',148,168,'p','百萬維港俯瞰夜景'],
+        ['午餐 尖沙咀茶餐廳／九記牛腩','HKD',70,130,'p'],
+        ['晚餐 廟街興記煲仔飯／避風塘海鮮','HKD',80,160,'p'],
+        ['米其林佳佳甜品夜宵','HKD',30,50,'p']]],
+      ['1/31 日 移防深圳・東門動漫・人才公園夜景',[
+        ['香港告別早餐 一點心現蒸點心','HKD',50,90,'p'],
+        ['港鐵東鐵線 旺角東 → 羅湖（標準/頭等）','HKD',41.6,83.2,'p','頭等艙 HK$83.2 有專屬軟座與行李區'],
+        ['羅湖口岸打車至東門歡朋酒店','CNY',12,15,'g','三人一車僅 5 分鐘'],
+        ['午餐 蘩樓手工粵式早茶點心','CNY',50,90,'p'],
+        ['晚餐 潤園四季椰子雞火鍋大餐','CNY',80,130,'p'],
+        ['深圳地鐵交通','CNY',6,12,'p']]],
+      ['2/1 一 南山科技探索・大疆旗艦・潮汕牛肉火鍋',[
+        ['早餐 歡朋自助早餐 / 潮汕腸粉','CNY',20,40,'p'],
+        ['深圳地鐵交通＋打車','CNY',15,30,'p'],
+        ['大疆/拓竹科技周邊文創伴手禮（選）','CNY',0,200,'p'],
+        ['午餐 萬象天地美食街','CNY',40,80,'p'],
+        ['晚餐 八合里潮汕鮮牛肉火鍋大餐','CNY',90,140,'p'],
+        ['宵夜 鮑師傅海苔肉鬆小貝／東門町小吃','CNY',25,50,'p']]],
+      ['2/2 二 東門採買・皇崗直通大巴返台',[
+        ['早午餐 春滿園老牌廣式早茶','CNY',50,90,'p'],
+        ['東門伴手禮採買（鮑師傅、桃酥）','CNY',50,150,'p'],
+        ['東門歡朋打車至皇崗口岸','CNY',25,30,'g','三人一車 12-15 分鐘'],
+        ['皇崗口岸機場直通專線大巴','HKD',90,110,'p','行李放底層，直達香港機場離境大樓'],
+        ['香港機場免稅輕食','HKD',60,120,'p']]]
     ];
-    var FIXED=[['flight','機票（三人）'],['h1','帝京酒店'],['h2','1/29–1/30 住宿'],['h3','東門希爾頓歡朋 2 晚'],['ins','旅平險'],['esim','網路 eSIM／漫遊'],['shop','購物預算'],['other','其他']];
+    var FIXED=[['flight','機票（三人長榮/國泰往返）'],['h1','旺角帝京酒店（4晚 1/27–1/31）'],['h2','深圳東門希爾頓歡朋（2晚 1/31–2/2）'],['ins','旅平險與不便險'],['esim','台港中三地中港卡 eSIM / 漫遊'],['shop','購物伴手禮預算'],['other','其他緊急備用金']];
     function $(i){return document.getElementById(i)}
     function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
     var st={}; try{st=JSON.parse(ls('hksz-cost')||'{}')||{}}catch(e){}
@@ -1963,7 +1982,7 @@ body.searching{overflow:hidden}
       function items(list){return '<ul class="wlist">'+(list||[]).map(function(t){return '<li><b>'+esc(t.item||t.name)+'：</b>'+esc(t.detail||'')+(t.price&&t.price!=='-'?'（'+esc(t.price)+'）':'')+unv(t.verified)+src(t.source)+'</li>'}).join('')+'</ul>'}
       var Dn=X.disney, h='';
       if(Dn){
-        h+='<p class="lead">1/26（週二）全日。★＝適合青少年。排隊時間是一般平日參考值。</p>';
+        h+='<p class="lead">1/28（週四）全日。★＝適合青少年。排隊時間是一般平日參考值。</p>';
         h+='<p class="cap">門票</p>'+items(Dn.tickets);
         h+='<p class="cap">開園時間與表演</p>'+items(Dn.hours_shows);
         h+='<p class="cap">排隊策略</p>'+items(Dn.strategy);
