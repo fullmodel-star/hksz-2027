@@ -397,9 +397,9 @@ body[data-tab]:not([data-tab="plan"]) .mast{padding-block:16px 8px}
 body[data-tab]:not([data-tab="plan"]) .mast h1{font-size:clamp(22px,5vw,28px)}
 body[data-tab]:not([data-tab="plan"]) .mast h1 br{display:none}
 /* 日期小分頁色點 */
-.tb-sub button[data-s="d1"]::before,.tb-sub button[data-s="d2"]::before,.tb-sub button[data-s="d4"]::before{content:""; display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--hk); margin-right:6px}
+.tb-sub button[data-s="d1"]::before,.tb-sub button[data-s="d2"]::before{content:""; display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--hk); margin-right:6px}
 .tb-sub button[data-s="d3-mo"]::before{content:""; display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--mo); margin-right:6px}
-.tb-sub button[data-s="d3"]::before,.tb-sub button[data-s="d5"]::before,.tb-sub button[data-s="d6"]::before,.tb-sub button[data-s="d7"]::before{content:""; display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--sz); margin-right:6px}
+.tb-sub button[data-s="d3"]::before,.tb-sub button[data-s="d4"]::before,.tb-sub button[data-s="d5"]::before,.tb-sub button[data-s="d6"]::before,.tb-sub button[data-s="d7"]::before{content:""; display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--sz); margin-right:6px}
 .tb-sub button[aria-selected="true"]::before{box-shadow:0 0 0 2px #fff}
 /* 時間軸圖示 */
 .row{grid-template-columns:clamp(52px,13vw,62px) 1fr}
@@ -478,18 +478,17 @@ body[data-tab]:not([data-tab="plan"]) .mast h1 br{display:none}
 <header class="mast">
   <p class="eyebrow">2027 / 01 / 27 – 02 / 02 · 香港（2晚） ＋ 深圳（4晚・深度度假）</p>
   <h1>香港・深圳<br>七日雙城行程</h1>
-  <p class="sub">一家三口。1/27 晚班機 UO117（21:15 桃園 T1 起飛／23:25 抵港 T1）直達旺角帝京酒店（連住 2 晚），1/28 迪士尼全日；1/29 東鐵線進深圳入住東門希爾頓歡朋（連住 4 晚），1/30 從深圳一日來回港島，看太平山頂、天星小輪維港雙夜景；1/31–2/1 暢玩華強北、南山大疆無人機、人才公園春筍夜景與「健康100／阿奇拉」湯泉水療；2/2 傍晚 UO116（18:40 香港 T2 起飛）回台北。</p>
+  <p class="sub">一家三口。1/27 晚班機 UO117（21:15 桃園 T1 起飛／23:25 抵港 T1）直達旺角帝京（2 晚）；1/28 迪士尼全日；1/29 睡飽、旺角晃晃吃午餐後進深圳，住東門希爾頓歡朋（4 晚），晚上東門吃飯逛動漫；1/30 自然博物館、平安金融中心、蓮花山燈光秀；1/31 南山科技日（大疆、拓竹、無人車、無人機外賣）；2/1 華發冰雪世界滑雪＋華強北；2/2 早茶伴手禮，UO116 18:40 由香港 T2 回台北。</p>
   <div class="ribbon" id="ribbon" aria-label="七天總覽">
     <button type="button" data-d="d1" class="rb hk"><i>1/27</i><b>三</b><span>深夜抵港</span></button>
     <button type="button" data-d="d2" class="rb hk"><i>1/28</i><b>四</b><span>迪士尼</span></button>
-    <button type="button" data-d="d3" class="rb sz"><i>1/29</i><b>五</b><span>進深圳水療</span></button>
-    <button type="button" data-d="d4" class="rb hk"><i>1/30</i><b>六</b><span>港島一日</span></button>
-    <button type="button" data-d="d5" class="rb sz"><i>1/31</i><b>日</b><span>華強北夜景</span></button>
-    <button type="button" data-d="d6" class="rb sz"><i>2/1</i><b>一</b><span>南山阿奇拉</span></button>
+    <button type="button" data-d="d3" class="rb sz"><i>1/29</i><b>五</b><span>進深圳</span></button>
+    <button type="button" data-d="d4" class="rb sz"><i>1/30</i><b>六</b><span>博物館・燈光秀</span></button>
+    <button type="button" data-d="d5" class="rb sz"><i>1/31</i><b>日</b><span>南山科技</span></button>
+    <button type="button" data-d="d6" class="rb sz"><i>2/1</i><b>一</b><span>滑雪・華強北</span></button>
     <button type="button" data-d="d7" class="rb sz"><i>2/2</i><b>二</b><span>東門返台</span></button>
-    <button type="button" data-d="d3-mo" class="rb mo"><i>備案</i><b>🇲🇴</b><span>澳門一日</span></button>
   </div>
-  <div class="legend"><span class="lg hk">香港・住旺角帝京（2晚）</span><span class="lg sz">深圳・住東門歡朋（4晚）</span><span class="lg mo">澳門備案（保留資料）</span></div>
+  <div class="legend"><span class="lg hk">香港・住旺角帝京（2晚）</span><span class="lg sz">深圳・住東門歡朋（4晚）</span></div>
   <div class="weather-card"><span>🌤 <b>1 月末天氣參考</b>：港深均溫約 14–20°C，乾燥微涼舒適；建議洋蔥式穿搭，備防風外套與薄圍巾。</span></div>
   <div class="today" id="today"></div>
   <div class="tools">
@@ -626,9 +625,9 @@ body[data-tab]:not([data-tab="plan"]) .mast h1 br{display:none}
       <button type="button" class="mf-chip" data-mf-day="d1">D1 1/27 深夜抵港</button>
       <button type="button" class="mf-chip" data-mf-day="d2">D2 1/28 迪士尼</button>
       <button type="button" class="mf-chip" data-mf-day="d3">D3 1/29 進深圳</button>
-      <button type="button" class="mf-chip" data-mf-day="d4">D4 1/30 港島一日</button>
-      <button type="button" class="mf-chip" data-mf-day="d5">D5 1/31 深圳過關</button>
-      <button type="button" class="mf-chip" data-mf-day="d6">D6 2/1 南山黑科技</button>
+      <button type="button" class="mf-chip" data-mf-day="d4">D4 1/30 博物館・燈光秀</button>
+      <button type="button" class="mf-chip" data-mf-day="d5">D5 1/31 南山科技</button>
+      <button type="button" class="mf-chip" data-mf-day="d6">D6 2/1 滑雪・華強北</button>
       <button type="button" class="mf-chip" data-mf-day="d7">D7 2/2 東門回程</button>
     </div>
     <div class="mf-filters" id="mf-kind-filters">
@@ -759,7 +758,8 @@ body[data-tab]:not([data-tab="plan"]) .mast h1 br{display:none}
     <div class="day-tag"><b>DAY 2</b><span>1/28 四</span><span>迪士尼樂園全日美食 ＆ 城堡光影煙火夜景</span></div>
     <h2>迪士尼全日暢玩，園內特色美食，閉園光影煙火夜景</h2>
     <p class="day-note"><b>🍽️ 美食主軸：</b>敏華冰室黯然銷魂飯、迪士尼皇室宴會廳、園內阿德爾特色雪糕、散場生滾牛肉粥。<br><b>🌃 夜景主軸：</b>20:00 奇妙夢想城堡「Momentous」光影噴泉水幕煙火夜景！</p>
-  </div>
+      <div class="note" style="border-left-color:var(--maple); background:rgba(220,38,38,0.08); margin:12px 0 16px;"><b>🎫 待辦：1/28 門票還沒開放購買。</b>開賣後立刻買三張（滿 12 歲按成人價），買完到官網／官方 App <b>預約 1/28 入園日期</b>並綁定門票。</div>
+</div>
   <div class="tl">
     <div class="row eat"><div class="t">08:00</div><div class="body">
       <div class="ttl">早點出發吃飽：敏華冰室 或 金華冰廳<span class="flag eat">早餐</span><button type="button" class="copy-btn" data-copy="敏華冰室 MOKO">📋 複製</button></div>
@@ -809,437 +809,212 @@ body[data-tab]:not([data-tab="plan"]) .mast h1 br{display:none}
 
 <section class="day" id="d3">
   <div class="day-h">
-    <div class="day-tag"><b>DAY 3</b><span>1/29 五</span><span>東鐵線進深圳 → 東門歡朋入住 → 蘩樓早茶 → 東門動漫IP → 羅湖【健康100 度假湯泉】</span></div>
-    <h2>進深圳入住歡朋，蘩樓手工早茶，東門動漫大樓，健康100度假湯泉極致放鬆</h2>
-    <p class="day-note"><b>🍽️ 美食主軸：</b>太子一點心米其林早餐、深圳老字號「蘩樓」手作茶樓、健康100天台BBQ燒烤與時令鮮果雪糕吃到飽。<br><b>♨️ 深圳水療度假主軸：</b>連續 4 晚入住東門歡朋免搬行李！傍晚打車直奔羅湖銀湖別墅區<b>【健康100 度假湯泉】</b>，享受罕見 25 米室內恆溫大泳池、天台景觀花園與免小費全包放鬆，洗去連日疲憊！</p>
-    <div class="note" style="border-left-color:var(--moss); background:rgba(22,163,74,0.08); margin:12px 0 16px;">
-      <b>🚆 跨城交通指引：香港旺角 ➔ 深圳東門歡朋酒店移動</b><br>
-      首選推薦「港鐵東鐵線直達羅湖」（旺角帝京酒店大堂專用電梯直通旺角東站閘口，推薦加買頭等艙軟座，37 分鐘直達羅湖，出關打車 5 分鐘直達東門歡朋酒店，全家免搬行李踏出室外）！<br>
-      <button type="button" class="copy-btn" onclick="TRIP.go('prep','cross-transport')" style="margin-top:8px; cursor:pointer; font-weight:700;">👉 點此查看「東鐵線火車 vs 皇崗機場專線」詳細比拼表</button>
-    </div>
+    <div class="day-tag"><b>DAY 3</b><span>1/29 五</span><span>睡到飽 → 旺角晃晃 → 港式午餐 → 東鐵線進深圳 → 東門晚餐與動漫大樓</span></div>
+    <h2>睡到自然醒，旺角晃晃吃午餐，下午進深圳，晚上東門吃飯逛動漫</h2>
+    <p class="day-note"><b>🍽️ 美食主軸：</b>旺角港式午餐（一點心／金華冰廳）、東門「蘩樓」手作點心晚餐。<br><b>🎌 晚上主軸：</b>東門新白馬・次元9號動漫大樓、MINISO LAND、東門老街夜市散步。</p>
   </div>
   <div class="tl">
-    <div class="row eat"><div class="t">09:00</div><div class="body">
-      <div class="ttl">香港告別早茶：太子米其林必比登「一點心」手工現蒸點心<span class="flag eat">米其林早茶</span><button type="button" class="copy-btn" data-copy="一點心 太子通菜街209A號">📋 複製地址</button></div>
-      <div class="desc">
-        帝京酒店步行 7 分鐘到太子通菜街。平價米其林傳奇神店！現點現蒸熱氣騰騰：必吃<b>香煎蘿蔔糕、鮮蝦腐皮捲、豉汁蒸排骨、蜜汁叉燒包、炸兩腸粉</b>，吃飽心滿意足回酒店推行李出發！
-      </div>
-      <div class="links"><a data-q="一點心 太子 通菜街">📍 一點心</a></div>
+    <div class="row stop"><div class="t">10:30</div><div class="body">
+      <div class="ttl">睡到自然醒，整理行李退房（大件行李寄放帝京前台）</div>
+      <div class="desc">退房時間以酒店規定為準；行李寄放後輕裝出門，下午回來取。</div>
     </div></div>
-    <div class="row move"><div class="t">10:15</div><div class="body"><div class="card">
-      <div class="ttl">旺角東 → 羅湖口岸（東鐵線直達終點站約 35 分）</div>
-      <div class="desc">帝京酒店樓下直接進旺角東站搭東鐵線直達羅湖（刷八達通核准頭等艙有專屬絲絨座椅與大行李空間），<b>隨身攜帶卡式台胞證</b>走人工查驗過關。過關後深圳地鐵 1 號線 1 站到國貿，或打車 ¥12 直達酒店。</div>
-    </div></div></div>
     <div class="row stop"><div class="t">11:30</div><div class="body">
-      <div class="ttl">東門希爾頓歡朋酒店 辦理入住／寄放大件行李（連住 4 晚）<button type="button" class="copy-btn" data-copy="深圳东门希尔顿欢朋酒店 深圳市罗湖区东门南路3022号">📋 複製地址</button></div>
-      <div class="desc">酒店位於東門南路 3022 號（湖貝站 F 出口步行約 3 分鐘），大行李寄放前台或直接進房安頓，輕裝出門吃大餐！</div>
-      <div class="links"><a data-q="深圳东门希尔顿欢朋酒店">📍 高德地圖</a></div>
+      <div class="ttl">旺角晃晃：信和中心、波鞋街、女人街（通菜街）</div>
+      <div class="desc">信和中心看動漫模型、扭蛋；波鞋街（花園街）逛球鞋；女人街小攤。都在帝京步行 10 分鐘內。</div>
+      <div class="links"><a data-q="信和中心 旺角">📍 信和中心</a><a data-q="花園街 波鞋街">📍 波鞋街</a><a data-q="通菜街 女人街">📍 女人街</a></div>
     </div></div>
-    <div class="row eat"><div class="t">12:00</div><div class="body">
-      <div class="ttl">午餐大餐：深圳必吃老字號「蘩樓」廣式手作點心茶樓<span class="flag eat">早茶午餐</span><button type="button" class="copy-btn" data-copy="蘩楼 深圳东门店">📋 複製地址</button></div>
-      <div class="desc">
-        <b>⭐ 深圳點心天花板：</b>堅持現點現蒸！必吃招牌<b>露筍蝦餃皇</b>（皮薄每顆包 3 隻大蝦仁）、<b>脆皮紅米腸</b>（金黃脆網包裹鮮蝦爆漿）、XO 醬炒蘿蔔糕、金湯鮮蝦腐皮捲，配一壺陳年普洱茶，全家大滿足！
-      </div>
+    <div class="row eat"><div class="t">13:00</div><div class="body">
+      <div class="ttl">港式午餐：太子「一點心」米其林點心 或 金華冰廳菠蘿油<span class="flag eat">午餐</span><button type="button" class="copy-btn" data-copy="一點心 太子通菜街">📋 複製</button></div>
+      <div class="desc"><b>一點心：</b>平價米其林必比登，香煎蘿蔔糕、鮮蝦腐皮捲、叉燒包。<br><b>金華冰廳：</b>現烤菠蘿油配熱奶茶。兩間都在帝京附近。</div>
+      <div class="links"><a data-q="一點心 太子 通菜街">📍 一點心</a><a data-q="金華冰廳 弼街">📍 金華冰廳</a></div>
+    </div></div>
+    <div class="row move"><div class="t">14:30</div><div class="body"><div class="card">
+      <div class="ttl">取行李 → 旺角東搭東鐵線 → 羅湖口岸過關 → 打車 5 分到東門歡朋</div>
+      <div class="desc">帝京樓下直通旺角東站，東鐵線到羅湖約 40 分；<b>台胞證隨身帶</b>。羅湖出關後打車或地鐵 1 站到國貿。</div>
+    </div></div></div>
+    <div class="row stop"><div class="t">16:00</div><div class="body">
+      <div class="ttl">東門希爾頓歡朋酒店入住（連住 4 晚）<button type="button" class="copy-btn" data-copy="深圳东门希尔顿欢朋酒店 深圳市罗湖区东门南路3022号">📋 複製</button></div>
+      <div class="desc">東門南路 3022 號，湖貝站 F 口步行約 3 分。先休息一下。</div>
+      <div class="links"><a data-q="深圳东门希尔顿欢朋酒店">📍 東門歡朋</a></div>
+    </div></div>
+    <div class="row eat"><div class="t">18:00</div><div class="body">
+      <div class="ttl">晚餐：東門「蘩樓」廣式手作點心<span class="flag eat">晚餐</span><button type="button" class="copy-btn" data-copy="蘩楼 深圳东门店">📋 複製</button></div>
+      <div class="desc">現點現蒸：露筍蝦餃皇、脆皮紅米腸、XO 醬炒蘿蔔糕。晚餐時段人多，可先用大眾點評線上取號。</div>
       <div class="links"><a data-q="蘩楼 深圳">📍 蘩樓 東門</a></div>
     </div></div>
-    <div class="row stop"><div class="t">13:30</div><div class="body">
-      <div class="ttl">東門二次元特區：新白馬・次元9號 ＆ 解放路 MINISO LAND 3層IP旗艦樂園<button type="button" class="copy-btn" data-copy="深圳东门 新白马次元9号">📋 複製店名</button></div>
-      <div class="desc">
-        <b>新白馬・次元9號：</b>整棟 6 層二次元動漫主題商廈！模玩熊旗艦店、三月獸、萬代扭蛋官方店、卡牌專門店，鎖定動漫模型周邊！<br>
-        <b>MINISO LAND 名創優品樂園：</b>解放路名仕商城 1–3 樓，三麗鷗、吉伊卡哇、哈利波特、海賊王聯名旗艦，拍照購物超好買！
-      </div>
+    <div class="row stop"><div class="t">19:30</div><div class="body">
+      <div class="ttl">東門二次元：新白馬・次元9號 ＆ MINISO LAND<span class="flag key">動漫</span><button type="button" class="copy-btn" data-copy="深圳东门 新白马次元9号">📋 複製</button></div>
+      <div class="desc"><b>次元9號：</b>整棟動漫主題商場，模型、扭蛋、卡牌專門店。<br><b>MINISO LAND：</b>解放路名仕商城 1–3 樓，三麗鷗、吉伊卡哇等 IP 旗艦。營業時間出發前在高德確認。</div>
       <div class="links"><a data-q="深圳 东门 次元9号">📍 次元9號</a><a data-q="深圳 名仕商城 MINISO LAND">📍 MINISO LAND</a></div>
     </div></div>
-    <div class="row move"><div class="t">16:30</div><div class="body"><div class="card">
-      <div class="ttl">打車 15 分鐘直奔【健康100 度假湯泉】（羅湖銀湖別墅區）</div>
-      <div class="desc">酒店門口打開高德地圖呼叫計程車，直達銀湖別墅區金碧苑 1 號（車資約 ¥25–30）。</div>
-    </div></div></div>
-    <div class="row stop"><div class="t">17:00</div><div class="body">
-      <div class="ttl">♨️ 深圳水療極致體驗一：【健康100 度假湯泉】（25米室內恆溫大泳池 ＆ 天台BBQ）<span class="flag key">重磅放鬆</span><button type="button" class="copy-btn" data-copy="深圳市罗湖区银湖别墅区金碧苑1号 健康100">📋 複製地址</button></div>
-      <div class="desc">
-        <b>⭐ 深圳水療界的清流・別墅園林式全包度假：</b><br>
-        ・<b>25 米標準室內恆溫大泳池：</b>深圳少有的標準深水恆溫泳池，水質極淨，小孩游泳戲水超開心（記得自備泳衣泳帽）。<br>
-        ・<b>天台景觀花園 ＆ BBQ 炭火燒烤：</b>銀湖別墅依山傍水綠意環繞，夜晚上天台花園吹風吃現烤生蠔肉串！<br>
-        ・<b>進口水果飲料無限暢享：</b>時令車厘子、草莓、哈密瓜、八喜/雀巢雪糕冰淇淋、星巴克咖啡任飲！<br>
-        ・<b>家庭休閒設施：</b>星空露營帳篷休閒區、巨幕投影影音廳、Switch/PS5 遊戲區，全場免小費透明消費，身心徹底放鬆！
-      </div>
-      <div class="links"><a data-q="深圳 健康100 度假汤泉">📍 健康100 湯泉</a></div>
+    <div class="row stop"><div class="t">21:00</div><div class="body">
+      <div class="ttl">東門老街夜市散步，走回酒店</div>
+      <div class="desc">老街步行街吃點小吃、買飲料，步行回歡朋。</div>
     </div></div>
-    <div class="row eat"><div class="t">19:00</div><div class="body">
-      <div class="ttl">晚餐享受：健康100 館內天台花園現烤 BBQ ＆ 自助輕食<span class="flag eat">水療晚餐</span></div>
-      <div class="desc">在館內天台景觀花園享用炭烤生蠔、烤牛肉串，搭配新鮮水果拼盤與現打果汁，邊吃邊欣賞銀湖夜景，毫無趕路壓力。</div>
-    </div></div>
-    <div class="row move"><div class="t">21:30</div><div class="body"><div class="card">
-      <div class="ttl">打車返回東門歡朋酒店安歇</div>
-      <div class="desc">泡完湯全身暖洋洋，打車約 15 分鐘輕鬆回東門歡朋酒店睡個香甜好覺！</div>
-    </div></div></div>
   </div>
   <div class="day-pager">
     <button type="button" class="pager-btn" data-next="d2">← 上一天：1/28 迪士尼全日暢玩</button>
-    <button type="button" class="pager-btn" data-next="d4">下一天：1/30 深圳出發・港島一日來回與百萬夜景 →</button>
+    <button type="button" class="pager-btn" data-next="d4">下一天：1/30 自然博物館、平安金融中心與蓮花山燈光秀 →</button>
   </div>
 </section>
 
 <section class="day" id="d4">
   <div class="day-h">
-    <div class="day-tag"><b>DAY 4</b><span>1/30 六</span><span>深圳出發一日來回：港島老街美食 → 叮叮車海傍 → 太平山頂百萬夜景 → 天星小輪夜航 ＆ 廟街煲仔飯</span></div>
-    <h2>從深圳過關一日來回：蓮香樓推車早茶，太平山頂百萬夜景，天星小輪夜航維港，廟街炭火煲仔飯</h2>
-    <p class="day-note"><b>🍽️ 美食主軸：</b>蓮香樓百年推車早茶（或金華冰廳現烤酥皮菠蘿油）、中環沾仔記米其林雲吞麵（或九記牛腩）、蘭芳園絲襪奶茶、廟街興記炭火煲仔飯配炸蠔餅、佳佳甜品芝麻糊湯圓。<br><b>🌃 夜景主軸：</b>太平山頂摩天台 428 百萬夜景 ＋ 百年天星小輪海面夜航 ＋ 尖沙咀「幻彩詠香江」燈光秀！</p>
-    <div class="note" style="border-left-color:var(--hk); margin:12px 0 16px;"><b>🚆 住宿調整後的走法：</b>1/29 起改住深圳東門歡朋，今天是<b>深圳出發的香港一日來回</b>。早上東門搭地鐵 1 號線到羅湖站，羅湖口岸過關（06:30 開關，週六早上人多要預留時間）→ 東鐵線往<b>金鐘</b>轉港島線到上環。晚上吃完廟街後，由旺角東搭東鐵線回羅湖過關（<b>羅湖口岸 24:00 關閘</b>，東鐵往羅湖末班車時間出發前上港鐵官網確認），打車 5 分鐘回酒店。<b>隨身帶好台胞證</b>，今天進出各一次。</div>
-    
-    <!-- 澳門備案 Plan B 折疊卡片 -->
-    <details class="note" style="border-left-color:var(--sky); background:rgba(2,132,199,0.08); margin:14px 0 16px; border-radius:8px; padding:12px 16px; cursor:pointer;">
-      <summary style="font-weight:700; font-size:15px; color:var(--sky);">
-        🇲🇴【備案 Plan B】若當天想改去「澳門一日遊」：完整時刻表與美食夜景動線（點此展開查看）
-      </summary>
-      <div style="margin-top:10px; font-size:13.5px; line-height:1.7; color:inherit; cursor:auto;">
-        <p style="margin:0 0 8px; color:var(--hk);"><b>⚠️ 住宿已改住深圳：</b>此備案的時刻表仍以旺角出發寫成，若要啟用請改從深圳出發（可查蛇口郵輪中心直航澳門的船班，或回香港上環搭船），時刻與票價出發前重查。</p>
-        <p style="margin:0 0 8px;"><b>🌟 備案定位：</b>主行程為「香港市區悠閒深度遊」，若全家當天體力充沛且想打卡澳門大三巴與金光大道不夜城，可直接啟用此 Plan B（持台灣護照免簽入境澳門）：</p>
-        <ul style="margin:0 0 10px; padding-left:18px;">
-          <li><b>07:15 旺角元氣早餐：</b>花園街街市 4 樓「妹記生滾粥品」魚腩牛肉粥（鑊氣十足球）。</li>
-          <li><b>08:00 交通：</b>旺角東搭港鐵東鐵線至金鐘轉港島線 $
-ightarrow$ 上環站 D 出口室內直達信德中心 3 樓港澳碼頭。</li>
-          <li><b>08:30–09:30 高速客輪：</b>搭乘「噴射飛航 TurboJET」直達澳門外港客運碼頭（航程約 55 分鐘）。</li>
-          <li><b>09:45–12:30 澳門半島世遺漫步：</b>議事亭前地 $
-ightarrow$ 玫瑰堂 $
-ightarrow$ 大三巴牌坊 $
-ightarrow$ 戀愛巷粉色壁畫 $
-ightarrow$ 登上大炮台俯瞰澳門半島全景與新葡京。</li>
-          <li><b>12:30–13:30 半島午餐：</b>「黃枝記粥麵」招牌原隻鮮甜水蟹粥 或 「勝利茶餐室」現炸香酥厚切豬扒包。</li>
-          <li><b>13:45–16:30 氹仔官也街狂吃：</b>搭計程車或發財車至氹仔官也街，狂吃<b>安德魯熱騰騰焦糖葡式蛋撻</b>、<b>大利來記炭烤豬扒包</b>、<b>莫義記貓山王榴槤雪糕/木糠布丁</b>，採買晃記肉切酥。</li>
-          <li><b>16:30–18:00 威尼斯人：</b>穿過天橋漫步威尼斯人 3 樓室內藍天運河天幕，逛逛名名士商城周邊。</li>
-          <li><b>18:15–20:00 金光大道百萬夜景：</b>欣賞<b>澳門巴黎人鐵塔每 15 分鐘鐳射光效</b>（對面草坪仰拍絕景）＋ <b>澳門倫敦人 96 米金色大笨鐘與英倫皇宮璀璨外牆夜景</b>！</li>
-          <li><b>20:30–21:30 回程返港：</b>搭計程車至外港碼頭搭噴射飛航直達上環信德中心，港鐵回旺角東帝京酒店安歇。</li>
-        </ul>
-        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:8px;">
-        <button type="button" class="theme" onclick="TRIP.go('plan','d3-mo')" style="cursor:pointer; font-weight:700; background:var(--sky); color:#fff;">👉 查看 🇲🇴 澳門一日遊完整備案詳細行程</button>
-        <button type="button" class="copy-btn" onclick="TRIP.go('prep','cross-transport')" style="cursor:pointer; font-weight:700;">🚢 查看客輪 vs 金巴票價比拼表</button>
-      </div>
-      </div>
-    </details>
+    <div class="day-tag"><b>DAY 4</b><span>1/30 六</span><span>深圳自然博物館 → 平安金融中心 116 樓 → 福田晚餐 → 蓮花山頂看 CBD 燈光秀</span></div>
+    <h2>深圳自然博物館，平安金融中心 116 樓俯瞰全城，蓮花山頂看福田 CBD 燈光秀</h2>
+    <p class="day-note"><b>🦖 白天主軸：</b>坪山「深圳自然博物館」（2026/7 開館，恐龍、演化、宇宙八大展廳）。<br><b>🌃 夜景主軸：</b>平安金融中心 Free Sky 看日落 → 蓮花山頂俯瞰福田中心區燈光秀（<b>只有週五、週六晚上有動畫燈光</b>，今天週六剛好）。</p>
   </div>
   <div class="tl">
-    <div class="row move"><div class="t">07:15</div><div class="body"><div class="card">
-      <div class="ttl">東門歡朋 → 羅湖口岸過關 → 東鐵線往金鐘轉港島線到上環</div>
-      <div class="desc">湖貝／老街站搭地鐵 1 號線到羅湖站，步行進羅湖口岸出境；香港側上東鐵線直達金鐘（約 45 分），轉港島線 2 站到上環。全程約 1 小時 30 分，<b>帶台胞證</b>。</div>
+    <div class="row eat"><div class="t">08:30</div><div class="body">
+      <div class="ttl">早餐：酒店或東門老街潮汕腸粉<span class="flag eat">早餐</span></div>
+    </div></div>
+    <div class="row move"><div class="t">09:00</div><div class="body"><div class="card">
+      <div class="ttl">東門 → 坪山 深圳自然博物館（地鐵約 1 小時以上，或打車）</div>
+      <div class="desc">最近站為地鐵 16 號線「沙壆站」C／D 口，步行約 700 米；也可搭坪山雲巴 1 號線到「自然博物館西」。路線用高德規劃，打車較省力。</div>
     </div></div></div>
-    <div class="row eat"><div class="t">09:00</div><div class="body">
-      <div class="ttl">百年老香港體驗：上環「蓮香樓」傳統推車蒸籠早茶 或 金華冰廳菠蘿油<span class="flag eat">早茶大餐</span><button type="button" class="copy-btn" data-copy="蓮香樓 上環德輔道中東寧大廈">📋 複製地址</button></div>
-      <div class="desc">
-        <b>蓮香樓：</b>全港極少數保留阿姐推著點心車穿梭叫賣的老茶樓！必搶剛出籠的<b>水晶蝦餃皇、豉汁鳳爪、蜜汁叉燒包、霸王鴨、豬肚燒賣</b>，配熱茶品味老香港市井風情。<br>
-        <b>不想去上環排隊：</b>可直接在旺角吃「金華冰廳」現烤熱酥皮菠蘿油配熱奶茶！
-      </div>
-      <div class="links"><a data-q="蓮香樓 上環 德輔道中">📍 蓮香樓</a><a data-q="金華冰廳 弼街">📍 金華冰廳</a></div>
+    <div class="row stop"><div class="t">10:15</div><div class="body">
+      <div class="ttl">🦖 深圳自然博物館（坪山）<span class="flag key">必去</span><button type="button" class="copy-btn" data-copy="深圳自然博物馆">📋 複製</button></div>
+      <div class="desc">八大展廳：宇宙、地球、演化、恐龍、人類、生命、生態、家園，七千多件真品標本；頂樓有 600 多米空中步道。<br><b>開放：</b>週二至週日 10:00–18:00（17:30 停止入館），<b>週一休館</b>。<b>票價：</b>¥80，優惠票 ¥60。是否需預約請出發前查官方公眾號。</div>
+      <div class="links"><a data-q="深圳自然博物馆 坪山">📍 深圳自然博物館</a></div>
     </div></div>
-    <div class="row stop"><div class="t">10:30</div><div class="body">
-      <div class="ttl">中環半山自動扶手電梯 ＆ 大館古蹟紅磚建築群<button type="button" class="copy-btn" data-copy="大館 Tai Kwun 中環">📋 複製</button></div>
-      <div class="desc">
-        搭乘全球最長的戶外有蓋電扶梯，漫步至<b>大館（舊中區警署）</b>，欣賞百年殖民時代紅磚拱廊、檢閱廣場與當代藝術展覽，拍照質感極佳。
-      </div>
-      <div class="links"><a data-q="中環至半山自動扶梯">📍 半山電扶梯</a><a data-q="大館 中環">📍 大館</a></div>
-    </div></div>
-    <div class="row eat"><div class="t">12:30</div><div class="body">
-      <div class="ttl">中環經典午餐：沾仔記米其林乒乓雲吞麵 或 九記牛腩 ＆ 蘭芳園奶茶<span class="flag eat">午餐</span><button type="button" class="copy-btn" data-copy="沾仔記 中環威靈頓街98號">📋 複製地址</button></div>
-      <div class="desc">
-        <b>沾仔記：</b>威靈頓街米其林必比登名店！乒乓球般巨型鮮蝦雲吞，皮薄蝦肉彈牙鮮甜，招牌至尊三寶麵（雲吞＋鮮牛肉＋鯪魚球）極致滿足，翻桌快免久排！<br>
-        <b>九記牛腩 / 蘭芳園：</b>歌賦街清湯牛腩與蘭芳園原創絲襪奶茶配奶油豬扒包。
-      </div>
-      <div class="links"><a data-q="沾仔記 威靈頓街">📍 沾仔記</a><a data-q="九記牛腩 中環">📍 九記牛腩</a><a data-q="蘭芳園 中環">📍 蘭芳園</a></div>
+    <div class="row eat"><div class="t">13:00</div><div class="body">
+      <div class="ttl">午餐：博物館內或坪山周邊簡餐<span class="flag eat">午餐</span></div>
     </div></div>
     <div class="row move"><div class="t">14:00</div><div class="body"><div class="card">
-      <div class="ttl">搭乘百年「叮叮車」雙層有軌電車（中環 → 堅尼地城）</div>
-      <div class="meta"><span>全港最平價慢活體驗：成人僅 HK$3</span><span>後門上車、前門下車刷八達通</span></div>
-      <div class="desc">坐在上層最前方木椅，吹著微風晃過老街，看著窗外街景延伸至海邊。</div>
+      <div class="ttl">坪山 → 福田（地鐵或打車約 1 小時）</div>
+      <div class="desc">目的地：地鐵 2／11 號線「福田站」8 號口，直通星河 COCO Park 地下，走約 5 分到平安金融中心。</div>
     </div></div></div>
-    <div class="row stop"><div class="t">15:00</div><div class="body">
-      <div class="ttl">堅尼地城新海旁・吹海風看大船出海（% Arabica 咖啡打卡）<button type="button" class="copy-btn" data-copy="堅尼地城新海旁">📋 複製</button></div>
-      <div class="desc">坐在海傍長椅或至「% Arabica 咖啡」點杯咖啡吹海風，欣賞維港西面壯闊海景與大船出入港。</div>
-      <div class="links"><a data-q="堅尼地城新海旁">📍 堅尼地城海傍</a></div>
+    <div class="row stop"><div class="t">15:30</div><div class="body">
+      <div class="ttl">福田中心區晃晃：星河 COCO Park</div>
+      <div class="desc">商場逛逛、喝下午茶，避開觀光層傍晚人潮前先休息。</div>
+      <div class="links"><a data-q="星河COCO Park 福田">📍 COCO Park</a></div>
     </div></div>
-    <div class="row move"><div class="t">16:15</div><div class="body"><div class="card">
-      <div class="ttl">前往花園道山頂纜車站（堅尼地城搭港島線至中環站，步行約 10 分至纜車站）</div>
-    </div></div></div>
     <div class="row stop"><div class="t">16:45</div><div class="body">
-      <div class="ttl">搭乘第六代山頂纜車 ＆ 登上太平山頂凌霄閣<button type="button" class="copy-btn" data-copy="山頂纜車站 花園道總站">📋 複製</button></div>
-      <div class="desc">搭乘全景玻璃天窗的綠色復古山頂纜車，以極大傾角爬升穿過森林直達太平山頂！</div>
-      <div class="links"><a data-q="山頂纜車 花園道">📍 山頂纜車站</a></div>
+      <div class="ttl">🏙️ 平安金融中心 116 樓 Free Sky 雲際觀光層（看日落到華燈初上）<span class="flag key">景觀台</span><button type="button" class="copy-btn" data-copy="深圳平安金融中心云际观光层">📋 複製</button></div>
+      <div class="desc">深圳第一高樓 116 樓展望台，電梯約 55 秒直達。<b>開放</b>約 09:00–21:30（20:30 最後入場）；<b>票價</b>成人 ¥200、身高 1.2–1.5 米兒童 ¥100（以現場為準）。一月日落約 18:00 前後。</div>
+      <div class="links"><a data-q="深圳平安金融中心云际观光层">📍 平安金融中心</a></div>
     </div></div>
-    <div class="row stop"><div class="t">17:15</div><div class="body">
-      <div class="ttl">🌃 夜景重頭戲一：太平山頂「摩天台 428」世界三大夜景之巔！<button type="button" class="copy-btn" data-copy="太平山頂 凌霄閣摩天台428">📋 複製</button></div>
-      <div class="desc">
-        <b>⭐ 享譽全球的香港之巔絕景：</b>在海拔 428 米的凌霄閣摩天台上，從日落黃昏晚霞一路看至維多利亞港兩岸摩天大樓華燈初上。高聳的中銀大廈、IFC、ICC 如水晶柱般在腳下閃耀，萬家燈火匯聚成全球最震撼的百萬夜景！
-      </div>
-      <div class="links"><a data-q="太平山頂凌霄閣">📍 凌霄閣摩天台</a></div>
-    </div></div>
-    <div class="row move"><div class="t">18:45</div><div class="body"><div class="card">
-      <div class="ttl">山頂下山 → 中環 7 號天星碼頭</div>
-      <div class="desc">於山頂總站搭乘 <b>15 號雙層巴士</b>直達中環 7 號天星碼頭（沿途俯瞰半山百萬夜景，刺激又超值！）。</div>
-    </div></div></div>
-    <div class="row stop"><div class="t">19:15</div><div class="body">
-      <div class="ttl">🌃 夜景重頭戲二：百年天星小輪「維港夜航」（中環 → 尖沙咀）<button type="button" class="copy-btn" data-copy="天星小輪 中環天星碼頭">📋 複製</button></div>
-      <div class="desc">
-        <b>🌊 國家地理推薦人生必遊：</b>刷八達通僅約 HK$5，登上綠白相間的百年渡海小輪。坐在木質長椅上吹著涼爽海風，在維港海面上以 360 度環景視角仰望港九兩岸摩天大樓群夜景！
-      </div>
-      <div class="links"><a data-q="尖沙咀天星碼頭">📍 天星碼頭</a></div>
+    <div class="row eat"><div class="t">18:30</div><div class="body">
+      <div class="ttl">晚餐：福田 COCO Park／中心城一帶<span class="flag eat">晚餐</span></div>
+      <div class="desc">選擇多，點評上挑人氣店；19:30 前吃完往蓮花山移動。</div>
     </div></div>
     <div class="row stop"><div class="t">19:45</div><div class="body">
-      <div class="ttl">🌃 夜景重頭戲三：星光大道海濱長廊 ＆「幻彩詠香江」燈光秀（20:00）<button type="button" class="copy-btn" data-copy="星光大道 尖沙咀">📋 複製</button></div>
-      <div class="desc">
-        <b>⭐ 20:00 準時上演：</b>在尖沙咀星光大道海濱長廊，欣賞全球最大型燈光音樂匯演「幻彩詠香江」，對岸中銀大廈、IFC 等摩天樓鐳射光芒四射；與李小龍銅像、麥兜雕像及電影巨星手印合影。
-      </div>
-      <div class="links"><a data-q="星光大道 尖沙咀">📍 星光大道</a></div>
-    </div></div>
-    <div class="row eat"><div class="t">20:30</div><div class="body">
-      <div class="ttl">晚餐盛宴：油麻地廟街「興記煲仔飯」炭火香脆鍋巴 ＆ 現炸脆皮蠔餅<span class="flag eat">晚餐消夜</span><button type="button" class="copy-btn" data-copy="興記煲仔飯 油麻地廟街">📋 複製地址</button></div>
-      <div class="desc">
-        尖沙咀搭地鐵至油麻地站 C 出口（僅 3 站約 6 分鐘）。招牌<b>炭火牛肉窩蛋煲仔飯、臘味排骨煲仔飯</b>，淋上特製豉油滋滋作響，底部金黃酥脆鍋巴香氣撲鼻；再來一盤現炸香脆蠔餅，享受道地香港市井煙火氣！
-      </div>
-      <div class="links"><a data-q="興記煲仔飯 油麻地廟街">📍 興記煲仔飯</a></div>
+      <div class="ttl">🌃 蓮花山頂看福田中心區燈光秀（20:00 或 21:00 場）<span class="flag key">燈光秀</span><button type="button" class="copy-btn" data-copy="莲花山公园">📋 複製</button></div>
+      <div class="desc">打車到蓮花山公園南門，爬到山頂約 20–25 分。燈光秀 11 月至 3 月每晚 <b>19:00、20:00、21:00</b> 各一場、約 15 分鐘，<b>只在週五、週六（及法定節假日）上演</b>。山頂免預約但人多空間小，早點卡位。<br>想近看可改到<b>市民中心廣場</b>，需先用微信小程序「福田中心区夜景灯光预约导引服务」預約。</div>
+      <div class="links"><a data-q="莲花山公园 深圳">📍 蓮花山公園</a><a data-q="深圳市民中心">📍 市民中心</a></div>
     </div></div>
     <div class="row move"><div class="t">21:30</div><div class="body"><div class="card">
-      <div class="ttl">回深圳：油麻地 → 旺角東搭東鐵線 → 羅湖過關 → 打車回東門歡朋</div>
-      <div class="desc">油麻地站搭荃灣線 1 站到旺角，步行或轉觀塘線到旺角東；東鐵線到羅湖約 40 分。<b>羅湖口岸 24:00 關閘</b>，最晚 22:30 前上車最穩。想吃佳佳甜品（佐敦寧波街）可改成外帶，或把晚餐提早。約 23:15 回到酒店。</div>
+      <div class="ttl">下山打車回東門（約 20 分）</div>
     </div></div></div>
   </div>
   <div class="day-pager">
-    <button type="button" class="pager-btn" data-next="d3">← 上一天：1/29 移防深圳、東門動漫與【健康100度假湯泉】</button>
-    <button type="button" class="pager-btn" data-next="d5">下一天：1/31 華強北科技神話、人才公園春筍夜景與椰子雞 →</button>
-  </div>
-</section>
-
-
-<section class="day" id="d3-mo">
-  <div class="day-h">
-    <div class="day-tag"><b style="background:var(--sky);color:#fff">🇲🇴 備案 PLAN B</b><span>1/30 六</span><span>澳門世遺美食 → 官也街狂吃 → 路氹金光大道不夜城夜景（全日完整備案）</span></div>
-    <h2>澳門世遺古蹟，官也街老字號狂吃，金光大道璀璨夜景（備案行程）</h2>
-    <p class="day-note"><b>🍽️ 美食主軸：</b>妹記生滾粥、黃枝記鮮甜水蟹粥、大利來記豬扒包、安德魯熱騰騰焦糖葡撻、莫義記木糠布丁。<br><b>🌃 夜景主軸：</b>澳門巴黎人鐵塔燈光秀、澳門倫敦人英倫大笨鐘光影夜景、威尼斯人水岸夜景！</p>
-    <div class="note" style="border-left-color:var(--sky); background:rgba(2,132,199,0.08); margin:12px 0 16px;">
-      <b>⚠️ 住宿已改：</b>1/29 起住深圳東門，下方時刻仍以旺角出發寫成；啟用前改查深圳蛇口直航澳門船班或經香港轉船。<br><b>🚢 跨城交通指引：香港 ↔ 澳門來回方式完整評比</b><br>
-      首選推薦「上環港澳碼頭搭噴射飛航／金光飛航」（航程 55–60 分鐘，旺角東港鐵室內直達上環 D 出口信德中心 3 樓碼頭）。另有港珠澳大橋金巴（24 小時）與太子直通巴士。<br>
-      <div style="margin-top:10px; display:flex; gap:10px; flex-wrap:wrap;">
-        <button type="button" class="theme" onclick="TRIP.go('plan','d4')" style="cursor:pointer; font-weight:700; background:var(--forest); color:#fff;">👈 返回 1/30 港島一日主行程</button>
-        <button type="button" class="copy-btn" onclick="TRIP.go('prep','cross-transport')" style="cursor:pointer; font-weight:700;">👉 查看「客輪 vs 金巴 vs 直通巴」詳細票價比拼表</button>
-      </div>
-    </div>
-  </div>
-  <div class="tl">
-    <div class="row eat"><div class="t">07:15</div><div class="body">
-      <div class="ttl">趕船元氣早餐：妹記生滾粥品（花園街街市）<span class="flag eat">早餐</span><button type="button" class="copy-btn" data-copy="妹記生滾粥品 旺角花園街街市4樓">📋 複製地址</button></div>
-      <div class="desc">花園街熟食中心 4 樓，7:00 開門的老字號街坊名店。招牌<b>魚腩魚片粥、牛肉及第粥</b>，銅鍋大火滾煮，帶著獨特鑊氣，鮮香滑順！</div>
-      <div class="links"><a data-q="妹記生滾粥品 旺角">📍 妹記生滾粥</a></div>
-    </div></div>
-    <div class="row move"><div class="t">08:00</div><div class="body"><div class="card">
-      <div class="ttl">帝京 → 上環港澳碼頭（信德中心 3 樓）</div>
-      <div class="desc">旺角東（東鐵線）→ 金鐘站轉港島線 → 上環站 <b>D 出口直通信德中心</b>（約 25–30 分）。開船前 30 分鐘抵達閘口辦理出境。</div>
-    </div></div></div>
-    <div class="row move"><div class="t">08:30</div><div class="body"><div class="card">
-      <div class="ttl">船：上環 → 澳門外港客運碼頭（噴射飛航 TurboJET 約 55 分鐘）<span class="flag key">預訂</span></div>
-      <div class="desc">台灣護照免簽入境澳門，海關會列印白色小單，妥善收好。</div>
-    </div></div></div>
-    <div class="row stop"><div class="t">09:40</div><div class="body">
-      <div class="ttl">澳門歷史城區走讀：議事亭前地 → 玫瑰堂 → 大三巴牌坊 → 大炮台<button type="button" class="copy-btn" data-copy="大三巴牌坊 澳門">📋 複製</button></div>
-      <div class="desc">
-        漫步黑白波浪葡式石子路，穿過大三巴牌坊，探訪<b>戀愛巷</b>粉色壁畫拍照；登上<b>大炮台</b>居高臨下俯瞰澳門半島全景與新葡京外觀。
-      </div>
-      <div class="links"><a data-q="大三巴牌坊 澳門">📍 大三巴牌坊</a><a data-q="議事亭前地 澳門">📍 議事亭前地</a><a data-q="戀愛巷 澳門">📍 戀愛巷</a></div>
-    </div></div>
-    <div class="row eat"><div class="t">11:45</div><div class="body">
-      <div class="ttl">半島午餐：黃枝記水蟹粥 或 勝利茶餐室現炸豬扒包<span class="flag eat">午餐</span><button type="button" class="copy-btn" data-copy="黃枝記粥麵 澳門議事亭前地">📋 複製</button></div>
-      <div class="desc">
-        <b>黃枝記：</b>招牌原隻水蟹粥，金黃蟹黃融進綿滑米粥中，鮮甜無比；搭配手工竹昇蝦子撈麵。<br>
-        <b>勝利茶餐室：</b>現點現炸香酥厚切豬扒包，肉嫩多汁！
-      </div>
-      <div class="links"><a data-q="黃枝記粥麵 澳門">📍 黃枝記</a></div>
-    </div></div>
-    <div class="row move"><div class="t">13:00</div><div class="body"><div class="card">
-      <div class="ttl">半島 → 氹仔官也街（搭計程車約 MOP80，或至十六浦搭免費發財車）</div>
-    </div></div></div>
-    <div class="row eat"><div class="t">13:30</div><div class="body">
-      <div class="ttl">氹仔官也街老字號美食狂吃大巡禮！<span class="flag eat">老街美食</span><button type="button" class="copy-btn" data-copy="澳門氹仔 官也街">📋 複製地址</button></div>
-      <div class="desc">
-        <b>⭐ 官也街必吃連發：</b><br>
-        ・<b>安德魯餅店：</b>出爐熱騰騰葡式蛋撻，外層千層酥皮、內餡焦糖蛋香濃郁爆漿！<br>
-        ・<b>大利來記：</b>炭火烤脆皮豬扒包，蒜香醃製厚排骨超香！<br>
-        ・<b>莫義記：</b>米其林推薦木糠布丁、貓山王榴槤雪糕。<br>
-        ・<b>長洲糯米糍：</b>芒果巨型軟糯糯米糍；<b>晃記餅家：</b>肉切酥與杏仁餅手信。
-      </div>
-      <div class="links"><a data-q="安德魯餅店 官也街">📍 安德魯蛋撻</a><a data-q="大利來記豬扒包 氹仔">📍 大利來記</a><a data-q="官也街 氹仔">📍 官也街</a></div>
-    </div></div>
-    <div class="row stop"><div class="t">16:30</div><div class="body">
-      <div class="ttl">威尼斯人室內天幕 ＆ 澳門首家 MINISO LAND 旗艦店<button type="button" class="copy-btn" data-copy="澳門威尼斯人 The Venetian Macao">📋 複製</button></div>
-      <div class="desc">
-        穿過人行步道天橋至威尼斯人 3 樓，打卡人造藍天白雲運河天幕與貢多拉小船，逛逛三麗鷗、吉伊卡哇聯名旗艦店（未滿 21 歲請走商場專用通道，不進賭場區）。
-      </div>
-      <div class="links"><a data-q="澳門威尼斯人">📍 威尼斯人</a></div>
-    </div></div>
-    <div class="row stop"><div class="t">18:15</div><div class="body">
-      <div class="ttl">🌃 夜景重頭戲：路氹金光大道「巴黎人鐵塔 ＆ 倫敦人大笨鐘」璀璨夜景！<button type="button" class="copy-btn" data-copy="澳門巴黎人 鐵塔">📋 複製</button></div>
-      <div class="desc">
-        <b>✨ 全亞洲最豪奢的不夜城奇景：</b><br>
-        ・<b>澳門巴黎人鐵塔燈光秀：</b>半比例艾菲爾鐵塔每 15 分鐘變換絢麗鐳射光效，在對面草坪仰拍絕美大片！<br>
-        ・<b>澳門倫敦人英倫皇宮夜景：</b>96 米大笨鐘鐘樓發出金色微光，搭配整面國會大廈英倫建築群金碧輝煌的外牆打光，氣勢磅礡！
-      </div>
-      <div class="links"><a data-q="澳門巴黎人 鐵塔">📍 巴黎人鐵塔</a><a data-q="澳門倫敦人 大笨鐘">📍 倫敦人鐘樓</a></div>
-    </div></div>
-    <div class="row move"><div class="t">20:00</div><div class="body"><div class="card">
-      <div class="ttl">搭計程車或威尼斯人發財車前往外港客運碼頭</div>
-      <div class="desc">搭乘 20:30 或 21:00 班次的噴射飛航直達上環信德中心，再轉港鐵回旺角東帝京酒店。</div>
-    </div></div></div>
-  </div>
-  <div class="day-pager">
-    <button type="button" class="pager-btn" onclick="TRIP.go('plan','d4')">👈 返回：1/30 港島一日主行程</button>
-    <button type="button" class="pager-btn" onclick="TRIP.go('plan','d5')">下一天：1/31 華強北・人才公園夜景 →</button>
+    <button type="button" class="pager-btn" data-next="d3">← 上一天：1/29 旺角晃晃、進深圳、東門動漫</button>
+    <button type="button" class="pager-btn" data-next="d5">下一天：1/31 南山科技日：大疆、拓竹、無人車、無人機外賣 →</button>
   </div>
 </section>
 
 <section class="day" id="d5">
   <div class="day-h">
-    <div class="day-tag"><b>DAY 5</b><span>1/31 日</span><span>華強北電子硬體神話 → 美團無人機空投 → 深圳人才公園春筍科幻夜景 ＆ 椰子雞</span></div>
-    <h2>華強北電子神話，賽格無人機散件，無人機空中外賣，人才公園湖畔春筍夜景</h2>
-    <p class="day-note"><b>🍽️ 美食主軸：</b>歡朋元氣早餐／潮汕牛肉粿條、美團無人機空中外賣空投奶茶炸雞、後海「潤園四季」新鮮椰青文昌雞火鍋大餐配臘味煲仔飯。<br><b>🌃 夜景主軸：</b>深圳人才公園「春筍」巨塔科幻天際線燈光秀倒映湖面！</p>
+    <div class="day-tag"><b>DAY 5</b><span>1/31 日</span><span>大疆旗艦店 → 拓竹 Bambu Lab 門店 → 蘿蔔快跑無人車 → 人才公園無人機外賣 → 春筍夜景 ＆ 椰子雞</span></div>
+    <h2>南山科技日：大疆旗艦店、拓竹 3D 列印、無人車、無人機外賣、人才公園夜景</h2>
+    <p class="day-note"><b>🚁 科技主軸：</b>大疆旗艦店（歡樂海岸）、拓竹 Bambu Lab 首家門店（深圳灣萬象城 B1）、蘿蔔快跑無人駕駛、美團無人機外賣。<br><b>🍽️ 晚餐：</b>後海「潤園四季」椰子雞。</p>
   </div>
   <div class="tl">
-    <div class="row eat"><div class="t">09:30</div><div class="body">
-      <div class="ttl">元氣早餐：歡朋自助早餐 或 步行品嚐現炊潮汕牛肉粿條腸粉<span class="flag eat">早餐</span></div>
-      <div class="desc">在酒店享用豐盛自助早餐，或步行至東門老街品嚐熱騰騰的現炊潮汕牛肉腸粉與手打牛肉丸湯。</div>
+    <div class="row eat"><div class="t">09:00</div><div class="body">
+      <div class="ttl">早餐：歡朋自助早餐<span class="flag eat">早餐</span></div>
     </div></div>
-    <div class="row move"><div class="t">10:15</div><div class="body"><div class="card">
-      <div class="ttl">東門 → 華強北（深圳地鐵 1 號線老街站直達華強路站，僅約 10 分鐘）</div>
+    <div class="row move"><div class="t">09:45</div><div class="body"><div class="card">
+      <div class="ttl">東門 → 南山歡樂海岸（地鐵或打車約 35–40 分）</div>
     </div></div></div>
-    <div class="row stop"><div class="t">10:45</div><div class="body">
-      <div class="ttl">中國電子第一街巡禮：華強北博物館（沉浸式科技歷史展）<button type="button" class="copy-btn" data-copy="华强北博物馆 深圳华强北路1058号广博现代之窗">📋 複製地址</button></div>
-      <div class="desc">
-        位於廣博現代之窗 5 樓。全景聲光投影展示深圳從荒蕪小漁村崛起為全球電子硬體神話的傳奇歷程，充滿 80–90 年代老電子元件、經典大哥大、BP 機懷舊展品與互動裝置。
-      </div>
-      <div class="links"><a data-q="华强北博物馆 深圳">📍 華強北博物館</a></div>
+    <div class="row stop"><div class="t">10:30</div><div class="body">
+      <div class="ttl">🚁 大疆 DJI 旗艦店（歡樂海岸）<span class="flag key">科技必玩</span><button type="button" class="copy-btn" data-copy="大疆创新旗舰店 欢乐海岸">📋 複製</button></div>
+      <div class="desc">新改建的旗艦店，最新 Mini、Avata、Osmo 系列都能摸，有試飛／體驗區。營業時間出發前在高德確認。</div>
+      <div class="links"><a data-q="大疆创新旗舰店 欢乐海岸">📍 大疆旗艦店</a></div>
     </div></div>
-    <div class="row stop"><div class="t">11:45</div><div class="body">
-      <div class="ttl">硬核硬體聖地：賽格電子市場 ＆ 華強電子世界<button type="button" class="copy-btn" data-copy="赛格电子市场 深圳华强北">📋 複製</button></div>
-      <div class="desc">
-        走進全球硬體創客的朝聖地！一整棟高樓琳琅滿目的客製化機械鍵盤軸體、穿越無人機馬達散件、高階顯卡散熱、AI 創客開發模組，帶孩子親身感受「華強北一小時能組出一台手機」的硬核硬體之都震撼！
-      </div>
-      <div class="links"><a data-q="赛格电子市场 深圳">📍 賽格電子市場</a></div>
+    <div class="row eat"><div class="t">12:00</div><div class="body">
+      <div class="ttl">午餐：歡樂海岸<span class="flag eat">午餐</span></div>
     </div></div>
     <div class="row move"><div class="t">13:00</div><div class="body"><div class="card">
-      <div class="ttl">華強北 → 南山後海人才公園（搭乘地鐵約 35 分鐘）</div>
-      <div class="desc">華強北站搭 2 號線或 7 號線直達「後海站」，出站步行至深圳人才公園星光湖畔。</div>
+      <div class="ttl">歡樂海岸 → 後海 深圳灣萬象城（打車約 10 分）</div>
     </div></div></div>
-    <div class="row eat"><div class="t">13:45</div><div class="body">
-      <div class="ttl">黑科技特色午餐：美團無人機空中外賣空投體驗！<span class="flag eat">科技美食</span><button type="button" class="copy-btn" data-copy="深圳人才公园 无人机外卖空投点">📋 複製</button></div>
-      <div class="desc">
-        <b>🚁 全家驚呼的科技體驗：</b>在深圳人才公園湖畔空投櫃前，打開手機「美團 App」下單喜茶、奈雪鮮果茶或炸雞。幾分鐘後，六旋翼黃色無人機從空中精準飛來，緩緩空投外賣盒至智能櫃中，手機掃碼即取！邊喝無人機送來的奶茶邊吹風，趣味十足！
-      </div>
-      <div class="links"><a data-q="深圳人才公园 无人机外卖">📍 無人機空投點</a></div>
+    <div class="row stop"><div class="t">13:15</div><div class="body">
+      <div class="ttl">🖨️ 拓竹 Bambu Lab 首家門店（深圳灣萬象城 B 區 B1，水幕牆後）<span class="flag key">3D 列印</span><button type="button" class="copy-btn" data-copy="深圳湾万象城 拓竹">📋 複製</button></div>
+      <div class="desc">整面牆 A1 印表機、全色系線材、上百台 H2D 印出的 CyberBrick 大型模型，現場有 3D 列印小物可買。</div>
+      <div class="links"><a data-q="深圳湾万象城 拓竹">📍 深圳灣萬象城</a></div>
     </div></div>
-    <div class="row stop"><div class="t">15:00</div><div class="body">
-      <div class="ttl">未來黑科技體驗：蘿蔔快跑（Apollo Go）全無人駕駛計程車<button type="button" class="copy-btn" data-copy="萝卜快跑 深圳后海">📋 複製</button></div>
-      <div class="desc">
-        手機打開「蘿蔔快跑」App 呼叫無人車。<b>前座完全無人！</b>方向盤自主轉動、自動超車避讓行人，後座螢幕實時呈現 3D 雷達感知點雲地圖，帶孩子感受真正 Level 4 自動駕駛黑科技！
-      </div>
+    <div class="row stop"><div class="t">14:30</div><div class="body">
+      <div class="ttl">🚗 蘿蔔快跑（Apollo Go）無人駕駛計程車體驗<button type="button" class="copy-btn" data-copy="萝卜快跑 深圳后海">📋 複製</button></div>
+      <div class="desc">用「蘿蔔快跑」App 或微信小程序叫車，在後海／科技園一帶上車，前座沒有司機。<b>服務範圍與能否用台胞證註冊，出發前先在 App 確認。</b>可直接坐到人才公園。</div>
     </div></div>
-    <div class="row stop"><div class="t">16:30</div><div class="body">
-      <div class="ttl">深圳灣萬象城 ＆ 人才公園星光湖漫步<button type="button" class="copy-btn" data-copy="深圳湾万象城">📋 複製</button></div>
-      <div class="desc">漫步深圳頂級商場深圳灣萬象城，打卡國際前衛藝術裝置，沿著星光湖畔吹海風散步。</div>
-      <div class="links"><a data-q="深圳湾万象城">📍 深圳灣萬象城</a></div>
+    <div class="row eat"><div class="t">15:30</div><div class="body">
+      <div class="ttl">🚁 人才公園：美團無人機外賣下午茶<span class="flag eat">科技下午茶</span><button type="button" class="copy-btn" data-copy="深圳人才公园">📋 複製</button></div>
+      <div class="desc">打開美團 App 搜尋「無人機」，選人才公園附近的商圈下單奶茶點心，無人機送到空投櫃，輸入手機尾號取餐。<b>可用商圈以 App 當天顯示為準。</b></div>
+      <div class="links"><a data-q="深圳人才公园">📍 人才公園</a></div>
     </div></div>
-    <div class="row stop"><div class="t">17:45</div><div class="body">
-      <div class="ttl">🌃 夜景重頭戲四：深圳人才公園「春筍」科幻天際線燈光秀！<button type="button" class="copy-btn" data-copy="深圳人才公园">📋 複製</button></div>
-      <div class="desc">
-        <b>✨ 宛如未來科幻大片的震撼夜景：</b><br>
-        在深圳人才公園星光湖畔漫步，欣賞全深圳最頂級的摩天樓群：392 米高「春筍」中國華潤大廈巨型燈光秀、大疆天空之城與後海金融總部群。五彩斑斕的摩天樓霓虹倒映在平靜湖面上，科技感爆棚，拍照極為震撼！
-      </div>
-      <div class="links"><a data-q="深圳人才公园">📍 人才公園</a><a data-q="深圳湾万象城">📍 深圳灣萬象城</a></div>
+    <div class="row stop"><div class="t">17:30</div><div class="body">
+      <div class="ttl">🌃 人才公園星光湖：日落到「春筍」華潤大廈夜景</div>
+      <div class="desc">沿湖看深圳灣與後海摩天樓群亮燈，春筍倒映湖面。（福田中心區的動畫燈光秀週日不開，今天看常規夜景即可。）</div>
+      <div class="links"><a data-q="深圳人才公园">📍 人才公園</a></div>
     </div></div>
-    <div class="row eat"><div class="t">19:30</div><div class="body">
-      <div class="ttl">晚餐大餐：後海「潤園四季椰子雞」原汁椰青文昌雞鍋<span class="flag eat">晚餐大餐</span><button type="button" class="copy-btn" data-copy="润园四季椰子鸡 深圳湾">📋 複製地址</button></div>
-      <div class="desc">
-        <b>⭐ 深圳招牌代表美食：</b>整隻現剖新鮮椰青倒入砂鍋為湯底，煮滾後倒入正宗海南文昌雞，沸騰 3 分鐘起鍋！湯頭甘甜清爽無比，雞肉滑嫩沾沙薑金桔醬油；搭配招牌臘味煲仔飯，香脆鍋巴讓人一碗接一碗！
-      </div>
+    <div class="row eat"><div class="t">19:00</div><div class="body">
+      <div class="ttl">晚餐：後海「潤園四季」椰子雞<span class="flag eat">晚餐</span><button type="button" class="copy-btn" data-copy="润园四季椰子鸡 深圳湾">📋 複製</button></div>
+      <div class="desc">整顆椰青倒入鍋當湯底，下文昌雞，配沙薑金桔醬油與臘味煲仔飯。</div>
       <div class="links"><a data-q="润园四季椰子鸡 后海">📍 潤園四季</a></div>
     </div></div>
+    <div class="row move"><div class="t">20:45</div><div class="body"><div class="card">
+      <div class="ttl">後海站搭地鐵回東門（約 35 分）</div>
+    </div></div></div>
   </div>
   <div class="day-pager">
-    <button type="button" class="pager-btn" data-next="d4">← 上一天：1/30 港島一日來回與百萬夜景</button>
-    <button type="button" class="pager-btn" data-next="d6">下一天：2/1 南山潮流科技、八合里牛肉火鍋與【阿奇拉湯泉生活】 →</button>
+    <button type="button" class="pager-btn" data-next="d4">← 上一天：1/30 自然博物館、平安金融中心與蓮花山燈光秀</button>
+    <button type="button" class="pager-btn" data-next="d6">下一天：2/1 華發冰雪世界滑雪、華強北與八合里牛肉鍋 →</button>
   </div>
 </section>
 
 <section class="day" id="d6">
   <div class="day-h">
-    <div class="day-tag"><b>DAY 6</b><span>2/1 一</span><span>萬象天地潮玩 → 大疆全球旗艦店試飛 → 八合里鮮牛肉火鍋 → 南山【阿奇拉湯泉生活】</span></div>
-    <h2>萬象天地潮玩，大疆無人機試飛，八合里鮮切牛肉火鍋，阿奇拉透明美人魚湯泉</h2>
-    <p class="day-note"><b>🍽️ 美食主軸：</b>萬象天地精緻午餐、國貿金光華「八合里潮汕牛肉火鍋」現切吊龍伴、阿奇拉車厘子榴槤哈根達斯任食。<br><b>♨️ 深圳水療度假主軸：</b>南山潮流商圈打卡大象 ＋ 大疆旗艦店室內網箱操控無人機 ＋ 傍晚前往南山<b>【阿奇拉湯泉生活 AQILA】</b>（高空透明美人魚潛水池、舞萌DX太鼓達人街機免費玩、全場免小費）！</p>
+    <div class="day-tag"><b>DAY 6</b><span>2/1 一</span><span>前海華發冰雪世界室內滑雪 → 回市區華強北 → 國貿八合里潮汕牛肉鍋</span></div>
+    <h2>早上室內滑雪，下午華強北電子街，晚餐八合里潮汕牛肉火鍋</h2>
+    <p class="day-note"><b>⛷️ 上午主軸：</b>寶安前海「華發冰雪世界」室內滑雪場（465 米雪道），新手建議上教練課。<br><b>🛠️ 下午：</b>華強北電子街（週一照常營業；博物館類多數週一休館，所以排電子街）。<br><b>🍽️ 晚餐：</b>國貿金光華「八合里」潮汕牛肉鍋。</p>
   </div>
   <div class="tl">
-    <div class="row eat"><div class="t">09:30</div><div class="body">
-      <div class="ttl">睡到自然醒，酒店享用悠閒早餐<span class="flag eat">早餐</span></div>
-      <div class="desc">東門歡朋享用豐富早點，或喝杯咖啡，精力充沛出發南山。</div>
+    <div class="row eat"><div class="t">08:00</div><div class="body">
+      <div class="ttl">早餐：歡朋自助早餐<span class="flag eat">早餐</span></div>
     </div></div>
-    <div class="row move"><div class="t">10:30</div><div class="body"><div class="card">
-      <div class="ttl">東門 → 華潤萬象天地（地鐵 1 號線老街直達高新園站，約 25 分）</div>
+    <div class="row move"><div class="t">08:40</div><div class="body"><div class="card">
+      <div class="ttl">東門 → 寶安 華發冰雪世界（地鐵約 1 小時 15 分，或打車）</div>
+      <div class="desc">地鐵 20 號線「會展城站」B／C 口步行約 5 分；或 12 號線「海上田園南站」C 口步行約 8 分。用高德規劃轉乘。</div>
     </div></div></div>
-    <div class="row stop"><div class="t">11:00</div><div class="body">
-      <div class="ttl">萬象天地潮玩商圈 ＆ 巨型「抱抱象」藝術打卡<button type="button" class="copy-btn" data-copy="深圳万象天地 高新园">📋 複製</button></div>
-      <div class="desc">
-        深圳最具活力的潮流商圈！打卡趴在商場頂樓長達數十米的巨型大象裝置「Bubblecoat Elephant」；逛逛街區式潮流快閃店。
-      </div>
-      <div class="links"><a data-q="深圳万象天地">📍 萬象天地</a></div>
+    <div class="row stop"><div class="t">10:00</div><div class="body">
+      <div class="ttl">⛷️ 華發冰雪世界：初級道滑雪 3 小時（＋教練課）<span class="flag key">滑雪</span><button type="button" class="copy-btn" data-copy="深圳市宝安区滨江大道666号 华发冰雪世界">📋 複製</button></div>
+      <div class="desc">每日 10:00–22:00。3 小時初級道滑雪票含雪具、雪衣、頭盔，約 HK$408 起／人；有 1 對 2 單板／雙板教學套票。採<b>實名制，帶台胞證</b>。<br><b>自備：</b>手套、雪鏡（可選）、頸巾、厚襪。票價、時段以購票平台當天為準，建議先在 Trip.com／Klook 買好。</div>
+      <div class="links"><a data-q="华发冰雪世界 深圳 宝安">📍 華發冰雪世界</a></div>
     </div></div>
-    <div class="row stop"><div class="t">11:45</div><div class="body">
-      <div class="ttl">3D 列印王者探訪：拓竹科技（Bambu Lab）展示區<button type="button" class="copy-btn" data-copy="拓竹 深圳湾科技生态园">📋 複製</button></div>
-      <div class="desc">
-        親眼目睹全球消費級多色高速 3D 列印王者機器的極速噴繪過程，公仔與複雜幾何模型幾小時內完美成型，感受全球硬體創新速度！
-      </div>
-      <div class="links"><a data-q="深圳湾科技生态园 拓竹">📍 拓竹展示區</a></div>
+    <div class="row eat"><div class="t">13:00</div><div class="body">
+      <div class="ttl">午餐：冰雪世界館內或旁邊商場<span class="flag eat">午餐</span></div>
     </div></div>
-    <div class="row eat"><div class="t">12:30</div><div class="body">
-      <div class="ttl">萬象天地午餐：精緻輕食或手搖鮮果茶<span class="flag eat">午餐</span></div>
-      <div class="desc">品嚐喜茶、奈雪、或商場精緻特色快餐，補充元氣。</div>
-    </div></div>
-    <div class="row move"><div class="t">13:45</div><div class="body"><div class="card">
-      <div class="ttl">萬象天地 → 歡樂海岸（打車約 12 分鐘）</div>
+    <div class="row move"><div class="t">14:00</div><div class="body"><div class="card">
+      <div class="ttl">冰雪世界 → 華強北（地鐵約 1 小時）</div>
     </div></div></div>
-    <div class="row stop"><div class="t">14:15</div><div class="body">
-      <div class="ttl">大疆 DJI 全球旗艦店（歡樂海岸）：室內網箱操控無人機體驗！<span class="flag key">科技必玩</span><button type="button" class="copy-btn" data-copy="大疆创新全球旗舰店 欢乐海岸">📋 複製地址</button></div>
-      <div class="desc">
-        <b>🚁 全球頂級無人機試飛殿堂：</b>走進雙層巨型室內防護網箱，現場專人指導試飛最新 Neo 掌上無人機、Avata 穿越機，手感極度震撼！體驗 Osmo Pocket 3 三軸雲台雲台相機黑科技。
-      </div>
-      <div class="links"><a data-q="大疆创新全球旗舰店 欢乐海岸">📍 大疆歡樂海岸</a></div>
+    <div class="row stop"><div class="t">15:15</div><div class="body">
+      <div class="ttl">🛠️ 華強北：賽格電子市場、華強電子世界<span class="flag key">電子街</span><button type="button" class="copy-btn" data-copy="赛格电子市场 深圳华强北">📋 複製</button></div>
+      <div class="desc">機械鍵盤軸體、無人機零件、開發板、手機配件，一整棟一整棟逛。走累了可在街上喝飲料休息。</div>
+      <div class="links"><a data-q="赛格电子市场 深圳">📍 賽格電子市場</a><a data-q="华强北步行街">📍 華強北步行街</a></div>
     </div></div>
-    <div class="row move"><div class="t">16:30</div><div class="body"><div class="card">
-      <div class="ttl">歡樂海岸 → 羅湖國貿金光華廣場（搭乘地鐵 9 號線轉 1 號線）</div>
-    </div></div></div>
-    <div class="row eat"><div class="t">17:00</div><div class="body">
-      <div class="ttl">晚餐盛宴：國貿金光華 5 樓「八合里潮汕牛肉火鍋」<span class="flag eat">晚餐大餐</span><button type="button" class="copy-btn" data-copy="八合里牛肉火锅 深圳金光华广场店">📋 複製地址</button></div>
-      <div class="desc">
-        <b>⭐ 潮汕牛肉第一招牌：</b>17:00 提早到店或以「大眾點評」在線取號免排隊！<br>
-        <b>必點清單：</b>吊龍伴（半肥瘦軟嫩無比）、匙柄、五花趾（脆彈有肉香）、手打生牛肉丸、牛筋丸、乾炒牛河，牛骨清湯鍋底涮燙 8–10 秒沾特製沙茶醬，鮮美難忘！
-      </div>
+    <div class="row eat"><div class="t">17:30</div><div class="body">
+      <div class="ttl">晚餐：國貿金光華 5 樓「八合里」潮汕牛肉火鍋<span class="flag eat">晚餐</span><button type="button" class="copy-btn" data-copy="八合里牛肉火锅 深圳金光华广场店">📋 複製</button></div>
+      <div class="desc">吊龍伴、匙柄、五花趾、手打牛肉丸。17:30 前用大眾點評線上取號。國貿站離東門 1 站，吃完直接回酒店。</div>
       <div class="links"><a data-q="八合里牛肉火锅 金光华广场">📍 八合里 金光華</a></div>
     </div></div>
-    <div class="row move"><div class="t">18:45</div><div class="body"><div class="card">
-      <div class="ttl">國貿站搭地鐵 1 號線直達「桃園站」A 出口（田廈金牛廣場）</div>
-      <div class="desc">國貿站上車不用轉線，1 號線一路往西坐到桃園站，A 出口步行 300 米直達阿奇拉！</div>
-    </div></div></div>
-    <div class="row stop"><div class="t">19:15</div><div class="body">
-      <div class="ttl">♨️ 深圳水療極致體驗二：【阿奇拉湯泉生活 AQILA】（透明美人魚潛水池 ＆ 潮玩電玩街機）<span class="flag key">潮玩放鬆</span><button type="button" class="copy-btn" data-copy="深圳市南山区桃园路田厦金牛广场 阿奇拉汤泉生活">📋 複製地址</button></div>
-      <div class="desc">
-        <b>⭐ 深圳最潮年輕派高端湯泉天花板：</b><br>
-        ・<b>室內巨型高空透明美人魚潛水池：</b>深圳獨家視覺奇觀！透明水池看專業美人魚優雅潛水，拍照震撼出圈！<br>
-        ・<b>正版大型街機免費任玩：</b>日版原裝舞萌 DX、太鼓之達人、頭文字D賽車機台、VR 沉浸體驗、Switch/PS5 專區，全家暢玩無阻！<br>
-        ・<b>進口車厘子、榴槤 ＆ 哈根達斯吃到飽：</b>智利車厘子、泰國金枕頭榴槤、陽光玫瑰青提、哈根達斯雪糕多種口味任挖、原裝泰國椰青無限喝！<br>
-        ・<b>蜂巢格子屋 ＆ 靜音太空艙：</b>極具科技感的私人獨立休憩睡眠艙，配備獨立充電孔與電視，全場免小費透明消費！
-      </div>
-      <div class="links"><a data-q="深圳 阿奇拉汤泉生活 AQILA">📍 阿奇拉 湯泉</a></div>
+    <div class="row stop"><div class="t">19:30</div><div class="body">
+      <div class="ttl">（選）滑完雪想泡湯：阿奇拉 或 健康100 湯泉</div>
+      <div class="desc">體力還夠的話，晚上去湯泉放鬆；不去就早點回酒店，明天回台。</div>
+      <div class="links"><a data-q="深圳 阿奇拉汤泉生活 AQILA">📍 阿奇拉</a><a data-q="深圳 健康100 度假汤泉">📍 健康100</a></div>
     </div></div>
-    <div class="row move"><div class="t">22:30</div><div class="body"><div class="card">
-      <div class="ttl">桃園站搭地鐵 1 號線直達東門回酒店</div>
-      <div class="desc">舒舒服服享受完水療與電玩，搭 1 號線一路直達老街站或湖貝站，回東門歡朋安歇！</div>
-    </div></div></div>
   </div>
   <div class="day-pager">
-    <button type="button" class="pager-btn" data-next="d5">← 上一天：1/31 華強北科技神話與人才公園夜景</button>
-    <button type="button" class="pager-btn" data-next="d7">下一天：2/2 東門老牌早茶與返台 →</button>
+    <button type="button" class="pager-btn" data-next="d5">← 上一天：1/31 南山科技日</button>
+    <button type="button" class="pager-btn" data-next="d7">下一天：2/2 東門早茶、伴手禮與返台 →</button>
   </div>
 </section>
 
@@ -1247,6 +1022,7 @@ ightarrow$ 登上大炮台俯瞰澳門半島全景與新葡京。</li>
   <div class="day-h">
     <div class="day-tag"><b>DAY 7</b><span>2/2 二</span><span>老牌廣式早茶 → 採買伴手禮 → 皇崗口岸專線大巴直達香港機場 T2，UO116 18:40 起飛</span></div>
     <h2>春滿園老牌早茶，老街伴手禮名店，從容前往香港機場</h2>
+    <div class="note" style="border-left-color:var(--moss); margin:12px 0 4px;"><b>💡 早上安排建議：</b>不排新景點。14:00 就要出發去皇崗、回程在香港機場 T2 報到，早上留給退房、早茶、買伴手禮最穩。若 2/1 下午改去泡湯沒逛華強北，可把早茶後的時間改成華強北（地鐵 10 分鐘），12:30 前回東門。</div>
     <p class="day-note"><b>🍽️ 美食主軸：</b>東門春滿園悠閒早茶點心、鮑師傅海苔肉鬆小貝、瀘溪河桃酥。<br><b>✈️ 回程航班 UO116 18:40 起飛，在香港機場<u>二號客運大樓（T2）</u>報到（14:00 出發前往口岸直達機場，16:00 前抵達報到出境）！</b></p>
     <div class="note" style="border-left-color:var(--maple); background:rgba(220,38,38,0.08); margin:12px 0 16px;">
       <b>✈️ 跨城交通指引：深圳東門 ➔ 香港國際機場 T2 返台（UO116 18:40 起飛）</b><br>
@@ -1289,11 +1065,11 @@ ightarrow$ 登上大炮台俯瞰澳門半島全景與新葡京。</li>
     </div></div>
     <div class="row stop"><div class="t">18:40</div><div class="body">
       <div class="ttl">UO116 起飛，20:25 抵達桃園 T1，平安回台！✈️<span class="flag key">回程航班 18:40</span></div>
-      <div class="desc">滿載戰利品、品嚐無數道地美食、欣賞世界級璀璨夜景並享受了雙頂級水療放鬆，結束充實精采的港深七日之旅！</div>
+      <div class="desc">滿載戰利品、品嚐道地美食、看遍港深夜景、體驗深圳黑科技和室內滑雪，結束充實精采的港深七日之旅！</div>
     </div></div>
   </div>
   <div class="day-pager">
-    <button type="button" class="pager-btn" data-next="d6">← 上一天：2/1 南山潮流科技、牛肉火鍋與【阿奇拉湯泉生活】</button>
+    <button type="button" class="pager-btn" data-next="d6">← 上一天：2/1 冰雪世界滑雪、華強北與八合里</button>
     <span class="pager-btn disabled">旅程圓滿結束 🎉</span>
   </div>
 </section></section>
@@ -1319,11 +1095,12 @@ ightarrow$ 登上大炮台俯瞰澳門半島全景與新葡京。</li>
   <div class="tbl"><table>
     <thead><tr><th>項目</th><th>日期</th><th>備註</th></tr></thead>
     <tbody>
-      <tr><td>香港迪士尼樂園門票</td><td>1/28 四</td><td>三人標準成人票（滿 12 歲成人價），購票後需於官網/App 預約入園</td></tr>
-      <tr><td><span class="flag chk">備案 Plan B</span> 澳門噴射飛航船票</td><td>1/30 六</td><td>若 1/30 當天臨時決定改去澳門，於 Klook / 官網或上環信德中心 3 樓現場即時購票（來回約 HK$400/人）</td></tr>
-      <tr><td>深圳【健康100 度假湯泉】門票</td><td>1/29 五</td><td>羅湖銀湖店 24 小時淨桑/含餐浴票（大眾點評提早團購，免小費）</td></tr>
-      <tr><td>深圳【阿奇拉湯泉生活 AQILA】門票</td><td>2/1 一</td><td>南山旗艦店 24 小時浴票（大眾點評提早團購，免小費）</td></tr>
-      <tr><td>昂坪 360 纜車門票</td><td>1/30 六</td><td>若 1/30 選擇大嶼山，建議線上預訂水晶車廂來回</td></tr>
+      <tr><td><span class="flag key">尚未開賣</span> 香港迪士尼樂園門票</td><td>1/28 四</td><td>開賣後立刻買；三人標準成人票（滿 12 歲成人價），購票後需於官網/App 預約入園</td></tr>
+      <tr><td>（選）深圳【阿奇拉湯泉生活 AQILA】門票</td><td>2/1 一</td><td>南山旗艦店 24 小時浴票（大眾點評提早團購，免小費）</td></tr>
+      <tr><td>深圳自然博物館</td><td>1/30 六</td><td>¥80（優惠 ¥60），週一休館；是否需預約查官方公眾號</td></tr>
+      <tr><td>平安金融中心 Free Sky 雲際觀光層</td><td>1/30 六</td><td>成人 ¥200、1.2–1.5 米兒童 ¥100；可線上先買</td></tr>
+      <tr><td>市民中心燈光秀觀看區（選）</td><td>1/30 六</td><td>只有在市民中心廣場看才要預約（微信小程序）；蓮花山頂免預約</td></tr>
+      <tr><td>華發冰雪世界 滑雪票＋教練課</td><td>2/1 一</td><td>3 小時初級道約 HK$408 起；實名制，用台胞證資料購票</td></tr>
       <tr><td>高鐵票（若搭高鐵）</td><td>1/31、2/2</td><td>春運期間（2027/2/6 除夕），開賣即需搶票</td></tr>
       <tr><td>跨境直通巴士</td><td>2/2 二</td><td>皇崗口岸 → 香港國際機場（永東／環島）</td></tr>
       <tr><td>八合里牛肉火鍋</td><td>2/1 一</td><td>金光華廣場 5 樓，當天 17:30 前線上取號免排隊</td></tr>
@@ -1349,9 +1126,9 @@ ightarrow$ 登上大炮台俯瞰澳門半島全景與新葡京。</li>
   <ul class="ck">
     <li><label><input type="checkbox" data-k="hotel1"><span>帝京酒店已訂（1/27–1/29，2 晚，豪華親子客房）</span></label></li>
     <li><label><input type="checkbox" data-k="hotel2"><span>東門希爾頓歡朋酒店已訂（1/29–2/2，4 晚，豪華雙床房）</span></label></li>
-    <li><label><input type="checkbox" data-k="disney"><span>迪士尼門票 1/28 預訂與官方 App 入園預約</span></label></li>
-    <li><label><input type="checkbox" data-k="ferry"><span>澳門來回船票 1/30 預訂（上環 ↔ 外港）</span></label></li>
-    <li><label><input type="checkbox" data-k="ngong"><span>昂坪 360 水晶纜車預訂 1/30</span></label></li>
+    <li><label><input type="checkbox" data-k="disney"><span><b>⚠️ 迪士尼 1/28 門票尚未開賣</b>：開賣即買三張，並到官方 App 預約入園日期</span></label></li>
+    <li><label><input type="checkbox" data-k="ski"><span>華發冰雪世界 2/1 滑雪票＋教練課；自備手套、厚襪、頸巾</span></label></li>
+    <li><label><input type="checkbox" data-k="robotaxi"><span>美團、蘿蔔快跑 App 先裝好，確認台胞證能註冊與下單</span></label></li>
     <li><label><input type="checkbox" data-k="hsr"><span>高鐵票（若走高鐵方案，春運期間提前購買）</span></label></li>
     <li><label><input type="checkbox" data-k="bus"><span>2/2 跨境巴士班次與上車地點確認</span></label></li>
   </ul>
@@ -2086,34 +1863,30 @@ ightarrow$ 登上大炮台俯瞰澳門半島全景與新葡京。</li>
         ['園內午餐 皇室宴會廳','HKD',120,200,'p'],
         ['園內晚餐 大街餐廳/市集小食','HKD',150,250,'p'],
         ['點心冰棒、爆米花飲料','HKD',50,120,'p']]],
-      ['1/29 五 移防深圳・東門動漫・健康100水療',[
-        ['香港告別早餐 太子一點心現蒸早茶','HKD',50,90,'p'],
-        ['港鐵東鐵線 旺角東 → 羅湖（推薦頭等）','HKD',41.6,83.2,'p','頭等艙 HK$83.2 專屬軟座'],
-        ['羅湖口岸打車至東門歡朋酒店','CNY',12,15,'g','三人一車僅 5 分鐘'],
-        ['午餐 蘩樓廣式手工手作茶樓','CNY',60,100,'p'],
-        ['【健康100度假湯泉】門票＋天台BBQ/水果任食','CNY',168,238,'p','25米室內大泳池，全場免小費'],
-        ['打車 往返銀湖健康100水療','CNY',50,60,'g','全家打車往返']]],
-      ['1/30 六 深圳出發・港島一日來回・太平山百萬夜景',[
-        ['深圳地鐵 東門 ↔ 羅湖站來回','CNY',4,6,'p'],
-        ['東鐵線 羅湖 ↔ 金鐘／旺角東來回','HKD',90,180,'p','估算，頭等約加倍；以港鐵官網為準'],
-        ['早餐 蓮香樓推車早茶 / 金華菠蘿油','HKD',45,85,'p'],
-        ['港鐵＋天星小輪＋叮叮車交通','HKD',30,50,'p'],
-        ['山頂纜車＋摩天台428來回套票','HKD',148,168,'p','百萬維港俯瞰夜景'],
-        ['午餐 沾仔記米其林雲吞麵／九記牛腩','HKD',60,120,'p'],
-        ['晚餐 廟街興記煲仔飯配炸蠔餅','HKD',80,150,'p'],
-        ['佳佳甜品外帶（選）','HKD',0,50,'p']]],
-      ['1/31 日 華強北科技・人才公園春筍夜景・椰子雞',[
-        ['早餐 歡朋自助早餐 / 潮汕腸粉','CNY',20,40,'p'],
-        ['深圳地鐵交通＋打車','CNY',15,30,'p'],
-        ['美團無人機空中外賣空投奶茶點心','CNY',25,45,'p'],
-        ['蘿蔔快跑無人駕駛車體驗','CNY',10,25,'p'],
-        ['晚餐 後海潤園四季椰子雞火鍋大餐','CNY',90,140,'p']]],
-      ['2/1 一 南山黑科技・大疆旗艦・八合里牛肉鍋・阿奇拉水療',[
-        ['早餐 歡朋自助早餐','CNY',20,40,'p'],
-        ['深圳地鐵交通＋打車','CNY',15,30,'p'],
-        ['午餐 萬象天地輕食','CNY',40,80,'p'],
-        ['晚餐 國貿八合里潮汕鮮牛肉火鍋','CNY',90,140,'p'],
-        ['【阿奇拉湯泉生活】門票＋車厘子榴槤哈根達斯任食','CNY',199,239,'p','美人魚水池、大型街機免費玩，免小費']]],
+      ['1/29 五 旺角晃晃・進深圳・東門動漫',[
+        ['午餐 一點心 / 金華冰廳','HKD',60,110,'p'],
+        ['港鐵東鐵線 旺角東 → 羅湖','HKD',41.6,83.2,'p','頭等約加倍'],
+        ['羅湖口岸打車至東門歡朋','CNY',12,15,'g'],
+        ['晚餐 蘩樓手作點心','CNY',60,100,'p'],
+        ['東門動漫周邊、小吃','CNY',30,150,'p']]],
+      ['1/30 六 自然博物館・平安金融中心・蓮花山燈光秀',[
+        ['深圳地鐵＋打車（東門↔坪山↔福田）','CNY',100,180,'g','坪山較遠，打車最省力'],
+        ['深圳自然博物館門票','CNY',60,80,'p','優惠票 ¥60'],
+        ['午餐 坪山簡餐','CNY',40,70,'p'],
+        ['平安金融中心 Free Sky 116 樓','CNY',100,200,'p','兒童 1.2–1.5 米 ¥100'],
+        ['晚餐 福田 COCO Park','CNY',60,120,'p']]],
+      ['1/31 日 南山科技日：大疆・拓竹・無人車・無人機外賣',[
+        ['深圳地鐵＋打車','CNY',40,80,'g'],
+        ['午餐 歡樂海岸','CNY',50,100,'p'],
+        ['蘿蔔快跑無人車','CNY',15,40,'g','全家一車'],
+        ['美團無人機外賣下午茶','CNY',25,45,'p'],
+        ['晚餐 潤園四季椰子雞','CNY',90,140,'p']]],
+      ['2/1 一 華發冰雪世界滑雪・華強北・八合里',[
+        ['深圳地鐵＋打車（東門↔寶安↔華強北）','CNY',30,150,'g'],
+        ['華發冰雪世界 3 小時滑雪票（含雪具雪衣）','HKD',408,550,'p','起價，依時段'],
+        ['教練課（選）','HKD',0,860,'p','1 對 2 套票約 HK$1,712／2 人起'],
+        ['午餐 冰雪世界周邊','CNY',40,80,'p'],
+        ['晚餐 八合里潮汕牛肉鍋','CNY',90,140,'p']]],
       ['2/2 二 東門採買・皇崗直通大巴返台',[
         ['早午餐 春滿園老牌廣式早茶','CNY',50,90,'p'],
         ['東門伴手禮採買（鮑師傅、桃酥）','CNY',50,150,'p'],
@@ -2538,7 +2311,7 @@ ightarrow$ 登上大炮台俯瞰澳門半島全景與新葡京。</li>
 
   // 分頁導航系統
   var TABS=[
-    {k:'plan',t:'行程',subs:[['d1','1/27 抵港'],['d2','1/28 迪士尼'],['d3','1/29 進深圳・水療'],['d4','1/30 港島一日'],['d5','1/31 華強北・夜景'],['d6','2/1 南山・阿奇拉'],['d7','2/2 東門・返台'],['d3-mo','🇲🇴 澳門備案'],['near','順遊推薦']]},
+    {k:'plan',t:'行程',subs:[['d1','1/27 抵港'],['d2','1/28 迪士尼'],['d3','1/29 旺角・進深圳'],['d4','1/30 博物館・燈光秀'],['d5','1/31 南山科技'],['d6','2/1 滑雪・華強北'],['d7','2/2 東門・返台'],['near','順遊推薦']]},
     {k:'disney',t:'迪士尼',subs:[['disney-map','園區地圖動線'],['disney-rides','設施排隊梯隊'],['disney-pass','提早入園&DPA'],['disney-shows','煙火表演卡位'],['g-disney','園內餐廳＆數據']]},
     {k:'food',t:'美食',subs:[['g-food-0','🇭🇰 香港餐廳總覽'],['g-food-2','🇨🇳 深圳餐廳總覽'],['g-must-0','⭐ 香港必吃＆三餐'],['g-must-1','⭐ 深圳每餐＆必吃'],['g-food-1','🇲🇴 澳門美食 (備案)']]},
     {k:'shop',t:'購物',subs:[['g-shop-0','🇭🇰 香港逛街購物'],['g-shop-2','🇨🇳 深圳商場・動漫・科技'],['g-shop-1','🇲🇴 澳門手信 (備案)']]},
@@ -2611,7 +2384,7 @@ ightarrow$ 登上大炮台俯瞰澳門半島全景與新葡京。</li>
   }
 
   /* 地區配色 */
-  var REG={'d1':'hk','d2':'hk','d3':'sz','d3-mo':'mo','d4':'hk','d5':'sz','d6':'sz','d7':'sz'};
+  var REG={'d1':'hk','d2':'hk','d3':'sz','d3-mo':'mo','d4':'sz','d5':'sz','d6':'sz','d7':'sz'};
   Object.keys(REG).forEach(function(id){var s=$(id); if(s) s.classList.add('rg-'+REG[id]);});
 
   /* 色帶選中高亮與自動置中 */
