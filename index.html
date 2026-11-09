@@ -579,6 +579,40 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
 .alt-q{display:inline-block; margin-left:6px; font-size:12px; font-weight:600; color:var(--sky); text-decoration:none; cursor:pointer; white-space:nowrap}
 .alts.sight{--kc:var(--maple)}
 .rg-hk .alts.sight{--kc:var(--hk)} .rg-sz .alts.sight{--kc:var(--sz)}
+/* A/B/C 點開看內容 */
+.alt[data-alt]{cursor:pointer; transition:border-color .15s, background .15s, transform .12s}
+.alt[data-alt]:hover{border-color:color-mix(in srgb,var(--kc,var(--moss)) 55%,var(--line))}
+.alt[data-alt]:active{transform:scale(.99)}
+.alt[data-alt]:focus-visible{outline:2px solid var(--kc,var(--moss)); outline-offset:2px}
+.alt-more{display:inline-flex; align-items:center; gap:2px; margin-left:6px; font-size:12px; font-weight:600; color:var(--kc,var(--moss)); white-space:nowrap}
+.alt-more::after{content:""; width:6px; height:6px; border-right:1.6px solid currentColor; border-bottom:1.6px solid currentColor; transform:rotate(-45deg); margin-left:2px}
+.ad{position:fixed; inset:0; z-index:85; background:rgba(12,20,16,.5); display:flex; align-items:flex-end; justify-content:center; backdrop-filter:blur(2px)}
+.ad[hidden]{display:none}
+.ad-sheet{--kc:var(--moss); position:relative; background:var(--surface); width:100%; max-width:520px; max-height:88vh; overflow:auto; border-radius:18px 18px 0 0; border:1px solid var(--line-strong); border-bottom:0; padding:10px 18px calc(18px + env(safe-area-inset-bottom)); box-shadow:0 -12px 32px rgba(0,0,0,.22); animation:adUp .22s ease-out}
+.ad-sheet.sight{--kc:var(--maple)}
+@keyframes adUp{from{transform:translateY(24px); opacity:.4}to{transform:none; opacity:1}}
+@media (prefers-reduced-motion:reduce){.ad-sheet{animation:none}}
+@media (min-width:700px){.ad{align-items:center}.ad-sheet{border-radius:16px; border-bottom:1px solid var(--line-strong)}}
+.ad-grip{width:40px; height:4px; border-radius:2px; background:var(--line-strong); margin:0 auto 12px}
+.ad-top{display:flex; gap:12px; align-items:flex-start}
+.ad-top .alt-k{flex:none; width:34px; height:34px; font-size:15px}
+.ad-ctx{margin:0; font-size:12.5px; color:var(--ink-3)}
+.ad-name{margin:2px 0 0; font-family:var(--serif); font-size:20px; line-height:1.3}
+.ad-why{margin:10px 0 4px; font-size:14.5px; line-height:1.6; color:var(--ink)}
+.ad-x{margin-left:auto; flex:none; border:1px solid var(--line-strong); background:var(--paper); color:var(--ink-2); border-radius:50%; width:34px; height:34px; font-size:16px; cursor:pointer}
+.ad-rows{margin:12px 0 0; padding:0; border-top:1px solid var(--line)}
+.ad-row{display:grid; grid-template-columns:52px 1fr; gap:10px; padding:9px 0; border-bottom:1px solid var(--line); font-size:14px; line-height:1.55}
+.ad-row dt{color:var(--ink-3); font-size:12.5px; padding-top:1px}
+.ad-row dd{margin:0; color:var(--ink)}
+.ad-row dd a{color:var(--sky)}
+.ad-row .copy-btn{min-height:24px; padding:1px 8px; font-size:11.5px; margin-left:6px}
+.ad-acts{display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:14px}
+.ad-acts a,.ad-acts button{display:flex; align-items:center; justify-content:center; gap:6px; min-height:44px; border-radius:10px; border:1px solid var(--line-strong); background:var(--paper); color:var(--ink); font:inherit; font-size:14px; font-weight:700; text-decoration:none; cursor:pointer}
+.ad-acts .pri{background:var(--kc); border-color:var(--kc); color:#FBFCFA}
+.ad-nav{display:flex; justify-content:space-between; gap:8px; margin-top:12px}
+.ad-nav button{flex:1; min-height:40px; border:1px dashed var(--line-strong); border-radius:10px; background:transparent; color:var(--ink-2); font:inherit; font-size:13px; cursor:pointer}
+.ad-nav button[disabled]{opacity:.35; cursor:default}
+
 /* 歡迎封面 */
 .intro{position:fixed; inset:0; z-index:200; background:#10152B; overflow-y:auto; display:flex; justify-content:center; transition:transform .8s cubic-bezier(.7,0,.2,1), opacity .8s}
 .intro.out{transform:translateY(-100%); opacity:.7}
@@ -681,7 +715,7 @@ body.intro-open{overflow:hidden}
   </g></svg>
   <p class="eyebrow">2027 年 1 月 27 日 – 2 月 2 日，香港 2 晚、深圳 4 晚</p>
   <h1>香港・深圳<br>七日雙城行程</h1>
-  <p class="sub">一家三口。1/27 晚班機 UO117（21:15 桃園 T1 起飛／23:25 抵港 T1）直達旺角帝京（2 晚）；1/28 迪士尼全日；1/29 睡飽、旺角晃晃吃午餐後進深圳，住東門希爾頓歡朋（3 晚），晚上東門吃飯逛動漫；1/30 自然博物館、平安金融中心、福田市民中心燈光秀；1/31 華強北、深圳之眼（崗廈北站穹頂）、室內卡丁車、八合里牛肉火鍋；2/1 大疆旗艦店、人才公園無人機午餐、下午滑雪，住會展中心皇冠假日（1 晚）；2/2 打車到皇崗口岸午餐、過關後打車到香港機場，UO116 18:40 由香港 T2 回台北。</p>
+  <p class="sub">一家四口。1/27 晚班機 UO117（21:15 桃園 T1 起飛／23:25 抵港 T1）直達旺角帝京（2 晚）；1/28 迪士尼全日；1/29 睡飽、旺角晃晃吃午餐後進深圳，住東門希爾頓歡朋（3 晚），晚上東門吃飯逛動漫；1/30 自然博物館、平安金融中心、福田市民中心燈光秀；1/31 華強北、深圳之眼（崗廈北站穹頂）、室內卡丁車、八合里牛肉火鍋；2/1 大疆旗艦店、人才公園無人機午餐、下午滑雪，住會展中心皇冠假日（1 晚）；2/2 打車到皇崗口岸午餐、過關後打車到香港機場，UO116 18:40 由香港 T2 回台北。</p>
   <button type="button" class="sub-more" id="sub-more" aria-expanded="false">看完整摘要</button>
   <div class="ribbon" id="ribbon" aria-label="七天路線">
     <span class="cap-end hk" aria-hidden="true"><svg class="cap-ic" aria-hidden="true"><use href="#i-plane"/></svg><em>抵港</em></span>
@@ -710,6 +744,14 @@ body.intro-open{overflow:hidden}
   </div>
 </header>
 
+
+<!-- A/B/C 方案詳情 -->
+<div class="ad" id="alt-dialog" hidden>
+  <div class="ad-sheet" role="dialog" aria-modal="true" aria-labelledby="ad-name">
+    <div class="ad-grip" aria-hidden="true"></div>
+    <div id="ad-body"></div>
+  </div>
+</div>
 <!-- 單點地圖導航選單彈窗 -->
 <div class="map-dialog" id="map-dialog" hidden>
   <div class="map-sheet">
@@ -941,7 +983,7 @@ body.intro-open{overflow:hidden}
     <div class="row move"><div class="t">23:50</div><div class="body"><div class="card">
       <div class="ttl">機場 → 旺角帝京酒店（深夜直達交通推薦）</div>
       <div class="desc"><b>查證：</b>紅色市區的士估約 HK$350–420（含 3 件行李每件 HK$6、隧道橋費）。機場快綫末班約 00:48，入境領行李順的話趕得上，但到九龍站還要轉車，深夜帶行李直接搭的士最省事。N21 通宵巴士約 HK$27 但要 60–75 分。</div>
-      <div class="opt"><b>【最省力首選】市區紅色的士（計程車）直達酒店門口</b><span class="flag fix">最推薦</span><br>跟隨「市區的士（紅色）」指標前往招呼站，上車告知司機「旺角帝京酒店（太子道西193號，MOKO新世紀廣場旁）」。走青嶼幹線接西九龍快速公路，深夜路況順暢<b>僅約 35 分鐘即達</b>！車資約 <b>HK$350–420</b>（含隧道橋費與行李每件 HK$6），三人分攤每人約 HK$120–140，全家深夜免搬大行李爬樓梯換車，最舒適！</div>
+      <div class="opt"><b>【最省力首選】市區紅色的士（計程車）直達酒店門口</b><span class="flag fix">最推薦</span><br>跟隨「市區的士（紅色）」指標前往招呼站，上車告知司機「旺角帝京酒店（太子道西193號，MOKO新世紀廣場旁）」。走青嶼幹線接西九龍快速公路，深夜路況順暢<b>僅約 35 分鐘即達</b>！車資約 <b>HK$350–420</b>（含隧道橋費與行李每件 HK$6），四人加大行李一般的士塞不下，<b>請排「的士站」叫 5–7 人座大的士或分兩台</b>，每人約 HK$90–105，全家深夜免搬行李換車，最舒適！</div>
       <div class="opt"><b>【備選大眾運輸】機場快綫末班車 或 通宵城巴 NA21</b><span class="flag rec">備選方案</span><br>・<b>機場快綫（末班車 00:48）</b>：搭至九龍站約 22 分鐘（3人團體票 HK$210），出站轉搭計程車約 HK$60 直達酒店。<br>・<b>通宵城巴 NA21</b>：深夜專線直達旺角彌敦道，每人約 HK$37.5，車程約 40 分鐘。</div>
     </div></div></div>
     <div class="row stop"><div class="t">00:30</div><div class="body">
@@ -966,7 +1008,7 @@ body.intro-open{overflow:hidden}
     <div class="day-tag"><b>DAY 2</b><span>1/28 四</span><span>迪士尼樂園全日美食 ＆ 城堡光影煙火夜景</span></div>
     <h2>迪士尼全日暢玩，園內特色美食，閉園光影煙火夜景</h2>
     <p class="day-note"><b>🍽️ 美食主軸：</b>敏華冰室黯然銷魂飯、迪士尼皇室宴會廳、園內阿德爾特色雪糕、散場生滾牛肉粥。<br><b>🌃 夜景主軸：</b>20:30 奇妙夢想城堡「Momentous」光影噴泉水幕煙火夜景！</p>
-      <div class="note" style="border-left-color:var(--maple); background:rgba(220,38,38,0.08); margin:12px 0 16px;"><b>🎫 待辦：1/28 門票應該已經可以買。</b>官網開放到訪前 90 天預約，1/28 約 10/30 起可訂。現在就上官網看 1/28 的票價等級（Tier 1 成人 HK$669 起）並買三張（滿 12 歲成人價），再到官網／App 預約入園日期；預約要滿 18 歲的人操作。<b>預約 1/28 入園日期</b>並綁定門票。</div>
+      <div class="note" style="border-left-color:var(--maple); background:rgba(220,38,38,0.08); margin:12px 0 16px;"><b>🎫 待辦：1/28 門票應該已經可以買。</b>官網開放到訪前 90 天預約，1/28 約 10/30 起可訂。現在就上官網看 1/28 的票價等級（Tier 1 成人 HK$669 起）並買四張（孩子已滿 12 歲，全部成人價），再到官網／App 預約入園日期；預約要滿 18 歲的人操作。<b>預約 1/28 入園日期</b>並綁定門票。</div>
 </div>
   <div class="tl">
         <div class="row eat"><div class="t">08:15</div><div class="body">
@@ -1262,7 +1304,7 @@ body.intro-open{overflow:hidden}
     </div></div>
     <div class="row move"><div class="t">11:00</div><div class="body"><div class="card">
       <div class="ttl">退房 → 打車到皇崗口岸（約 50–60 分，約 ¥80–110）</div>
-      <div class="desc">三人加行李叫舒適型或六座車。</div>
+      <div class="desc">四人加行李請叫六座車（滴滴選「六座商務」）。</div>
     </div></div></div>
         <div class="row eat"><div class="t">12:00</div><div class="body">
       <div class="ttl">午餐（選一，皇崗口岸附近）<span class="flag eat">午餐</span></div>
@@ -1313,7 +1355,7 @@ body.intro-open{overflow:hidden}
   <div class="tbl"><table>
     <thead><tr><th>項目</th><th>日期</th><th>備註</th></tr></thead>
     <tbody>
-      <tr><td><span class="flag key">應已開賣</span> 香港迪士尼樂園門票</td><td>1/28 四</td><td>1/28 約 10/30 起可訂，現在就上官網確認票價等級並購買；三人標準成人票（滿 12 歲成人價），購票後需於官網/App 預約入園</td></tr>
+      <tr><td><span class="flag key">應已開賣</span> 香港迪士尼樂園門票</td><td>1/28 四</td><td>1/28 約 10/30 起可訂，現在就上官網確認票價等級並購買；四人標準成人票（孩子已滿 12 歲，成人價），購票後需於官網/App 預約入園</td></tr>
       <tr><td>深圳自然博物館</td><td>1/30 六</td><td>成人 ¥80、6–18 歲 ¥60；微信小程序實名預約，台胞證可用</td></tr>
       <tr><td>平安金融中心 Free Sky 雲際觀光層</td><td>1/30 六</td><td>成人 ¥180、1.2–1.5 米兒童 ¥100；Klook／KKday／攜程可先買</td></tr>
       <tr><td>市民中心燈光秀觀看區</td><td>1/30 六</td><td>微信小程序「福田中心区夜景灯光预约导引服务」，1/25（一）10:00 開放預約</td></tr>
@@ -1354,11 +1396,11 @@ body.intro-open{overflow:hidden}
   <h2>出發前待辦<span class="prog" id="ck-prog"></span></h2>
   <p class="lead">勾選會記在這支手機的瀏覽器裡（換手機或清除資料就不見）。</p>
 
-  <p class="cap">證件（每人一份，三人）</p>
+  <p class="cap">證件（每人一份，四人）</p>
   <ul class="ck">
     <li><label><input type="checkbox" data-k="pp"><span>護照效期 6 個月以上（三本）</span></label></li>
-    <li><label><input type="checkbox" data-k="tbz"><span><b>卡式台胞證</b>（進深圳必備，隨身攜帶勿託運，三張）</span></label></li>
-    <li><label><input type="checkbox" data-k="hkreg"><span>香港網上預辦入境登記（三人）：<b>只能入境 2 次、有效 2 個月</b>。這趟入境香港 2 次（1/27 機場、2/2 皇崗回港去機場），網上預辦登記就夠用，<b>第 3 次出示台胞證即可</b>（入境處官方：持有效台胞證可以訪客身分入境，每次最多 30 天）</span></label></li>
+    <li><label><input type="checkbox" data-k="tbz"><span><b>卡式台胞證</b>（進深圳必備，隨身攜帶勿託運，四張）</span></label></li>
+    <li><label><input type="checkbox" data-k="hkreg"><span>香港網上預辦入境登記（四人）：<b>只能入境 2 次、有效 2 個月</b>。這趟入境香港 2 次（1/27 機場、2/2 皇崗回港去機場），網上預辦登記就夠用，<b>第 3 次出示台胞證即可</b>（入境處官方：持有效台胞證可以訪客身分入境，每次最多 30 天）</span></label></li>
     <li><label><input type="checkbox" data-k="copy"><span>證件拍照存到手機與備份資料夾「02_證件影本」</span></label></li>
   </ul>
 
@@ -1367,7 +1409,7 @@ body.intro-open{overflow:hidden}
     <li><label><input type="checkbox" data-k="hotel1"><span>帝京酒店已訂（1/27–1/29，2 晚，豪華親子客房）</span></label></li>
     <li><label><input type="checkbox" data-k="hotel2"><span>東門希爾頓歡朋酒店已訂（1/29–2/1，3 晚，豪華雙床房）</span></label></li>
     <li><label><input type="checkbox" data-k="hotel3"><span>會展中心皇冠假日已訂（2/1–2/2，1 晚，高級房 2 張雙人床）</span></label></li>
-    <li><label><input type="checkbox" data-k="disney"><span><b>⚠️ 迪士尼 1/28 門票：</b>官網應已可訂（到訪前 90 天開放），現在就買三張，並預約入園日期</span></label></li>
+    <li><label><input type="checkbox" data-k="disney"><span><b>⚠️ 迪士尼 1/28 門票：</b>官網應已可訂（到訪前 90 天開放），現在就買四張，並預約入園日期</span></label></li>
     <li><label><input type="checkbox" data-k="ski"><span>華發冰雪世界 2/1 滑雪票＋教練課；自備手套、厚襪、頸巾</span></label></li>
     <li><label><input type="checkbox" data-k="kart"><span>SGP 卡丁車 1/31：Klook／KKday 先買</span></label></li>
     <li><label><input type="checkbox" data-k="hqb"><span>華強北博物館 1/31 實名預約（微信公眾號「華強北博物館」）</span></label></li>
@@ -1397,7 +1439,7 @@ body.intro-open{overflow:hidden}
 
   <p class="cap">已查證重點確認</p>
   <ul class="ck">
-    <li><label><input type="checkbox" data-k="q1" checked><span>A21 下車站為「旺角中心，彌敦道」，步行約 10–12 分至帝京；機場快綫團體票 3 人 HK$210 轉計程車更推</span></label></li>
+    <li><label><input type="checkbox" data-k="q1" checked><span>A21 下車站為「旺角中心，彌敦道」，步行約 10–12 分至帝京；機場快綫有 2–4 人團體票，但四人加行李直接叫大的士更推</span></label></li>
     <li><label><input type="checkbox" data-k="q2" checked><span>敏華冰室位於帝京樓下 MOKO 商場內，趕時間早茶首選</span></label></li>
     <li><label><input type="checkbox" data-k="q4" checked><span>原「壹首點心」已確認為太子米其林必比登「一點心（One Dim Sum）」</span></label></li>
     <li><label><input type="checkbox" data-k="q5" checked><span>BitCity 次元小鎮確切在大中華國際交易廣場 G 層（會展中心 A1 口）</span></label></li>
@@ -1469,7 +1511,7 @@ body.intro-open{overflow:hidden}
 
 <section class="sec" id="disney-rides">
   <h2>🎢 香港迪士尼 設施排隊梯隊與青少年推薦評級</h2>
-  <p class="lead">全園 20+ 項設施依據官方即時與歷史平均排隊時間，劃分為三大梯隊。家中兩位青少年必衝「T0 刺激熱門」與「T1 口碑神作」！</p>
+  <p class="lead">全園 20+ 項設施依據官方即時與歷史平均排隊時間，劃分為三大梯隊。兩位青少年必衝「T0 刺激熱門」與「T1 口碑神作」！</p>
 
   <p class="cap">🏆 設施排隊等級排行榜</p>
   <div class="grid">
@@ -1550,7 +1592,7 @@ body.intro-open{overflow:hidden}
         ・可提前進入全園最火爆的「魔雪奇緣世界」與「幻想世界」。<br>
         ・平日這 1 小時內，雪嶺滑雪橇與魔雪奇幻之旅<b>完全免排隊，甚至能二刷</b>！<br>
         ・還能在無人干擾下拍出童話般的空景美照。<br>
-        ・比起買 8 項尊享卡每人要花 HK$500 多，提早入園證只要 HK$199 就能解決最排隊的兩個大項目，<b>三人現省超過 NT$3,000</b>！
+        ・比起買 8 項尊享卡每人要花 HK$500 多，提早入園證只要 HK$199 就能解決最排隊的兩個大項目，<b>四人現省超過 NT$4,000</b>！
       </div>
     </div>
 
@@ -1588,7 +1630,7 @@ body.intro-open{overflow:hidden}
     </div>
     <div class="cell">
       <h3>4. 門票綁定與入園預約</h3>
-      <p>購票後（無論官網或 Klook），需將三人門票憑證編號輸入 App 完成入園日期預約，當天刷手機 QR Code 直接入園。</p>
+      <p>購票後（無論官網或 Klook），需將四人門票憑證編號輸入 App 完成入園日期預約，當天刷手機 QR Code 直接入園。</p>
     </div>
   </div>
 </section>
@@ -1700,7 +1742,7 @@ body.intro-open{overflow:hidden}
   </table></div>
 
   <!-- 總結建議 -->
-  <p class="cap">🎯 爸爸帶兩位青少年的最佳交通決策總結</p>
+  <p class="cap">🎯 一家四口（兩大兩青少年）的交通決策總結</p>
   <div class="grid">
     <div class="cell gi" style="border-left:4px solid var(--moss)">
       <h3>1/29（五）進深圳入住東門：首選「港鐵東鐵線直達羅湖」</h3>
@@ -1712,9 +1754,9 @@ body.intro-open{overflow:hidden}
     </div>
   </div>
 
-  <!-- 全行程 7 天交通費用試算大比拼（全家三人） -->
-  <p class="cap" style="margin-top:28px">💰 7 天全行程所有交通費用試算總比拼（全家 3 人合計）</p>
-  <p class="lead">全家三人（爸爸＋2 位青少年，12 歲以上均依標準/成人票計算），針對「🏆 舒適家庭首選方案」與「💰 極致省錢方案」進行完整 7 天逐日試算與各路線比較（匯率依 1 HKD≈4.1 TWD, 1 CNY≈4.5 TWD, 1 MOP≈4.0 TWD 計算）：</p>
+  <!-- 全行程 7 天交通費用試算大比拼（全家四人） -->
+  <p class="cap" style="margin-top:28px">💰 7 天全行程所有交通費用試算總比拼（以 3 人試算，四人請把按人計費的項目 ×4/3）</p>
+  <p class="lead">原表以三人試算（現為一家四口，按人計費項目約 ×4/3；打車四人仍一台，六座車略貴），針對「🏆 舒適家庭首選方案」與「💰 極致省錢方案」進行完整 7 天逐日試算與各路線比較（匯率依 1 HKD≈4.1 TWD, 1 CNY≈4.5 TWD, 1 MOP≈4.0 TWD 計算）：</p>
   <div class="tbl"><table>
     <thead>
       <tr>
@@ -1786,7 +1828,7 @@ body.intro-open{overflow:hidden}
     </tbody>
     <tfoot>
       <tr style="background:var(--key-bg);font-weight:700">
-        <td>全行程 7 天合計<br>（全家 3 人總計）</td>
+        <td>全行程 7 天合計<br>（3 人試算）</td>
         <td colspan="2"><b>約 NT$ 9,000 元</b><br><small>（估算，含 D1、D2）</small></td>
         <td colspan="2"><b>約 NT$ 4,800 元</b><br><small>（估算）</small></td>
         <td>差額主要在打車與東鐵頭等；詳細每日花費見「費用估算」。</td>
@@ -1897,7 +1939,7 @@ body.intro-open{overflow:hidden}
   <div class="grid c2" style="margin-bottom:14px">
     <div class="cell"><div class="d">設定</div>
       <div class="cset">
-        <label>人數 <input type="number" id="c-n" min="1" step="1" value="3"></label>
+        <label>人數 <input type="number" id="c-n" min="1" step="1" value="4"></label>
         <label>1 港幣＝台幣 <input type="number" id="c-hkd" step="0.01" value="4.1"></label>
         <label>1 人民幣＝台幣 <input type="number" id="c-cny" step="0.01" value="4.5"></label>
         <label>1 澳門幣＝台幣 <input type="number" id="c-mop" step="0.01" value="4.0"></label>
@@ -1923,7 +1965,7 @@ body.intro-open{overflow:hidden}
 <section class="sec" id="notes">
   <h2>注意事項</h2>
   <ul class="wlist">
-    <li><b>台胞證：</b>沒有就進不了深圳，三人都要，小孩也要。</li>
+    <li><b>台胞證：</b>沒有就進不了深圳，四人都要，小孩也要。</li>
     <li><b>大陸網路：</b>LINE、Google 不能用本地網路。用香港或台灣漫遊的 eSIM 才能連；地圖改用高德。</li>
     <li><b>天氣：</b>1 月底港深約 14–20℃，乾季少雨，冷鋒會驟降 8–10℃，帶薄外套加一件保暖層；冰雪世界滑雪區 -6℃。</li>
     <li><b>春運：</b>2027 除夕 2/5、春節 2/6，春運約 1/22 開始，整趟都在春運期間，過關和熱門餐廳人多，時間多留一點。</li>
@@ -1989,7 +2031,7 @@ body.intro-open{overflow:hidden}
     // [名稱, 幣別, 低, 高, 'p'每人 / 'g'全家, 備註]
     var DAYS=[
       ['1/27 三 抵港入住',[
-        ['機場 → 帝京 紅色市區的士（三人一車＋大行李）','HKD',250,280,'g','深夜23:25抵港，35分鐘直達帝京酒店；夜間免擠免等'],
+        ['機場 → 帝京 大的士或兩台紅的（四人＋大行李）','HKD',350,450,'g','深夜23:25抵港，35分鐘直達帝京酒店；夜間免擠免等'],
         ['宵夜 旺角茶餐廳／富記生滾粥','HKD',80,150,'p'],
         ['八達通卡儲值備用','HKD',50,100,'p']]],
       ['1/28 四 迪士尼樂園',[
@@ -2031,10 +2073,11 @@ body.intro-open{overflow:hidden}
         ['永東直通巴士 皇崗 → 機場（或紅色的士 HK$350–420）','CNY',80,80,'p','的士為估算'],
         ['香港機場輕食','HKD',60,120,'p']]]
     ];
-    var FIXED=[['flight','機票（三人香港快運 UO117／UO116 往返）'],['h1','旺角帝京酒店（2晚 1/27–1/29）',9778],['h2','深圳東門希爾頓歡朋（3晚 1/29–2/1）',8124],['h3','會展中心皇冠假日（1晚 2/1–2/2）',4380],['ins','旅平險與不便險'],['esim','台港中三地中港卡 eSIM / 漫遊'],['shop','購物伴手禮預算'],['other','其他緊急備用金']];
+    var FIXED=[['flight','機票（四人香港快運 UO117／UO116 往返）'],['h1','旺角帝京酒店（2晚 1/27–1/29）',9778],['h2','深圳東門希爾頓歡朋（3晚 1/29–2/1）',8124],['h3','會展中心皇冠假日（1晚 2/1–2/2）',4380],['ins','旅平險與不便險'],['esim','台港中三地中港卡 eSIM / 漫遊'],['shop','購物伴手禮預算'],['other','其他緊急備用金']];
     function $(i){return document.getElementById(i)}
     function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
     var st={}; try{st=JSON.parse(ls('hksz-cost')||'{}')||{}}catch(e){}
+    if(!st.v4){ if(st['c-n']=='3') delete st['c-n']; st.v4=1; }
     ['c-n','c-hkd','c-cny','c-mop'].forEach(function(id){ if(st[id]!=null) $(id).value=st[id]; });
     $('c-fixed').innerHTML=FIXED.map(function(f){return '<div class="cell crow"><label>'+f[1]+'<input type="number" min="0" step="100" data-f="'+f[0]+'" placeholder="台幣" value="'+(st['f-'+f[0]]||f[2]||'')+'"></label></div>'}).join('');
     var fmt=function(n){return 'NT$'+Math.round(n).toLocaleString('en-US')};
@@ -2056,7 +2099,7 @@ body.intro-open{overflow:hidden}
       var fx=0; document.querySelectorAll('[data-f]').forEach(function(i){fx+=(+i.value||0)});
       $('c-total').textContent=fmt(lo+fx)+' – '+fmt(hi+fx).slice(3);
       $('c-split').innerHTML='每日花費 '+fmt(lo)+'–'+fmt(hi).slice(3)+'（'+n+' 人，平均每人 '+fmt(lo/n)+'–'+fmt(hi/n).slice(3)+'）<br>自填固定支出 '+fmt(fx)+(fx?'':'（尚未填）');
-      var s={}; ['c-n','c-hkd','c-cny','c-mop'].forEach(function(id){s[id]=$(id).value});
+      var s={}; ['c-n','c-hkd','c-cny','c-mop'].forEach(function(id){s[id]=$(id).value}); s.v4=1;
       document.querySelectorAll('[data-f]').forEach(function(i){if(i.value)s['f-'+i.dataset.f]=i.value});
       ls('hksz-cost',JSON.stringify(s));
     }
@@ -3288,6 +3331,90 @@ if(seen()){el.hidden=true}else{document.body.classList.add('intro-open');documen
 document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!el.hidden)close()});
 window.openIntro=open;
 var f=document.querySelector('.tools');if(f){var b=document.createElement('button');b.type='button';b.className='tool';b.innerHTML='<svg class="ic-svg" aria-hidden="true"><use href="#i-plane"/></svg><span>歡迎頁</span>';b.addEventListener('click',open);f.appendChild(b);}
+})();
+</script>
+
+<script>
+(function(){
+  var D={"元朗冰室（太子店）": {"k": "港式冰室", "why": "離帝京最近的 24 小時店，抵港深夜也開", "addr": "九龍太子道西 141 號", "hours": "24 小時", "order": "凍奶茶、牛油多士、餐蛋公仔麵", "go": "帝京步行約 8 分", "tip": "深夜抵港最穩的一站，不用排隊"}, "翠華餐廳（旺角）": {"k": "港式茶餐廳", "why": "連鎖老字號，菜單大、座位多，開到半夜", "addr": "旺角（彌敦道一帶，多家分店）", "hours": "約營業至 01:00", "order": "魚蛋粗麵、奶油豬、凍檸茶", "tip": "價位比冰室高一點，但不太需要等位"}, "聰嫂私房甜品": {"k": "甜品糖水", "why": "旺角人氣糖水舖，宵夜或飯後甜點", "addr": "旺角豉油街 50 號", "hours": "約營業至 00:00–01:00", "order": "楊枝甘露、芋圓、榴槤班戟", "go": "帝京步行約 10 分", "tip": "晚上 21:00 後常要排一下"}, "敏華冰室（MOKO M39）": {"k": "港式冰室", "why": "帝京室內直通 MOKO，下樓就吃，最省時", "addr": "旺角太子道西 193 號 MOKO 新世紀廣場", "hours": "07:00 開", "order": "黯然銷魂飯、菠蘿油、凍奶茶", "tel": "+852 2682 0612", "go": "飯店室內直通", "tip": "趕迪士尼的早晨首選"}, "金華冰廳": {"k": "港式冰室", "why": "旺角排隊名店，現烤菠蘿油出名", "addr": "旺角弼街 45–47 號", "hours": "06:30 開", "order": "菠蘿油、蛋撻、火腿通粉", "go": "帝京步行約 10 分", "tip": "只收現金，八達通不行"}, "公和荳品廠（深水埗）": {"k": "豆品老店", "why": "百年豆腐店，早餐吃傳統豆品", "addr": "深水埗北河街 118 號", "hours": "06:00 開", "order": "豆腐花、煎釀三寶、豆漿", "go": "太子站多搭 2 站到深水埗", "tip": "吃完可順逛深水埗玩具街"}, "富記粥品": {"k": "粥品", "why": "旺角老字號生滾粥，宵夜暖胃", "addr": "旺角花園街 104–106 號", "hours": "營業到 23:30", "order": "生滾牛肉粥、及第粥、炸兩", "tel": "+852 2385 1230", "go": "帝京步行約 10 分"}, "一點心（太子）": {"k": "點心", "why": "米芝蓮必比登推介，平價港式點心", "addr": "太子通菜街 209A", "order": "蝦餃、燒賣、流沙包", "tel": "+852 2677 7888", "go": "帝京步行約 5–8 分", "tip": "週五中午排 20–40 分，可先打電話訂位"}, "麥文記麵家（佐敦）": {"k": "雲吞麵", "why": "必比登推介雲吞麵老店", "addr": "佐敦白加士街 51 號", "hours": "12:00 開", "order": "鮮蝦雲吞麵、牛腩撈麵", "go": "佐敦站步行 3 分"}, "信和中心": {"k": "動漫購物", "why": "孩子會愛：動漫、扭蛋、模型集中一棟", "addr": "旺角彌敦道 582–592 號", "go": "旺角站 E 口步行 2 分", "tip": "多數店 12:00 後才開齊"}, "波鞋街＋女人街": {"k": "逛街", "why": "球鞋與夜市小攤一次逛完", "addr": "旺角花園街（波鞋街）＋通菜街（女人街）", "tip": "小攤記得殺價"}, "NAMCO 朗豪坊": {"k": "遊戲機中心", "why": "下雨也能玩：夾公仔、扭蛋、音樂遊戲", "addr": "旺角朗豪坊 9 樓", "hours": "11:00–22:30", "go": "旺角站 C3 口直通朗豪坊"}, "蘩樓（東門）": {"k": "粵式點心", "why": "深圳本地人氣點心，晚市也有點心", "addr": "羅湖東門中路 2071 號南海中心 3 樓", "hours": "17:00–21:00", "price": "人均約 ¥90", "order": "露筍蝦餃、紅米腸", "tel": "0755-82221819", "go": "從希爾頓歡朋步行可達", "tip": "大眾點評可線上取號"}, "香港新發燒臘（金光華店）": {"k": "燒臘茶餐廳", "why": "24 小時燒臘，什麼時間到都有得吃", "addr": "羅湖嘉賓路湖心大廈", "hours": "24 小時", "order": "燒鵝瀨粉、燒味雙拼飯", "go": "國貿站附近"}, "大良海記粥底火鍋（羅湖）": {"k": "粥底火鍋", "why": "順德粥底火鍋，清淡、孩子容易接受", "addr": "羅湖寶安南路 2056 號國都花園", "hours": "17:00–02:00", "price": "人均約 ¥73", "order": "粥底、鮮切牛肉、海鮮拼盤"}, "新白馬・次元9號＋MINISO LAND": {"k": "動漫購物", "why": "東門的穀子、模型、IP 周邊集中地", "addr": "東門一橫街 9 號（次元9號）；解放路名仕商城（MINISO LAND）", "hours": "次元9號到 22:00；MINISO LAND 到 23:00", "go": "從飯店步行可達"}, "東門老街夜市": {"k": "夜市", "why": "深圳最老的商圈，步行街小吃一路逛", "addr": "羅湖東門步行街", "order": "紅荔村腸粉、金稻園砂鍋粥、手打檸檬茶", "tip": "人潮多，貴重物品放前面"}, "KL SPORT 夜場（羅湖）": {"k": "室內運動", "why": "蹦床、卡丁車、VR 一票玩，晚上消耗體力", "addr": "羅湖人民南路茂業天地 5 樓", "hours": "19:00 後有夜場", "price": "3 小時約 ¥175／人"}, "博物館 2 樓三角洲美食集": {"k": "館內餐廳", "why": "不用出館，看完展直接吃", "addr": "深圳自然博物館 2 樓", "order": "漢堡、披薩、麵食、恐龍冰淇淋", "price": "人均約 ¥40–70", "tip": "館內有免費直飲水"}, "沙壆社區客家菜": {"k": "客家菜", "why": "在地客家小館，出館步行可到", "addr": "坪山沙壆社區", "order": "釀豆腐、鹽焗雞", "go": "出館步行約 10 分"}, "一茗私房順德菜（坪山比亞迪店）": {"k": "順德菜", "why": "環境舒服，有家庭套餐", "addr": "坪山比亞迪附近", "go": "離博物館不到 1 公里，打車起步價"}, "潭記燒臘（景田店）": {"k": "燒臘", "why": "深圳燒鵝名店之一", "addr": "福田紅荔西路 7018 號", "hours": "燒鵝 16:30 出最後一批", "order": "燒鵝、叉燒、燒肉", "tel": "0755-83939583", "tip": "18:30 前到，晚到燒鵝常賣完"}, "潮德阿水／潮發潮汕牛肉": {"k": "潮汕牛肉火鍋", "why": "福田中心區兩家牛肉火鍋，看燈光秀前後都順", "addr": "潮德阿水：金田路卓越世紀中心 L403；潮發：皇庭廣場 L2", "tel": "潮德阿水 0755-86699989", "order": "吊龍、匙柄、牛肉丸", "tip": "潮發用大眾點評線上取號"}, "壹號粥火鍋": {"k": "粥底火鍋", "why": "開到凌晨，燈光秀後也吃得到", "addr": "福田金田路 2003 號金怡華庭", "hours": "11:00–02:00", "order": "粥底涮牛肉"}, "市民中心廣場": {"k": "燈光秀", "why": "正面看福田中心區燈光秀最清楚", "addr": "福田市民中心廣場", "hours": "動畫僅週五、週六", "tip": "微信小程序「福田中心区夜景灯光预约导引服务」預約，每週一 10:00 開放（1/25 搶）"}, "COCO Park 戶外": {"k": "燈光秀", "why": "免預約的備案位置", "addr": "福田星河 COCO Park", "tip": "距離較遠，動畫細節看不清楚"}, "平安金融中心 116 樓": {"k": "高空觀景", "why": "547 米深圳之巔，俯瞰全城亮燈", "addr": "福田益田路 5033 號平安金融中心", "hours": "觀光層約開到 21:00", "tip": "傍晚上去，看日落接夜景"}, "歡朋自助早餐": {"k": "飯店早餐", "why": "房價含早，最省時間", "addr": "希爾頓歡朋（東門）飯店內", "hours": "約 07:00–10:00（週末可能到 10:30）"}, "唐宮海鮮舫（東門）": {"k": "粵式早茶", "why": "想吃正式早茶的選擇", "addr": "羅湖新園路中海商城 6 樓", "hours": "早茶 08:30 起", "tel": "0755-82178790", "tip": "可電話訂位"}, "紅荔村腸粉（東門）": {"k": "腸粉", "why": "本地平價早餐，快又好吃", "addr": "羅湖東門中路 2002 號", "order": "混醬腸粉、粥"}, "深井華香鵝": {"k": "燒鵝快餐", "why": "華強北 30 年燒鵝老店", "addr": "福田華發北路 93 號", "price": "人均約 ¥35", "order": "燒鵝瀨粉", "tel": "0755-83763344"}, "洪牛坊（南園路店）": {"k": "潮汕牛肉粿條", "why": "24 小時，牛肉粿條湯清甜", "addr": "福田南園路（華強南站附近）", "hours": "24 小時", "order": "牛肉粿條湯、牛肉丸", "go": "華強南站 F 口步行約 200 米"}, "三哥茶餐廳（華強北店）": {"k": "茶餐廳", "why": "華強北逛累時的平價選擇", "addr": "福田振興路華發大廈首層", "hours": "08:00–02:00", "price": "人均約 ¥45"}, "SGP 卡丁車（羅湖北）": {"k": "卡丁車", "why": "專業室內賽道", "addr": "羅湖清水河一路 3 號", "price": "Klook 2 場約 ¥177", "tip": "每場 8 分鐘，身高需 ≥130 公分"}, "DS 新樂園（華強北）": {"k": "室內運動", "why": "就在華強北，不用跑羅湖北", "addr": "福田華強北路 3005 號", "price": "平日 2.5 小時約 ¥150", "order": "卡丁車、射箭、攀岩、VR（6 層樓）"}, "KL SPORT（羅湖）": {"k": "室內運動", "why": "蹦床、卡丁車、VR 一票玩", "addr": "羅湖人民南路茂業天地 5 樓", "price": "3 小時約 ¥175／人"}, "八合里潮汕牛肉火鍋（金光華）": {"k": "潮汕牛肉火鍋", "why": "連鎖名店，品質穩定", "addr": "羅湖人民南路 2028 號金光華廣場 5 樓", "order": "吊龍、匙柄、手打牛肉丸", "tel": "0755-25129169", "go": "國貿站 A 口", "tip": "大眾點評線上取號"}, "大疆 DJI 旗艦店（歡樂海岸）": {"k": "科技體驗", "why": "大疆全系列，看飛行示範", "addr": "南山白石東路 8 號歡樂海岸", "hours": "週一 10:00–22:00", "tip": "想試飛先打電話問"}, "拓竹 Bambu Lab 門店": {"k": "科技體驗", "why": "3D 列印機現場展示", "addr": "深圳灣萬象城二期 B 區 B1", "hours": "10:00–22:00"}, "深圳灣公園海濱": {"k": "海濱公園", "why": "看海、看海鷗，免費", "addr": "南山深圳灣公園", "go": "9 號線深圳灣公園站，大疆旁邊"}, "人才公園 美團無人機外賣": {"k": "無人機外賣", "why": "這趟必體驗：無人機把午餐送到空投櫃", "addr": "南山人才公園 潮汐廣場空投櫃", "hours": "10:00–20:00", "tip": "美團搜尋「無人機」下單；出發前先在台灣測試能否註冊"}, "深圳灣萬象城餐廳": {"k": "商場餐廳", "why": "人才公園旁，選擇多", "addr": "南山深圳灣萬象城", "tip": "B1 可順逛拓竹"}, "八合里（海岸城店）": {"k": "潮汕牛肉火鍋", "why": "南山這區的牛肉火鍋選擇", "addr": "南山海岸城西座 2 樓", "go": "後海站 E2 口"}, "璽椰椰子雞": {"k": "椰子雞火鍋", "why": "椰青湯底，清爽適合全家", "addr": "會展灣花園里 1 樓 L1012", "order": "椰青湯底文昌雞", "tel": "0755-85208860", "go": "皇冠假日步行可達"}, "順味軒（順德菜）": {"k": "順德菜", "why": "會展灣較正式的晚餐", "addr": "會展灣花園里 3 樓 L3022", "hours": "17:00–21:30", "price": "人均約 ¥140", "order": "燒鵝撈雞"}, "福合誠潮汕牛肉火鍋": {"k": "潮汕牛肉火鍋", "why": "會展灣附近的牛肉火鍋", "addr": "東城廣場二期 2 樓"}, "香港新發燒臘（水圍店）": {"k": "燒臘茶餐廳", "why": "皇崗口岸旁，過關前吃一頓", "addr": "福田水圍村 306 棟", "hours": "24 小時", "price": "人均約 ¥76", "tel": "0755-83822229"}, "潮汕大目牛肉火鍋（皇崗旗艦店）": {"k": "潮汕牛肉火鍋", "why": "42 年老字號，皇崗口岸附近", "addr": "福田皇崗二街皇崗村市場北座 1 樓", "tel": "0755-83988118"}, "得悅樓（會展灣，出發前吃）": {"k": "粵式早茶", "why": "當地有名的早茶，出發前吃完再走", "addr": "會展灣花園里 3 樓", "hours": "早茶到 15:00", "tip": "11:00 前吃完再出發"}};
+  var dlg=document.getElementById('alt-dialog'), body=document.getElementById('ad-body'), sheet=dlg.querySelector('.ad-sheet');
+  var cur=null, lastFocus=null;
+  function esc(t){return String(t==null?'':t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  // 標記每張卡片
+  document.querySelectorAll('.alts .alt').forEach(function(li){
+    var nm=li.querySelector('div > b'); if(!nm) return;
+    li.setAttribute('data-alt',nm.textContent.trim());
+    li.tabIndex=0; li.setAttribute('role','button');
+    li.setAttribute('aria-label',nm.textContent.trim()+'，查看詳情');
+    var q=li.querySelector('.alt-q');
+    var more=document.createElement('span'); more.className='alt-more'; more.textContent='詳情';
+    if(q) q.parentNode.insertBefore(more,q); else li.querySelector('div').appendChild(more);
+  });
+  function ctxOf(li){
+    var row=li.closest('.row'), day=li.closest('section.day');
+    var t=row&&row.querySelector('.t'), ttl=row&&row.querySelector('.ttl');
+    var dh=day&&day.querySelector('.day-h, h2');
+    var dayLabel=day?day.id.toUpperCase():'';
+    var tc=ttl?ttl.cloneNode(true):null; if(tc) tc.querySelectorAll('.flag').forEach(function(f){f.remove()});
+    var slot=tc?tc.textContent.split(/[：:]/)[0].replace(/[☀-➿\uD83C-􏰀-\uDFFF]/g,'').trim():'';
+    return [dayLabel,(t?t.textContent.trim():''),slot].filter(Boolean).join(' ');
+  }
+  function open(li){
+    cur=li;
+    var name=li.getAttribute('data-alt'), d=D[name]||{};
+    var k=li.querySelector('.alt-k').textContent.trim();
+    var pick=li.classList.contains('pick');
+    var sm=li.querySelector('small'), smT=sm?sm.textContent.trim():'';
+    var q=(li.querySelector('.alt-q')||{}).dataset; q=q?q.q:name;
+    var isSight=!!li.closest('.alts.sight');
+    sheet.classList.toggle('sight',isSight);
+    var kc=getComputedStyle(li).getPropertyValue('--kc'); sheet.style.setProperty('--kc',kc||'');
+    var rows=[];
+    function add(lbl,v,html){ if(v) rows.push('<div class="ad-row"><dt>'+lbl+'</dt><dd>'+(html||esc(v))+'</dd></div>'); }
+    add('地址',d.addr,d.addr?esc(d.addr)+'<button type="button" class="copy-btn" data-copy="'+esc(d.addr)+'">複製</button>':'');
+    add('怎麼去',d.go); add('時間',d.hours); add('價位',d.price);
+    add(isSight?'玩什麼':'必點',d.order);
+    if(d.tel){ var tels=d.tel.match(/\+?[\d][\d\s-]{6,}\d/); add('電話',d.tel, tels?'<a href="tel:'+tels[0].replace(/[\s-]/g,'')+'">'+esc(d.tel)+'</a>':esc(d.tel)); }
+    add('提醒',d.tip);
+    if(!D[name]) add('行程筆記',smT);
+    var sz=!!li.closest('.rg-sz')||/[深坪羅福南]|0755/.test((d.addr||'')+(d.tel||''));
+    var hk=!sz;
+    var revUrl=hk?'https://www.openrice.com/zh/hongkong/restaurants?what='+encodeURIComponent(name.replace(/（.*?）/g,''))
+                 :'https://www.dianping.com/search/keyword/7/0_'+encodeURIComponent(q);
+    var revLbl=hk?(isSight?'Google 搜尋':'OpenRice 評價'):'大眾點評';
+    if(hk&&isSight) revUrl='https://www.google.com/search?q='+encodeURIComponent(q);
+    var sib=[].slice.call(li.parentNode.children), i=sib.indexOf(li);
+    body.innerHTML=
+      '<div class="ad-top"><b class="alt-k" style="'+(pick?'background:var(--kc);color:#FBFCFA;':'')+'border-color:var(--kc);color:'+(pick?'#FBFCFA':'var(--kc)')+'">'+esc(k)+'</b>'
+      +'<div><p class="ad-ctx">'+esc(ctxOf(li))+(pick?' · 首選':' · 備案')+(d.k?' · '+esc(d.k):'')+'</p><h3 class="ad-name" id="ad-name">'+esc(name)+'</h3></div>'
+      +'<button type="button" class="ad-x" aria-label="關閉">✕</button></div>'
+      +(d.why?'<p class="ad-why">'+esc(d.why)+'</p>':'')
+      +'<dl class="ad-rows">'+rows.join('')+'</dl>'
+      +'<div class="ad-acts"><a class="pri" href="#" data-q="'+esc(q)+'">導航地圖</a><a href="'+revUrl+'" target="_blank" rel="noopener">'+revLbl+'</a></div>'
+      +(sib.length>1?'<div class="ad-nav"><button type="button" data-step="-1"'+(i===0?' disabled':'')+'>上一個方案</button><button type="button" data-step="1"'+(i===sib.length-1?' disabled':'')+'>下一個方案</button></div>':'');
+    if(dlg.hidden){ lastFocus=document.activeElement; dlg.hidden=false; document.documentElement.style.overflow='hidden'; }
+    sheet.scrollTop=0;
+    body.querySelector('.ad-x').focus();
+  }
+  function close(){ dlg.hidden=true; document.documentElement.style.overflow=''; if(lastFocus&&lastFocus.focus) lastFocus.focus(); }
+  document.addEventListener('click',function(e){
+    if(e.target.closest('.alt-q')) return;           // 原本的「地圖」連結照舊
+    var li=e.target.closest('.alts .alt[data-alt]'); if(!li) return;
+    open(li);
+  });
+  document.addEventListener('keydown',function(e){
+    if(!dlg.hidden&&e.key==='Escape'){ close(); return; }
+    var li=e.target.closest&&e.target.closest('.alts .alt[data-alt]');
+    if(li&&e.target===li&&(e.key==='Enter'||e.key===' ')){ e.preventDefault(); open(li); }
+  });
+  dlg.addEventListener('click',function(e){
+    if(e.target===dlg||e.target.closest('.ad-x')) { close(); return; }
+    var st=e.target.closest('[data-step]');
+    if(st&&cur){ var sib=[].slice.call(cur.parentNode.children), j=sib.indexOf(cur)+(+st.dataset.step); if(sib[j]) open(sib[j]); return; }
+    if(e.target.closest('a[data-q]')) close();       // 交給原本的地圖選單
+    var cb=e.target.closest('.copy-btn[data-copy]');
+    if(cb){ e.stopPropagation(); try{navigator.clipboard.writeText(cb.dataset.copy); cb.textContent='已複製';}catch(_){} }
+  });
 })();
 </script>
 </body>
