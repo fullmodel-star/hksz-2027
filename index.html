@@ -567,6 +567,18 @@ th{letter-spacing:0; font-size:12px}
 .mast .cover-art{display:block; width:calc(100% + 16px); margin:0 -8px 18px; height:auto}
 @media (min-width:700px){.mast .cover-art{width:100%; margin:0 0 22px}}
 body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
+.alts{margin-top:9px}
+.alts-h{margin:0 0 5px; font-size:12.5px; font-weight:700; color:var(--ink-3)}
+.alts ol{list-style:none; margin:0; padding:0; display:grid; gap:6px}
+.alt{display:grid; grid-template-columns:26px 1fr; gap:10px; align-items:start; background:var(--surface); border:1px solid var(--line); border-radius:var(--r); padding:9px 11px; font-size:14px; line-height:1.5}
+.alt-k{display:grid; place-items:center; width:26px; height:26px; border-radius:50%; font-size:13px; font-weight:700; color:var(--kc,var(--moss)); border:1.5px solid var(--kc,var(--moss)); background:var(--paper)}
+.alt.pick{border-color:color-mix(in srgb,var(--kc,var(--moss)) 45%,var(--line))}
+.alt.pick .alt-k{background:var(--kc,var(--moss)); color:#FBFCFA}
+.alt small{color:var(--ink-2); font-size:13px}
+.alt-pick{display:inline-block; margin-left:6px; font-size:11px; font-weight:700; color:var(--kc,var(--moss)); vertical-align:1px}
+.alt-q{display:inline-block; margin-left:6px; font-size:12px; font-weight:600; color:var(--sky); text-decoration:none; cursor:pointer; white-space:nowrap}
+.alts.sight{--kc:var(--maple)}
+.rg-hk .alts.sight{--kc:var(--hk)} .rg-sz .alts.sight{--kc:var(--sz)}
 .day-h .theme{display:inline-flex; align-items:center; gap:6px; font-weight:600}
 .day-h .theme .ic-svg{width:16px; height:16px}
 
@@ -892,9 +904,10 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="desc">辦理入住登記、進房安頓大件行李。客房寬敞舒適，室內直通 MOKO 商場與港鐵旺角東站，交通極度便利。<br><b>晚到要先通知：</b>官網入住時段到 23:59，我們約 00:30–01:00 才到，出發前 email（inquiry@royalplaza.com.hk）或電話 +852 2928 8822 告知晚到，避免被當 no-show。</div>
       <div class="links"><a data-q="帝京酒店 Royal Plaza Hotel 旺角">📍 帝京酒店</a></div>
     </div></div>
-    <div class="row eat"><div class="t">00:45</div><div class="body">
-      <div class="ttl">深夜暖胃宵夜 ＆ 養精蓄銳<span class="flag eat">深夜宵夜</span></div>
-      <div class="desc"><b>00:30 後還開的：</b>元朗冰室（太子店，太子道西 141 號，24 小時，步行約 8 分）；翠華餐廳（旺角分店，營業到約 01:00）。富記粥品 23:30 就打烊，第一晚趕不上，留到 1/28 晚上吃。也可以在 7-Eleven 買點熱食回房。<br><b>想吃甜的：</b>聰嫂私房甜品（豉油街 50 號，營業到約 00:00–01:00，楊枝甘露、芋圓）。</div>
+        <div class="row eat"><div class="t">00:45</div><div class="body">
+      <div class="ttl">深夜宵夜（選一）<span class="flag eat">宵夜</span></div>
+      <div class="desc">富記粥品 23:30 就打烊，第一晚選 00:30 後還開的店；累了就在 7-Eleven 買熱食回房。</div>
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>元朗冰室（太子店）</b><span class=alt-pick>首選</span><br><small>太子道西 141 號，24 小時，步行約 8 分；奶茶、多士、公仔麵</small><a class="alt-q" data-q="元朗冰室 太子道西141號"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>翠華餐廳（旺角）</b><br><small>營業到約 01:00；魚蛋粗、奶油豬</small><a class="alt-q" data-q="翠華餐廳 旺角"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>聰嫂私房甜品</b><br><small>旺角豉油街 50 號，營業到約 00:00–01:00；楊枝甘露、芋圓</small><a class="alt-q" data-q="聰嫂私房甜品 旺角豉油街"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
   </div>
   <div class="day-pager">
@@ -911,12 +924,10 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="note" style="border-left-color:var(--maple); background:rgba(220,38,38,0.08); margin:12px 0 16px;"><b>🎫 待辦：1/28 門票應該已經可以買。</b>官網開放到訪前 90 天預約，1/28 約 10/30 起可訂。現在就上官網看 1/28 的票價等級（Tier 1 成人 HK$669 起）並買三張（滿 12 歲成人價），再到官網／App 預約入園日期；預約要滿 18 歲的人操作。<b>預約 1/28 入園日期</b>並綁定門票。</div>
 </div>
   <div class="tl">
-    <div class="row eat"><div class="t">08:15</div><div class="body">
-      <div class="ttl">早點出發吃飽：敏華冰室 或 金華冰廳<span class="flag eat">早餐</span><button type="button" class="copy-btn" data-copy="敏華冰室 MOKO">📋 複製</button></div>
-      <div class="desc"><b>A 敏華冰室：</b>MOKO 新世紀廣場 M39 鋪，<b>07:00 開門</b>（商場 10 點才開，店自己先開），帝京室內直通。黯然銷魂飯、菠蘿包、豬膶麵，電話 +852 2682 0612。<br><b>B 金華冰廳：</b>弼街 45–47 號，06:30 開門，<b>只收現金</b>，現烤菠蘿油、蛋撻，電話 +852 2392 6830。<div class="links"><a data-q="敏華冰室 MOKO">📍 敏華冰室</a><a data-q="金華冰廳 弼街">📍 金華冰廳</a></div></div>
-      <div class="opt"><b>A 敏華冰室</b>（MOKO 樓下商場內）黯然銷魂飯、滑蛋多士、火腿通粉，最省時間。</div>
-      <div class="opt"><b>B 金華冰廳</b>（弼街 47 號）想再吃一次熱菠蘿油與蛋撻的首選。</div>
-      <div class="links"><a data-q="敏華冰室 MOKO 旺角">📍 敏華冰室</a><a data-q="金華冰廳 太子 弼街">📍 金華冰廳</a></div>
+        <div class="row eat"><div class="t">08:15</div><div class="body">
+      <div class="ttl">早餐（選一）<span class="flag eat">早餐</span></div>
+
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>敏華冰室（MOKO M39）</b><span class=alt-pick>首選</span><br><small>07:00 開，帝京室內直通最省時；黯然銷魂飯、菠蘿包，電話 +852 2682 0612</small><a class="alt-q" data-q="敏華冰室 MOKO"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>金華冰廳</b><br><small>弼街 45–47 號，06:30 開，只收現金；現烤菠蘿油、蛋撻</small><a class="alt-q" data-q="金華冰廳 弼街"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>公和荳品廠（深水埗）</b><br><small>北河街 118 號，06:00 開；豆腐花、煎釀三寶，要多搭 2 站</small><a class="alt-q" data-q="公和荳品廠 深水埗"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row move"><div class="t">08:45</div><div class="body"><div class="card">
       <div class="ttl">帝京 → 迪士尼樂園（最順暢走法）</div>
@@ -945,12 +956,10 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="ttl">搭乘港鐵原路返回旺角東帝京酒店</div>
       <div class="desc">散場人潮多，可在小鎮大街稍作逗留拍照，避開首波車廂擁擠。尾班車營運至午夜後。<br>迪士尼綫末班約 00:40，00:40 前上車都接得上回旺角的車；煙火散場要排 1–2 班車。</div>
     </div></div></div>
-    <div class="row eat"><div class="t">22:00</div><div class="body">
-      <div class="ttl">深夜暖胃消夜：旺角「富記粥品」馳名生滾牛肉及第粥<span class="flag eat">消夜</span><button type="button" class="copy-btn" data-copy="富記粥品 旺角花園街104號">📋 複製地址</button></div>
-      <div class="desc">
-        回酒店放好東西後，走下樓至花園街富記粥品。滾燙的大火生滾牛肉粥、及第粥、滑雞粥，米粒熬到完全化開，鮮甜溫暖，完美撫慰玩了一整天的疲累！
-      <br>花園街 104–106 號，<b>營業到 23:30</b>，人均約 HK$40，電話 +852 2385 1230。<br><b>或甜品：</b>聰嫂私房甜品（旺角豉油街 50 號，人均約 HK$40–50）。</div>
-      <div class="links"><a data-q="富記粥品 旺角花園街">📍 富記粥品</a></div>
+        <div class="row eat"><div class="t">22:00</div><div class="body">
+      <div class="ttl">消夜（選一）<span class="flag eat">消夜</span></div>
+
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>富記粥品</b><span class=alt-pick>首選</span><br><small>花園街 104–106 號，營業到 23:30；生滾牛肉粥、及第粥，電話 +852 2385 1230</small><a class="alt-q" data-q="富記粥品 旺角花園街"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>聰嫂私房甜品</b><br><small>豉油街 50 號，到深夜；糖水甜品</small><a class="alt-q" data-q="聰嫂私房甜品 旺角"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>元朗冰室（太子店）</b><br><small>24 小時，走路 8 分</small><a class="alt-q" data-q="元朗冰室 太子"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
   </div>
   <div class="day-pager">
@@ -970,15 +979,15 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="ttl">睡到自然醒，整理行李退房（大件行李寄放帝京前台）</div>
       <div class="desc">退房時間以酒店規定為準。</div>
     </div></div>
-    <div class="row eat"><div class="t">11:15</div><div class="body">
-      <div class="ttl">港式午餐：太子「一點心」米其林點心（11:15 前到）<span class="flag eat">午餐</span><button type="button" class="copy-btn" data-copy="一點心 太子通菜街209A">📋 複製</button></div>
-      <div class="desc">通菜街 209A–209B 號地下，太子站 B2／C2 口步行 3–5 分；人均約 HK$104，電話 +852 2677 7888，可先打電話訂位。週五中午常排 20–40 分。<br><b>替代：</b>金華冰廳（弼街 45–47 號，只收現金）。<br>麥文記麵家（佐敦白加士街 51 號，12:00 開，鮮蝦雲吞麵，米芝蓮必比登）。</div>
-      <div class="links"><a data-q="一點心 太子 通菜街209A">📍 一點心</a><a data-q="金華冰廳 弼街">📍 金華冰廳</a></div>
+        <div class="row eat"><div class="t">11:15</div><div class="body">
+      <div class="ttl">午餐（選一，11:15 前到）<span class="flag eat">午餐</span></div>
+
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>一點心（太子）</b><span class=alt-pick>首選</span><br><small>通菜街 209A，米芝蓮必比登點心；週五中午排 20–40 分，可先打 +852 2677 7888 訂位</small><a class="alt-q" data-q="一點心 太子 通菜街209A"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>金華冰廳</b><br><small>弼街 45–47 號，只收現金；菠蘿油、火腿通粉</small><a class="alt-q" data-q="金華冰廳 弼街"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>麥文記麵家（佐敦）</b><br><small>白加士街 51 號，12:00 開；鮮蝦雲吞麵（必比登）</small><a class="alt-q" data-q="麥文記麵家 佐敦"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
-    <div class="row stop"><div class="t">12:45</div><div class="body">
-      <div class="ttl">旺角晃晃：信和中心、波鞋街、女人街</div>
-      <div class="desc"><b>信和中心</b>（彌敦道 582–592 號）大樓 10:00 開，但多數動漫、扭蛋小店<b>中午 12–13 點後才開</b>，所以排在午餐後。再逛波鞋街（花園街）、女人街（通菜街）。<br><b>想多玩：</b>NAMCO 朗豪坊 9 樓（11:00–22:30）夾公仔、扭蛋。</div>
-      <div class="links"><a data-q="信和中心 旺角">📍 信和中心</a><a data-q="花園街 波鞋街">📍 波鞋街</a><a data-q="通菜街 女人街">📍 女人街</a></div>
+        <div class="row stop"><div class="t">12:45</div><div class="body">
+      <div class="ttl">旺角逛街（選 1–2 個）</div>
+      <div class="desc">多數動漫、扭蛋小店中午 12–13 點後才開，所以排在午餐後。</div>
+      <div class="alts sight"><p class="alts-h">景點方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>信和中心</b><span class=alt-pick>首選</span><br><small>彌敦道 582–592 號；動漫、扭蛋、模型</small><a class="alt-q" data-q="信和中心 旺角"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>波鞋街＋女人街</b><br><small>花園街球鞋店、通菜街小攤，記得殺價</small><a class="alt-q" data-q="花園街 波鞋街"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>NAMCO 朗豪坊</b><br><small>朗豪坊 9 樓，11:00–22:30；夾公仔、扭蛋</small><a class="alt-q" data-q="NAMCO 朗豪坊"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row move"><div class="t">14:45</div><div class="body"><div class="card">
       <div class="ttl">取行李 → 旺角東搭東鐵線（約 40 分）→ 羅湖口岸過關 → 地鐵到湖貝</div>
@@ -989,15 +998,15 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="desc">東門南路 3022 號，湖貝站旁。先休息一下。</div>
       <div class="links"><a data-q="深圳东门希尔顿欢朋酒店">📍 東門歡朋</a></div>
     </div></div>
-    <div class="row eat"><div class="t">18:00</div><div class="body">
-      <div class="ttl">晚餐：東門「蘩樓」廣式手作點心<span class="flag eat">晚餐</span><button type="button" class="copy-btn" data-copy="蘩楼 深圳东门中路2071号 南海中心">📋 複製</button></div>
-      <div class="desc">東門中路 2071 號南海中心 3 樓（3 號線曬布站步行 3–5 分；同品牌其他分店地址不同別跑錯）。晚市 17:00–21:00，人均約 ¥90，電話 0755-82221819。<br><b>替代：</b>香港新發燒臘（金光華店，24 小時，燒鵝瀨粉）；八合里（田貝四路店）；大良海記粥底火鍋（寶安南路 2056 號國都花園，17:00–02:00，人均約 ¥73）。</div>
-      <div class="links"><a data-q="蘩楼 东门中路2071号 南海中心">📍 蘩樓 東門</a></div>
+        <div class="row eat"><div class="t">18:00</div><div class="body">
+      <div class="ttl">晚餐（選一）<span class="flag eat">晚餐</span></div>
+
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>蘩樓（東門）</b><span class=alt-pick>首選</span><br><small>東門中路 2071 號南海中心 3 樓，17:00–21:00，人均約 ¥90，電話 0755-82221819；露筍蝦餃、紅米腸</small><a class="alt-q" data-q="蘩楼 东门中路2071号 南海中心"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>香港新發燒臘（金光華店）</b><br><small>嘉賓路湖心大廈，24 小時；燒鵝瀨粉、雙拼飯</small><a class="alt-q" data-q="香港新发烧腊茶餐厅 金光华"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>大良海記粥底火鍋（羅湖）</b><br><small>寶安南路 2056 號國都花園，17:00–02:00，人均約 ¥73</small><a class="alt-q" data-q="大良海记粥底火锅 罗湖"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
-    <div class="row stop"><div class="t">19:30</div><div class="body">
-      <div class="ttl">東門二次元：新白馬・次元9號 ＆ MINISO LAND<span class="flag key">動漫</span><button type="button" class="copy-btn" data-copy="深圳东门一横街9号 新白马次元9号">📋 複製</button></div>
-      <div class="desc"><b>次元9號：</b>東門一橫街 9 號，2–4 樓穀子、模型店，商場到 22:00。<br><b>MINISO LAND：</b>解放路名仕商城 1–3 樓（太陽百貨對面），到 23:00，可以留到最後逛。</div>
-      <div class="links"><a data-q="深圳 东门一横街9号 次元9号">📍 次元9號</a><a data-q="深圳 名仕商城 MINISO LAND">📍 MINISO LAND</a></div>
+        <div class="row stop"><div class="t">19:30</div><div class="body">
+      <div class="ttl">晚上逛東門（選 1–2 個）</div>
+
+      <div class="alts sight"><p class="alts-h">景點方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>新白馬・次元9號＋MINISO LAND</b><span class=alt-pick>首選</span><br><small>一橫街 9 號穀子模型店到 22:00；MINISO LAND 解放路名仕商城到 23:00</small><a class="alt-q" data-q="深圳东门一横街9号 新白马次元9号"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>東門老街夜市</b><br><small>步行街小吃、飲料；宵夜可吃紅荔村腸粉或金稻園砂鍋粥</small><a class="alt-q" data-q="东门老街 深圳"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>KL SPORT 夜場（羅湖）</b><br><small>人民南路茂業天地 5 樓，蹦床、卡丁車、VR，19:00 後夜場</small><a class="alt-q" data-q="KL SPORT 酷乐运动 罗湖 茂业天地"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row stop"><div class="t">21:30</div><div class="body">
       <div class="ttl">東門老街夜市散步，走回酒店</div>
@@ -1030,9 +1039,10 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="desc">八大展廳：宇宙、地球、演化、恐龍、人類、生命、生態、家園。<br><b>開放：</b>週二至週日 9:30–18:00（17:30 停止入館），週一休館。<b>票價：</b>成人 ¥80；6–18 歲優待 ¥60。<br><b>預約：</b>微信小程序「深圳自然博物馆」→ 預約購票，<b>台胞證可以實名預約</b>；一個帳號最多 4 人。電話 0755-89662888。</div>
       <div class="links"><a data-q="深圳自然博物馆 坪山文祥路6号">📍 深圳自然博物館</a></div>
     </div></div>
-    <div class="row eat"><div class="t">12:45</div><div class="body">
-      <div class="ttl">午餐：博物館館內餐廳或坪山周邊簡餐<span class="flag eat">午餐</span></div>
-      <div class="desc">自備點心和水當備案。<br><b>館內：</b>2 樓「三角洲美食集」（漢堡、披薩、麵食、恐龍冰淇淋）、B2 西北麵食、夾層粵菜，人均約 ¥40–70，飯點排隊；館內有免費直飲水。<b>館外：</b>沙壆社區客家菜館，步行約 10 分。</div>
+        <div class="row eat"><div class="t">12:45</div><div class="body">
+      <div class="ttl">午餐（選一）<span class="flag eat">午餐</span></div>
+
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>博物館 2 樓三角洲美食集</b><span class=alt-pick>首選</span><br><small>漢堡、披薩、麵食、恐龍冰淇淋，人均約 ¥40–70；館內有免費直飲水</small><a class="alt-q" data-q="深圳自然博物馆"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>沙壆社區客家菜</b><br><small>出館步行約 10 分；釀豆腐、鹽焗雞</small><a class="alt-q" data-q="沙壆 客家菜 坪山"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>一茗私房順德菜（坪山比亞迪店）</b><br><small>不到 1 公里，有家庭套餐</small><a class="alt-q" data-q="一茗私房顺德菜 坪山"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row move"><div class="t">13:45</div><div class="body"><div class="card">
       <div class="ttl">坪山 → 福田（打車約 50–60 分；地鐵約 1 小時 15 分）</div>
@@ -1048,15 +1058,15 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="desc">購物公園站 D 口。週六 10:00–21:00（清場 20:45，官網另寫最後入場 19:15，以現場為準）。<b>票價：</b>成人 ¥180；身高 1.2–1.5 米兒童 ¥100。可在 Klook、KKday、攜程先買。一月日落約 18:00 前後。電話 +86 755 2916 3888。</div>
       <div class="links"><a data-q="深圳平安金融中心云际观光层">📍 平安金融中心</a></div>
     </div></div>
-    <div class="row eat"><div class="t">18:15</div><div class="body">
-      <div class="ttl">晚餐：福田市中心（三類任選）<span class="flag eat">晚餐</span></div>
-      <div class="desc"><b>燒臘燒鵝：</b>潭記燒臘（景田店，紅荔西路 7018 號凱旋豪庭 113 鋪，蓮花西站 A 口；約營業到 20:30，燒鵝 16:30 最後一批出爐，<b>18:30 前到</b>，電話 0755-83939583）；或燒鵝佬（卓悅中心東區 B1 B1107，晚市 17:00–21:30）。<br><b>潮汕牛肉火鍋：</b>潮德阿水（金田路 2030 號卓越世紀中心 L403，會展中心站步行 5–8 分，11:00–24:00，人均約 ¥93，電話 0755-86699989）；潮汕大目牛肉火鍋（皇崗二街皇崗村市場北座 1 樓，福民站 D 口，營業到凌晨，電話 0755-83988118）。<br><b>粥底涮牛肉：</b>壹號粥火鍋（金田路 2003 號金怡華庭 101B，福民站 C 口，11:00–02:00）。<br><b>潮汕牛肉另選：</b>潮發潮汕牛肉店（皇庭廣場 L2，會展中心站 C 口步行約 530 米，高德 4.7，假日晚餐排 30–60 分，大眾點評取號）。</div>
-      <div class="links"><a data-q="潭记烧腊 红荔西路7018号">📍 潭記燒臘 景田</a></div>
+        <div class="row eat"><div class="t">18:15</div><div class="body">
+      <div class="ttl">晚餐（選一）<span class="flag eat">晚餐</span></div>
+
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>潭記燒臘（景田店）</b><span class=alt-pick>首選</span><br><small>紅荔西路 7018 號，燒鵝 16:30 最後一批，18:30 前到，電話 0755-83939583</small><a class="alt-q" data-q="潭记烧腊 红荔西路7018号"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>潮德阿水／潮發潮汕牛肉</b><br><small>潮德阿水：金田路卓越世紀中心 L403（0755-86699989）；潮發：皇庭廣場 L2（大眾點評取號）</small><a class="alt-q" data-q="潮德阿水 卓越世纪中心"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>壹號粥火鍋</b><br><small>金田路 2003 號金怡華庭，11:00–02:00；粥底涮牛肉</small><a class="alt-q" data-q="壹号粥火锅 金田路"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
-    <div class="row stop"><div class="t">20:00</div><div class="body">
-      <div class="ttl">🌃 福田中心區燈光秀（20:00 或 21:00 場，每場約 15 分）<span class="flag key">燈光秀</span></div>
-      <div class="desc">11–3 月場次 19:00／20:00／21:00，週五、週六及節假日播放，週日不播。<br>① <b>市民中心廣場</b>（推薦）：福中三路，2／4 號線市民中心站 A／F 口。<b>需在微信小程序「福田中心区夜景灯光预约导引服务」預約，日常場次每週一 10:00 開放預約</b>（出發那週的週一 1/25 搶）；1 人 1 碼，提前 30 分鐘入場。<br>② <b>COCO Park 戶外一帶</b>：免預約，動畫細節較遠。<br>③ <b>Free Sky 116 樓</b>：觀光層開到 21:00，可留在樓上看亮燈。<br><small>2026 年曾因設備檢修暫停，預計 10/1 恢復；出發前確認 2027 年 1 月場次。</small></div>
-      <div class="links"><a data-q="深圳市民中心广场">📍 市民中心</a></div>
+        <div class="row stop"><div class="t">20:00</div><div class="body">
+      <div class="ttl">🌃 福田中心區燈光秀（20:00 或 21:00 場）<span class="flag key">燈光秀</span></div>
+      <div class="desc">11–3 月場次 19:00／20:00／21:00，每場約 15 分，週五、週六有動畫，週日不播。2026 年曾因檢修暫停，出發前確認 1 月場次。</div>
+      <div class="alts sight"><p class="alts-h">景點方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>市民中心廣場</b><span class=alt-pick>首選</span><br><small>正面看最清楚；微信小程序「福田中心区夜景灯光预约导引服务」預約，每週一 10:00 開放（1/25 搶）</small><a class="alt-q" data-q="深圳市民中心广场"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>COCO Park 戶外</b><br><small>免預約，動畫細節較遠</small><a class="alt-q" data-q="星河COCO Park 福田"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>平安金融中心 116 樓</b><br><small>觀光層開到約 21:00，可留在樓上俯瞰亮燈</small><a class="alt-q" data-q="深圳平安金融中心云际观光层"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row move"><div class="t">21:30</div><div class="body"><div class="card">
       <div class="ttl">回東門（打車約 20–25 分，約 ¥30–40；排車久就搭地鐵）</div>
@@ -1075,9 +1085,10 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
     <p class="day-note"><b>🛠️ 上午：</b>華強北（週日部分攤位收得早，上午逛）。<br><b>🏎️ 下午：</b>深圳之眼拍照 → 羅湖北 SGP 室內卡丁車。<br><b>🥩 晚餐：</b>國貿金光華「八合里」潮汕牛肉火鍋。</p>
   </div>
   <div class="tl">
-    <div class="row eat"><div class="t">09:00</div><div class="body">
-      <div class="ttl">早餐：歡朋自助早餐（房價含早）<span class="flag eat">早餐</span></div>
-      <div class="desc">想吃在地的：紅荔村腸粉（東門中路 2002 號）；揭陽鴨肉粿條湯（湖貝新村，09:00 開）。</div>
+        <div class="row eat"><div class="t">09:00</div><div class="body">
+      <div class="ttl">早餐（選一）<span class="flag eat">早餐</span></div>
+
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>歡朋自助早餐</b><span class=alt-pick>首選</span><br><small>房價含早，約 07:00–10:30（週末）</small></div></li><li class="alt"><b class="alt-k">B</b><div><b>唐宮海鮮舫（東門）</b><br><small>新園路中海商城 6 樓，早茶 08:30 起，可訂位（0755-82178790）</small><a class="alt-q" data-q="唐宫海鲜舫 东门 中海商城"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>紅荔村腸粉（東門）</b><br><small>東門中路 2002 號；混醬腸粉、粥</small><a class="alt-q" data-q="红荔村肠粉 东门"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row move"><div class="t">09:45</div><div class="body"><div class="card">
       <div class="ttl">東門 → 華強北（打車約 15–20 分；地鐵約 20–25 分）</div>
@@ -1087,10 +1098,10 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="desc">博物館週二至週日 10:00–18:00（17:30 停止入館），<b>免費但要先實名預約</b>（微信公眾號「華強北博物館」選單）。之後逛賽格、華強電子世界：機械鍵盤、無人機零件、開發板。<br>賽格攤位約 18:00 起收攤，上午逛最好。</div>
       <div class="links"><a data-q="华强北博物馆 广博现代之窗">📍 華強北博物館</a><a data-q="赛格电子市场 深圳">📍 賽格電子市場</a></div>
     </div></div>
-    <div class="row eat"><div class="t">12:15</div><div class="body">
-      <div class="ttl">午餐：華強北（三類任選）<span class="flag eat">午餐</span></div>
-      <div class="desc"><b>燒鵝：</b>深井華香鵝（華發北路 93 號，3 號線華新站 B 口，人均約 ¥35，電話 0755-83763344，營業時間說法不一）。<br><b>潮汕牛肉粿條：</b>洪牛坊南園路店（7／11 號線華強南站 F 口步行約 200 米，24 小時）。<br><b>燒臘茶餐廳：</b>三哥茶餐廳華強北店（振興路華發大廈首層，華強北站 B／C 口步行 3–5 分，08:00–02:00，人均約 ¥45）。</div>
-      <div class="links"><a data-q="深井华香鹅 华发北路93号">📍 深井華香鵝</a><a data-q="洪牛坊 南园路 爱华住宅小区">📍 洪牛坊 南園路</a></div>
+        <div class="row eat"><div class="t">12:15</div><div class="body">
+      <div class="ttl">午餐（選一）<span class="flag eat">午餐</span></div>
+
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>深井華香鵝</b><span class=alt-pick>首選</span><br><small>華發北路 93 號，人均約 ¥35，電話 0755-83763344；燒鵝瀨粉</small><a class="alt-q" data-q="深井华香鹅 华发北路93号"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>洪牛坊（南園路店）</b><br><small>華強南站 F 口步行 200 米，24 小時；潮汕牛肉粿條</small><a class="alt-q" data-q="洪牛坊 南园路"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>三哥茶餐廳（華強北店）</b><br><small>振興路華發大廈首層，08:00–02:00，人均約 ¥45</small><a class="alt-q" data-q="三哥茶餐厅 华强北 振兴路"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row move"><div class="t">13:30</div><div class="body"><div class="card">
       <div class="ttl">華強北 → 崗廈北站（地鐵或打車約 10 分）</div>
@@ -1103,19 +1114,19 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
     <div class="row move"><div class="t">14:15</div><div class="body"><div class="card">
       <div class="ttl">崗廈北 → 羅湖北 SGP 卡丁車（地鐵 14 號線到羅湖北站 H 口，步行約 730 米；或打車 15–20 分）</div>
     </div></div></div>
-    <div class="row stop"><div class="t">14:30</div><div class="body">
-      <div class="ttl">🏎️ SGP 卡丁車俱樂部（羅湖區清水河一路 3 號）<span class="flag key">卡丁車</span><button type="button" class="copy-btn" data-copy="深圳市罗湖区清水河一路3号 SGP卡丁车">📋 複製</button></div>
-      <div class="desc">每場 8 分鐘計時賽，含頭盔頭套；身高需 ≥130 公分（130–150 公分少兒場分開計時）。<br><b>建議用 Klook／KKday 先買</b>（不需大陸手機）：1 場約 ¥117、2 場 ¥177、5 場 ¥356。營業時間來源不一（12:30 或 10:00 開），出發前確認。<br><b>替代方案：</b>華強北的 DS 新樂園（華強北路 3005 號，09:00–22:00，6 層室內運動場，有卡丁車、射箭、攀岩、VR 等 300 多項；Klook 平日 2.5 小時約 ¥150、假日約 ¥175）。上午逛完華強北直接玩，不用跑羅湖北。</div>
-      <div class="links"><a data-q="深圳 SGP卡丁车 清水河一路3号">📍 SGP 卡丁車</a></div>
+        <div class="row stop"><div class="t">14:30</div><div class="body">
+      <div class="ttl">🏎️ 下午玩（選一）<span class="flag key">卡丁車</span></div>
+
+      <div class="alts sight"><p class="alts-h">景點方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>SGP 卡丁車（羅湖北）</b><span class=alt-pick>首選</span><br><small>清水河一路 3 號，每場 8 分鐘，身高 ≥130 公分；Klook 2 場約 ¥177</small><a class="alt-q" data-q="深圳市罗湖区清水河一路3号 SGP卡丁车"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>DS 新樂園（華強北）</b><br><small>華強北路 3005 號，6 層室內運動場，卡丁車、射箭、攀岩、VR；平日 2.5 小時約 ¥150，不用跑羅湖北</small><a class="alt-q" data-q="DS新乐园 华强北"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>KL SPORT（羅湖）</b><br><small>人民南路茂業天地 5 樓，蹦床、卡丁車、VR 一票玩，3 小時約 ¥175</small><a class="alt-q" data-q="KL SPORT 酷乐运动 罗湖"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row move"><div class="t">15:45</div><div class="body"><div class="card">
       <div class="ttl">卡丁車 → 國貿／東門（打車約 15–20 分）</div>
       <div class="desc">回飯店休息、換衣服；時間夠可逛羅湖萬象城。</div>
     </div></div></div>
-    <div class="row eat"><div class="t">17:30</div><div class="body">
-      <div class="ttl">晚餐：國貿金光華「八合里」潮汕牛肉火鍋（17:30 前到）<span class="flag eat">潮汕牛肉火鍋</span><button type="button" class="copy-btn" data-copy="深圳市罗湖区人民南路2028号 金光华广场 八合里">📋 複製</button></div>
-      <div class="desc">人民南路 2028 號金光華廣場 5 樓（另有資料寫 7 樓，以商場指引為準），1 號線國貿站 A 口步行約 120 米。約 11:00–22:00，電話 0755-25129169。週日晚上要排隊，<b>17:30 前到或大眾點評線上取號</b>。<br><b>其他選擇：</b>香港新發燒臘（嘉賓路湖心大廈，國貿站步行 3–5 分，24 小時）；大良海記粥底火鍋（羅湖店）。</div>
-      <div class="links"><a data-q="八合里牛肉火锅 金光华广场">📍 八合里 金光華</a></div>
+        <div class="row eat"><div class="t">17:30</div><div class="body">
+      <div class="ttl">晚餐（選一，17:30 前到）<span class="flag eat">晚餐</span></div>
+
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>八合里潮汕牛肉火鍋（金光華）</b><span class=alt-pick>首選</span><br><small>人民南路 2028 號金光華 5 樓，國貿站 A 口，電話 0755-25129169；大眾點評線上取號</small><a class="alt-q" data-q="八合里牛肉火锅 金光华广场"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>香港新發燒臘（金光華店）</b><br><small>嘉賓路湖心大廈，24 小時</small><a class="alt-q" data-q="香港新发烧腊茶餐厅 金光华"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>大良海記粥底火鍋（羅湖）</b><br><small>寶安南路 2056 號，17:00–02:00</small><a class="alt-q" data-q="大良海记粥底火锅 罗湖"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row stop"><div class="t">19:30</div><div class="body">
       <div class="ttl">東門最後一晚：買伴手禮（鮑師傅、瀘溪河），整理行李<span class="flag key">伴手禮</span></div>
@@ -1147,19 +1158,19 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="ttl">東門 → 大疆旗艦店（打車約 30–40 分，約 ¥50–70）</div>
       <div class="desc">地鐵最近為 9 號線深圳灣公園站 E 口，步行約 4 分。</div>
     </div></div></div>
-    <div class="row stop"><div class="t">10:00</div><div class="body">
-      <div class="ttl">🚁 大疆 DJI 旗艦店（南山區白石東路 8 號，歡樂海岸旅遊信息中心一層）<span class="flag key">科技必玩</span><button type="button" class="copy-btn" data-copy="深圳市南山区白石东路8号 欢乐海岸 大疆旗舰店">📋 複製</button></div>
-      <div class="desc">週一 10:00–22:00。800㎡ 旗艦店，最新 Mini、Avata、Osmo 系列都能摸，有店員的<b>飛行示範</b>與航拍影片；開放自己試飛與年齡限制未確認，想試飛先打電話問。電話 +86 177 2249 5770。</div>
-      <div class="links"><a data-q="大疆旗舰店 白石东路8号 欢乐海岸">📍 大疆旗艦店</a></div>
+        <div class="row stop"><div class="t">10:00</div><div class="body">
+      <div class="ttl">🚁 上午南山（選 1–2 個）<span class="flag key">科技</span></div>
+
+      <div class="alts sight"><p class="alts-h">景點方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>大疆 DJI 旗艦店（歡樂海岸）</b><span class=alt-pick>首選</span><br><small>白石東路 8 號，週一 10:00–22:00；飛行示範、新品體驗，想試飛先打電話問</small><a class="alt-q" data-q="大疆旗舰店 白石东路8号 欢乐海岸"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>拓竹 Bambu Lab 門店</b><br><small>深圳灣萬象城二期 B 區 B1，10:00–22:00；3D 列印展示</small><a class="alt-q" data-q="深圳湾万象城 拓竹"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>深圳灣公園海濱</b><br><small>大疆旁邊 9 號線深圳灣公園站，看海、海鷗，免費</small><a class="alt-q" data-q="深圳湾公园"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row move"><div class="t">11:15</div><div class="body"><div class="card">
       <div class="ttl">大疆 → 人才公園（Pony.ai 無人車或打車約 10–15 分）</div>
       <div class="desc"><b>想體驗無人車，首選 Pony.ai（小馬智行）：</b>App 有英文、接受台灣手機號、用<b>護照</b>驗證、可綁 Visa／Master，<b>出發前在台灣先註冊好</b>。南山後海、深圳灣在服務範圍，24 小時營運，要在 App 指定站點上車（歡樂海岸若不在範圍，走到深圳灣公園站或華僑城附近再叫），約 ¥20–30。後車廂打不開，今天行李已託送剛好。蘿蔔快跑台胞證註冊未確認，當備案。叫不到就一般打車。</div>
     </div></div></div>
-    <div class="row eat"><div class="t">11:45</div><div class="body">
-      <div class="ttl">🚁 午餐：人才公園 美團無人機外賣（彩蛋，不強求）<span class="flag eat">午餐</span><button type="button" class="copy-btn" data-copy="人才公园潮汐广场 无人机空投柜">📋 複製</button></div>
-      <div class="desc">取餐點：人才公園潮汐廣場無人機空投櫃（科苑南路 2834 號，10:00–20:00），在美團 App 搜尋「無人機」下單，起飛點在海岸城商圈，飛行 5–10 分。<b>需能用美團下單並付款</b>（美團支援 +886 手機號，付款走微信／支付寶）。<br>叫不到就去旁邊深圳灣萬象城吃：二期 B 區 B1 有<b>拓竹 Bambu Lab 門店</b>（BB131–133 鋪，10:00–22:00）可順逛。<b>冰雪世界場內吃的少，午餐要吃飽。</b></div>
-      <div class="links"><a data-q="人才公园 无人机空投柜">📍 人才公園空投櫃</a><a data-q="深圳湾万象城 拓竹 B区B1">📍 拓竹 深圳灣萬象城</a></div>
+        <div class="row eat"><div class="t">11:45</div><div class="body">
+      <div class="ttl">🚁 午餐（選一，冰雪世界吃的少，要吃飽）<span class="flag eat">午餐</span></div>
+
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>人才公園 美團無人機外賣</b><span class=alt-pick>首選</span><br><small>空投櫃在潮汐廣場（10:00–20:00），美團搜「無人機」下單；出發前先在台灣測試能否註冊</small><a class="alt-q" data-q="人才公园 无人机空投柜"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>深圳灣萬象城餐廳</b><br><small>人才公園旁，選擇多；B1 可順逛拓竹</small><a class="alt-q" data-q="深圳湾万象城"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>八合里（海岸城店）</b><br><small>海岸城西座 2 樓，後海站 E2 口；潮汕牛肉火鍋</small><a class="alt-q" data-q="八合里牛肉火锅 海岸城"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row move"><div class="t">13:00</div><div class="body"><div class="card">
       <div class="ttl">人才公園 → 會展中心皇冠假日（打車約 40 分，約 ¥70–90）</div>
@@ -1174,10 +1185,10 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="desc">10:00–22:00，最晚 20:00 入場。<b>票價：</b>3 小時初級道約 ¥348 起（含雪服、雪鞋、頭盔、雪板、雪杖、置物櫃）；Klook「2 人 3 小時＋1 小時 1 對 2 教學」套票約 ¥608。<b>不含手套、雪鏡、面罩，要自備或現場租</b>。<br><b>實名入場，帶台胞證正本</b>。購票：Klook、攜程、美團或小程序「前海冰雪世界」。客服 400-929-2000。帶一套換洗衣物。<br><b>滑雪區約 -6℃</b>：穿速乾保暖內衣、帶 2 雙厚襪。手套現場租約 ¥15–45、買約 ¥90–160；雪鏡建議自備。週一下午人比週末少，15:00 團體課開始後魔毯排隊約 5–10 分。</div>
       <div class="links"><a data-q="华发冰雪世界 滨江大道666号">📍 華發冰雪世界</a></div>
     </div></div>
-    <div class="row eat"><div class="t">18:15</div><div class="body">
-      <div class="ttl">晚餐：會展灣花園裏「璽椰」椰子雞（先打電話訂位）<span class="flag eat">晚餐</span><button type="button" class="copy-btn" data-copy="玺椰原生态椰子鸡 会展湾花园里">📋 複製</button></div>
-      <div class="desc">錦程路會展灣東城廣場（花園裏）1 樓 L1012–1020，國展站步行 10–15 分。電話 0755-85208860。<br>其他選擇：順味軒（3 樓 L3022，順德菜，17:00–21:30，人均約 ¥140）；小柴火湘菜（2 樓 L2011，電話 0755-23359205）；蓉城小館川菜（2 樓，電話 0755-23359884）。<br><b>潮汕牛肉另選：</b>福合誠潮汕鮮牛肉火鍋（花園裏東城廣場二期 2 樓）。</div>
-      <div class="links"><a data-q="玺椰原生态椰子鸡 会展湾花园里">📍 璽椰 花園裏</a></div>
+        <div class="row eat"><div class="t">18:15</div><div class="body">
+      <div class="ttl">晚餐（選一，先打電話訂位）<span class="flag eat">晚餐</span></div>
+      <div class="desc">都在會展灣花園裏，飯店步行可到。</div>
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>璽椰椰子雞</b><span class=alt-pick>首選</span><br><small>1 樓 L1012，電話 0755-85208860；椰青湯底文昌雞</small><a class="alt-q" data-q="玺椰原生态椰子鸡 会展湾花园里"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>順味軒（順德菜）</b><br><small>3 樓 L3022，17:00–21:30，人均約 ¥140；燒鵝撈雞</small><a class="alt-q" data-q="顺味轩 会展湾花园里"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>福合誠潮汕牛肉火鍋</b><br><small>東城廣場二期 2 樓</small><a class="alt-q" data-q="福合诚 潮汕鲜牛肉火锅 会展湾"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row stop"><div class="t">20:00</div><div class="body">
       <div class="ttl">♨️ 飯店室內恆溫泳池（到 23:00）、桑拿（住客免費）</div>
@@ -1208,10 +1219,10 @@ body[data-tab]:not([data-tab="plan"]) .mast .cover-art{display:none}
       <div class="ttl">退房 → 打車到皇崗口岸（約 50–60 分，約 ¥80–110）</div>
       <div class="desc">三人加行李叫舒適型或六座車。</div>
     </div></div></div>
-    <div class="row eat"><div class="t">12:00</div><div class="body">
-      <div class="ttl">午餐：香港新發燒臘茶餐廳（水圍店，24 小時）<span class="flag eat">燒臘午餐</span><button type="button" class="copy-btn" data-copy="香港新发烧腊茶餐厅 水围村306栋">📋 複製</button></div>
-      <div class="desc">福田區水圍村 306 棟（福民路，肥仔記對面），4／7 號線福民站步行 8–10 分，離皇崗口岸近。人均約 ¥76，電話 0755-83822229。吃完步行 15–20 分到新皇崗口岸，或從皇崗村站搭 7 號線 1 站到皇崗口岸站。人民幣最後一餐。</div>
-      <div class="links"><a data-q="香港新发烧腊茶餐厅 水围店">📍 新發 水圍店</a></div>
+        <div class="row eat"><div class="t">12:00</div><div class="body">
+      <div class="ttl">午餐（選一，皇崗口岸附近）<span class="flag eat">午餐</span></div>
+      <div class="desc">人民幣最後一餐。吃完步行 15–20 分到新皇崗口岸，或皇崗村站搭 7 號線 1 站。</div>
+      <div class="alts eat"><p class="alts-h">餐廳方案</p><ol><li class="alt pick"><b class="alt-k">A</b><div><b>香港新發燒臘（水圍店）</b><span class=alt-pick>首選</span><br><small>水圍村 306 棟，24 小時，人均約 ¥76，電話 0755-83822229</small><a class="alt-q" data-q="香港新发烧腊茶餐厅 水围村306栋"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">B</b><div><b>潮汕大目牛肉火鍋（皇崗旗艦店）</b><br><small>皇崗二街皇崗村市場北座 1 樓，電話 0755-83988118</small><a class="alt-q" data-q="潮汕大目牛肉火锅 皇岗"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li><li class="alt"><b class="alt-k">C</b><div><b>得悅樓（會展灣，出發前吃）</b><br><small>花園裏 3 樓，早茶到 15:00；11:00 前吃完再出發</small><a class="alt-q" data-q="得悦楼 会展湾花园里"><svg class="ic-svg" aria-hidden="true"><use href="#i-pin"/></svg> 地圖</a></div></li></ol></div>
     </div></div>
     <div class="row stop"><div class="t">13:15</div><div class="body">
       <div class="ttl">皇崗口岸「合作查驗、一次放行」過關</div>
