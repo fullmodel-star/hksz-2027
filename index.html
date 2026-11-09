@@ -21,7 +21,7 @@
 <style>
 :root{
   --paper:#F4F2F7; --surface:#FDFCFE; --surface-2:#ECE9F2;
-  --ink:#191C3A; --ink-2:#4B4F6E; --ink-3:#7E819E;
+  --ink:#191C3A; --ink-2:#3F4363; --ink-3:#66698A;
   --line:#DEDBE8; --line-strong:#C4C0D6;
   --maple:#C24E38; --gold:#A9761F; --moss:#7E4F95; --sky:#2B7891;
   --move-bg:#E6EFF4; --warn-bg:#F8EDE6; --key-bg:#F3E7EA;
@@ -33,7 +33,7 @@
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     --paper:#10152B; --surface:#171D38; --surface-2:#1F2645;
-    --ink:#FFF7EA; --ink-2:#C9CCE0; --ink-3:#8E92B2;
+    --ink:#FFF7EA; --ink-2:#D3D6E8; --ink-3:#A2A6C4;
     --line:#272E52; --line-strong:#3A4270;
     --maple:#F08A6E; --gold:#E6B566; --moss:#C9A2F0; --sky:#7FD3EA;
     --move-bg:#16253A; --warn-bg:#2A2130; --key-bg:#2C1F2E;
@@ -42,7 +42,7 @@
 }
 :root[data-theme="dark"]{
   --paper:#10152B; --surface:#171D38; --surface-2:#1F2645;
-    --ink:#FFF7EA; --ink-2:#C9CCE0; --ink-3:#8E92B2;
+    --ink:#FFF7EA; --ink-2:#D3D6E8; --ink-3:#A2A6C4;
     --line:#272E52; --line-strong:#3A4270;
     --maple:#F08A6E; --gold:#E6B566; --moss:#C9A2F0; --sky:#7FD3EA;
     --move-bg:#16253A; --warn-bg:#2A2130; --key-bg:#2C1F2E;
@@ -665,6 +665,31 @@ b .ei,strong .ei,.cap .ei,h2 .ei,h3 .ei,h4 .ei{--ec:var(--rc,var(--gold))}
 .weather-card *{color:inherit}
 .weather-card .w-ic{color:#F7C9A0}
 .today{border-left-color:var(--gold)}
+
+/* ===== 閱讀性優化 ===== */
+.desc,.day-note,.move .card .desc{color:var(--ink-2); font-size:15px; line-height:1.78}
+.desc b,.day-note b{color:var(--ink)}
+.ttl{font-size:16px; line-height:1.5}
+.move .ttl{font-size:15px}
+.body{padding-bottom:18px}
+.totop{width:42px!important; height:42px!important; opacity:.92}
+/* 手機：時間移到標題上方，內文吃滿整個寬度 */
+@media (max-width:599px){
+  .tl .row{display:block}
+  .tl .row .t{margin-left:11px; border-left:2px solid var(--line); padding:14px 0 2px 24px; font-size:13px; font-weight:700; line-height:1.2; color:var(--kc,var(--ink-3)); letter-spacing:.02em}
+  .tl .row .body{margin-left:11px; padding-left:24px; padding-top:2px}
+  .tl .row .body::before{top:-21px!important; left:-12px!important}
+  .tl .row .body::after{top:-15px!important}
+  .tl .row:first-child .t{border-left-color:transparent}
+}
+/* 長篇交通說明先收合 */
+.card.clampable{max-height:260px; overflow:hidden; position:relative}
+.card.clampable::after{content:""; position:absolute; left:0; right:0; bottom:0; height:90px; background:linear-gradient(transparent,var(--move-bg)); pointer-events:none}
+.card.clampable.open{max-height:none}
+.card.clampable.open::after{display:none}
+.clamp-btn{appearance:none; border:0; background:none; padding:6px 0 0; font:600 13.5px var(--sans); color:var(--sky); cursor:pointer; min-height:36px}
+.clamp-btn::after{content:""; display:inline-block; width:6px; height:6px; margin-left:6px; border-right:1.6px solid currentColor; border-bottom:1.6px solid currentColor; transform:rotate(45deg) translateY(-3px)}
+.clampable.open .clamp-btn::after{transform:rotate(-135deg)}
 
 /* 歡迎封面 */
 .intro{position:fixed; inset:0; z-index:200; background:#10152B; overflow-y:auto; display:flex; justify-content:center; transition:transform .8s cubic-bezier(.7,0,.2,1), opacity .8s}
@@ -3477,6 +3502,19 @@ var f=document.querySelector('.tools');if(f){var b=document.createElement('butto
   function run(){pend=false; walk(document.body); subtabs();}
   run();
   new MutationObserver(function(){ if(!pend){pend=true; requestAnimationFrame(run);} }).observe(document.body,{childList:true,subtree:true});
+})();
+</script>
+
+<script>
+(function(){
+  document.querySelectorAll('.tl .row.move .card').forEach(function(c){
+    if(c.textContent.replace(/\s+/g,'').length<230) return;
+    c.classList.add('clampable');
+    var b=document.createElement('button'); b.type='button'; b.className='clamp-btn'; b.textContent='看完整交通說明';
+    b.setAttribute('aria-expanded','false');
+    b.addEventListener('click',function(){var o=c.classList.toggle('open'); b.textContent=o?'收合':'看完整交通說明'; b.setAttribute('aria-expanded',o); if(!o) c.scrollIntoView({block:'nearest'})});
+    c.after(b);
+  });
 })();
 </script>
 </body>
