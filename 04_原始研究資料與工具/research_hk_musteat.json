@@ -1,6 +1,6 @@
 {
   "meta": {
-    "trip": "2027/1/25（一）–1/30（六），住旺角東帝京酒店",
+    "trip": "2027/1/27（三）深夜抵港–1/29（五）中午，香港 2 晚住旺角東帝京酒店；1/29 下午進深圳",
     "compiled": "2026-11-07",
     "note": "shops 中 from_existing:true 者沿用 research_hk.json 的查證結果，細節以該檔為準；其餘為本次新查。verified:false 代表近況（營業時間/是否仍營業）查不到 2026 年資料，出發前要再查 Google 地圖或 OpenRice。"
   },
@@ -10,8 +10,20 @@
       "why": "剛出爐的菠蘿包切開夾一大片冰牛油，外皮酥甜、牛油半融，鹹甜冷熱對比是香港茶餐廳代表作。",
       "best_for": "早餐/下午茶",
       "shops": [
-        {"from_existing": true, "name": "金華冰廳", "area": "太子", "order": "菠蘿油（鮮油菠蘿包約HK$12，2026/4鏡週刊價）", "note": "鏡週刊2026/4寫營業06:30–23:30，離酒店最近的名店", "source": "https://www.mirrormedia.mg/story/20260421food002"},
-        {"from_existing": true, "name": "華星冰室（旺角西洋菜南街）", "area": "旺角", "order": "菠蘿油、炒蛋多士"}
+        {
+          "from_existing": true,
+          "name": "金華冰廳",
+          "area": "太子",
+          "order": "菠蘿油（鮮油菠蘿包約HK$12，2026/4鏡週刊價）",
+          "note": "鏡週刊2026/4寫營業06:30–23:30，離酒店最近的名店",
+          "source": "https://www.mirrormedia.mg/story/20260421food002"
+        },
+        {
+          "from_existing": true,
+          "name": "華星冰室（旺角西洋菜南街）",
+          "area": "旺角",
+          "order": "菠蘿油、炒蛋多士"
+        }
       ]
     },
     {
@@ -19,9 +31,24 @@
       "why": "牛油曲奇皮或千層酥皮包著嫩滑蛋漿，出爐溫熱時最好吃。",
       "best_for": "早餐/點心",
       "shops": [
-        {"from_existing": true, "name": "泰昌餅家（擺花街總店）", "area": "中環", "order": "牛油曲奇皮蛋撻"},
-        {"from_existing": true, "name": "Bakehouse（漢口道）", "area": "尖沙咀", "order": "酸種蛋撻（新派）"},
-        {"from_existing": true, "name": "金華冰廳", "area": "太子", "order": "蛋撻"}
+        {
+          "from_existing": true,
+          "name": "泰昌餅家（擺花街總店）",
+          "area": "中環",
+          "order": "牛油曲奇皮蛋撻"
+        },
+        {
+          "from_existing": true,
+          "name": "Bakehouse（漢口道）",
+          "area": "尖沙咀",
+          "order": "酸種蛋撻（新派）"
+        },
+        {
+          "from_existing": true,
+          "name": "金華冰廳",
+          "area": "太子",
+          "order": "蛋撻"
+        }
       ]
     },
     {
@@ -29,9 +56,34 @@
       "why": "濃紅茶用布袋反覆撞茶再加淡奶，茶味重、口感滑；鴛鴦是奶茶加咖啡。",
       "best_for": "早餐/下午茶",
       "shops": [
-        {"from_existing": true, "name": "蘭芳園（中環總店）", "area": "中環", "order": "絲襪奶茶、豬扒包", "note": "週日休"},
-        {"from_existing": true, "name": "蘭芳園（尖沙咀重慶大廈）", "area": "尖沙咀", "order": "絲襪奶茶"},
-        {"name": "瑞記咖啡", "area": "上環", "address": "上環皇后大道中345號上環市政大廈2樓熟食中心17號舖", "mtr": "上環站（出口未查證；港澳碼頭旁的上環市政大廈）", "hours": "08:00–16:00", "closed": "週日", "price": "樽仔凍奶茶HK$18、熱咖啡HK$16", "order": "樽仔凍奶茶、西多士", "queue": "熟食中心開放座位，午飯時段人多", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260925food003"}
+        {
+          "from_existing": true,
+          "name": "蘭芳園（中環總店）",
+          "area": "中環",
+          "order": "絲襪奶茶、豬扒包",
+          "note": "週日休"
+        },
+        {
+          "from_existing": true,
+          "name": "蘭芳園（尖沙咀重慶大廈）",
+          "area": "尖沙咀",
+          "order": "絲襪奶茶"
+        },
+        {
+          "name": "瑞記咖啡",
+          "area": "上環",
+          "address": "上環皇后大道中345號上環市政大廈2樓熟食中心17號舖",
+          "mtr": "上環站（出口未查證；港澳碼頭旁的上環市政大廈）",
+          "hours": "08:00–16:00",
+          "closed": "週日",
+          "price": "樽仔凍奶茶HK$18、熱咖啡HK$16",
+          "order": "樽仔凍奶茶、西多士",
+          "queue": "熟食中心開放座位，午飯時段人多",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260925food003"
+        }
       ]
     },
     {
@@ -39,8 +91,36 @@
       "why": "兩片吐司夾花生醬沾蛋漿油炸，上桌淋糖漿放牛油，香港版法式吐司，一份可三人分。",
       "best_for": "早餐/下午茶",
       "shops": [
-        {"name": "興記咖啡室", "area": "上環", "address": "上環荷李活道182號地下G舖", "mtr": "上環站（出口未查證，步行約10分）", "hours": "06:00–17:30", "closed": "週日", "price": "西多士HK$30", "order": "西多士（不油炸、牛油煉乳版）、鴛鴦或凍檸茶", "queue": "老店座位少，早上去較好", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260925food003"},
-        {"name": "瑞記咖啡", "area": "上環", "address": "上環皇后大道中345號上環市政大廈2樓熟食中心17號舖", "mtr": "上環站", "hours": "08:00–16:00", "closed": "週日", "price": "西多士HK$29", "order": "西多士＋樽仔凍奶茶", "queue": "", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260925food003"}
+        {
+          "name": "興記咖啡室",
+          "area": "上環",
+          "address": "上環荷李活道182號地下G舖",
+          "mtr": "上環站（出口未查證，步行約10分）",
+          "hours": "06:00–17:30",
+          "closed": "週日",
+          "price": "西多士HK$30",
+          "order": "西多士（不油炸、牛油煉乳版）、鴛鴦或凍檸茶",
+          "queue": "老店座位少，早上去較好",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260925food003"
+        },
+        {
+          "name": "瑞記咖啡",
+          "area": "上環",
+          "address": "上環皇后大道中345號上環市政大廈2樓熟食中心17號舖",
+          "mtr": "上環站",
+          "hours": "08:00–16:00",
+          "closed": "週日",
+          "price": "西多士HK$29",
+          "order": "西多士＋樽仔凍奶茶",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260925food003"
+        }
       ],
       "warning": "旺角花園街「銀津點心茶餐廳」（流沙西多士名店）已於2026/9/27結業，網路舊文推薦勿去。"
     },
@@ -49,8 +129,19 @@
       "why": "嫩到半流動的港式炒蛋配白吐司，茶餐廳早餐基本款。",
       "best_for": "早餐",
       "shops": [
-        {"from_existing": true, "name": "澳洲牛奶公司", "area": "佐敦", "order": "炒蛋多士、蒸蛋白（燉奶）、火腿通粉", "note": "⚠休息日說法不一（週四或週日），1/28正好週四，別排這天"},
-        {"from_existing": true, "name": "華星冰室（旺角西洋菜南街）", "area": "旺角", "order": "炒蛋多士"}
+        {
+          "from_existing": true,
+          "name": "澳洲牛奶公司",
+          "area": "佐敦",
+          "order": "炒蛋多士、蒸蛋白（燉奶）、火腿通粉",
+          "note": "⚠休息日說法不一（週四或週日），1/28正好週四，別排這天"
+        },
+        {
+          "from_existing": true,
+          "name": "華星冰室（旺角西洋菜南街）",
+          "area": "旺角",
+          "order": "炒蛋多士"
+        }
       ]
     },
     {
@@ -58,9 +149,34 @@
       "why": "竹昇鴨蛋細麵爽脆、整隻鮮蝦雲吞、大地魚湯底，小碗一份是正宗分量。",
       "best_for": "午餐/宵夜",
       "shops": [
-        {"name": "麥文記麵家", "area": "佐敦", "address": "佐敦白加士街51號地下", "mtr": "佐敦站（出口未查證，步行約5分）", "hours": "每日12:00–00:30", "closed": "無固定休息日；端午、中秋、農曆年初一至三休（1/25–30不受影響）", "price": "HK$50–100", "order": "鮮蝦雲吞麵、柱侯牛腩、南乳豬手", "queue": "晚上人多，翻桌快", "michelin": "必比登推介（2026）", "cash_only": true, "verified": true, "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/mak-man-kee"},
-        {"from_existing": true, "name": "沾仔記（威靈頓街）", "area": "中環", "order": "鮮蝦雲吞麵"},
-        {"from_existing": true, "name": "劉森記麵家（福榮街）", "area": "深水埗", "order": "竹昇蝦子撈麵、雲吞麵", "note": "鏡週刊2026/4另列桂林街48號分店12:00–22:00、只收現金"}
+        {
+          "name": "麥文記麵家",
+          "area": "佐敦",
+          "address": "佐敦白加士街51號地下",
+          "mtr": "佐敦站（出口未查證，步行約5分）",
+          "hours": "每日12:00–00:30",
+          "closed": "無固定休息日；端午、中秋、農曆年初一至三休（1/25–30不受影響）",
+          "price": "HK$50–100",
+          "order": "鮮蝦雲吞麵、柱侯牛腩、南乳豬手",
+          "queue": "晚上人多，翻桌快",
+          "michelin": "必比登推介（2026）",
+          "cash_only": true,
+          "verified": true,
+          "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/mak-man-kee"
+        },
+        {
+          "from_existing": true,
+          "name": "沾仔記（威靈頓街）",
+          "area": "中環",
+          "order": "鮮蝦雲吞麵"
+        },
+        {
+          "from_existing": true,
+          "name": "劉森記麵家（福榮街）",
+          "area": "深水埗",
+          "order": "竹昇蝦子撈麵、雲吞麵",
+          "note": "鏡週刊2026/4另列桂林街48號分店12:00–22:00、只收現金"
+        }
       ]
     },
     {
@@ -68,9 +184,43 @@
       "why": "清湯或咖喱慢燉牛腩、牛筋，軟腍入味，配伊麵或河粉。",
       "best_for": "午餐",
       "shops": [
-        {"from_existing": true, "name": "九記牛腩", "area": "中環", "order": "清湯牛腩伊麵、咖喱牛筋腩", "note": "週日休，只收現金"},
-        {"name": "水記", "area": "中環", "address": "中環吉士笠街2號牌檔", "mtr": "中環站（出口未查證）", "hours": "11:30–17:45", "closed": "週六、週日", "price": "牛腩河（單拼）HK$45", "order": "牛腩河、牛沙瓜（限量）", "queue": "露天排檔，午飯時段排隊拼桌", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260421food002"},
-        {"name": "麥文記麵家", "area": "佐敦", "address": "佐敦白加士街51號地下", "mtr": "佐敦站", "hours": "每日12:00–00:30", "closed": "見雲吞麵條", "price": "HK$50–100", "order": "柱侯牛腩撈麵", "queue": "", "michelin": "必比登推介（2026）", "cash_only": true, "verified": true, "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/mak-man-kee"}
+        {
+          "from_existing": true,
+          "name": "九記牛腩",
+          "area": "中環",
+          "order": "清湯牛腩伊麵、咖喱牛筋腩",
+          "note": "週日休，只收現金"
+        },
+        {
+          "name": "水記",
+          "area": "中環",
+          "address": "中環吉士笠街2號牌檔",
+          "mtr": "中環站（出口未查證）",
+          "hours": "11:30–17:45",
+          "closed": "週六、週日",
+          "price": "牛腩河（單拼）HK$45",
+          "order": "牛腩河、牛沙瓜（限量）",
+          "queue": "露天排檔，午飯時段排隊拼桌",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260421food002"
+        },
+        {
+          "name": "麥文記麵家",
+          "area": "佐敦",
+          "address": "佐敦白加士街51號地下",
+          "mtr": "佐敦站",
+          "hours": "每日12:00–00:30",
+          "closed": "見雲吞麵條",
+          "price": "HK$50–100",
+          "order": "柱侯牛腩撈麵",
+          "queue": "",
+          "michelin": "必比登推介（2026）",
+          "cash_only": true,
+          "verified": true,
+          "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/mak-man-kee"
+        }
       ]
     },
     {
@@ -78,8 +228,37 @@
       "why": "自己挑麵和配料（魚蛋、蘿蔔、豬皮、魷魚、牛腩…）配咖喱或滷汁，一碗客製化街頭麵。",
       "best_for": "午餐/宵夜",
       "shops": [
-        {"name": "來多碗車仔麵（旺角店）", "area": "旺角", "address": "旺角上海街441號地下2號舖", "mtr": "旺角站（出口未查證）", "hours": "未查到", "closed": "未查到", "price": "人均HK$50以下", "order": "魷魚鬚、自家製辣醬", "queue": "", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.hk01.com/食玩買/60211532/旺角美食29大推介-日本過江龍-米芝蓮小食-平價午餐-炭火燒鰻魚", "note": "HK01 2026/10文章列出，營業時間需自行查"},
-        {"name": "通達食店", "area": "油麻地", "address": "油麻地碧街44號及48號地下", "mtr": "油麻地站A2，步行約2分", "hours": "07:00–21:00（2024資料）", "closed": "未查到", "price": "什錦咖哩車仔麵未標價；內用低消HK$20", "order": "什錦咖哩車仔麵、懷舊脆油渣麵（HK$42）", "queue": "", "michelin": "", "cash_only": null, "verified": false, "source": "https://www.mirrormedia.mg/story/20240110food013"}
+        {
+          "name": "來多碗車仔麵（旺角店）",
+          "area": "旺角",
+          "address": "旺角上海街441號地下2號舖",
+          "mtr": "旺角站（出口未查證）",
+          "hours": "未查到",
+          "closed": "未查到",
+          "price": "人均HK$50以下",
+          "order": "魷魚鬚、自家製辣醬",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.hk01.com/食玩買/60211532/旺角美食29大推介-日本過江龍-米芝蓮小食-平價午餐-炭火燒鰻魚",
+          "note": "HK01 2026/10文章列出，營業時間需自行查"
+        },
+        {
+          "name": "通達食店",
+          "area": "油麻地",
+          "address": "油麻地碧街44號及48號地下",
+          "mtr": "油麻地站A2，步行約2分",
+          "hours": "07:00–21:00（2024資料）",
+          "closed": "未查到",
+          "price": "什錦咖哩車仔麵未標價；內用低消HK$20",
+          "order": "什錦咖哩車仔麵、懷舊脆油渣麵（HK$42）",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://www.mirrormedia.mg/story/20240110food013"
+        }
       ]
     },
     {
@@ -87,9 +266,35 @@
       "why": "皮脆油亮、肉汁多，蘸酸梅醬；配瀨粉或白飯是香港燒味經典。",
       "best_for": "午餐/晚餐",
       "shops": [
-        {"from_existing": true, "name": "一樂燒鵝", "area": "中環", "order": "燒鵝瀨粉、四分一隻燒鵝", "note": "只收現金、不設訂位"},
-        {"name": "甘牌燒鵝", "area": "灣仔", "address": "灣仔軒尼詩道226號寶華商業中心地下", "mtr": "灣仔站（出口未查證，步行約3分）", "hours": "每日11:30–21:30", "closed": "無固定休息日（官方頁未列）", "price": "$$（米芝蓮價位）", "order": "甘氏燒鵝、太子撈麵（鵝油撈麵）、燒乳豬", "queue": "門外常排隊", "michelin": "米芝蓮頁面標示一星", "cash_only": false, "verified": true, "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/kam-s-roast-goose"},
-        {"from_existing": true, "name": "波記燒臘", "area": "西環", "order": "燒鵝、燒肉", "note": "週日休；燒鵝建議4點前到"}
+        {
+          "from_existing": true,
+          "name": "一樂燒鵝",
+          "area": "中環",
+          "order": "燒鵝瀨粉、四分一隻燒鵝",
+          "note": "只收現金、不設訂位"
+        },
+        {
+          "name": "甘牌燒鵝",
+          "area": "灣仔",
+          "address": "灣仔軒尼詩道226號寶華商業中心地下",
+          "mtr": "灣仔站（出口未查證，步行約3分）",
+          "hours": "每日11:30–21:30",
+          "closed": "無固定休息日（官方頁未列）",
+          "price": "$$（米芝蓮價位）",
+          "order": "甘氏燒鵝、太子撈麵（鵝油撈麵）、燒乳豬",
+          "queue": "門外常排隊",
+          "michelin": "米芝蓮頁面標示一星",
+          "cash_only": false,
+          "verified": true,
+          "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/kam-s-roast-goose"
+        },
+        {
+          "from_existing": true,
+          "name": "波記燒臘",
+          "area": "西環",
+          "order": "燒鵝、燒肉",
+          "note": "週日休；燒鵝建議4點前到"
+        }
       ]
     },
     {
@@ -97,9 +302,34 @@
       "why": "蜜汁燒豬肉，邊緣焦香帶脂，配滑蛋或白飯最下飯。",
       "best_for": "午餐",
       "shops": [
-        {"from_existing": true, "name": "波記燒臘", "area": "西環", "order": "叉燒飯"},
-        {"from_existing": true, "name": "一樂燒鵝", "area": "中環", "order": "叉燒"},
-        {"name": "兩草", "area": "旺角", "address": "旺角白布街16號地舖", "mtr": "旺角站（出口未查證）", "hours": "未查到", "closed": "未查到", "price": "人均HK$50–100", "order": "滑蛋叉燒飯、咖央多士", "queue": "HK01稱午市爆滿", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.hk01.com/食玩買/60211532/旺角美食29大推介-日本過江龍-米芝蓮小食-平價午餐-炭火燒鰻魚", "note": "2026/10文章列出，時間未知"}
+        {
+          "from_existing": true,
+          "name": "波記燒臘",
+          "area": "西環",
+          "order": "叉燒飯"
+        },
+        {
+          "from_existing": true,
+          "name": "一樂燒鵝",
+          "area": "中環",
+          "order": "叉燒"
+        },
+        {
+          "name": "兩草",
+          "area": "旺角",
+          "address": "旺角白布街16號地舖",
+          "mtr": "旺角站（出口未查證）",
+          "hours": "未查到",
+          "closed": "未查到",
+          "price": "人均HK$50–100",
+          "order": "滑蛋叉燒飯、咖央多士",
+          "queue": "HK01稱午市爆滿",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.hk01.com/食玩買/60211532/旺角美食29大推介-日本過江龍-米芝蓮小食-平價午餐-炭火燒鰻魚",
+          "note": "2026/10文章列出，時間未知"
+        }
       ]
     },
     {
@@ -107,9 +337,45 @@
       "why": "瓦煲明火煮飯，臘味或滑雞的油汁滲進飯裡，底部飯焦香脆；冬天最適合。",
       "best_for": "晚餐",
       "shops": [
-        {"from_existing": true, "name": "坤記煲仔小菜（皇后大道西）", "area": "西營盤", "order": "臘味飯（HK$90）、白鱔滑雞飯（HK$120）", "note": "晚市18:00–22:30，可致電2803 7209預約"},
-        {"name": "興記菜館", "area": "油麻地（廟街）", "address": "油麻地廟街12、13A、15、17、19號地舖", "mtr": "油麻地站或佐敦站（出口未查證）", "hours": "13:30–15:30、17:00–24:00（2025/6資料）", "closed": "未查到", "price": "最便宜一款約HK$75（2026/8報導）", "order": "臘味煲仔飯、排骨煲仔飯（炭爐現煲）", "queue": "晚上廟街夜市時段排隊；煲飯需等約20分", "michelin": "", "cash_only": true, "verified": false, "source": "https://www.stheadline.com/realtime-finance/3603534/", "note": "2026/8新聞確認仍營業，但營業時間只有2025資料；不收卡依2025/6鏡週刊 https://www.mirrormedia.mg/story/20250616food010"},
-        {"name": "港嘢家", "area": "旺角", "address": "旺角廣華街10號地舖", "mtr": "旺角站（出口未查證）", "hours": "未查到", "closed": "未查到", "price": "人均HK$100–150", "order": "黃金飯焦煲仔飯、粒粒臘味煲仔飯", "queue": "", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.hk01.com/食玩買/60211532/旺角美食29大推介-日本過江龍-米芝蓮小食-平價午餐-炭火燒鰻魚", "note": "2026/10文章列出，時間未知"}
+        {
+          "from_existing": true,
+          "name": "坤記煲仔小菜（皇后大道西）",
+          "area": "西營盤",
+          "order": "臘味飯（HK$90）、白鱔滑雞飯（HK$120）",
+          "note": "晚市18:00–22:30，可致電2803 7209預約"
+        },
+        {
+          "name": "興記菜館",
+          "area": "油麻地（廟街）",
+          "address": "油麻地廟街12、13A、15、17、19號地舖",
+          "mtr": "油麻地站或佐敦站（出口未查證）",
+          "hours": "13:30–15:30、17:00–24:00（2025/6資料）",
+          "closed": "未查到",
+          "price": "最便宜一款約HK$75（2026/8報導）",
+          "order": "臘味煲仔飯、排骨煲仔飯（炭爐現煲）",
+          "queue": "晚上廟街夜市時段排隊；煲飯需等約20分",
+          "michelin": "",
+          "cash_only": true,
+          "verified": false,
+          "source": "https://www.stheadline.com/realtime-finance/3603534/",
+          "note": "2026/8新聞確認仍營業，但營業時間只有2025資料；不收卡依2025/6鏡週刊 https://www.mirrormedia.mg/story/20250616food010"
+        },
+        {
+          "name": "港嘢家",
+          "area": "旺角",
+          "address": "旺角廣華街10號地舖",
+          "mtr": "旺角站（出口未查證）",
+          "hours": "未查到",
+          "closed": "未查到",
+          "price": "人均HK$100–150",
+          "order": "黃金飯焦煲仔飯、粒粒臘味煲仔飯",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.hk01.com/食玩買/60211532/旺角美食29大推介-日本過江龍-米芝蓮小食-平價午餐-炭火燒鰻魚",
+          "note": "2026/10文章列出，時間未知"
+        }
       ]
     },
     {
@@ -117,9 +383,36 @@
       "why": "港式飲茶的核心，蝦餃皮透肉彈、燒賣飽滿，一家人圍桌點一輪最有氣氛。",
       "best_for": "早餐/午餐",
       "shops": [
-        {"from_existing": true, "name": "一點心", "area": "太子", "order": "鮮蝦餃、蟹籽燒賣、懷舊雞球大包", "note": "週六日08:30開"},
-        {"from_existing": true, "name": "蓮香樓（上環新址）", "area": "上環", "order": "推車點心、豬膶燒賣", "note": "2026/4從中環搬到上環德輔道中；新址時間未查到"},
-        {"name": "蓮香樓（尖沙咀，24小時）", "area": "尖沙咀", "address": "尖沙咀金巴利道25號長利商業大廈1、2樓", "mtr": "尖沙咀站（出口未查證）", "hours": "24小時", "closed": "未提及", "price": "懷舊蓮蓉包/馬拉糕/芝麻煎堆仔各HK$35；11點前早茶較便宜", "order": "推車點心、懷舊馬拉糕、蓮蓉包", "queue": "電話+852-2320-1318", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260904food001", "note": "2025/5/28開業的分店，與上環本店不同址"}
+        {
+          "from_existing": true,
+          "name": "一點心",
+          "area": "太子",
+          "order": "鮮蝦餃、蟹籽燒賣、懷舊雞球大包",
+          "note": "週六日08:30開"
+        },
+        {
+          "from_existing": true,
+          "name": "蓮香樓（上環新址）",
+          "area": "上環",
+          "order": "推車點心、豬膶燒賣",
+          "note": "2026/4從中環搬到上環德輔道中；新址時間未查到"
+        },
+        {
+          "name": "蓮香樓（尖沙咀，24小時）",
+          "area": "尖沙咀",
+          "address": "尖沙咀金巴利道25號長利商業大廈1、2樓",
+          "mtr": "尖沙咀站（出口未查證）",
+          "hours": "24小時",
+          "closed": "未提及",
+          "price": "懷舊蓮蓉包/馬拉糕/芝麻煎堆仔各HK$35；11點前早茶較便宜",
+          "order": "推車點心、懷舊馬拉糕、蓮蓉包",
+          "queue": "電話+852-2320-1318",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260904food001",
+          "note": "2025/5/28開業的分店，與上環本店不同址"
+        }
       ]
     },
     {
@@ -127,9 +420,35 @@
       "why": "米漿蒸成的滑嫩粉皮：街頭版切段淋甜醬麻醬辣醬（混醬），酒樓版包蝦或叉燒淋豉油。",
       "best_for": "早餐/點心",
       "shops": [
-        {"from_existing": true, "name": "合益泰小食", "area": "深水埗", "order": "混醬豬腸粉", "note": "米芝蓮頁列每日06:30–20:00、電話2720 0239，但無2026更新，仍 verified:false", "source": "https://guide.michelin.com/mo/zh_HK/hong-kong-region/hong-kong/restaurant/hop-yik-tai"},
-        {"name": "通達食店", "area": "油麻地", "address": "油麻地碧街44號及48號地下", "mtr": "油麻地站A2，步行約2分", "hours": "07:00–21:00（2024資料）", "closed": "未查到", "price": "香滑腸粉HK$18/4條（2024）", "order": "混醬腸粉", "queue": "內用低消HK$20", "michelin": "", "cash_only": null, "verified": false, "source": "https://www.mirrormedia.mg/story/20240110food013"},
-        {"from_existing": true, "name": "添好運（深水埗）", "area": "深水埗", "order": "布拉腸粉、酥皮焗叉燒包"}
+        {
+          "from_existing": true,
+          "name": "合益泰小食",
+          "area": "深水埗",
+          "order": "混醬豬腸粉",
+          "note": "米芝蓮頁列每日06:30–20:00、電話2720 0239，但無2026更新，仍 verified:false",
+          "source": "https://guide.michelin.com/mo/zh_HK/hong-kong-region/hong-kong/restaurant/hop-yik-tai"
+        },
+        {
+          "name": "通達食店",
+          "area": "油麻地",
+          "address": "油麻地碧街44號及48號地下",
+          "mtr": "油麻地站A2，步行約2分",
+          "hours": "07:00–21:00（2024資料）",
+          "closed": "未查到",
+          "price": "香滑腸粉HK$18/4條（2024）",
+          "order": "混醬腸粉",
+          "queue": "內用低消HK$20",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://www.mirrormedia.mg/story/20240110food013"
+        },
+        {
+          "from_existing": true,
+          "name": "添好運（深水埗）",
+          "area": "深水埗",
+          "order": "布拉腸粉、酥皮焗叉燒包"
+        }
       ]
     },
     {
@@ -137,9 +456,51 @@
       "why": "竹籤串魚蛋泡咖喱汁、仿魚翅羹的碗仔翅加醋加胡椒，邊走邊吃的香港味道。",
       "best_for": "點心/宵夜",
       "shops": [
-        {"name": "通達食店", "area": "油麻地", "address": "油麻地碧街44號及48號地下", "mtr": "油麻地站A2，步行約2分", "hours": "07:00–21:00（2024資料）", "closed": "未查到", "price": "咖喱魚蛋HK$12/6粒（2024）", "order": "咖喱魚蛋（不吃辣可選蠔油魚蛋）、魚肉燒賣", "queue": "", "michelin": "", "cash_only": null, "verified": false, "source": "https://www.mirrormedia.mg/story/20240110food013"},
-        {"name": "多寶美食", "area": "太子（金魚街）", "address": "太子水渠道30-32A號美星樓地下10號舖", "mtr": "太子站B2，步行約5分", "hours": "11:30–23:00（2024資料）", "closed": "未查到", "price": "炸大腸HK$16/根（2024）", "order": "碗仔翅、魚蛋、炸大腸", "queue": "", "michelin": "", "cash_only": null, "verified": false, "source": "https://www.mirrormedia.mg/story/20240110food006"},
-        {"name": "佳記小食店", "area": "旺角／油麻地", "address": "旺角登打士街41號", "mtr": "油麻地站A2，步行約3分", "hours": "約12:00–午夜（文章未標日期）", "closed": "未查到", "price": "未查到", "order": "咖喱魚蛋", "queue": "", "michelin": "", "cash_only": null, "verified": false, "source": "https://www.bella.tw/articles/travel&foodies/12949"}
+        {
+          "name": "通達食店",
+          "area": "油麻地",
+          "address": "油麻地碧街44號及48號地下",
+          "mtr": "油麻地站A2，步行約2分",
+          "hours": "07:00–21:00（2024資料）",
+          "closed": "未查到",
+          "price": "咖喱魚蛋HK$12/6粒（2024）",
+          "order": "咖喱魚蛋（不吃辣可選蠔油魚蛋）、魚肉燒賣",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://www.mirrormedia.mg/story/20240110food013"
+        },
+        {
+          "name": "多寶美食",
+          "area": "太子（金魚街）",
+          "address": "太子水渠道30-32A號美星樓地下10號舖",
+          "mtr": "太子站B2，步行約5分",
+          "hours": "11:30–23:00（2024資料）",
+          "closed": "未查到",
+          "price": "炸大腸HK$16/根（2024）",
+          "order": "碗仔翅、魚蛋、炸大腸",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://www.mirrormedia.mg/story/20240110food006"
+        },
+        {
+          "name": "佳記小食店",
+          "area": "旺角／油麻地",
+          "address": "旺角登打士街41號",
+          "mtr": "油麻地站A2，步行約3分",
+          "hours": "約12:00–午夜（文章未標日期）",
+          "closed": "未查到",
+          "price": "未查到",
+          "order": "咖喱魚蛋",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://www.bella.tw/articles/travel&foodies/12949"
+        }
       ],
       "warning": "碗仔翅在主要路線上查不到2026年有資料的專門店；多數街頭小食檔都有，現場看招牌即可。"
     },
@@ -148,9 +509,52 @@
       "why": "雞蛋仔是一格格小圓球的蛋香鬆餅，外脆內軟；格仔餅是方格厚鬆餅抹花生醬煉奶砂糖對摺，兩種常在同一檔賣。",
       "best_for": "點心",
       "shops": [
-        {"name": "Ice Puff", "area": "旺角", "address": "旺角彌敦道688號旺角中心第一座1樓F51號舖", "mtr": "旺角站（出口未查證）", "hours": "13:00–22:00，週日至20:00", "closed": "未提及", "price": "原味HK$22、70%黑朱古力HK$30", "order": "原味雞蛋仔、朱古力雞蛋仔＋雪糕", "queue": "", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260906food005"},
-        {"name": "媽咪雞蛋仔（旺角／佐敦／尖東）", "area": "旺角、佐敦、尖沙咀東", "address": "旺角豉油街33號地下A舖；佐敦廟街219號地下；尖東科學館道14號新文華中心地下16號鋪", "mtr": "旺角站／佐敦站／尖東站（出口未查證）", "hours": "旺角12:00–22:45；佐敦12:00–22:00；尖東12:00–20:30（2022資料）", "closed": "未查到", "price": "雞蛋仔約HK$12起（2022）", "order": "原味雞蛋仔、格仔餅（經典夾心或榛子醬）", "queue": "", "michelin": "曾獲米芝蓮街頭小吃推介（舊年度）", "cash_only": null, "verified": false, "source": "https://www.hk01.com/食玩買/769943/格仔餅全港10-推介最平-12-爆餡夾心-紅磡老字號-米芝蓮小食"},
-        {"name": "利強記北角雞蛋仔", "area": "北角（另有尖沙咀分店）", "address": "北角英皇道492號地下（尖沙咀分店：彌敦道178號地下，日期較舊）", "mtr": "北角站（尖沙咀分店：尖沙咀/佐敦站）", "hours": "北角店07:00–23:00", "closed": "未提及", "price": "原味HK$28", "order": "只賣原味雞蛋仔", "queue": "", "michelin": "曾入選必比登街頭小吃（2020）", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260906food005", "note": "北角本店2026有資料；尖沙咀分店地址出自較舊HK01，verified僅限北角店"}
+        {
+          "name": "Ice Puff",
+          "area": "旺角",
+          "address": "旺角彌敦道688號旺角中心第一座1樓F51號舖",
+          "mtr": "旺角站（出口未查證）",
+          "hours": "13:00–22:00，週日至20:00",
+          "closed": "未提及",
+          "price": "原味HK$22、70%黑朱古力HK$30",
+          "order": "原味雞蛋仔、朱古力雞蛋仔＋雪糕",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260906food005"
+        },
+        {
+          "name": "媽咪雞蛋仔（旺角／佐敦／尖東）",
+          "area": "旺角、佐敦、尖沙咀東",
+          "address": "旺角豉油街33號地下A舖；佐敦廟街219號地下；尖東科學館道14號新文華中心地下16號鋪",
+          "mtr": "旺角站／佐敦站／尖東站（出口未查證）",
+          "hours": "旺角12:00–22:45；佐敦12:00–22:00；尖東12:00–20:30（2022資料）",
+          "closed": "未查到",
+          "price": "雞蛋仔約HK$12起（2022）",
+          "order": "原味雞蛋仔、格仔餅（經典夾心或榛子醬）",
+          "queue": "",
+          "michelin": "曾獲米芝蓮街頭小吃推介（舊年度）",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://www.hk01.com/食玩買/769943/格仔餅全港10-推介最平-12-爆餡夾心-紅磡老字號-米芝蓮小食"
+        },
+        {
+          "name": "利強記北角雞蛋仔",
+          "area": "北角（另有尖沙咀分店）",
+          "address": "北角英皇道492號地下（尖沙咀分店：彌敦道178號地下，日期較舊）",
+          "mtr": "北角站（尖沙咀分店：尖沙咀/佐敦站）",
+          "hours": "北角店07:00–23:00",
+          "closed": "未提及",
+          "price": "原味HK$28",
+          "order": "只賣原味雞蛋仔",
+          "queue": "",
+          "michelin": "曾入選必比登街頭小吃（2020）",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260906food005",
+          "note": "北角本店2026有資料；尖沙咀分店地址出自較舊HK01，verified僅限北角店"
+        }
       ]
     },
     {
@@ -158,8 +562,36 @@
       "why": "芒果、西米、柚子肉加椰奶的冰涼甜品，香港原創、青少年最愛。",
       "best_for": "點心/宵夜",
       "shops": [
-        {"name": "泰和堂涼茶館", "area": "旺角", "address": "旺角通菜街105號", "mtr": "旺角站（出口未查證）", "hours": "10:00–01:00", "closed": "未提及", "price": "楊枝甘露HK$43/小碗", "order": "楊枝甘露（濃稠到湯匙站得住）", "queue": "電話+852-2385-4128", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260831food008"},
-        {"name": "綠林甜品", "area": "深水埗", "address": "深水埗元州街77-79號地下", "mtr": "深水埗站（出口未查證）", "hours": "14:00–00:00；週五、六至01:00", "closed": "未提及", "price": "爆芒楊枝甘露小丸子HK$53（爆芒版+HK$10）", "order": "楊枝甘露小丸子、芝麻糊、蛋白燉鮮奶", "queue": "韓團成員造訪後爆紅，晚上可能排隊", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260831food003"}
+        {
+          "name": "泰和堂涼茶館",
+          "area": "旺角",
+          "address": "旺角通菜街105號",
+          "mtr": "旺角站（出口未查證）",
+          "hours": "10:00–01:00",
+          "closed": "未提及",
+          "price": "楊枝甘露HK$43/小碗",
+          "order": "楊枝甘露（濃稠到湯匙站得住）",
+          "queue": "電話+852-2385-4128",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260831food008"
+        },
+        {
+          "name": "綠林甜品",
+          "area": "深水埗",
+          "address": "深水埗元州街77-79號地下",
+          "mtr": "深水埗站（出口未查證）",
+          "hours": "14:00–00:00；週五、六至01:00",
+          "closed": "未提及",
+          "price": "爆芒楊枝甘露小丸子HK$53（爆芒版+HK$10）",
+          "order": "楊枝甘露小丸子、芝麻糊、蛋白燉鮮奶",
+          "queue": "韓團成員造訪後爆紅，晚上可能排隊",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260831food003"
+        }
       ],
       "warning": "糖朝（尖沙咀）近況不明；許留山等連鎖已大量收店，勿依舊攻略。"
     },
@@ -168,9 +600,25 @@
       "why": "石磨黑芝麻糊濃香順滑；豆腐花嫩到入口即化，加黃糖或薑汁，冬天熱吃最暖。",
       "best_for": "點心/宵夜",
       "shops": [
-        {"from_existing": true, "name": "暖心芝作", "area": "太子", "order": "石磨芝麻糊、芝麻卷"},
-        {"from_existing": true, "name": "佳佳甜品（新總店）", "area": "佐敦", "order": "芝麻糊、核桃露、湯丸", "note": "⚠寧波街舊址2025/9/17已結業，去白加士街113-115號新店；12:00–01:00"},
-        {"from_existing": true, "name": "公和荳品廠", "area": "深水埗", "order": "豆腐花、煎釀豆腐"}
+        {
+          "from_existing": true,
+          "name": "暖心芝作",
+          "area": "太子",
+          "order": "石磨芝麻糊、芝麻卷"
+        },
+        {
+          "from_existing": true,
+          "name": "佳佳甜品（新總店）",
+          "area": "佐敦",
+          "order": "芝麻糊、核桃露、湯丸",
+          "note": "⚠寧波街舊址2025/9/17已結業，去白加士街113-115號新店；12:00–01:00"
+        },
+        {
+          "from_existing": true,
+          "name": "公和荳品廠",
+          "area": "深水埗",
+          "order": "豆腐花、煎釀豆腐"
+        }
       ]
     },
     {
@@ -178,9 +626,42 @@
       "why": "水牛奶蒸成兩層奶皮的順德甜品，香滑奶味濃；熱食冷食皆可。",
       "best_for": "點心",
       "shops": [
-        {"name": "義順牛奶公司（油麻地）", "area": "油麻地／佐敦", "address": "油麻地彌敦道513號地下", "mtr": "油麻地站或佐敦站（出口未查證）", "hours": "12:00–00:00（Burpple，未標日期）", "closed": "未查到", "price": "未查到", "order": "雙皮奶（熱/凍）、薑汁撞奶", "queue": "", "michelin": "", "cash_only": null, "verified": false, "source": "https://burpple.com/yee-shun-dairy-company-1"},
-        {"from_existing": true, "name": "澳洲牛奶公司", "area": "佐敦", "order": "蒸蛋白（燉奶）"},
-        {"name": "綠林甜品", "area": "深水埗", "address": "深水埗元州街77-79號地下", "mtr": "深水埗站", "hours": "14:00–00:00；週五、六至01:00", "closed": "未提及", "price": "蛋白燉鮮奶＋蓮子HK$39", "order": "蛋白燉鮮奶", "queue": "", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260831food003"}
+        {
+          "name": "義順牛奶公司（油麻地）",
+          "area": "油麻地／佐敦",
+          "address": "油麻地彌敦道513號地下",
+          "mtr": "油麻地站或佐敦站（出口未查證）",
+          "hours": "12:00–00:00（Burpple，未標日期）",
+          "closed": "未查到",
+          "price": "未查到",
+          "order": "雙皮奶（熱/凍）、薑汁撞奶",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://burpple.com/yee-shun-dairy-company-1"
+        },
+        {
+          "from_existing": true,
+          "name": "澳洲牛奶公司",
+          "area": "佐敦",
+          "order": "蒸蛋白（燉奶）"
+        },
+        {
+          "name": "綠林甜品",
+          "area": "深水埗",
+          "address": "深水埗元州街77-79號地下",
+          "mtr": "深水埗站",
+          "hours": "14:00–00:00；週五、六至01:00",
+          "closed": "未提及",
+          "price": "蛋白燉鮮奶＋蓮子HK$39",
+          "order": "蛋白燉鮮奶",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260831food003"
+        }
       ]
     },
     {
@@ -188,8 +669,37 @@
       "why": "香港獨有的「中式西餐」：甜豉油汁滷的瑞士雞翼、焗梳乎厘、煙燻乳鴿，老派餐廳氣氛。",
       "best_for": "午餐/下午茶/晚餐",
       "shops": [
-        {"name": "太平館餐廳（中環店）", "area": "中環", "address": "中環士丹利街60號", "mtr": "中環站（出口未查證，步行約5分）", "hours": "11:00–23:30；週六、日至23:00", "closed": "未註明公休", "price": "瑞士雞翼下午茶餐HK$78、燒乳鴿HK$168、焗梳乎厘HK$160；每位低消HK$120", "order": "瑞士雞翼、焗梳乎厘（要等約40分，入座先點）", "queue": "晚餐建議訂位", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260421food001"},
-        {"name": "太平館餐廳（油麻地／佐敦茂林街店）", "area": "油麻地", "address": "油麻地茂林街（門牌未查到）", "mtr": "佐敦站或油麻地站", "hours": "未查到", "closed": "未查到", "price": "同中環店價位", "order": "瑞士雞翼", "queue": "", "michelin": "", "cash_only": null, "verified": false, "source": "https://www.mirrormedia.mg/story/20241014food017", "note": "2024報導稱有尖沙咀、油麻地、銅鑼灣、中環四店；離酒店近但地址時間要再查"}
+        {
+          "name": "太平館餐廳（中環店）",
+          "area": "中環",
+          "address": "中環士丹利街60號",
+          "mtr": "中環站（出口未查證，步行約5分）",
+          "hours": "11:00–23:30；週六、日至23:00",
+          "closed": "未註明公休",
+          "price": "瑞士雞翼下午茶餐HK$78、燒乳鴿HK$168、焗梳乎厘HK$160；每位低消HK$120",
+          "order": "瑞士雞翼、焗梳乎厘（要等約40分，入座先點）",
+          "queue": "晚餐建議訂位",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260421food001"
+        },
+        {
+          "name": "太平館餐廳（油麻地／佐敦茂林街店）",
+          "area": "油麻地",
+          "address": "油麻地茂林街（門牌未查到）",
+          "mtr": "佐敦站或油麻地站",
+          "hours": "未查到",
+          "closed": "未查到",
+          "price": "同中環店價位",
+          "order": "瑞士雞翼",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://www.mirrormedia.mg/story/20241014food017",
+          "note": "2024報導稱有尖沙咀、油麻地、銅鑼灣、中環四店；離酒店近但地址時間要再查"
+        }
       ]
     },
     {
@@ -197,8 +707,36 @@
       "why": "大量炸蒜酥、辣椒、豆豉爆炒肉蟹，蒜香濃烈，配白飯一流；冬天蟹最肥。",
       "best_for": "晚餐/宵夜",
       "shops": [
-        {"name": "避風塘興記", "area": "尖沙咀", "address": "尖沙咀彌敦道180號寶華商業大廈1樓", "mtr": "尖沙咀站或佐敦站（出口未查證）", "hours": "每日16:00–02:00", "closed": "無", "price": "$$（蟹按時價）", "order": "避風塘炒蟹（可選辣度，青少年選小辣）、艇仔粥、鴨腳煲瀨粉", "queue": "座位少、須全員到齊才入座；海鮮限量，務必電話+852 2722 0022訂位並問蟹量", "michelin": "米芝蓮入選（價位$$）", "cash_only": false, "verified": true, "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/hing-kee"},
-        {"name": "喜記避風塘炒辣蟹（尖沙咀，Hee Kee Crab General）", "area": "尖沙咀", "address": "未查到確切地址", "mtr": "尖沙咀站", "hours": "未查到", "closed": "未查到", "price": "未查到", "order": "避風塘炒辣蟹", "queue": "", "michelin": "", "cash_only": null, "verified": false, "source": "https://openrice.com/en/hongkong/restaurant/tsim-sha-tsui-hee-kee-crab-general/800315"}
+        {
+          "name": "避風塘興記",
+          "area": "尖沙咀",
+          "address": "尖沙咀彌敦道180號寶華商業大廈1樓",
+          "mtr": "尖沙咀站或佐敦站（出口未查證）",
+          "hours": "每日16:00–02:00",
+          "closed": "無",
+          "price": "$$（蟹按時價）",
+          "order": "避風塘炒蟹（可選辣度，青少年選小辣）、艇仔粥、鴨腳煲瀨粉",
+          "queue": "座位少、須全員到齊才入座；海鮮限量，務必電話+852 2722 0022訂位並問蟹量",
+          "michelin": "米芝蓮入選（價位$$）",
+          "cash_only": false,
+          "verified": true,
+          "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/hing-kee"
+        },
+        {
+          "name": "喜記避風塘炒辣蟹（尖沙咀，Hee Kee Crab General）",
+          "area": "尖沙咀",
+          "address": "未查到確切地址",
+          "mtr": "尖沙咀站",
+          "hours": "未查到",
+          "closed": "未查到",
+          "price": "未查到",
+          "order": "避風塘炒辣蟹",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://openrice.com/en/hongkong/restaurant/tsim-sha-tsui-hee-kee-crab-general/800315"
+        }
       ]
     },
     {
@@ -206,9 +744,42 @@
       "why": "一月香港濕冷，打邊爐吃手切肥牛、手打丸、炸魚皮是本地人冬天儀式；或吃枝竹羊腩煲。",
       "best_for": "晚餐",
       "shops": [
-        {"name": "鮮入圍煮花膠雞海鮮火鍋", "area": "尖沙咀", "address": "尖沙咀厚福街8號H8 8樓", "mtr": "尖沙咀站（出口未查證）", "hours": "未查到", "closed": "未查到", "price": "未查到", "order": "花膠雞湯底（原隻雞＋花膠熬製）", "queue": "建議訂位", "michelin": "", "cash_only": null, "verified": false, "source": "https://www.tatlerasia.com/dining/food/best-hotpot-in-hong-kong-zh-hant"},
-        {"name": "珍姐海鮮火鍋飯店（中環新店）", "area": "中環", "address": "中環太子大廈地下（和安里舊店已於2026/3/31結業）", "mtr": "中環站", "hours": "未查到新店時間", "closed": "未查到", "price": "未查到", "order": "本地手切牛肉火鍋", "queue": "人氣極高、以難訂聞名；2026報導午市排近百人", "michelin": "", "cash_only": null, "verified": false, "source": "https://www.stheadline.com/food/3572415/中環珍姐搬舖後人氣不減午市高峰排近百人-重推20起懷舊早餐-官方提2時段避人潮"},
-        {"from_existing": true, "name": "海港酒家（始創中心）", "area": "太子", "order": "古法羊腩煲（冬季）"}
+        {
+          "name": "鮮入圍煮花膠雞海鮮火鍋",
+          "area": "尖沙咀",
+          "address": "尖沙咀厚福街8號H8 8樓",
+          "mtr": "尖沙咀站（出口未查證）",
+          "hours": "未查到",
+          "closed": "未查到",
+          "price": "未查到",
+          "order": "花膠雞湯底（原隻雞＋花膠熬製）",
+          "queue": "建議訂位",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://www.tatlerasia.com/dining/food/best-hotpot-in-hong-kong-zh-hant"
+        },
+        {
+          "name": "珍姐海鮮火鍋飯店（中環新店）",
+          "area": "中環",
+          "address": "中環太子大廈地下（和安里舊店已於2026/3/31結業）",
+          "mtr": "中環站",
+          "hours": "未查到新店時間",
+          "closed": "未查到",
+          "price": "未查到",
+          "order": "本地手切牛肉火鍋",
+          "queue": "人氣極高、以難訂聞名；2026報導午市排近百人",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://www.stheadline.com/food/3572415/中環珍姐搬舖後人氣不減午市高峰排近百人-重推20起懷舊早餐-官方提2時段避人潮"
+        },
+        {
+          "from_existing": true,
+          "name": "海港酒家（始創中心）",
+          "area": "太子",
+          "order": "古法羊腩煲（冬季）"
+        }
       ]
     },
     {
@@ -216,8 +787,20 @@
       "why": "生煎包底煎得焦脆、一咬爆湯；香港滬式小館的經典，小籠包則是另一種湯包。",
       "best_for": "點心/午餐",
       "shops": [
-        {"from_existing": true, "name": "祥興記上海生煎包（尖沙咀）", "area": "尖沙咀", "order": "生煎包", "note": "米芝蓮頁：週一至五09:00–19:00、週六10:00–18:00、週日休；站著吃，小心燙"},
-        {"from_existing": true, "name": "鼎泰豐（新港中心）", "area": "尖沙咀", "order": "小籠包、蝦仁炒飯", "note": "在新港中心不是海港城"}
+        {
+          "from_existing": true,
+          "name": "祥興記上海生煎包（尖沙咀）",
+          "area": "尖沙咀",
+          "order": "生煎包",
+          "note": "米芝蓮頁：週一至五09:00–19:00、週六10:00–18:00、週日休；站著吃，小心燙"
+        },
+        {
+          "from_existing": true,
+          "name": "鼎泰豐（新港中心）",
+          "area": "尖沙咀",
+          "order": "小籠包、蝦仁炒飯",
+          "note": "在新港中心不是海港城"
+        }
       ]
     },
     {
@@ -225,8 +808,37 @@
       "why": "廣東人的「養生飲料」，祛濕茶苦到難忘值得一試；龜苓膏、竹蔗茅根水較易入口。",
       "best_for": "點心",
       "shops": [
-        {"name": "泰和堂涼茶館", "area": "旺角", "address": "旺角通菜街105號", "mtr": "旺角站", "hours": "10:00–01:00", "closed": "未提及", "price": "祛濕熱茶HK$41、龜苓膏HK$58", "order": "特效祛濕熱茶（挑戰用）、金牌龜苓膏", "queue": "", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260831food008"},
-        {"name": "公利真料竹蔗水", "area": "中環", "address": "中環荷李活道60號", "mtr": "中環站（出口未查證）", "hours": "未查到2026資料", "closed": "未查到", "price": "未查到", "order": "竹蔗水、竹蔗糕", "queue": "", "michelin": "", "cash_only": null, "verified": false, "source": "https://www.discoverhongkong.com/eng/place-to-go/kung-lee-herbal-tea-shop.html", "note": "1948年開業老店"}
+        {
+          "name": "泰和堂涼茶館",
+          "area": "旺角",
+          "address": "旺角通菜街105號",
+          "mtr": "旺角站",
+          "hours": "10:00–01:00",
+          "closed": "未提及",
+          "price": "祛濕熱茶HK$41、龜苓膏HK$58",
+          "order": "特效祛濕熱茶（挑戰用）、金牌龜苓膏",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260831food008"
+        },
+        {
+          "name": "公利真料竹蔗水",
+          "area": "中環",
+          "address": "中環荷李活道60號",
+          "mtr": "中環站（出口未查證）",
+          "hours": "未查到2026資料",
+          "closed": "未查到",
+          "price": "未查到",
+          "order": "竹蔗水、竹蔗糕",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": false,
+          "source": "https://www.discoverhongkong.com/eng/place-to-go/kung-lee-herbal-tea-shop.html",
+          "note": "1948年開業老店"
+        }
       ]
     },
     {
@@ -234,9 +846,42 @@
       "why": "公仔麵配沙嗲牛肉或午餐肉煎蛋、烘底蛋牛三文治，最地道的香港茶餐廳早餐。",
       "best_for": "早餐",
       "shops": [
-        {"name": "新香園（堅記）", "area": "深水埗", "address": "深水埗桂林街38號A地下", "mtr": "深水埗站（出口未查證）", "hours": "06:30–20:00", "closed": "未提及", "price": "馳名蛋牛治HK$21（烘底+HK$1）", "order": "蛋牛治（烘底）、沙嗲牛肉麵", "queue": "早上排隊拼桌", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260421food002"},
-        {"name": "金園茶餐廳", "area": "長沙灣", "address": "長沙灣青山道314號地舖", "mtr": "長沙灣站或深水埗站（出口未查證）", "hours": "06:30–21:00", "closed": "未提及", "price": "未列價", "order": "沙嗲牛肉麵、酥皮蛋撻（上午出爐）", "queue": "", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260421food001"},
-        {"from_existing": true, "name": "澳洲牛奶公司", "area": "佐敦", "order": "火腿通粉＋炒蛋多士（餐蛋麵的變體套餐）"}
+        {
+          "name": "新香園（堅記）",
+          "area": "深水埗",
+          "address": "深水埗桂林街38號A地下",
+          "mtr": "深水埗站（出口未查證）",
+          "hours": "06:30–20:00",
+          "closed": "未提及",
+          "price": "馳名蛋牛治HK$21（烘底+HK$1）",
+          "order": "蛋牛治（烘底）、沙嗲牛肉麵",
+          "queue": "早上排隊拼桌",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260421food002"
+        },
+        {
+          "name": "金園茶餐廳",
+          "area": "長沙灣",
+          "address": "長沙灣青山道314號地舖",
+          "mtr": "長沙灣站或深水埗站（出口未查證）",
+          "hours": "06:30–21:00",
+          "closed": "未提及",
+          "price": "未列價",
+          "order": "沙嗲牛肉麵、酥皮蛋撻（上午出爐）",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260421food001"
+        },
+        {
+          "from_existing": true,
+          "name": "澳洲牛奶公司",
+          "area": "佐敦",
+          "order": "火腿通粉＋炒蛋多士（餐蛋麵的變體套餐）"
+        }
       ]
     },
     {
@@ -244,9 +889,35 @@
       "why": "米粒熬到綿化再現點現滾魚片、豬膶，配油條或炸兩，冬天早餐最暖胃。",
       "best_for": "早餐/宵夜",
       "shops": [
-        {"name": "新興棧食家", "area": "佐敦", "address": "佐敦寧波街23號地舖", "mtr": "佐敦站（出口未查證）", "hours": "06:00–01:00", "closed": "未提及", "price": "魚腩粥HK$50、油條HK$11", "order": "魚腩粥、油條、魚皮", "queue": "", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260421food002"},
-        {"from_existing": true, "name": "妹記生滾粥品", "area": "旺角", "order": "鯪魚球粥、豬膶粥", "note": "verified:false，傳週二休、下午三點收"},
-        {"from_existing": true, "name": "生記粥品專家", "area": "上環", "order": "魚片粥", "note": "verified:false"}
+        {
+          "name": "新興棧食家",
+          "area": "佐敦",
+          "address": "佐敦寧波街23號地舖",
+          "mtr": "佐敦站（出口未查證）",
+          "hours": "06:00–01:00",
+          "closed": "未提及",
+          "price": "魚腩粥HK$50、油條HK$11",
+          "order": "魚腩粥、油條、魚皮",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260421food002"
+        },
+        {
+          "from_existing": true,
+          "name": "妹記生滾粥品",
+          "area": "旺角",
+          "order": "鯪魚球粥、豬膶粥",
+          "note": "verified:false，傳週二休、下午三點收"
+        },
+        {
+          "from_existing": true,
+          "name": "生記粥品專家",
+          "area": "上環",
+          "order": "魚片粥",
+          "note": "verified:false"
+        }
       ]
     },
     {
@@ -254,8 +925,36 @@
       "why": "大火快炒的椒鹽鮮魷、咕嚕肉、豉椒炒蜆，全家分食最划算，是香港人晚餐日常。",
       "best_for": "晚餐",
       "shops": [
-        {"name": "新肥泉海鮮大排檔", "area": "佐敦", "address": "佐敦寶靈街17號官涌市政大廈2樓熟食中心", "mtr": "佐敦站（出口未查證）", "hours": "12:00–24:00", "closed": "未提及", "price": "椒鹽雞軟骨HK$98、菠蘿咕嚕肉HK$108、椒鹽脆鮮魷HK$138", "order": "椒鹽鮮魷、咕嚕肉", "queue": "", "michelin": "", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260421food002"},
-        {"name": "聚興家", "area": "太子", "address": "太子砵蘭街418號地舖", "mtr": "太子站（出口未查證）", "hours": "12:00–24:00", "closed": "未提及", "price": "紅燒乳鴿HK$68/隻、豉油皇炒麵HK$98；龍蝦時價", "order": "紅燒乳鴿、豉油皇炒麵、椒鹽鮮魷", "queue": "非常熱門，務必提前訂位並預留乳鴿", "michelin": "必比登推介（2026名單）", "cash_only": null, "verified": true, "source": "https://www.mirrormedia.mg/story/20260421food001"}
+        {
+          "name": "新肥泉海鮮大排檔",
+          "area": "佐敦",
+          "address": "佐敦寶靈街17號官涌市政大廈2樓熟食中心",
+          "mtr": "佐敦站（出口未查證）",
+          "hours": "12:00–24:00",
+          "closed": "未提及",
+          "price": "椒鹽雞軟骨HK$98、菠蘿咕嚕肉HK$108、椒鹽脆鮮魷HK$138",
+          "order": "椒鹽鮮魷、咕嚕肉",
+          "queue": "",
+          "michelin": "",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260421food002"
+        },
+        {
+          "name": "聚興家",
+          "area": "太子",
+          "address": "太子砵蘭街418號地舖",
+          "mtr": "太子站（出口未查證）",
+          "hours": "12:00–24:00",
+          "closed": "未提及",
+          "price": "紅燒乳鴿HK$68/隻、豉油皇炒麵HK$98；龍蝦時價",
+          "order": "紅燒乳鴿、豉油皇炒麵、椒鹽鮮魷",
+          "queue": "非常熱門，務必提前訂位並預留乳鴿",
+          "michelin": "必比登推介（2026名單）",
+          "cash_only": null,
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260421food001"
+        }
       ]
     },
     {
@@ -263,61 +962,71 @@
       "why": "迪士尼那天在園內吃，挑造型小食拍照＋一頓坐下的正餐。",
       "best_for": "午餐/點心",
       "shops": [
-        {"name": "米奇造型窩夫（鬆餅）", "area": "迪士尼樂園（官網列「幻想世界窩夫售賣點」；攻略稱美國小鎮大街也有）", "address": "園內", "mtr": "迪士尼站", "hours": "隨樂園", "closed": "", "price": "未查到", "order": "米奇窩夫配楓糖或朱古力醬", "queue": "", "michelin": "", "cash_only": false, "verified": true, "source": "https://www.hongkongdisneyland.com/zh-hk/dining/", "note": "官網只寫「窩夫」；「米奇造型」出自2026/5攻略 wanderinchina.com"},
-        {"name": "探險世界小食售賣點", "area": "迪士尼樂園探險世界", "address": "園內", "mtr": "迪士尼站", "hours": "隨樂園", "closed": "", "price": "未查到", "order": "火雞腿、韓式魷魚、角色造型雪條", "queue": "", "michelin": "", "cash_only": false, "verified": true, "source": "https://www.hongkongdisneyland.com/zh-hk/dining/"},
-        {"from_existing": true, "name": "廣場飯店", "area": "美國小鎮大街", "order": "米奇造型包點、燒味（坐下吃的中式正餐）"}
+        {
+          "name": "米奇造型窩夫（鬆餅）",
+          "area": "迪士尼樂園（官網列「幻想世界窩夫售賣點」；攻略稱美國小鎮大街也有）",
+          "address": "園內",
+          "mtr": "迪士尼站",
+          "hours": "隨樂園",
+          "closed": "",
+          "price": "未查到",
+          "order": "米奇窩夫配楓糖或朱古力醬",
+          "queue": "",
+          "michelin": "",
+          "cash_only": false,
+          "verified": true,
+          "source": "https://www.hongkongdisneyland.com/zh-hk/dining/",
+          "note": "官網只寫「窩夫」；「米奇造型」出自2026/5攻略 wanderinchina.com"
+        },
+        {
+          "name": "探險世界小食售賣點",
+          "area": "迪士尼樂園探險世界",
+          "address": "園內",
+          "mtr": "迪士尼站",
+          "hours": "隨樂園",
+          "closed": "",
+          "price": "未查到",
+          "order": "火雞腿、韓式魷魚、角色造型雪條",
+          "queue": "",
+          "michelin": "",
+          "cash_only": false,
+          "verified": true,
+          "source": "https://www.hongkongdisneyland.com/zh-hk/dining/"
+        },
+        {
+          "from_existing": true,
+          "name": "廣場飯店",
+          "area": "美國小鎮大街",
+          "order": "米奇造型包點、燒味（坐下吃的中式正餐）"
+        }
       ],
       "notes": "官網另有爆谷車（美國小鎮大街、明日世界、灰熊山谷、幻想世界）；造型小食會隨季節活動更換，1月下旬接近農曆新年（2027/2/6）可能有新年限定。攻略提到13:00前於美國小鎮大街部分店舖結帳9折、可網上預購餐券（Klook/Trip.com）。角色點心在園外晶荷軒，須48小時前預訂。來源：https://wanderinchina.com/zh/destinations/hongkong/disneyland/food/"
     }
   ],
   "day_plan": [
     {
-      "date": "1/25（一）旺角",
-      "breakfast": "金華冰廳（太子）— 離酒店最近的菠蘿油名店，06:30開（若當天抵港較晚就略過）",
-      "lunch": "一點心（太子）— 平日09:30開，第一餐吃蝦餃燒賣入門",
-      "snack": "泰和堂涼茶館（旺角通菜街）— 楊枝甘露＋讓孩子挑戰一口祛濕茶；或 Ice Puff（旺角中心）雞蛋仔",
-      "dinner": "聚興家（太子，必比登）— 大排檔鑊氣小炒＋紅燒乳鴿，務必先訂位",
-      "late": "佳佳甜品（佐敦白加士街新店）— 芝麻糊，開到01:00"
+      "date": "1/27（三）深夜抵港",
+      "late": "元朗冰室（太子店）— 24 小時，帝京步行 8 分；厚切豬扒飯、熱奶茶，人均約 HK$50–80（備選：翠華旺角店到約 01:00、聰嫂私房甜品楊枝甘露 HK$49）"
     },
     {
-      "date": "1/26（二）迪士尼",
-      "breakfast": "金華冰廳（太子）— 06:30開，出發前吃完再搭車",
-      "lunch": "廣場飯店（迪士尼美國小鎮大街）— 米奇造型包點，避開12–13點",
-      "snack": "米奇造型窩夫＋探險世界火雞腿（迪士尼園內）",
-      "dinner": "麥文記麵家（佐敦，必比登）— 看完煙花回程也吃得到，開到00:30，只收現金"
+      "date": "1/28（四）迪士尼",
+      "breakfast": "敏華冰廳（MOKO 1 樓）— 07:00 開，帝京室內直通；黯然銷魂飯、沙嗲牛肉麵 HK$53（備選：金華冰廳 06:30 開，菠蘿油 HK$13）",
+      "lunch": "皇室宴會廳（園內）— 烤雞套餐半隻 HK$170、兒童套餐 HK$125；想吃造型點心改廣場飯店迪士尼匠心點心籠 HK$108（另加一＋茶位每人 HK$30）",
+      "snack": "米奇造型窩夫＋探險世界火雞腿（園內）",
+      "dinner": "園內吃完再看 20:30「Momentous」煙火：阿德爾港畔餐廳（魔雪奇緣世界，人均約 HK$140–255）或大街餐廳（人均約 HK$300–400）；園內餐廳都另加一成服務費",
+      "late": "回旺角後：元朗冰室（24 小時）或聰嫂私房甜品（到深夜）"
     },
     {
-      "date": "1/27（三）上環→澳門→上環",
-      "breakfast": "瑞記咖啡（上環市政大廈熟食中心）— 08:00開，離港澳碼頭近，西多士＋樽仔凍奶茶（若要早茶可改蓮香樓上環新址，但新址時間未查到）",
-      "lunch": "（在澳門，不在本清單）",
-      "snack": "（在澳門）",
-      "dinner": "坤記煲仔小菜（西營盤，必比登）— 回港後上環搭一站到西營盤，晚市18:00–22:30，先電話2803 7209訂位"
-    },
-    {
-      "date": "1/28（四）尖沙咀＋中環",
-      "breakfast": "新興棧食家（佐敦寧波街）— 06:00開，魚腩粥＋油條（⚠澳洲牛奶公司有「週四休」說法，這天不要排）",
-      "lunch": "九記牛腩（中環，週一至六）— 清湯牛腩伊麵，只收現金、排隊拼桌；排太久改一樂燒鵝（燒鵝瀨粉）",
-      "snack": "泰昌餅家蛋撻＋蘭芳園（中環）絲襪奶茶；回尖沙咀再吃祥興記生煎包（平日至19:00）",
-      "dinner": "避風塘興記（尖沙咀，16:00–02:00）— 避風塘炒蟹，要先訂位並問蟹量"
-    },
-    {
-      "date": "1/29（五）深水埗（或西九）",
-      "breakfast": "新香園（堅記）蛋牛治＋合益泰小食混醬豬腸粉（深水埗）",
-      "lunch": "劉森記麵家（深水埗）— 竹昇蝦子撈麵；或添好運酥皮焗叉燒包",
-      "snack": "公和荳品廠豆腐花；14:00後綠林甜品楊枝甘露小丸子",
-      "dinner": "新肥泉海鮮大排檔（佐敦官涌熟食中心）— 椒鹽鮮魷、咕嚕肉，回酒店順路"
-    },
-    {
-      "date": "1/30（六）昂坪或收尾",
-      "breakfast": "一點心（太子）— 週六08:30開，最後一次飲茶",
-      "lunch": "若去昂坪：本清單沒有昂坪/東涌的店，需另查；留在市區則去太平館（中環）瑞士雞翼（週六至23:00）",
-      "snack": "通達食店（油麻地）咖喱魚蛋＋腸粉（營業時間為2024資料）",
-      "dinner": "興記菜館（廟街）炭爐煲仔飯，順逛廟街夜市（營業時間為2025資料，出發前確認）"
+      "date": "1/29（五）旺角→進深圳",
+      "breakfast": "睡到自然醒；餓了就去金華冰廳（06:30 開，菠蘿油 HK$13、蛋撻 HK$10）",
+      "lunch": "一點心（太子，必比登）— 11:15 前到；蘿蔔糕 HK$24、叉燒包 HK$22，人均約 HK$60–90（備選：麥文記麵家雲吞麵 HK$45）",
+      "snack": "旺角逛街順路：暖心芝作芝麻糊、兩姊妹涼皮 HK$33",
+      "dinner": "已進深圳 → 東門蘩樓，見「深圳每餐＆必吃」"
     }
   ],
   "notes": [
-    "休息日重點（1/25一～1/30六）：九記週日休（不影響）；水記週六日休→只能1/26–1/29平日去；興記咖啡室、瑞記咖啡、蘭芳園中環、波記週日休（不影響）；阿純山東餃子週三休（1/27人在澳門，不影響）；祥興記週六只開10:00–18:00。",
-    "澳洲牛奶公司休息日來源互相矛盾（週四或週日），1/28正好週四，排在其他天或去前確認。",
+    "休息日重點（1/27 三～1/29 五）：阿純山東餃子週三休（1/27 深夜抵港不影響）；九記、波記週日休（目前行程沒排中環，不影響）。",
+    "已結業／暫停：富記粥品（旺角花園街，2023 年結業）、糖朝（尖沙咀）、晶荷軒（迪士尼樂園酒店 2026-10-12 起翻新，重開日未定）。",
     "搬遷/結業：蓮香樓中環本店2026/4已搬到上環德輔道中249–251號東寧大廈，另有2025/5開的尖沙咀金巴利道24小時分店；佳佳甜品寧波街舊址2025/9/17結業，新總店在白加士街113–115號；銀津點心茶餐廳（旺角花園街，流沙西多士）2026/9/27結業；珍姐火鍋和安里舊店2026/3/31結業，搬到中環太子大廈。",
     "只收現金：麥文記（米芝蓮頁不收信用卡）、九記、一樂、劉森記；興記菜館2025資料不收卡。街頭小食多半現金或八達通，建議每人帶八達通＋少量現金。",
     "2026米芝蓮必比登名單（3/12公布）有：阿純山東餃子、暖心芝作、兩姊妹涼皮、佳佳甜品、麥文記、聚興家、九記、坤記煲仔小菜、劉森記、公和荳品廠、添好運深水埗、沾仔記、正斗、祥興記、鼎泰豐尖沙咀、波記等；2027年版要到3月左右才公布，旅行期間以2026名單為準。",
