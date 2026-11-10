@@ -606,13 +606,14 @@
           "address": "中環歌賦街21號",
           "mtr": "上環站E2或中環站D2，步行約10分",
           "hours": "週一至六12:30–22:30；週日及公眾假期休",
-          "price": "HK$50–100",
+          "price": "人均約 HK$80–100",
           "highlights": "清湯牛腩伊麵、咖喱牛筋腩",
-          "tips": "2026必比登推介；排隊＋拼桌，只收現金",
-          "verified": true,
-          "source": "https://guide.michelin.com/mo/zh_HK/hong-kong-region/hong-kong/restaurant/kau-kee",
+          "tips": "2026必比登推介；排隊＋拼桌，只收現金 【查價備註】人均取自 HK01 2026-03 文章。OpenRice 2025–2026 食評沒有寫單品價格，最近的單價是 2023 年食評（半肥瘦清湯牛腩伊麵 $66、咖喱牛筋腩撈伊麵 $87），已過時所以沒寫進招牌菜。OpenRice 2026 年食評填的人均是 $85–111。米其林頁寫週一至六 12:30–22:30，週日休息；飲品另外收費。地址：中環歌賦街21號。",
+          "verified": false,
+          "source": "https://www.hk01.com/食玩買/60327159/牛腩河10大推介-清湯腩關注組力推-米芝蓮-g-dragon頂級韓牛腩麵",
           "michelin": "必比登推介（2026）",
-          "category": "粥麵"
+          "category": "粥麵",
+          "must_order": "上湯（清湯）牛腩伊麵、咖喱牛筋腩伊麵、上湯牛肋腩伊麵"
         },
         {
           "name": "一樂燒鵝",
@@ -620,13 +621,14 @@
           "address": "中環士丹利街34-38號金禾大廈地舖",
           "mtr": "中環站D2，步行約5分",
           "hours": "每日10:00–20:30",
-          "price": "HK$80–200",
+          "price": "人均約 HK$75–100",
           "highlights": "燒鵝瀨粉、四分一隻燒鵝、叉燒",
-          "tips": "米芝蓮頁面標示一星；每次只出爐十隻，指定部位靠運氣；只收現金、不設訂位",
+          "tips": "米芝蓮頁面標示一星；每次只出爐十隻，指定部位靠運氣；只收現金、不設訂位 【查價備註】價格來自 OpenRice 2026 年 4–11 月食評，頁面版面亂，單價沒辦法逐筆對到哪一天的食評；食評人均 $74–100。燒鵝瀨粉查無近期單價。米其林一星；有幾則食評抱怨服務與衛生。",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/yat-lok",
+          "source": "https://www.openrice.com/zh/hongkong/r-%E4%B8%80%E6%A8%82%E7%87%92%E9%B5%9D-%E4%B8%AD%E7%92%B0-%E6%B8%AF%E5%BC%8F-%E7%87%92%E8%87%98-r78351/reviews",
           "michelin": "米芝蓮一星（依官方頁面）",
-          "category": "燒臘"
+          "category": "燒臘",
+          "must_order": "燒鵝飯（HK$72）、燒鵝油雞飯（HK$79）、燒鵝下莊（HK$220）、燒鵝瀨粉"
         },
         {
           "name": "沾仔記（威靈頓街）",
@@ -649,13 +651,14 @@
           "address": "中環（IFC國際金融中心商場內，確切舖號待查）",
           "mtr": "香港站／中環站",
           "hours": "未查到",
-          "price": "HK$80–150",
+          "price": "人均約 HK$100–180",
           "highlights": "鮮蝦雲吞麵、艇仔粥",
-          "tips": "2026必比登推介（中環）；位置方便雨天",
-          "verified": false,
-          "source": "https://www.hk01.com/社會新聞/60329800/米芝蓮必比登2026-九龍飯館-fiata等8店新上榜-即睇港澳全名單",
+          "tips": "2026必比登推介（中環）；位置方便雨天 【查價備註】單價出自 2024-06 和 2024-12 的 OpenRice 食評（在兩年內，但 2027-01 去可能已漲價）。茶位每人 $10。OpenRice 價位標 $101–200，2024 年一則晚餐人均 $180。地址：IFC 商場 3樓 3016-3018，11:00–22:00。",
+          "verified": true,
+          "source": "https://www.openrice.com/zh/hongkong/r-%E6%AD%A3%E6%96%97%E7%B2%A5%E9%BA%B5%E5%B0%88%E5%AE%B6-%E4%B8%AD%E7%92%B0-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E7%B2%A5%E5%93%81-r17424/reviews",
           "michelin": "必比登推介（2026）",
-          "category": "粥麵"
+          "category": "粥麵",
+          "must_order": "正斗鮮蝦雲吞麵（HK$72）、生腸及第粥（HK$82）、香油條腸粉／炸兩（HK$58）、豬手麵（HK$78）"
         },
         {
           "name": "蘭芳園（中環總店）",
@@ -676,12 +679,13 @@
           "address": "中環擺花街35號地下",
           "mtr": "中環站D2，步行約8分",
           "hours": "一至六07:30–21:00；日及假日08:30–21:00（來源未標日期）",
-          "price": "HK$10–30",
+          "price": "人均約 HK$15–40",
           "highlights": "牛油曲奇皮蛋撻、沙翁",
-          "tips": "外帶即吃；2026/9報導總店仍營業",
+          "tips": "外帶即吃；2026/9報導總店仍營業 【查價備註】價格取自鏡週刊 2026-09-25 報導；地址：中環擺花街35號。牛乳蛋白撻沒標價。外帶為主。",
           "verified": true,
           "source": "https://www.mirrormedia.mg/story/20260925tour001",
-          "category": "烘焙/小吃"
+          "category": "烘焙/小吃",
+          "must_order": "招牌皇牌蛋撻（HK$12）、酥皮蛋撻（HK$12）、沙翁（HK$15）、牛乳蛋白撻"
         },
         {
           "name": "蓮香樓（上環新址）",
@@ -689,12 +693,13 @@
           "address": "上環德輔道中249-251號東寧大廈地下至2樓",
           "mtr": "上環站B出口旁",
           "hours": "新址時間未查到（舊址06:00–22:30）",
-          "price": "HK$100–180",
+          "price": "人均約 HK$100–200",
           "highlights": "推車點心、豬膶燒賣、雞球大包、茶盅焗茶",
-          "tips": "⚠2026年4月因舊址重建從中環威靈頓街搬到上環；去1/27搭船前飲早茶很順路；舊址已不在",
-          "verified": true,
-          "source": "https://www.timeout.com/hong-kong/news/historic-tea-house-lin-heung-lau-has-relocated-to-sheung-wan-051326",
-          "category": "點心"
+          "tips": "⚠2026年4月因舊址重建從中環威靈頓街搬到上環；去1/27搭船前飲早茶很順路；舊址已不在 【查價備註】總店 2026-04 從威靈頓街搬到上環德輔道中249–251號東寧大廈（上環站B出口約2分鐘），新店 2026-10 至 11 月有食評，確定在營業。新店食評只寫點心約 $25（小點）到 $48（招牌點）；人均用的是 OpenRice 價位標示 $101–200。馬拉糕 $35 是鏡週刊 2026-09 報導的尖沙咀24小時分店價格，上環店可能不同。推車點心，早上 6:00–9:45 長者茶位優惠。",
+          "verified": false,
+          "source": "https://www.openrice.com/en/hongkong/r-lin-heung-lau-central-guangdong-dim-sum-r1128979/reviews",
+          "category": "點心",
+          "must_order": "懷舊馬拉糕（HK$35）、懷舊蓮蓉包、蝦餃、燒賣"
         },
         {
           "name": "生記粥品專家",
@@ -702,12 +707,13 @@
           "address": "上環畢街7-9號",
           "mtr": "上環站A2，步行約5分",
           "hours": "早上約06:30開（舊資料），收舖時間未查到",
-          "price": "HK$40–70",
+          "price": "人均約 HK$40–80",
           "highlights": "魚片粥、豬膶粥、炸兩",
-          "tips": "老字號；2026/2報導其鰂魚涌分店結業，上環總店近況請出發前確認",
-          "verified": false,
-          "source": "https://www.stheadline.com/food/3547455/",
-          "category": "粥麵/早餐"
+          "tips": "老字號；2026/2報導其鰂魚涌分店結業，上環總店近況請出發前確認 【查價備註】單價出自 OpenRice 2026-07（$47）、2025-06（$40、$22）、2024-03（$77）的食評；2025–2026 食評人均 $47–80。營業 06:30–20:30（2025 年食評）。",
+          "verified": true,
+          "source": "https://www.openrice.com/zh/hongkong/r-%E7%94%9F%E8%A8%98%E7%B2%A5%E5%93%81%E5%B0%88%E5%AE%B6-%E4%B8%8A%E7%92%B0-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E7%B2%A5%E5%93%81-r3023/reviews",
+          "category": "粥麵/早餐",
+          "must_order": "牛肉及第粥・細（HK$47）、皮蛋瘦肉粥・細（HK$40）、香煎魚餅（HK$22）、魚腩豬膶肉丸粥（HK$77）"
         },
         {
           "name": "坤記煲仔小菜（皇后大道西）",
@@ -715,13 +721,14 @@
           "address": "西營盤皇后大道西263號和益大廈地下1號舖",
           "mtr": "西營盤站B3，步行約3分",
           "hours": "午11:00–14:30、晚18:00–22:30；週日無午市（2026/4資料）",
-          "price": "HK$100–200",
+          "price": "人均約 HK$175–250",
           "highlights": "臘味煲仔飯、黃鱔煲仔飯、羊腩煲（冬季）",
-          "tips": "2026必比登推介；晚市排隊，可致電2803 7209預約",
+          "tips": "2026必比登推介；晚市排隊，可致電2803 7209預約 【查價備註】單價出自 OpenRice 2026-04 到 2026-10 的食評（加臘腸每條 $20）；食評人均 $175–250。OpenRice 價位標的 $51–100 已過時。地址：皇后大道西263號和益大廈地下1號舖，電話 2803 7209；營業時間各來源說法不一，熱門要先打電話訂位，到店先點煲仔飯（要等比較久）。",
           "verified": true,
-          "source": "https://www.mirrormedia.mg/story/amp/20260421food002",
+          "source": "https://www.openrice.com/zh-cn/hongkong/r-%E5%9D%A4%E8%A8%98%E7%85%B2%E4%BB%94%E5%B0%8F%E8%8F%9C-%E8%A5%BF%E7%8E%AF-%E7%B2%A4%E8%8F%9C-%E5%B9%BF%E4%B8%9C-r13356/reviews",
           "michelin": "必比登推介（2026）",
-          "category": "煲仔飯"
+          "category": "煲仔飯",
+          "must_order": "白鱔滑雞煲仔飯（HK$140）、臘腸煲仔飯（HK$110）、椒鹽九肚魚（HK$128）、豉椒炒蜆（HK$90）"
         },
         {
           "name": "波記燒臘",
@@ -729,13 +736,14 @@
           "address": "西環皇后大道西425P號",
           "mtr": "西營盤站或香港大學站，步行約5分",
           "hours": "週一至六11:00–19:00，週日休",
-          "price": "HK$60–120",
+          "price": "人均約 HK$60–110",
           "highlights": "燒肉、燒鵝、叉燒飯",
-          "tips": "2026必比登推介；燒肉常下午2點前賣完、燒鵝建議4點前到",
+          "tips": "2026必比登推介；燒肉常下午2點前賣完、燒鵝建議4點前到 【查價備註】店在西環石塘咀皇后大道西425號P舖（港大站B1出口），屬西營盤／石塘咀一帶，不在上環。$64 是 2026-02 食評填的消費金額，$52 和 $110 是 2025-05、2025-06 的食評。週日及公眾假期休息；燒鵝每天限量，下午常賣完。",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/po-kee",
+          "source": "https://www.openrice.com/en/hongkong/r-po-kee-western-district-hong-kong-style-chinese-bbq-r48199/reviews",
           "michelin": "必比登推介（2026）",
-          "category": "燒臘"
+          "category": "燒臘",
+          "must_order": "燒鵝瀨粉（HK$64）、燒鴨叉燒瀨・雙拼（HK$52）、燒鵝全髀瀨（HK$110）"
         }
       ],
       "shop": [
@@ -902,12 +910,13 @@
           "address": "香港迪士尼樂園 美國小鎮大街",
           "mtr": "迪士尼站",
           "hours": "隨樂園營業時間",
-          "price": "約HK$200–400（第三方估計）",
+          "price": "人均約 HK$250–400",
           "highlights": "中式點心（米奇造型包點）、燒味拼盤",
-          "tips": "美心經營、坐下點餐；建議用官方App預約或避開12–13點",
+          "tips": "美心經營、坐下點餐；建議用官方App預約或避開12–13點 【查價備註】價格是官網菜單 PDF，另加一成服務費和茶位每人 HK$30。人均是用菜單價格推估的（中菜合點）。官網頁有「迪士尼匠心套餐」但沒寫一般價，只寫了 2026-11 長者優惠每位 $228。營業 11:00–20:30，要有樂園門票。",
           "verified": true,
-          "source": "https://www.hongkongdisneyland.com/dining/",
-          "category": "中餐/點心"
+          "source": "https://www.hongkongdisneyland.com/zh-hk/restaurant-menu/plaza-inn.pdf",
+          "category": "中餐/點心",
+          "must_order": "迪士尼匠心點心籠（HK$108）、桂花蜜叉燒・例牌（HK$248）、番石榴黑豚咕嚕肉（HK$248）、黑豚麻婆豆腐煲（HK$228）"
         },
         {
           "name": "皇室宴會廳",
@@ -915,12 +924,13 @@
           "address": "香港迪士尼樂園 幻想世界",
           "mtr": "迪士尼站",
           "hours": "隨樂園營業時間",
-          "price": "約HK$120–200（估計，未查證）",
+          "price": "人均約 HK$125–220",
           "highlights": "亞洲/中式/國際菜自選檔口",
-          "tips": "座位多，適合一家人快速吃飯",
+          "tips": "座位多，適合一家人快速吃飯 【查價備註】官網菜單 PDF（檔案 2026-09 修改過）。套餐含汽水；也有人參燉雞湯套餐 $185、叉燒豬骨湯拉麵套餐 $165。快餐式餐廳。營業 11:30–20:30，要有樂園門票。",
           "verified": true,
-          "source": "https://www.hongkongdisneyland.com/dining/",
-          "category": "多國菜"
+          "source": "https://www.hongkongdisneyland.com/zh-hk/restaurant-menu/royal-banquet-hall.pdf",
+          "category": "多國菜",
+          "must_order": "烤雞套餐・半隻（HK$170）、尊貴雜扒套餐（HK$220）、至尊鮑魚炒飯套餐（HK$160）、兒童套餐（HK$125）"
         },
         {
           "name": "大冒險家餐廳",
@@ -928,12 +938,13 @@
           "address": "香港迪士尼樂園 迷離莊園旁",
           "mtr": "迪士尼站",
           "hours": "隨樂園營業時間",
-          "price": "約HK$120–200（估計）",
+          "price": "人均約 HK$170–220（午市套餐）；晚上半自助餐約 HK$348–508",
           "highlights": "亞洲/西式多國菜，有清真選項",
-          "tips": "座位非常多，尖峰時段比較容易找到位",
+          "tips": "座位非常多，尖峰時段比較容易找到位 【查價備註】官網菜單 PDF：午市套餐 12:00–15:00，含汽水／橙汁／熱茶。晚上是「冒險家半自助晚餐＋夜間匯演指定觀賞區」套票，成人 $508、小童 $348，另加一成服務費，用餐限時 90 分鐘。營業 12:00–20:00。",
           "verified": true,
-          "source": "https://www.hongkongdisneyland.com/dining/",
-          "category": "多國菜"
+          "source": "https://www.hongkongdisneyland.com/zh-hk/restaurant-menu/explorers-club-restaurant.pdf",
+          "category": "多國菜",
+          "must_order": "冒險家印尼炒飯（HK$220）、韓式牛肉拌飯（HK$190）、印度牛油咖喱雞（HK$170）、兒童墨西哥雞肉捲（HK$140）"
         },
         {
           "name": "大街餐廳（由Coca-Cola呈獻）",
@@ -941,12 +952,13 @@
           "address": "香港迪士尼樂園 美國小鎮大街",
           "mtr": "迪士尼站",
           "hours": "隨樂園營業時間",
-          "price": "約HK$120–200（估計）",
+          "price": "人均約 HK$300–400",
           "highlights": "西式漢堡、意粉",
-          "tips": "靠近城堡，看煙花前吃方便",
+          "tips": "靠近城堡，看煙花前吃方便 【查價備註】官網菜單 PDF：套餐是前菜任選一款＋主菜，價格依主菜計（$278–398），加甜品 $78、加飲品 $22，另加一成服務費。Duffy 與好友下午茶兩位 $488（15:00–17:00）。營業 11:00–21:00。",
           "verified": true,
-          "source": "https://www.hongkongdisneyland.com/dining/",
-          "category": "西式"
+          "source": "https://www.hongkongdisneyland.com/zh-hk/restaurant-menu/main-street-corner-cafe.pdf",
+          "category": "西式",
+          "must_order": "大街精選套餐：和牛芝士牛角堡（HK$298）、燒豬肋骨（HK$348）、夏威夷烤雞（HK$298）、兒童套餐（HK$168）"
         },
         {
           "name": "Golden Crocus Inn（魔雪奇緣世界）",
@@ -954,26 +966,28 @@
           "address": "香港迪士尼樂園 魔雪奇緣世界",
           "mtr": "迪士尼站",
           "hours": "隨樂園營業時間",
-          "price": "約HK$150–250（估計）",
+          "price": "人均約 HK$140–255",
           "highlights": "北歐風西餐、主題裝潢",
-          "tips": "中文名以官網為準；冰雪奇緣迷必拍",
+          "tips": "中文名以官網為準；冰雪奇緣迷必拍 【查價備註】官方中文名是「阿德爾港畔餐廳」（魔雪奇緣世界）。官網菜單 PDF（檔案 2026-08 修改過），套餐含支裝汽水和炸糖環；素菜意粉 $195。快餐式，可以電子點餐。營業 10:00–20:00。",
           "verified": true,
-          "source": "https://www.hongkongdisneyland.com/dining/",
-          "category": "西式"
+          "source": "https://www.hongkongdisneyland.com/zh-hk/restaurant-menu/golden-crocus-inn.pdf",
+          "category": "西式",
+          "must_order": "掌櫃秘製羊膝（HK$255）、皇室雞肉卷（HK$220）、港畔海鮮燴飯（HK$240）、阿德爾蜜糖烤雞扒配班戟兒童套餐（HK$140）"
         },
         {
-          "name": "晶荷軒（香港迪士尼樂園酒店）",
+          "name": "晶荷軒（迪士尼樂園酒店）⚠ 翻新暫停營業",
           "name_en": "Crystal Lotus",
           "address": "香港迪士尼樂園酒店內",
           "mtr": "迪士尼站轉免費接駁車約10分",
           "hours": "常規 10:30–20:30（提早入園 09:30）",
-          "price": "一日門票成人 HK$669–939",
-          "highlights": "三隻小豬叉燒包、雪寶紅豆包等造型點心",
-          "tips": "角色點心須至少48小時前預訂；在樂園外",
+          "price": "暫停營業（酒店 2026-10-12 起全面翻新，未公布重開日）",
+          "highlights": "造型點心（翻新期間暫停）",
+          "tips": "迪士尼樂園酒店翻新中，晶荷軒最後營業日 2026-10-11。想吃造型點心改去園內「廣場飯店」的迪士尼匠心點心籠（HK$108）。",
           "verified": true,
-          "source": "https://wanderinchina.com/zh/destinations/hongkong/disneyland/food/",
+          "source": "https://www.thestandard.com.hk/news/article/341928/HK-Disneyland-Hotel-pauses-for-glow-up-but-holiday-treats-await",
           "category": "點心",
-          "must_order": "魔雪奇緣世界（魔雪奇幻之旅、雪嶺滑雪橇）、灰熊山極速礦車、迷離大宅、夜間「迪士尼星夢光影之旅」城堡煙火"
+          "must_order": "小熊維尼蜂蜜奶皇包、小豬粟米雞肉包、跳跳虎麥芽紫薯包、米奇鴛鴦糕（重開前吃不到）",
+          "closed": "翻新暫停營業"
         },
         {
           "name": "東薈城（東涌）餐廳群",
@@ -981,12 +995,13 @@
           "address": "東涌達東路20號東薈城",
           "mtr": "東涌站（欣澳轉東涌線約15–20分）",
           "hours": "約10:00–22:00（未查證）",
-          "price": "HK$60–180",
+          "price": "Shake Shack 人均約 HK$60–120；Oolaa 價位未查到",
           "highlights": "酒樓點心、快餐、連鎖餐廳",
-          "tips": "不想吃園區餐時的備案，可順便逛Outlet",
+          "tips": "不想吃園區餐時的備案，可順便逛Outlet 名店倉地下有 Shake Shack、Oolaa(G30)；粵式點心可去 2–3 樓八月花。",
           "verified": false,
           "source": "https://wanderinchina.com/zh/destinations/hongkong/disneyland/food/",
-          "category": "其他"
+          "category": "其他",
+          "must_order": "Shake Shack：ShackBurger、煙肉脆薯蛋堡（早餐 HK$50）、豬柳芝士蛋堡（早餐 HK$44）、香脆薯波（早餐 HK$30）；Oolaa（西式家庭餐廳）：卡邦尼意粉、牛油雞咖喱、印度烤雞薄餅、香草烤雞"
         }
       ],
       "shop": [],
@@ -1018,13 +1033,14 @@
           "address": "深水埗福榮街9-11號",
           "mtr": "深水埗站B2，步行約3分",
           "hours": "週一至五10:00–22:00；週六日09:00–22:00",
-          "price": "HK$60–120",
+          "price": "人均約 HK$80–150",
           "highlights": "酥皮焗叉燒包、古法糯米雞、布拉腸粉",
-          "tips": "2026必比登推介；拼桌排隊",
+          "tips": "2026必比登推介；拼桌排隊 【查價備註】價格出自 2026-04-15 的 OpenRice 食評；茶位每人 $6；2026 年食評人均 $50–150。地址：深水埗福榮街9-11號地舖。有食評說不收信用卡，要帶現金。",
           "verified": true,
-          "source": "https://guide.michelin.com/mo/zh_HK/hong-kong-region/hong-kong/restaurant/tim-ho-wan-sham-shui-po",
+          "source": "https://www.openrice.com/en/hongkong/r-tim-ho-wan-the-dim-sum-specialists-sham-shui-po-hong-kong-style-dim-sum-r45662/reviews",
           "michelin": "必比登推介（2026）",
-          "category": "點心"
+          "category": "點心",
+          "must_order": "酥皮焗叉燒包（HK$33）、豉汁蒸鳳爪（HK$28）、蝦餃、陳皮牛肉球"
         },
         {
           "name": "劉森記麵家（福榮街）",
@@ -1032,13 +1048,14 @@
           "address": "深水埗福榮街80號",
           "mtr": "深水埗站D2，步行約5分",
           "hours": "約12:00–22:00（未確認）",
-          "price": "HK$40–70",
+          "price": "人均約 HK$50–95",
           "highlights": "竹昇蝦子撈麵、雲吞麵",
-          "tips": "2026必比登推介",
+          "tips": "2026必比登推介 【查價備註】價格出自 OpenRice 第一頁食評（2025-05 到 2026-09），單價沒辦法逐筆對到日期。地址：福榮街82號（米其林頁）。桂林街另有一間分店。",
           "verified": true,
-          "source": "https://www.hk01.com/社會新聞/60329800/米芝蓮必比登2026-九龍飯館-fiata等8店新上榜-即睇港澳全名單",
+          "source": "https://www.openrice.com/zh/hongkong/r-%E5%8A%89%E6%A3%AE%E8%A8%98%E9%BA%B5%E5%AE%B6-%E6%B7%B1%E6%B0%B4%E5%9F%97-%E6%B8%AF%E5%BC%8F-%E7%B2%89%E9%BA%B5-%E7%B1%B3%E7%B7%9A-r20172/reviews",
           "michelin": "必比登推介（2026）",
-          "category": "粥麵"
+          "category": "粥麵",
+          "must_order": "蝦子雲吞南乳豬手撈麵（HK$66）、蝦子牛筋撈麵（HK$57）、鮮蝦雲吞麵（HK$44）、蠔油菜心（HK$24）"
         },
         {
           "name": "公和荳品廠",
@@ -1046,13 +1063,14 @@
           "address": "深水埗北河街118號地下",
           "mtr": "深水埗站B2，步行約3分",
           "hours": "約07:00–21:00",
-          "price": "HK$20–50",
+          "price": "人均約 HK$30–60",
           "highlights": "豆腐花、煎釀豆腐、豆漿",
-          "tips": "2026必比登推介；百年老店",
+          "tips": "2026必比登推介；百年老店 【查價備註】價格取自鏡週刊 2026-08-31 報導；地址：深水埗北河街118號地下，營業 06:00–21:30。OpenRice 人均標 $30，2026-04 一則食評四樣合計 $56。",
           "verified": true,
-          "source": "https://www.hk01.com/社會新聞/60329800/米芝蓮必比登2026-九龍飯館-fiata等8店新上榜-即睇港澳全名單",
+          "source": "https://www.mirrormedia.mg/story/20260828food002",
           "michelin": "必比登推介（2026）",
-          "category": "甜品/小吃"
+          "category": "甜品/小吃",
+          "must_order": "荳腐花・冷或熱（HK$11）、荳腐荳卜魚腐三拼（HK$18）、薑糖荳腐雪糕（HK$14）、石磨豆漿（HK$10）"
         },
         {
           "name": "合益泰小食",
@@ -1060,12 +1078,13 @@
           "address": "深水埗桂林街121號",
           "mtr": "深水埗站A2，步行約3分",
           "hours": "約06:30–20:00（來源較舊）",
-          "price": "HK$15–30",
+          "price": "人均約 HK$20–40",
           "highlights": "三醬豬腸粉",
-          "tips": "外帶小吃，早餐時段排隊",
-          "verified": false,
-          "source": "https://ajtravel.tw/2018-03-27-1554/",
-          "category": "小吃/早餐"
+          "tips": "外帶小吃，早餐時段排隊 【查價備註】價格出自 OpenRice 2026-05、2026-07 食評。地址：深水埗桂林街121號地舖，每天 06:00–20:00，電話 2720 0239。",
+          "verified": true,
+          "source": "https://openrice.com/en/hongkong/restaurant/sham-shui-po-hop-yik-tai/11291?tc=MYOR",
+          "category": "小吃/早餐",
+          "must_order": "豬腸粉・大（HK$20）、魚肉燒賣（HK$10）、白粥（HK$8）、豆漿（HK$7）"
         }
       ],
       "shop": [
