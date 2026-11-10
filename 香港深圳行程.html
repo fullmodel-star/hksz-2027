@@ -740,6 +740,36 @@ b .ei,strong .ei,.cap .ei,h2 .ei,h3 .ei,h4 .ei{--ec:var(--rc,var(--gold))}
 @media (prefers-reduced-motion:reduce){.intro *{animation:none!important} .intro-strip .sline{stroke-dashoffset:0} .intro-strip .sst,.intro-s,.intro-go,.intro-title,.intro-scene .lights,.intro-scene .beams,.intro-scene .trail{opacity:1} .intro-scene .fw{opacity:.8; transform:none} .intro{transition:none}}
 body.intro-open{overflow:hidden}
 
+
+/* 11-10 逐日交通：先看結論 */
+.mv{border-left:0; border-radius:14px; padding:14px 16px; margin-top:12px}
+.mv-h{display:flex; flex-wrap:wrap; align-items:center; gap:6px 8px; font-size:16.5px; font-weight:700; line-height:1.35}
+.mv-ar{display:inline-block; width:14px; height:2px; background:var(--ink-3); position:relative; flex:none}
+.mv-ar::after{content:""; position:absolute; right:-1px; top:-3px; width:6px; height:6px; border-right:2px solid var(--ink-3); border-top:2px solid var(--ink-3); transform:rotate(45deg)}
+.mv-ar.big{width:18px}
+.mv-h .mv-rec{font-size:12px; font-weight:700; color:#151B3A!important; background:#E6B566; border-radius:999px; padding:1px 9px}
+.mv-facts{display:flex; flex-wrap:wrap; gap:6px 14px; margin-top:8px; font-size:15px; font-weight:700; color:var(--ink)}
+.mv-facts span{display:inline-flex; align-items:center; gap:5px}
+.mv-facts .ic-svg{width:16px; height:16px; color:var(--sky)}
+.mv-route{display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-top:10px}
+.mv-route.in{display:inline-flex; margin:0}
+.mv-line{--lc:var(--sky); display:inline-block; font-size:12.5px; font-weight:700; color:#fff; background:var(--lc); border-radius:6px; padding:2px 8px; line-height:1.5}
+.mv-line.sz{background:color-mix(in srgb,var(--sky) 22%,transparent); color:var(--ink); border:1px solid var(--sky)}
+.mv-st{font-size:13.5px; color:var(--ink-2); font-weight:600}
+.mv-chips{display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; align-items:center}
+.mv-chip{display:inline-flex; align-items:center; gap:5px; font-size:13px; color:var(--ink-2); background:color-mix(in srgb,var(--ink) 6%,transparent); border:1px solid var(--line); border-radius:999px; padding:3px 10px}
+.mv-chip .ic-svg{width:14px; height:14px; color:var(--sky)}
+.mv-warn{display:flex; gap:6px; align-items:flex-start; margin:10px 0 0; font-size:13.5px; line-height:1.55; color:var(--ink); background:color-mix(in srgb,#E8735A 14%,transparent); border-radius:10px; padding:8px 10px}
+.mv-warn .ic-svg{width:16px; height:16px; flex:none; margin-top:2px; color:#E8735A}
+.mv-more{margin-top:10px; border-top:1px dashed var(--line); padding-top:6px}
+.mv-more summary,.mv-alt>summary{cursor:pointer; list-style:none; font-size:13.5px; font-weight:600; color:var(--sky); min-height:34px; display:flex; align-items:center; gap:6px}
+.mv-more summary::-webkit-details-marker,.mv-alt>summary::-webkit-details-marker{display:none}
+.mv-more summary::after,.mv-alt>summary::after{content:""; width:6px; height:6px; border-right:1.6px solid currentColor; border-bottom:1.6px solid currentColor; transform:rotate(45deg) translateY(-2px)}
+.mv-more[open] summary::after,.mv-alt[open]>summary::after{transform:rotate(-135deg)}
+.mv-more .mv-s{font-size:13.5px; color:var(--ink-2)}
+.mv-alt{background:transparent; border:1px dashed var(--line-strong)}
+.mv-alt>summary{color:var(--ink-2)}
+.mv-alt[open]>summary{margin-bottom:8px}
 /* 11-10 內頁不再重複封面插圖：改成黃昏色外框的標題條 */
 .mast-hero .mast-scene{display:none}
 .mast-hero,
@@ -2527,22 +2557,47 @@ body[data-tab]:not([data-tab="plan"]) .mast-hero h1{margin-top:4px; font-size:cl
 
       // 逐日交通
       var DT=X.daily, d='';
+      var LINEC={'荃灣綫':'#E2231A','東涌綫':'#F38B00','迪士尼綫':'#F173AC','東鐵綫':'#5EB6E4','屯馬綫':'#9A3B26','港島綫':'#0075C2','機場快綫':'#00888A','觀塘綫':'#00AB4E','南港島綫':'#B5BD00','將軍澳綫':'#7D499D'};
+      function mvShort(t){ return String(t||'').replace(/（[^）]*）/g,'').replace(/\(.*?\)/g,'').trim(); }
+      function mvPill(tok){ tok=tok.trim(); var nm=tok.replace(/[（(].*$/,''); var c=LINEC[nm]; if(c) return '<span class="mv-line" style="--lc:'+c+'">'+esc(nm)+'</span>';
+        var n=tok.match(/^(\d+)\s*號線/); if(n) return '<span class="mv-line sz">'+n[1]+' 號線</span>';
+        return '<span class="mv-st">'+esc(mvShort(tok).replace(/站$/,''))+'</span>'; }
+      function mvRoute(m,steps){
+        var md=String(m.mode||''), body=md.indexOf('：')>=0?md.slice(md.indexOf('：')+1):md;
+        if(body.indexOf('→')>=0 && /綫|號線/.test(body)) return '<div class="mv-route">'+body.split('→').map(mvPill).join('<i class="mv-ar"></i>')+'</div>';
+        var chips=[];
+        md.split(/[；;]/).forEach(function(x){ x=x.trim(); if(!x) return; var ic=/打車|的士|計程/.test(x)?'i-taxi':/地鐵|港鐵|高鐵/.test(x)?'i-train':/步行|走路/.test(x)?'i-pin':'i-route';
+          chips.push('<span class="mv-chip"><svg class="ic-svg" aria-hidden="true"><use href="#'+ic+'"/></svg>'+esc(x)+'</span>'); });
+        var sub=steps.join(' ').match(/\d+\s*號線/g); if(sub){ var seen={}; sub=sub.map(function(x){return x.replace(/\s/g,'')}).filter(function(x){ if(seen[x]) return false; seen[x]=1; return true;});
+          chips.push('<span class="mv-route in">'+sub.map(function(x){return '<span class="mv-line sz">'+esc(x.replace('號線',' 號線'))+'</span>'}).join('<i class="mv-ar"></i>')+'</span>'); }
+        return chips.length?'<div class="mv-chips">'+chips.join('')+'</div>':'';
+      }
+      function altLabel(md){ var b=md.indexOf('：')>=0?md.slice(md.indexOf('：')+1):md, t=b.split('→').map(function(x){return x.trim()}); var lines=t.filter(function(x){return LINEC[x.replace(/[（(].*$/,'')]}); return lines.length?('從'+mvShort(t[0])+'出發，搭'+lines.join('、')):mvShort(md.split('：')[0]); }
+      function mvCard(m){
+        var steps=(Array.isArray(m.steps)?m.steps:(m.steps?[m.steps]:[])).map(function(x){return typeof x==='string'?x:(x.text||x.step||JSON.stringify(x))});
+        var md=String(m.mode||''), rec=/推薦/.test(md), alt=/走法[②③]|方案[bcBC]/.test(md);
+        var fare0=String(m.fare||'').split(/[；;（(]/)[0].trim(), fm=fare0.match(/(HK\$|¥)\s?[\d.,]+(?:\s?[–-]\s?[\d.,]+)?/), fare=fm?('每人 '+fm[0]):fare0;
+        var facts=[['i-clock',m.depart],['i-route',m.duration],['i-coin',fare]].filter(function(a){return a[1]}).map(function(a){return '<span><svg class="ic-svg" aria-hidden="true"><use href="#'+a[0]+'"/></svg>'+esc(a[1])+'</span>'}).join('');
+        var warn=steps.filter(function(x){return /⚠/.test(x)}).map(function(x){return '<p class="mv-warn"><svg class="ic-svg" aria-hidden="true"><use href="#i-alert"/></svg><span>'+esc(x.replace(/⚠\s*/,''))+'</span></p>'}).join('');
+        var more='<ol class="mv-s">'+steps.map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ol>'
+          +(m.fare&&m.fare!==fare?'<p class="tip">票價：'+esc(m.fare)+'</p>':'')
+          +(m.first_last?'<p class="tip">首末班：'+esc(m.first_last)+'</p>':'')
+          +(m.alt?'<p class="tip">替代／錯過末班：'+esc(m.alt)+'</p>':'')
+          +(m.tips?'<p class="tip">'+esc(m.tips)+'</p>':'')
+          +(m.source?'<div class="links"><a href="'+esc(String(m.source).split(/\s*;\s*/)[0])+'" target="_blank" rel="noopener">資料來源</a></div>':'');
+        var head='<div class="mv-h"><span class="mv-from">'+esc(mvShort(m.from))+'</span><i class="mv-ar big"></i><span class="mv-to">'+esc(mvShort(m.to))+'</span>'+(rec?'<span class="mv-rec">推薦</span>':'')+(m.verified===false?'<span class="st">部分未確認</span>':'')+'</div>';
+        var core=head+(facts?'<div class="mv-facts">'+facts+'</div>':'')+mvRoute(m,steps)+warn
+          +(steps.length||m.alt||m.tips?'<details class="mv-more"><summary>看逐步走法'+(steps.length?'（'+steps.length+' 步）':'')+'</summary>'+more+'</details>':'');
+        if(alt) return '<details class="mv mv-alt"><summary>另一種走法：'+esc(altLabel(md))+'</summary>'+core+'</details>';
+        return '<div class="mv'+(m.verified===false?' unv':'')+'">'+core+'</div>';
+      }
       if(DT&&DT.days){
-        d+='<p class="lead">行程裡每一次移動的逐步走法。全部以成人票計。「未確認」的步驟出發前用港鐵 App／高德地圖再看一次。</p>';
+        d+='<p class="lead">每段先看出發時間、要多久、每人多少錢和要搭的線；按「看逐步走法」才展開細節。票價以成人計。</p>';
         DT.days.forEach(function(day,di){
           d+='<h2 id="dd-'+di+'" style="font-family:var(--serif);font-size:20px;margin:26px 0 6px">'+esc(day.date)+(day.title?'・'+esc(day.title):'')+'</h2>';
-          (day.moves||[]).forEach(function(m){
-            var steps=Array.isArray(m.steps)?m.steps:(m.steps?[m.steps]:[]);
-            var f=[['🕐 建議出發',m.depart],['⏱',m.duration],['💰',m.fare],['🕒 首末班',m.first_last]].filter(function(a){return a[1]}).map(function(a){return '<span>'+a[0]+' '+esc(a[1])+'</span>'}).join('');
-            d+='<div class="mv'+(m.verified===false?' unv':'')+'"><div class="mv-h">'+esc(m.from)+' <span>→</span> '+esc(m.to)+(m.mode?'<small>'+esc(m.mode)+'</small>':'')+(m.verified===false?' <span class="st">部分未確認</span>':'')+'</div>'
-              +'<ol class="mv-s">'+steps.map(function(s){return '<li>'+esc(typeof s==='string'?s:(s.text||s.step||JSON.stringify(s)))+'</li>'}).join('')+'</ol>'
-              +'<div class="gfacts">'+f+'</div>'
-              +(m.alt?'<p class="tip">🔁 替代／錯過末班：'+esc(m.alt)+'</p>':'')
-              +(m.tips?'<p class="tip">💡 '+esc(m.tips)+'</p>':'')
-              +(m.source?'<div class="links"><a href="'+esc(m.source)+'" target="_blank" rel="noopener">🔗 資料來源</a></div>':'')+'</div>';
-          });
+          (day.moves||[]).forEach(function(m){ d+=mvCard(m); });
         });
-        if(DT.notes&&DT.notes.length) d+='<p class="cap">注意事項</p>'+items(DT.notes.map(function(n){return typeof n==='string'?{item:'提醒',detail:n}:n}));
+        if(DT.notes&&DT.notes.length) d+='<details class="mv-more" style="margin-top:22px"><summary>交通注意事項（'+DT.notes.length+' 條：轉車陷阱、省錢、高鐵、皇崗）</summary>'+items(DT.notes.map(function(n){return typeof n==='string'?{item:'提醒',detail:n}:n}))+'</details>';
       } else d='<div class="note">逐日交通資料整理中，查完會補上。目前可先看「交通」分頁的路線段資料。</div>';
       mk('g-daily','逐日交通（每一次移動）',d);
     })();
