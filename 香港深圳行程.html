@@ -2715,7 +2715,7 @@ body[data-tab]:not([data-tab="plan"]) .mast-hero h1{margin-top:4px; font-size:cl
     var list=$('fav-list'); if(!list) return;
     var seen={}, cards=[];
     document.querySelectorAll('section:not(#favs) .cell.gi[data-fav]').forEach(function(c){ var k=c.dataset.fav; if(fav[k]&&!seen[k]){seen[k]=1;cards.push(c);} });
-    if(!cards.length){ list.innerHTML='<div class="note">還沒有收藏。到「美食」「購物」「景點」按卡片右上角的 ☆。</div>'; return; }
+    if(!cards.length){ list.innerHTML='<div class="fx-empty"><svg viewBox="0 0 170 100" aria-hidden="true"><rect width="170" height="100" rx="14" fill="#262A55"/><circle cx="132" cy="26" r="9" fill="#F7E3B5"/><circle cx="137" cy="22" r="8" fill="#262A55"/><path d="M0 100V70h14V58h12v42M30 100V64h16v36M50 100V50h12v50M66 100V60h18v40M88 100V44h10v56M102 100V66h20v34M126 100V56h14v44M144 100V68h26v32" fill="#1C2247"/><path d="M85 30l4.3 8.7 9.6 1.4-7 6.8 1.7 9.6L85 52l-8.6 4.5 1.7-9.6-7-6.8 9.6-1.4z" fill="none" stroke="#E6B566" stroke-width="2.4" stroke-linejoin="round"/></svg><b>還沒有收藏</b><p>到「美食」「購物」「景點」，按卡片右上角的 ☆，就會收在這裡。</p></div>'; return; }
     list.innerHTML='<p class="cap">共 '+cards.length+' 筆</p><div class="grid">'+cards.map(function(c){return c.outerHTML}).join('')+'</div>';
   }
   document.addEventListener('click',function(e){
@@ -3636,6 +3636,131 @@ var f=document.querySelector('.tools');if(f){var b=document.createElement('butto
     var d=document.createElement('div'); d.innerHTML='<svg class="day-art" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid slice" aria-hidden="true">'+ART[id]()+'</svg>';
     hd.insertBefore(d.firstChild, hd.firstChild);
   });
+})();
+</script>
+
+<!-- 11-10 介面效果（微互動、按壓、毛玻璃、縮小分頁列、左右滑換天、轉場、底部抽屜、漸進揭露） -->
+<style>
+:root{--fx-spring:cubic-bezier(.34,1.56,.64,1); --fx-out:cubic-bezier(.25,1,.5,1)}
+/* 1 收藏星星彈跳 */
+.fav{position:relative}
+.fav.pop{animation:fxPop .5s var(--fx-spring)}
+.fav.pop[aria-pressed="true"]::after{content:""; position:absolute; inset:2px; border-radius:50%; border:2px solid var(--gold,#E6B566); animation:fxRing .5s ease-out forwards; pointer-events:none}
+@keyframes fxPop{0%{transform:scale(.6)}50%{transform:scale(1.35)}100%{transform:scale(1)}}
+@keyframes fxRing{from{transform:scale(.5); opacity:1}to{transform:scale(1.6); opacity:0}}
+/* 提示泡泡 */
+#fx-toast{position:fixed; left:50%; bottom:calc(20px + env(safe-area-inset-bottom,0px)); z-index:120; transform:translate(-50%,24px); opacity:0; pointer-events:none; background:var(--ink,#FFF7EA); color:var(--paper,#151B3A); font:600 14px var(--sans,sans-serif); padding:9px 18px; border-radius:999px; box-shadow:0 8px 24px rgba(0,0,0,.25); transition:transform .32s var(--fx-out),opacity .32s; max-width:calc(100% - 40px); text-align:center}
+#fx-toast.on{transform:translate(-50%,0); opacity:1}
+/* 2 按壓回饋 */
+.pager-btn,.gi-btn,.tool,.theme,.copy-btn,.alt-q,.intro-go,.mast-ov,.tb-main button,.tb-sub button,.rb,.gf-chip,.fav,.sub-more,.clamp-btn,.alt{transition:transform .28s var(--fx-spring)}
+.pager-btn:active,.gi-btn:active,.tool:active,.theme:active,.copy-btn:active,.alt-q:active,.intro-go:active,.mast-ov:active,.tb-main button:active,.tb-sub button:active,.rb:active,.gf-chip:active,.sub-more:active,.clamp-btn:active{transform:scale(.94); transition-duration:.06s}
+.alt:active{transform:scale(.985); transition-duration:.06s}
+/* 3 毛玻璃分頁列 */
+.tabbar{background:color-mix(in srgb,var(--paper) 66%,transparent)!important; -webkit-backdrop-filter:blur(16px) saturate(1.5); backdrop-filter:blur(16px) saturate(1.5); box-shadow:inset 0 -1px 0 rgba(255,255,255,.06)}
+/* 7 往下捲時分頁列縮小 */
+.tb-main button .ic{transition:max-height .28s var(--fx-out),opacity .2s,margin .28s; max-height:28px; overflow:hidden}
+body.fx-compact .tb-main button .ic{max-height:0; opacity:0; margin:0}
+body.fx-compact .tb-main button{min-height:36px}
+/* 10 換頁轉場 */
+.fx-in{animation:fxIn .36s var(--fx-out)}
+.fx-in.back{animation-name:fxInBack}
+@keyframes fxIn{from{opacity:0; transform:translateX(28px)}to{opacity:1; transform:none}}
+@keyframes fxInBack{from{opacity:0; transform:translateX(-28px)}to{opacity:1; transform:none}}
+/* 5 左右滑提示（只在觸控裝置顯示） */
+.fx-swipe-hint{display:none; text-align:center; font-size:12.5px; color:var(--ink-3); margin-top:8px}
+@media (hover:none){.fx-swipe-hint{display:block}}
+/* 8 底部抽屜：整片滑上來、可往下拉關閉 */
+.ad-sheet{animation:fxSheet .42s var(--fx-out)}
+@keyframes fxSheet{from{transform:translateY(100%)}to{transform:none}}
+@media (min-width:700px){.ad-sheet{animation:fxPopIn .3s var(--fx-spring)}}
+@keyframes fxPopIn{from{transform:scale(.94); opacity:0}to{transform:none; opacity:1}}
+.ad-grip{cursor:grab; touch-action:none; padding:6px 0; background-clip:content-box; height:16px}
+/* 9 漸進揭露 */
+.fx-clamp{max-height:4.4em; overflow:hidden; -webkit-mask-image:linear-gradient(#000 55%,transparent); mask-image:linear-gradient(#000 55%,transparent)}
+.fx-more{appearance:none; border:0; background:none; padding:4px 0 0; font:600 13px var(--sans,sans-serif); color:var(--sky); cursor:pointer; min-height:32px}
+/* 11 空收藏插圖 */
+.fx-empty{text-align:center; padding:18px 8px; border:1px dashed var(--line-strong); border-radius:16px}
+.fx-empty svg{width:170px; max-width:100%; height:auto}
+.fx-empty b{display:block; font-family:var(--serif); font-size:18px; margin-top:8px}
+.fx-empty p{margin:4px 0 0; font-size:14px; color:var(--ink-2)}
+@media (prefers-reduced-motion:reduce){.fav.pop,.fx-in,.ad-sheet{animation:none!important}#fx-toast{transition:none}}
+</style>
+<script>
+(function(){
+  // 提示泡泡
+  var toast=document.createElement('div'); toast.id='fx-toast'; toast.setAttribute('role','status'); toast.setAttribute('aria-live','polite'); document.body.appendChild(toast);
+  var tt; function say(t){ toast.textContent=t; toast.classList.add('on'); clearTimeout(tt); tt=setTimeout(function(){toast.classList.remove('on')},1600); }
+  window.FX={say:say};
+
+  // 1 收藏彈跳＋提示；複製提示
+  document.addEventListener('click',function(e){
+    var f=e.target.closest('.fav');
+    if(f){ setTimeout(function(){ var on=f.getAttribute('aria-pressed')==='true'; f.classList.remove('pop'); void f.offsetWidth; f.classList.add('pop'); say(on?'已收藏 ★':'已取消收藏'); },0); return; }
+    if(e.target.closest('[data-copy]')) setTimeout(function(){ say('已複製'); },0);
+  });
+
+  // 7 往下捲時分頁列縮小
+  var tb=document.querySelector('.tabbar'), ticking=false;
+  function onScroll(){ ticking=false; if(!tb) return; var top=tb.getBoundingClientRect().top; document.body.classList.toggle('fx-compact', top<=1 && scrollY>260); }
+  addEventListener('scroll',function(){ if(!ticking){ ticking=true; requestAnimationFrame(onScroll); } },{passive:true});
+
+  // 10 換頁轉場：區塊從隱藏變顯示時滑入，方向依前後順序
+  var order=[].slice.call(document.querySelectorAll('section.day, section.sec'));
+  var lastIdx=order.findIndex(function(s){return !s.hidden});
+  var mo=new MutationObserver(function(list){
+    list.forEach(function(m){
+      var s=m.target; if(s.hidden || m.oldValue===null) return;
+      var i=order.indexOf(s); if(i<0) return;
+      s.classList.remove('fx-in','back'); void s.offsetWidth;
+      s.classList.add('fx-in'); if(lastIdx>=0 && i<lastIdx) s.classList.add('back');
+      lastIdx=i;
+    });
+  });
+  order.forEach(function(s){ mo.observe(s,{attributes:true,attributeFilter:['hidden'],attributeOldValue:true}); });
+
+  // 5 左右滑換天
+  document.querySelectorAll('section.day .day-pager').forEach(function(p){ var h=document.createElement('p'); h.className='fx-swipe-hint'; h.textContent='‹ 在行程頁左右滑，也可以換一天 ›'; p.parentNode.insertBefore(h,p.nextSibling); });
+  var sx=0, sy=0, st=0, ok=false;
+  document.addEventListener('touchstart',function(e){
+    ok=false; if(document.body.dataset.tab!=='plan' || e.touches.length!==1) return;
+    if(e.target.closest('.ribbon,.tbl,.tb-sub,.tb-main,.leaflet-container,.ad,input,textarea,select,.swipe,[data-noswipe]')) return;
+    if(!e.target.closest('section.day')) return;
+    var t=e.touches[0]; sx=t.clientX; sy=t.clientY; st=Date.now(); ok=true;
+  },{passive:true});
+  document.addEventListener('touchend',function(e){
+    if(!ok) return; ok=false;
+    var t=e.changedTouches[0], dx=t.clientX-sx, dy=t.clientY-sy;
+    if(Date.now()-st>700 || Math.abs(dx)<70 || Math.abs(dy)>Math.abs(dx)*.55) return;
+    var sec=document.querySelector('section.day:not([hidden])'); if(!sec) return;
+    var btn=[].filter.call(sec.querySelectorAll('.day-pager [data-next]'),function(b){ var tx=b.textContent.trim(); return dx<0 ? /→$/.test(tx) : /^←/.test(tx); })[0];
+    if(btn) btn.click(); else say(dx<0?'已經是最後一天':'已經是第一天');
+  },{passive:true});
+
+  // 8 底部抽屜往下拉關閉
+  var ad=document.getElementById('alt-dialog');
+  if(ad){ var sh=ad.querySelector('.ad-sheet'), y0=null, dy=0;
+    ad.addEventListener('touchstart',function(e){ if(!e.target.closest('.ad-grip,.ad-top') || sh.scrollTop>0) return; y0=e.touches[0].clientY; dy=0; sh.style.transition='none'; },{passive:true});
+    ad.addEventListener('touchmove',function(e){ if(y0===null) return; dy=Math.max(0,e.touches[0].clientY-y0); sh.style.transform='translateY('+dy+'px)'; },{passive:true});
+    ad.addEventListener('touchend',function(){ if(y0===null) return; y0=null; sh.style.transition='transform .3s var(--fx-out)';
+      if(dy>90){ var x=ad.querySelector('.ad-x'); sh.style.transform='translateY(100%)'; setTimeout(function(){ if(x) x.click(); sh.style.transform=''; sh.style.transition=''; },220); }
+      else { sh.style.transform=''; } },{passive:true});
+  }
+
+  // 9 漸進揭露：長的提醒先顯示兩行
+  function clampAll(root){
+    (root||document).querySelectorAll('.gi-tip-box:not(.fx-done)').forEach(function(b){
+      b.classList.add('fx-done'); if(b.textContent.length<70) return;
+      b.classList.add('fx-clamp');
+      var m=document.createElement('button'); m.type='button'; m.className='fx-more'; m.textContent='看完整提醒 ▾'; b.parentNode.insertBefore(m,b.nextSibling);
+    });
+  }
+  clampAll();
+  document.addEventListener('click',function(e){
+    var m=e.target.closest('.fx-more'); if(!m) return;
+    var b=m.previousElementSibling; if(!b) return;
+    var open=b.classList.toggle('fx-clamp')===false; m.textContent=open?'收起 ▴':'看完整提醒 ▾';
+  });
+  var fl=document.getElementById('fav-list'); if(fl) new MutationObserver(function(){ fl.querySelectorAll('.fx-more').forEach(function(m){ m.textContent='看完整提醒 ▾'; var b=m.previousElementSibling; if(b) b.classList.add('fx-clamp'); }); }).observe(fl,{childList:true});
 })();
 </script>
 
