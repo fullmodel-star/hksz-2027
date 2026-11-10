@@ -42,13 +42,14 @@
           "address": "太子荔枝角道60號地舖",
           "mtr": "太子站，步行約5分",
           "hours": "11:00–23:00，週三休息",
-          "price": "HK$50–100",
+          "price": "人均約 HK$60–100",
           "highlights": "羊肉餃、豬肉白菜餃、煎餃",
-          "tips": "2026米芝蓮必比登推介；小店座位少，飯點需排隊",
+          "tips": "2026米芝蓮必比登推介；小店座位少，飯點需排隊 【查價備註】店在太子荔枝角道（不是旺角，搜尋摘要稱荔枝角道60號，門牌未親自核對）；搜尋摘要引米芝蓮稱週三休息；京葱羊肉餃為米芝蓮推薦最受歡迎款，價格未查到",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/hong-kong-macau/ah-chun-shandong-dumpling/restaurant",
+          "source": "https://wineshark.blogspot.com/2026/04/wineshark-mystery-restaurant-ah-chun.html?m=1",
           "michelin": "必比登推介（2026）",
-          "category": "小吃/麵食"
+          "category": "小吃/麵食",
+          "must_order": "韭菜豬肉餃10隻（HK$52）、青島墨魚餃8隻（HK$58）、孜然炒羊肉（HK$88）、京葱羊肉餃"
         },
         {
           "name": "兩姊妹涼皮有限公司",
@@ -56,13 +57,14 @@
           "address": "旺角黑布街99號地舖",
           "mtr": "太子站或旺角站，步行約5–8分",
           "hours": "約12:00–21:00（非官方資料）",
-          "price": "HK$40–80",
+          "price": "人均約 HK$40–70",
           "highlights": "招牌涼皮（辣度可選）、脆辣蓮藕丁",
-          "tips": "2026米芝蓮必比登推介；2023年底遷到黑布街後有堂食座位",
+          "tips": "2026米芝蓮必比登推介；2023年底遷到黑布街後有堂食座位 【查價備註】涼皮 HK$33 出自米芝蓮 2024-01 文章，可能已漲價（已結業的中環店 2025 食評為基本款 HK$38 起、加配料約 HK$62）；旺角店址為黑布街99號地舖，每日 11:00–21:00（米芝蓮店家頁 https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/twins-liangpi-limited-prince-edward）",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/twins-liangpi-limited-prince-edward",
+          "source": "https://guide.michelin.com/mo/zh_HK/article/dining-out/bib-gourmand-twins-liangpi-limited-prince-edward",
           "michelin": "必比登推介（2026）",
-          "category": "小吃"
+          "category": "小吃",
+          "must_order": "招牌兩姊妹涼皮（HK$33）、脆辣蓮藕丁、黑糖五彩冰"
         },
         {
           "name": "暖心芝作",
@@ -70,13 +72,14 @@
           "address": "太子汝州街23號",
           "mtr": "太子站，步行約5–8分",
           "hours": "未查到近期營業時間",
-          "price": "HK$30–60",
+          "price": "人均約 HK$51–100",
           "highlights": "石磨芝麻糊、黑芝麻卷、芝麻布甸/雪糕",
-          "tips": "2026米芝蓮必比登推介（太子）；門口有石磨現磨",
-          "verified": true,
-          "source": "https://www.moneyhero.com.hk/zh/credit-card/blog/prince-edward-food",
+          "tips": "2026米芝蓮必比登推介（太子）；門口有石磨現磨 【查價備註】店址太子汝州街23號地下B號舖，每日 10:00–22:00（米芝蓮）；人均 HK$51–100 取自 HK01 2026-04-27 文章，對甜品店偏高僅供參考；搜尋摘要顯示 Foodpanda 芝麻糊 HK$39，但該頁打不開（403）無法核對，外送價也可能和店內不同，所以沒寫進必點價格",
+          "verified": false,
+          "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/heartwarming-prince-edward",
           "michelin": "必比登推介（2026）",
-          "category": "甜品"
+          "category": "甜品",
+          "must_order": "石磨芝麻糊、黑芝麻菲林卷、黑芝麻流心布甸、黑芝麻豆漿"
         },
         {
           "name": "妹記生滾粥品",
@@ -98,12 +101,13 @@
           "address": "旺角登打士街55號地下4A號舖",
           "mtr": "旺角站E2或油麻地站A2，步行約5分",
           "hours": "約13:00–22:15（來源未標日期）",
-          "price": "HK$20–50",
+          "price": "人均約 HK$40–80",
           "highlights": "豬大腸、魚肉燒賣串、魷魚",
-          "tips": "站著吃的街頭小吃，晚上人多",
-          "verified": false,
-          "source": "https://www.timeout.com/hong-kong/restaurants/fie-jie",
-          "category": "小吃"
+          "tips": "站著吃的街頭小吃，晚上人多 【查價備註】地址為旺角登打士街55號地下4A號舖；OpenRice 頁未標價格更新日期（最新食評 2026-07-24）；2025 年有食評說份量和新鮮度不如以前；食評說常要排隊",
+          "verified": true,
+          "source": "https://openrice.com/en/hongkong/r-fei-jie-mong-kok-hong-kong-style-r18013",
+          "category": "小吃",
+          "must_order": "大皇牌推介：墨魚＋大豬大腸＋火雞腎（HK$40）、皇牌推介（HK$35）、樣樣有套餐（HK$135）、墨魚／大豬大腸單串（HK$15）"
         },
         {
           "name": "華星冰室（旺角西洋菜南街）",
@@ -111,12 +115,13 @@
           "address": "旺角西洋菜南街107號地下",
           "mtr": "旺角站，步行約3分",
           "hours": "約07:00–23:00（未確認）",
-          "price": "HK$50–90",
+          "price": "人均約 HK$51–100",
           "highlights": "炒蛋多士、菠蘿油、奶茶",
-          "tips": "懷舊風茶餐廳連鎖，曾有歌手老闆話題；營業時間建議出發前看OpenRice",
-          "verified": false,
+          "tips": "懷舊風茶餐廳連鎖，曾有歌手老闆話題；營業時間建議出發前看OpenRice 【查價備註】OpenRice頁標示旺角西洋菜南街107號C舖、營業07:00-22:00（日至21:00），無結業標示；只有校長多士有2026-06食評價格，其他菜名無近期單價",
+          "verified": true,
           "source": "https://openrice.com/en/hongkong/restaurant/mong-kok-chrisly-cafe/92715",
-          "category": "茶餐廳"
+          "category": "茶餐廳",
+          "must_order": "校長多士（芝士焗黑松露多士，HK$42；配熱奶茶HK$64）、黑松露炒蛋多士、常餐、奶茶"
         },
         {
           "name": "佳佳甜品（新總店）",
@@ -139,12 +144,13 @@
           "address": "佐敦白加士街47-49號",
           "mtr": "佐敦站C2，步行約3分",
           "hours": "來源互相矛盾（一說週日休、一說週四休），出發前確認",
-          "price": "HK$40–80",
+          "price": "人均約 HK$30–60",
           "highlights": "炒蛋多士、蒸蛋白（燉奶）、火腿通粉",
-          "tips": "上菜極快、翻桌快、拼桌，服務風格出名直接；高峰排隊",
-          "verified": false,
-          "source": "https://en.wikipedia.org/wiki/Australia_Dairy_Company",
-          "category": "早餐/茶餐廳"
+          "tips": "上菜極快、翻桌快、拼桌，服務風格出名直接；高峰排隊 【查價備註】價格來自2026年5月OpenRice食評；有食評記快餐套餐HK$60；搜尋資料稱星期四休息、只收現金，未逐一核實",
+          "verified": true,
+          "source": "https://www.openrice.com/zh/hongkong/r-%E6%BE%B3%E6%B4%B2%E7%89%9B%E5%A5%B6%E5%85%AC%E5%8F%B8-%E4%BD%90%E6%95%A6-%E6%B8%AF%E5%BC%8F-%E7%94%9C%E5%93%81-%E7%B3%96%E6%B0%B4-r90/reviews",
+          "category": "早餐/茶餐廳",
+          "must_order": "炒蛋多士（HK$28）、熱蛋白燉鮮奶（HK$35）、茶餐（叉燒通粉＋炒蛋多士＋飲品，HK$58）、杏汁燉雞蛋"
         },
         {
           "name": "海港酒家（始創中心）",
@@ -152,12 +158,13 @@
           "address": "旺角彌敦道750號始創中心4樓401號舖",
           "mtr": "太子站，步行約3分",
           "hours": "07:30–23:00",
-          "price": "點心約HK$100–180；六人套餐HK$1,088/席",
+          "price": "人均約 HK$150–250",
           "highlights": "傳統酒樓點心、古法羊腩煲（冬季）",
-          "tips": "大型酒樓，適合一家人坐下飲茶；週末早上人多",
-          "verified": true,
+          "tips": "大型酒樓，適合一家人坐下飲茶；週末早上人多 【查價備註】已確認地址為旺角彌敦道750號始創中心4樓401號舖（2026-10-27文章）；文中六人套餐HK$1,088/席（已含茶芥及加一）≈人均HK$180，人均區間是據此推估；點心單價查不到（OpenRice被安全檢查擋）；另收茶芥＋加一",
+          "verified": false,
           "source": "https://www.moneyhero.com.hk/zh/credit-card/blog/prince-edward-food",
-          "category": "點心/酒樓"
+          "category": "點心/酒樓",
+          "must_order": "蝦餃、燒賣、秋冬古法羊腩煲（時價，另點）"
         }
       ],
       "shop": [
@@ -334,13 +341,14 @@
           "address": "尖沙咀樂道48號地下",
           "mtr": "尖沙咀站，步行約3–5分",
           "hours": "米芝蓮頁：週一至五09:00–19:00、週六10:00–18:00、週日休（另有每日至21:00說法）",
-          "price": "HK$30–60",
+          "price": "人均約 HK$30–60",
           "highlights": "生煎包（皮脆底焦、湯汁多）",
-          "tips": "2026必比登推介；無座位，站在店外吃；咬第一口小心爆汁燙口",
-          "verified": true,
-          "source": "https://guide.michelin.com/hk/zh_HK/hong-kong-region/hong-kong/restaurant/cheung-hing-kee-tsim-sha-tsui",
+          "tips": "2026必比登推介；無座位，站在店外吃；咬第一口小心爆汁燙口 【查價備註】尖沙咀樂道48號地下，週日休息、不設座位（米芝蓮頁）；能看到的價格只有2017年舊價（招牌4隻HK$28、鮮蝦4隻HK$36），現價必定較高故不列；人均為OpenRice標示$50以下加上漲價推估",
+          "verified": false,
+          "source": "https://www.openrice.com/zh/hongkong/r-%E7%A5%A5%E8%88%88%E8%A8%98%E4%B8%8A%E6%B5%B7%E7%94%9F%E7%85%8E%E5%8C%85-%E5%B0%96%E6%B2%99%E5%92%80-%E6%BB%AC%E8%8F%9C-%E4%B8%8A%E6%B5%B7-%E4%B8%AD%E5%BC%8F%E5%8C%85%E9%BB%9E-r483856/reviews?page=7",
           "michelin": "必比登推介（2026）",
-          "category": "小吃"
+          "category": "小吃",
+          "must_order": "招牌生煎包、鮮蝦生煎包、黑松露生煎包、薺菜餛飩"
         },
         {
           "name": "鼎泰豐（新港中心）",
@@ -348,13 +356,14 @@
           "address": "尖沙咀廣東道30號新港中心3樓306號舖",
           "mtr": "尖沙咀站A1，步行約5分",
           "hours": "每日11:30–22:00",
-          "price": "HK$150–250",
+          "price": "人均約 HK$150–200",
           "highlights": "小籠包、元盅雞湯、蝦仁炒飯",
-          "tips": "2026必比登推介；⚠在新港中心，不在海港城；飯點取號排隊",
+          "tips": "2026必比登推介；⚠在新港中心，不在海港城；飯點取號排隊 【查價備註】新港中心3樓306號舖，11:30-22:00；價格來自2026-06-22食評，2026-10食評估人均約HK$200；OpenRice另有一間尖沙咀美麗華商場分店已結業，別搞混",
           "verified": true,
-          "source": "https://guide.michelin.com/hk/hong-kong-macau/din-tai-fung-silvercord/restaurant",
+          "source": "https://www.openrice.com/en/hongkong/r-din-tai-fung-tsim-sha-tsui-taiwan-dim-sum-r21002",
           "michelin": "必比登推介（2026）",
-          "category": "點心/滬菜"
+          "category": "點心/滬菜",
+          "must_order": "小籠包（6隻HK$70）、台式香蔥拌麵（HK$60）、香酥蝦餅（HK$80）、清燉雞湯麵（HK$92）"
         },
         {
           "name": "凱薈（The ONE）",
@@ -362,12 +371,13 @@
           "address": "尖沙咀彌敦道100號The ONE 17樓",
           "mtr": "尖沙咀站B1，步行約3分",
           "hours": "每日11:00–23:00",
-          "price": "點心約HK$7起（優惠），人均約HK$80–150",
+          "price": "人均約 HK$80–150",
           "highlights": "海景飲茶、蝦餃燒賣",
-          "tips": "2026報導推出平價點心；靠窗海景位置要早到",
+          "tips": "2026報導推出平價點心；靠窗海景位置要早到 【查價備註】HK01 2026-10-14：上列屬「$7/$8/$9 特價點心」，未逐道標價；平日午市8折、下午茶7折，週末假日午市9折、下午茶8折。星島 2026-08-02 指 The ONE 各酒樓茶錢約 $17–20、凱薈出餐慢且份量有縮小跡象。人均為依特價點心＋茶錢推估。OpenRice 擋連線未能核對",
           "verified": true,
-          "source": "https://www.stheadline.com/food/3590033/",
-          "category": "點心/酒樓"
+          "source": "https://www.hk01.com/食玩買/60234292/飲茶好去處23大-尖沙咀3大酒樓鬥搶客-推-7點心-必試得獎蝦餃",
+          "category": "點心/酒樓",
+          "must_order": "香煎蘿蔔糕、金勾鹹水角、山竹牛肉球、香茜牛肉腸"
         },
         {
           "name": "半島酒店大堂茶座",
@@ -375,12 +385,13 @@
           "address": "尖沙咀梳士巴利道22號半島酒店大堂",
           "mtr": "尖沙咀站E出口，步行約3分",
           "hours": "下午茶14:00–17:30（最後落單17:00）",
-          "price": "OpenRice列「半島下午茶」HK$638（未確認是單人或雙人，另加一）",
+          "price": "人均約 HK$460–530（未含加一）",
           "highlights": "傳統三層下午茶、現場弦樂",
-          "tips": "可網上/電話（2696 6772）訂位；衣著勿太隨便；全家吃可點一套分享看規定",
-          "verified": true,
-          "source": "https://www.openrice.com/zh/hongkong/r-the-lobby-tsim-sha-tsui-western-r3681",
-          "category": "下午茶"
+          "tips": "可網上/電話（2696 6772）訂位；衣著勿太隨便；全家吃可點一套分享看規定 【查價備註】價格出自 2024-03 食記（2025-03 更新），2027 年應已調漲；搜尋摘要另見 OpenRice 列「半島下午茶 $638」但頁面被擋未能確認是否單人價。OpenRice 標籤有「加一服務費」，帳單另加 10%。下午茶約 14:00–18:00，舊資料稱不接受訂位。官網頁 403 未能核對",
+          "verified": false,
+          "source": "https://ordinarypatrons.com/2024/03/23/peninsula-hotel-afternoon-tea-hong-kong/",
+          "category": "下午茶",
+          "must_order": "半島經典下午茶（單人 HK$528／雙人 HK$918）"
         },
         {
           "name": "Bakehouse（漢口道）",
@@ -388,12 +399,13 @@
           "address": "尖沙咀漢口道44號地下",
           "mtr": "尖沙咀站，步行約3分",
           "hours": "未查到（只做外賣）",
-          "price": "HK$20–60",
+          "price": "人均約 HK$30–80",
           "highlights": "酸種蛋撻、牛角包",
-          "tips": "只外賣不設座位；蛋撻熱門常排隊",
+          "tips": "只外賣不設座位；蛋撻熱門常排隊 【查價備註】價格為鏡週刊 2026-09 報導（未指明哪家分店）；人均為推估。尖沙咀店人潮多，中環店較易買到",
           "verified": true,
-          "source": "https://www.moneyhero.com.hk/zh/credit-card/blog/tsim-sha-tsui-food",
-          "category": "烘焙/甜品"
+          "source": "https://www.mirrormedia.mg/story/20260925tour001",
+          "category": "烘焙/甜品",
+          "must_order": "酸種蛋撻（HK$14）"
         },
         {
           "name": "蘭芳園（尖沙咀重慶大廈）",
@@ -401,25 +413,27 @@
           "address": "尖沙咀彌敦道36-44號重慶大廈地下",
           "mtr": "尖沙咀站N5/E出口，步行約1分",
           "hours": "約10:30–18:00（來源未標日期）",
-          "price": "HK$50–90",
+          "price": "人均約 HK$50–100",
           "highlights": "絲襪奶茶、豬扒包、蔥油雞扒撈丁",
-          "tips": "中環總店的分店，排隊比總店短；設最低消費",
-          "verified": false,
-          "source": "https://www.hk01.com/%E9%A3%9F%E7%8E%A9%E8%B2%B7/1048392",
-          "category": "茶餐廳"
+          "tips": "中環總店的分店，排隊比總店短；設最低消費 【查價備註】鏡週刊 2026-09 價格；文中尖沙咀店地址寫彌敦道44號B1（重慶大廈一帶）。中環總店 OpenRice 2026-05 食評：冰絲襪奶茶 $30、蔥油雞扒撈丁 $70，兩店價格可能略有不同。豬扒包近兩年查不到價格（2022 食評為 $29）",
+          "verified": true,
+          "source": "https://www.mirrormedia.mg/story/20260827food002",
+          "category": "茶餐廳",
+          "must_order": "熱絲襪奶茶（HK$25）、冰凍絲襪奶茶（HK$28）、傳統咖央西多士（HK$34）、豬扒包"
         },
         {
-          "name": "糖朝（尖沙咀）",
+          "name": "糖朝（尖沙咀） ⚠ 已結業",
           "name_en": "The Sweet Dynasty",
           "address": "尖沙咀漢口道28號亞太中心地下A號舖",
           "mtr": "尖沙咀站A1，步行約3分",
           "hours": "有資料寫08:00–午夜（未確認）",
-          "price": "HK$60–150",
+          "price": "已結業，請改去其他店",
           "highlights": "豆腐花、楊枝甘露、點心粥麵",
-          "tips": "⚠近況不明：4travel標示已關閉、另一2026/10日本網站仍列出，出發前務必致電2199-7799或看Google地圖",
+          "tips": "⚠近況不明：4travel標示已關閉、另一2026/10日本網站仍列出，出發前務必致電2199-7799或看Google地圖 【查價備註】OpenRice 標示尖沙咀店「已結業」（評論止於 2018 年；4travel 亦標漢口道28號店已關閉），建議從行程刪除或換店。舊價參考：桶裝豆腐花 HK$118（2017）",
           "verified": false,
-          "source": "https://4travel.jp/os_shisetsu/10005167",
-          "category": "甜品/點心"
+          "source": "https://www.openrice.com/zh/hongkong/r-%E7%B3%96%E6%9C%9D-%E5%B0%96%E6%B2%99%E5%92%80-%E7%B2%B5%E8%8F%9C-%E5%BB%A3%E6%9D%B1-%E7%B2%A5%E5%93%81-r122018/reviews?page=2",
+          "category": "甜品/點心",
+          "closed": "已結業"
         }
       ],
       "shop": [
@@ -666,12 +680,13 @@
           "address": "中環結志街2號",
           "mtr": "中環站D2，步行約8分",
           "hours": "週一至六07:30–18:00，週日休",
-          "price": "HK$50–90",
+          "price": "人均約 HK$50–100",
           "highlights": "絲襪奶茶、豬扒包、蔥油雞扒撈丁",
-          "tips": "設最低消費；空間小要拼桌",
+          "tips": "設最低消費；空間小要拼桌 【查價備註】鏡週刊 2026-09 價格；文中尖沙咀店地址寫彌敦道44號B1（重慶大廈一帶）。中環總店 OpenRice 2026-05 食評：冰絲襪奶茶 $30、蔥油雞扒撈丁 $70，兩店價格可能略有不同。豬扒包近兩年查不到價格（2022 食評為 $29）",
           "verified": true,
-          "source": "https://www.hk01.com/%E9%A3%9F%E7%8E%A9%E8%B2%B7/1048392",
-          "category": "茶餐廳"
+          "source": "https://www.mirrormedia.mg/story/20260827food002",
+          "category": "茶餐廳",
+          "must_order": "熱絲襪奶茶（HK$25）、冰凍絲襪奶茶（HK$28）、傳統咖央西多士（HK$34）、豬扒包"
         },
         {
           "name": "泰昌餅家（擺花街總店）",
